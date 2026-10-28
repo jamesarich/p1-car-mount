@@ -202,8 +202,8 @@ def main():
                 # N-type: nut enters below the shank, then rises into its hex
                 # seat; washer follows the same lower entrance and rises through
                 # the round relief inside the hex pocket. Stock: the jack's hex
-                # body with its ferrule enters the chamber and rises into the
-                # round pocket under the roof.
+                # body, both washers loose on it and the ferrule below enter the
+                # chamber and rise into the round pocket under the roof.
                 dz = params['fin_h'] - top
                 rear_y = y - params['fin_top_l'] - 5
                 def sweep(shape, start, end):
@@ -224,8 +224,10 @@ def main():
                     # The body enters under the arched crown, below the chamber's
                     # widest station, and only then rises on the axis.
                     entry_z = params['slot_z'] - 4 - dz
-                    body_z = top - params['fin_wall'] - params['s_body_h'] - .01
+                    body_z = top - params['fin_wall'] - params['s_stack_free'] - params['s_body_h'] - .01
                     body = (f'union() {{ cylinder(r={params["s_body_af"]}/(2*cos(30)), h={params["s_body_h"]}, $fn=6); '
+                            f'translate([0,0,{params["s_body_h"]}]) cylinder(d={params["s_flat_washer"][0]}, h={params["s_flat_washer"][1]}, $fn=96); '
+                            f'translate([0,0,{params["s_body_h"] + params["s_flat_washer"][1]}]) cylinder(d={params["s_washer"][0]}, h={params["s_washer"][1]}, $fn=96); '
                             f'translate([0,0,{-params["s_ferrule_h"]}]) cylinder(d={params["s_ferrule_d"]}, h={params["s_ferrule_h"]}, $fn=48); }}')
                     paths = {
                         'body_rear_entry_and_lift': sweep(body, [0, rear_y, entry_z], [0, y, entry_z]) +

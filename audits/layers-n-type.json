@@ -1,12 +1,12 @@
 {
   "file": "p1-roof-mount-n-type.stl",
-  "sha256": "7974d6a96daee41ecf732f41b56344643165f4402f3ac896a962c082acbd9c16",
+  "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
   "step_mm": 0.2,
   "section_count": 340,
   "floating_islands": [],
-  "integrated_section_volume_mm3": 399467.44207189436,
-  "mesh_volume_mm3": 399471.6808408172,
-  "volume_relative_error": 1.0610937210722095e-05,
+  "integrated_section_volume_mm3": 399467.4420735936,
+  "mesh_volume_mm3": 399471.68084081635,
+  "volume_relative_error": 1.0610932954777476e-05,
   "peak_layer_growth_by_region": {
     "front_dam": {
       "z": 0.3,
@@ -217,7 +217,7 @@
     },
     {
       "z": 4.9,
-      "area_mm2": 24458.201605422237,
+      "area_mm2": 24458.20160542223,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -225,7 +225,7 @@
     },
     {
       "z": 5.1,
-      "area_mm2": 24429.73957431328,
+      "area_mm2": 24429.73957372579,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -233,7 +233,7 @@
     },
     {
       "z": 5.3,
-      "area_mm2": 24399.37739090611,
+      "area_mm2": 24399.377392002785,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -241,7 +241,7 @@
     },
     {
       "z": 5.5,
-      "area_mm2": 24366.584809130254,
+      "area_mm2": 24366.584809237138,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -249,7 +249,7 @@
     },
     {
       "z": 5.7,
-      "area_mm2": 24331.34633702185,
+      "area_mm2": 24331.346333738187,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -257,7 +257,7 @@
     },
     {
       "z": 5.9,
-      "area_mm2": 24293.635917070005,
+      "area_mm2": 24293.63591757412,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -265,7 +265,7 @@
     },
     {
       "z": 6.1,
-      "area_mm2": 24252.979978190222,
+      "area_mm2": 24252.979977376952,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -273,7 +273,7 @@
     },
     {
       "z": 6.3,
-      "area_mm2": 24209.7188842575,
+      "area_mm2": 24209.718884345482,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -281,7 +281,7 @@
     },
     {
       "z": 6.5,
-      "area_mm2": 24162.93710364694,
+      "area_mm2": 24162.93710378431,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -289,7 +289,7 @@
     },
     {
       "z": 6.7,
-      "area_mm2": 24113.0498496298,
+      "area_mm2": 24113.04984973559,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -297,7 +297,7 @@
     },
     {
       "z": 6.9,
-      "area_mm2": 24059.24532849095,
+      "area_mm2": 24059.2453263332,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -305,7 +305,7 @@
     },
     {
       "z": 7.1,
-      "area_mm2": 24001.570699538956,
+      "area_mm2": 24001.570699504256,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -313,7 +313,7 @@
     },
     {
       "z": 7.3,
-      "area_mm2": 23939.85149560792,
+      "area_mm2": 23939.851497081425,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -321,7 +321,7 @@
     },
     {
       "z": 7.5,
-      "area_mm2": 23872.54370246066,
+      "area_mm2": 23872.54369902072,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -329,7 +329,7 @@
     },
     {
       "z": 7.7,
-      "area_mm2": 23801.089432155073,
+      "area_mm2": 23801.089430927765,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -337,7 +337,7 @@
     },
     {
       "z": 7.9,
-      "area_mm2": 23722.104085515322,
+      "area_mm2": 23722.104086966017,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -345,7 +345,7 @@
     },
     {
       "z": 8.1,
-      "area_mm2": 23636.320117673473,
+      "area_mm2": 23636.320116808347,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -353,7 +353,7 @@
     },
     {
       "z": 8.3,
-      "area_mm2": 23542.14427116524,
+      "area_mm2": 23542.14427049175,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -361,7 +361,7 @@
     },
     {
       "z": 8.5,
-      "area_mm2": 23436.021902214,
+      "area_mm2": 23436.021902649423,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -369,7 +369,7 @@
     },
     {
       "z": 8.7,
-      "area_mm2": 23251.645798329635,
+      "area_mm2": 23251.645798712198,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -377,7 +377,7 @@
     },
     {
       "z": 8.9,
-      "area_mm2": 22749.986314127884,
+      "area_mm2": 22749.986314667192,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -385,7 +385,7 @@
     },
     {
       "z": 9.1,
-      "area_mm2": 22185.365413743275,
+      "area_mm2": 22185.365411754385,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -393,7 +393,7 @@
     },
     {
       "z": 9.3,
-      "area_mm2": 21640.1780725109,
+      "area_mm2": 21640.178077666642,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -401,7 +401,7 @@
     },
     {
       "z": 9.5,
-      "area_mm2": 21341.250317032114,
+      "area_mm2": 21341.250319412742,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -409,7 +409,7 @@
     },
     {
       "z": 9.7,
-      "area_mm2": 21043.924002874748,
+      "area_mm2": 21043.92400312926,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -417,7 +417,7 @@
     },
     {
       "z": 9.9,
-      "area_mm2": 20744.819128652016,
+      "area_mm2": 20744.819127537703,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -425,7 +425,7 @@
     },
     {
       "z": 10.1,
-      "area_mm2": 20425.88810387174,
+      "area_mm2": 20425.888102695248,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -433,7 +433,7 @@
     },
     {
       "z": 10.3,
-      "area_mm2": 20041.839991248093,
+      "area_mm2": 20041.839993153408,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0005182368080577126,
       "front_dam_growth_mm2": 0.0,
@@ -441,7 +441,7 @@
     },
     {
       "z": 10.5,
-      "area_mm2": 19657.442523419733,
+      "area_mm2": 19657.442521906283,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0005184014767412994,
       "front_dam_growth_mm2": 0.0,
@@ -449,7 +449,7 @@
     },
     {
       "z": 10.7,
-      "area_mm2": 19311.752444974354,
+      "area_mm2": 19311.752444584607,
       "components": 4,
       "beyond_45_degree_layer_growth_mm2": 21.951123044839267,
       "front_dam_growth_mm2": 0.0,
@@ -457,7 +457,7 @@
     },
     {
       "z": 10.9,
-      "area_mm2": 19012.810959260467,
+      "area_mm2": 19012.810960047213,
       "components": 4,
       "beyond_45_degree_layer_growth_mm2": 33.208755942119836,
       "front_dam_growth_mm2": 0.0,
@@ -465,7 +465,7 @@
     },
     {
       "z": 11.1,
-      "area_mm2": 18716.053866713894,
+      "area_mm2": 18716.053863741046,
       "components": 4,
       "beyond_45_degree_layer_growth_mm2": 24.64289200434451,
       "front_dam_growth_mm2": 0.0,
@@ -473,7 +473,7 @@
     },
     {
       "z": 11.3,
-      "area_mm2": 18443.14031505516,
+      "area_mm2": 18443.14031399792,
       "components": 14,
       "beyond_45_degree_layer_growth_mm2": 24.454435785915706,
       "front_dam_growth_mm2": 0.0,
@@ -481,7 +481,7 @@
     },
     {
       "z": 11.5,
-      "area_mm2": 18284.08744746836,
+      "area_mm2": 18284.087448082904,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 24.459045618187908,
       "front_dam_growth_mm2": 0.0,
@@ -489,7 +489,7 @@
     },
     {
       "z": 11.7,
-      "area_mm2": 18139.785572444438,
+      "area_mm2": 18139.785570100838,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 26.820136536643865,
       "front_dam_growth_mm2": 0.0,
@@ -497,7 +497,7 @@
     },
     {
       "z": 11.9,
-      "area_mm2": 17999.519994158407,
+      "area_mm2": 17999.5199948674,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 33.95754241312804,
       "front_dam_growth_mm2": 0.0,
@@ -505,7 +505,7 @@
     },
     {
       "z": 12.1,
-      "area_mm2": 17829.38939998219,
+      "area_mm2": 17829.389399518535,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 11.158818614254187,
       "front_dam_growth_mm2": 0.0,
@@ -513,7 +513,7 @@
     },
     {
       "z": 12.3,
-      "area_mm2": 17642.639649603858,
+      "area_mm2": 17642.639649227098,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -521,7 +521,7 @@
     },
     {
       "z": 12.5,
-      "area_mm2": 17445.561322828707,
+      "area_mm2": 17445.561322057365,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -529,7 +529,7 @@
     },
     {
       "z": 12.7,
-      "area_mm2": 17190.873753250595,
+      "area_mm2": 17190.873750246352,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -537,7 +537,7 @@
     },
     {
       "z": 12.9,
-      "area_mm2": 16924.746317827783,
+      "area_mm2": 16924.746317657882,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 1.0178011913625895e-05,
       "front_dam_growth_mm2": 0.0,
@@ -545,7 +545,7 @@
     },
     {
       "z": 13.1,
-      "area_mm2": 16651.039179098243,
+      "area_mm2": 16651.039178882693,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0005180720003556223,
       "front_dam_growth_mm2": 0.0,
@@ -553,7 +553,7 @@
     },
     {
       "z": 13.3,
-      "area_mm2": 16318.16646505331,
+      "area_mm2": 16318.166465571467,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 5.378005667331923,
       "front_dam_growth_mm2": 0.0,
@@ -561,7 +561,7 @@
     },
     {
       "z": 13.5,
-      "area_mm2": 15974.23137658889,
+      "area_mm2": 15974.231376929045,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 30.17048449424032,
       "front_dam_growth_mm2": 0.0,
@@ -569,7 +569,7 @@
     },
     {
       "z": 13.7,
-      "area_mm2": 15595.486299484051,
+      "area_mm2": 15595.486299977252,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 29.27200655202999,
       "front_dam_growth_mm2": 0.0,
@@ -577,7 +577,7 @@
     },
     {
       "z": 13.9,
-      "area_mm2": 15185.622137332104,
+      "area_mm2": 15185.622137463604,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 24.213254352213955,
       "front_dam_growth_mm2": 0.0,
@@ -585,7 +585,7 @@
     },
     {
       "z": 14.1,
-      "area_mm2": 14821.983917923157,
+      "area_mm2": 14821.983917382702,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 24.46555023931363,
       "front_dam_growth_mm2": 0.0,
@@ -593,7 +593,7 @@
     },
     {
       "z": 14.3,
-      "area_mm2": 14484.38341276784,
+      "area_mm2": 14484.38341258434,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 24.62462232880811,
       "front_dam_growth_mm2": 0.0,
@@ -601,7 +601,7 @@
     },
     {
       "z": 14.5,
-      "area_mm2": 14144.158162006877,
+      "area_mm2": 14144.158164333629,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 31.761247079532986,
       "front_dam_growth_mm2": 0.0,
@@ -609,7 +609,7 @@
     },
     {
       "z": 14.7,
-      "area_mm2": 13751.65029755935,
+      "area_mm2": 13751.650297050845,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 28.105256180931356,
       "front_dam_growth_mm2": 0.0,
@@ -617,7 +617,7 @@
     },
     {
       "z": 14.9,
-      "area_mm2": 13277.734934747776,
+      "area_mm2": 13277.734934565426,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 1.7537171974071548,
       "front_dam_growth_mm2": 0.0,
@@ -625,7 +625,7 @@
     },
     {
       "z": 15.1,
-      "area_mm2": 12965.408545940056,
+      "area_mm2": 12965.408546458859,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -633,7 +633,7 @@
     },
     {
       "z": 15.3,
-      "area_mm2": 12650.939814958167,
+      "area_mm2": 12650.939814666208,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -641,7 +641,7 @@
     },
     {
       "z": 15.5,
-      "area_mm2": 12326.545605937832,
+      "area_mm2": 12326.545605751087,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -649,7 +649,7 @@
     },
     {
       "z": 15.7,
-      "area_mm2": 11984.24788989201,
+      "area_mm2": 11984.247889868859,
       "components": 3,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -657,7 +657,7 @@
     },
     {
       "z": 15.9,
-      "area_mm2": 11597.756132031549,
+      "area_mm2": 11597.756129761701,
       "components": 4,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -665,7 +665,7 @@
     },
     {
       "z": 16.1,
-      "area_mm2": 11214.31836067905,
+      "area_mm2": 11214.318358095508,
       "components": 4,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -673,7 +673,7 @@
     },
     {
       "z": 16.3,
-      "area_mm2": 10845.80941351784,
+      "area_mm2": 10845.809410894397,
       "components": 3,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -681,7 +681,7 @@
     },
     {
       "z": 16.5,
-      "area_mm2": 10463.042349939546,
+      "area_mm2": 10463.042351882894,
       "components": 3,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -689,7 +689,7 @@
     },
     {
       "z": 16.7,
-      "area_mm2": 10079.559048794245,
+      "area_mm2": 10079.559046587145,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -697,7 +697,7 @@
     },
     {
       "z": 16.9,
-      "area_mm2": 9790.152282045208,
+      "area_mm2": 9790.152279797954,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -705,7 +705,7 @@
     },
     {
       "z": 17.1,
-      "area_mm2": 9487.787438680754,
+      "area_mm2": 9487.787438714757,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -713,7 +713,7 @@
     },
     {
       "z": 17.3,
-      "area_mm2": 9163.358742312006,
+      "area_mm2": 9163.358745296704,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -721,7 +721,7 @@
     },
     {
       "z": 17.5,
-      "area_mm2": 8811.570825576255,
+      "area_mm2": 8811.570820229752,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -729,7 +729,7 @@
     },
     {
       "z": 17.7,
-      "area_mm2": 8421.814903093013,
+      "area_mm2": 8421.814890507265,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -737,7 +737,7 @@
     },
     {
       "z": 17.9,
-      "area_mm2": 7939.576933332763,
+      "area_mm2": 7939.576930067264,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -753,7 +753,7 @@
     },
     {
       "z": 18.3,
-      "area_mm2": 3376.0155437530498,
+      "area_mm2": 3376.0155437531494,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -761,7 +761,7 @@
     },
     {
       "z": 18.5,
-      "area_mm2": 3353.5140883511995,
+      "area_mm2": 3353.5140883527492,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -769,7 +769,7 @@
     },
     {
       "z": 18.7,
-      "area_mm2": 3330.9967901981017,
+      "area_mm2": 3330.9967889346517,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -777,7 +777,7 @@
     },
     {
       "z": 18.9,
-      "area_mm2": 3308.467917335302,
+      "area_mm2": 3308.4679177598528,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -785,7 +785,7 @@
     },
     {
       "z": 19.1,
-      "area_mm2": 3285.852211851151,
+      "area_mm2": 3285.8522122181,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -793,7 +793,7 @@
     },
     {
       "z": 19.3,
-      "area_mm2": 3263.134388855299,
+      "area_mm2": 3263.134390452999,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -801,7 +801,7 @@
     },
     {
       "z": 19.5,
-      "area_mm2": 3240.343179367552,
+      "area_mm2": 3240.343172868352,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -809,7 +809,7 @@
     },
     {
       "z": 19.7,
-      "area_mm2": 3216.7512166013485,
+      "area_mm2": 3216.7512116872986,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -817,7 +817,7 @@
     },
     {
       "z": 19.9,
-      "area_mm2": 3193.1494496612486,
+      "area_mm2": 3193.149449106348,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -825,7 +825,7 @@
     },
     {
       "z": 20.1,
-      "area_mm2": 3169.0950075397004,
+      "area_mm2": 3169.0950062072507,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -833,7 +833,7 @@
     },
     {
       "z": 20.3,
-      "area_mm2": 3144.802017323699,
+      "area_mm2": 3144.8020171249,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -841,7 +841,7 @@
     },
     {
       "z": 20.5,
-      "area_mm2": 3120.218844444449,
+      "area_mm2": 3120.2188422539493,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -849,7 +849,7 @@
     },
     {
       "z": 20.7,
-      "area_mm2": 3094.7759063800454,
+      "area_mm2": 3094.7759058262955,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -857,7 +857,7 @@
     },
     {
       "z": 20.9,
-      "area_mm2": 3069.381690271748,
+      "area_mm2": 3069.381690457598,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -865,7 +865,7 @@
     },
     {
       "z": 21.1,
-      "area_mm2": 3041.4851142967527,
+      "area_mm2": 3041.4851199004024,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -873,7 +873,7 @@
     },
     {
       "z": 21.3,
-      "area_mm2": 3013.5946326220997,
+      "area_mm2": 3013.5946345708994,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -881,7 +881,7 @@
     },
     {
       "z": 21.5,
-      "area_mm2": 2982.754388122952,
+      "area_mm2": 2982.7543842808527,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -889,7 +889,7 @@
     },
     {
       "z": 21.7,
-      "area_mm2": 2950.815500077799,
+      "area_mm2": 2950.8155001972987,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -897,7 +897,7 @@
     },
     {
       "z": 21.9,
-      "area_mm2": 2916.1264290042,
+      "area_mm2": 2916.1264293707495,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -905,7 +905,7 @@
     },
     {
       "z": 22.1,
-      "area_mm2": 2879.8697981203995,
+      "area_mm2": 2879.8697975369496,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -913,7 +913,7 @@
     },
     {
       "z": 22.3,
-      "area_mm2": 2840.4527717588485,
+      "area_mm2": 2840.4527751175992,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -921,7 +921,7 @@
     },
     {
       "z": 22.5,
-      "area_mm2": 2799.3321896250513,
+      "area_mm2": 2799.3321881068014,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -929,7 +929,7 @@
     },
     {
       "z": 22.7,
-      "area_mm2": 2753.2358845731505,
+      "area_mm2": 2753.235884496151,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -937,7 +937,7 @@
     },
     {
       "z": 22.9,
-      "area_mm2": 2704.9749232292,
+      "area_mm2": 2704.9749259253003,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -945,7 +945,7 @@
     },
     {
       "z": 23.1,
-      "area_mm2": 2650.8324946837993,
+      "area_mm2": 2650.8324947908495,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -953,7 +953,7 @@
     },
     {
       "z": 23.3,
-      "area_mm2": 2590.2029865469,
+      "area_mm2": 2590.20298761385,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -961,7 +961,7 @@
     },
     {
       "z": 23.5,
-      "area_mm2": 2521.287731999849,
+      "area_mm2": 2521.287729456349,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -969,7 +969,7 @@
     },
     {
       "z": 23.7,
-      "area_mm2": 2437.766389732701,
+      "area_mm2": 2437.7663908021013,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -977,7 +977,7 @@
     },
     {
       "z": 23.9,
-      "area_mm2": 2323.8671457853507,
+      "area_mm2": 2323.8671454522505,
       "components": 2,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -985,7 +985,7 @@
     },
     {
       "z": 24.1,
-      "area_mm2": 896.1701300295998,
+      "area_mm2": 896.1701297614999,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -993,7 +993,7 @@
     },
     {
       "z": 24.3,
-      "area_mm2": 886.7627376441009,
+      "area_mm2": 886.7627375632508,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1001,7 +1001,7 @@
     },
     {
       "z": 24.5,
-      "area_mm2": 877.36495762225,
+      "area_mm2": 877.3649563750002,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1009,7 +1009,7 @@
     },
     {
       "z": 24.7,
-      "area_mm2": 867.9926392186009,
+      "area_mm2": 867.9926362528507,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1017,7 +1017,7 @@
     },
     {
       "z": 24.9,
-      "area_mm2": 858.6364918914002,
+      "area_mm2": 858.6364916966503,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1025,7 +1025,7 @@
     },
     {
       "z": 25.1,
-      "area_mm2": 849.4338609398993,
+      "area_mm2": 849.4338673593496,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1033,7 +1033,7 @@
     },
     {
       "z": 25.3,
-      "area_mm2": 840.4413924062502,
+      "area_mm2": 840.4413942037005,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1041,7 +1041,7 @@
     },
     {
       "z": 25.5,
-      "area_mm2": 831.5409366248005,
+      "area_mm2": 831.5409358770507,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1049,7 +1049,7 @@
     },
     {
       "z": 25.7,
-      "area_mm2": 822.7778160061503,
+      "area_mm2": 822.7778120419996,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1057,7 +1057,7 @@
     },
     {
       "z": 25.9,
-      "area_mm2": 814.0982791619006,
+      "area_mm2": 814.09827931425,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1065,7 +1065,7 @@
     },
     {
       "z": 26.1,
-      "area_mm2": 805.5948075132496,
+      "area_mm2": 805.5948066310502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1073,7 +1073,7 @@
     },
     {
       "z": 26.3,
-      "area_mm2": 797.2690278926993,
+      "area_mm2": 797.2690238113989,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1081,7 +1081,7 @@
     },
     {
       "z": 26.5,
-      "area_mm2": 789.0151111229499,
+      "area_mm2": 789.015113961,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1089,7 +1089,7 @@
     },
     {
       "z": 26.7,
-      "area_mm2": 780.818461647649,
+      "area_mm2": 780.8184580609492,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1097,7 +1097,7 @@
     },
     {
       "z": 26.9,
-      "area_mm2": 772.6752274864507,
+      "area_mm2": 772.6752264851004,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1105,7 +1105,7 @@
     },
     {
       "z": 27.1,
-      "area_mm2": 764.6918927969496,
+      "area_mm2": 764.6918958228987,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1113,7 +1113,7 @@
     },
     {
       "z": 27.3,
-      "area_mm2": 756.8667700648001,
+      "area_mm2": 756.8667688786502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1121,7 +1121,7 @@
     },
     {
       "z": 27.5,
-      "area_mm2": 749.0957571235004,
+      "area_mm2": 749.0957630381,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1129,7 +1129,7 @@
     },
     {
       "z": 27.7,
-      "area_mm2": 741.3885220494008,
+      "area_mm2": 741.3885230646505,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1137,7 +1137,7 @@
     },
     {
       "z": 27.9,
-      "area_mm2": 733.7331567351497,
+      "area_mm2": 733.7331555093995,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1145,7 +1145,7 @@
     },
     {
       "z": 28.1,
-      "area_mm2": 726.2262644024506,
+      "area_mm2": 726.2262660725506,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1153,7 +1153,7 @@
     },
     {
       "z": 28.3,
-      "area_mm2": 718.8696481220003,
+      "area_mm2": 718.8696457629503,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1161,7 +1161,7 @@
     },
     {
       "z": 28.5,
-      "area_mm2": 711.5474812867994,
+      "area_mm2": 711.5474818612987,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1169,7 +1169,7 @@
     },
     {
       "z": 28.7,
-      "area_mm2": 704.2743415904991,
+      "area_mm2": 704.2743388875992,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1177,7 +1177,7 @@
     },
     {
       "z": 28.9,
-      "area_mm2": 697.0504112889002,
+      "area_mm2": 697.0504124437002,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1185,7 +1185,7 @@
     },
     {
       "z": 29.1,
-      "area_mm2": 689.9868178405502,
+      "area_mm2": 689.9868129072005,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1193,7 +1193,7 @@
     },
     {
       "z": 29.3,
-      "area_mm2": 683.0777697590507,
+      "area_mm2": 683.0777682279004,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1201,7 +1201,7 @@
     },
     {
       "z": 29.5,
-      "area_mm2": 676.2044267079484,
+      "area_mm2": 676.2044264410489,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1209,7 +1209,7 @@
     },
     {
       "z": 29.7,
-      "area_mm2": 669.3652375375008,
+      "area_mm2": 669.3652353238009,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1217,7 +1217,7 @@
     },
     {
       "z": 29.9,
-      "area_mm2": 662.5673130483492,
+      "area_mm2": 662.5673124171993,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1225,7 +1225,7 @@
     },
     {
       "z": 30.1,
-      "area_mm2": 655.9306772309998,
+      "area_mm2": 655.9306754526999,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1233,7 +1233,7 @@
     },
     {
       "z": 30.3,
-      "area_mm2": 649.460217576,
+      "area_mm2": 649.4602163757999,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1241,7 +1241,7 @@
     },
     {
       "z": 30.5,
-      "area_mm2": 643.0377437508007,
+      "area_mm2": 643.0377423452002,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1249,7 +1249,7 @@
     },
     {
       "z": 30.7,
-      "area_mm2": 636.6492464627504,
+      "area_mm2": 636.6492447856006,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1257,7 +1257,7 @@
     },
     {
       "z": 30.9,
-      "area_mm2": 630.2773440737499,
+      "area_mm2": 630.2773390261499,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1265,7 +1265,7 @@
     },
     {
       "z": 31.1,
-      "area_mm2": 624.0378938337491,
+      "area_mm2": 624.0378930284993,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1273,7 +1273,7 @@
     },
     {
       "z": 31.3,
-      "area_mm2": 617.9248608525498,
+      "area_mm2": 617.9248602053502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1281,7 +1281,7 @@
     },
     {
       "z": 31.5,
-      "area_mm2": 611.8248401393505,
+      "area_mm2": 611.8248363099001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1289,7 +1289,7 @@
     },
     {
       "z": 31.7,
-      "area_mm2": 605.7372233997002,
+      "area_mm2": 605.7372211926497,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1297,7 +1297,7 @@
     },
     {
       "z": 31.9,
-      "area_mm2": 599.6622750609488,
+      "area_mm2": 599.6622719905989,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1305,7 +1305,7 @@
     },
     {
       "z": 32.1,
-      "area_mm2": 593.7127811185002,
+      "area_mm2": 593.7127823244497,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1313,7 +1313,7 @@
     },
     {
       "z": 32.3,
-      "area_mm2": 587.88985146045,
+      "area_mm2": 587.8898487039002,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1321,7 +1321,7 @@
     },
     {
       "z": 32.5,
-      "area_mm2": 582.0847672209005,
+      "area_mm2": 582.0847621848003,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1329,7 +1329,7 @@
     },
     {
       "z": 32.7,
-      "area_mm2": 576.2955619993004,
+      "area_mm2": 576.2955579887501,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1337,7 +1337,7 @@
     },
     {
       "z": 32.9,
-      "area_mm2": 570.5229834373009,
+      "area_mm2": 570.5229817501515,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1345,7 +1345,7 @@
     },
     {
       "z": 33.1,
-      "area_mm2": 564.8750985039997,
+      "area_mm2": 564.87509224935,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1353,7 +1353,7 @@
     },
     {
       "z": 33.3,
-      "area_mm2": 559.351460162,
+      "area_mm2": 559.3514634468498,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1361,7 +1361,7 @@
     },
     {
       "z": 33.5,
-      "area_mm2": 553.8401309826997,
+      "area_mm2": 553.8401341627992,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1369,7 +1369,7 @@
     },
     {
       "z": 33.7,
-      "area_mm2": 548.3426856835488,
+      "area_mm2": 548.3426792316991,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1377,7 +1377,7 @@
     },
     {
       "z": 33.9,
-      "area_mm2": 542.8594477631497,
+      "area_mm2": 542.8594479661491,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1385,7 +1385,7 @@
     },
     {
       "z": 34.1,
-      "area_mm2": 537.5030044402502,
+      "area_mm2": 537.5030012824001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1393,7 +1393,7 @@
     },
     {
       "z": 34.3,
-      "area_mm2": 532.2757798153502,
+      "area_mm2": 532.2757749684,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1401,7 +1401,7 @@
     },
     {
       "z": 34.5,
-      "area_mm2": 527.0645958892994,
+      "area_mm2": 527.0645959326497,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1409,7 +1409,7 @@
     },
     {
       "z": 34.7,
-      "area_mm2": 521.8667923835502,
+      "area_mm2": 521.8667919322497,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1417,7 +1417,7 @@
     },
     {
       "z": 34.9,
-      "area_mm2": 516.6821539043999,
+      "area_mm2": 516.6821512217502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1425,7 +1425,7 @@
     },
     {
       "z": 35.1,
-      "area_mm2": 511.62147671169987,
+      "area_mm2": 511.6214743654999,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1433,7 +1433,7 @@
     },
     {
       "z": 35.3,
-      "area_mm2": 506.68482036810053,
+      "area_mm2": 506.6848214466005,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1441,7 +1441,7 @@
     },
     {
       "z": 35.5,
-      "area_mm2": 501.76571977424993,
+      "area_mm2": 501.76571502145003,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1449,7 +1449,7 @@
     },
     {
       "z": 35.7,
-      "area_mm2": 496.86376359565014,
+      "area_mm2": 496.86376233675,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1457,7 +1457,7 @@
     },
     {
       "z": 35.9,
-      "area_mm2": 491.9794165946501,
+      "area_mm2": 491.9794177940501,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1465,7 +1465,7 @@
     },
     {
       "z": 36.1,
-      "area_mm2": 487.21813234474996,
+      "area_mm2": 487.21813597639994,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1473,7 +1473,7 @@
     },
     {
       "z": 36.3,
-      "area_mm2": 482.5792891353999,
+      "area_mm2": 482.5792910245499,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1481,7 +1481,7 @@
     },
     {
       "z": 36.5,
-      "area_mm2": 477.9554323329496,
+      "area_mm2": 477.9554349264997,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1489,7 +1489,7 @@
     },
     {
       "z": 36.7,
-      "area_mm2": 473.34699474519925,
+      "area_mm2": 473.346993217,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1497,7 +1497,7 @@
     },
     {
       "z": 36.9,
-      "area_mm2": 468.7558771359507,
+      "area_mm2": 468.7558815526006,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1505,7 +1505,7 @@
     },
     {
       "z": 37.1,
-      "area_mm2": 464.29329439094926,
+      "area_mm2": 464.2932931605994,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1513,7 +1513,7 @@
     },
     {
       "z": 37.3,
-      "area_mm2": 459.9557925854498,
+      "area_mm2": 459.95579812554985,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1521,7 +1521,7 @@
     },
     {
       "z": 37.5,
-      "area_mm2": 455.6327106250002,
+      "area_mm2": 455.6327084441007,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1529,7 +1529,7 @@
     },
     {
       "z": 37.7,
-      "area_mm2": 451.32462469040087,
+      "area_mm2": 451.32463108089974,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1537,7 +1537,7 @@
     },
     {
       "z": 37.9,
-      "area_mm2": 447.0329629342005,
+      "area_mm2": 447.0329655353499,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1545,7 +1545,7 @@
     },
     {
       "z": 38.1,
-      "area_mm2": 442.8685487506991,
+      "area_mm2": 442.86855056359974,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1553,7 +1553,7 @@
     },
     {
       "z": 38.3,
-      "area_mm2": 438.83082007819945,
+      "area_mm2": 438.83082331145005,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1561,7 +1561,7 @@
     },
     {
       "z": 38.5,
-      "area_mm2": 434.81118493264984,
+      "area_mm2": 434.8111819584,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1569,7 +1569,7 @@
     },
     {
       "z": 38.7,
-      "area_mm2": 430.8078269562504,
+      "area_mm2": 430.8078287276503,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1577,7 +1577,7 @@
     },
     {
       "z": 38.9,
-      "area_mm2": 426.8220629746494,
+      "area_mm2": 426.82206361159945,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1585,7 +1585,7 @@
     },
     {
       "z": 39.1,
-      "area_mm2": 422.9621642391999,
+      "area_mm2": 422.9621661948499,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1593,7 +1593,7 @@
     },
     {
       "z": 39.3,
-      "area_mm2": 419.2317985987502,
+      "area_mm2": 419.23179981220017,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1601,7 +1601,7 @@
     },
     {
       "z": 39.5,
-      "area_mm2": 415.53442965025,
+      "area_mm2": 415.53443613389993,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1609,7 +1609,7 @@
     },
     {
       "z": 39.7,
-      "area_mm2": 411.8549356580997,
+      "area_mm2": 411.85494035004973,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1617,7 +1617,7 @@
     },
     {
       "z": 39.9,
-      "area_mm2": 408.23664794160015,
+      "area_mm2": 408.2366460673002,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1625,7 +1625,7 @@
     },
     {
       "z": 40.1,
-      "area_mm2": 404.7398603739503,
+      "area_mm2": 404.7398610732001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1633,7 +1633,7 @@
     },
     {
       "z": 40.3,
-      "area_mm2": 401.35620460955084,
+      "area_mm2": 401.3562013580402,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1641,7 +1641,7 @@
     },
     {
       "z": 40.5,
-      "area_mm2": 398.0940049882996,
+      "area_mm2": 398.0940095669496,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1649,7 +1649,7 @@
     },
     {
       "z": 40.7,
-      "area_mm2": 394.8503075401003,
+      "area_mm2": 394.85030594964996,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1657,7 +1657,7 @@
     },
     {
       "z": 40.9,
-      "area_mm2": 391.72653323715,
+      "area_mm2": 391.72653466965,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1665,7 +1665,7 @@
     },
     {
       "z": 41.1,
-      "area_mm2": 388.71966817085024,
+      "area_mm2": 388.7196655729502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1673,7 +1673,7 @@
     },
     {
       "z": 41.3,
-      "area_mm2": 385.80080880785033,
+      "area_mm2": 385.8008102162004,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1681,7 +1681,7 @@
     },
     {
       "z": 41.5,
-      "area_mm2": 383.0300829250502,
+      "area_mm2": 383.03008341289996,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1689,7 +1689,7 @@
     },
     {
       "z": 41.7,
-      "area_mm2": 380.2916381077495,
+      "area_mm2": 380.29163373384944,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1697,7 +1697,7 @@
     },
     {
       "z": 41.9,
-      "area_mm2": 377.57638989585007,
+      "area_mm2": 377.5763902939002,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1705,7 +1705,7 @@
     },
     {
       "z": 42.1,
-      "area_mm2": 374.96151117565,
+      "area_mm2": 374.9615102544502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1713,7 +1713,7 @@
     },
     {
       "z": 42.3,
-      "area_mm2": 372.5526632283502,
+      "area_mm2": 372.55266757915,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1721,7 +1721,7 @@
     },
     {
       "z": 42.5,
-      "area_mm2": 370.1559641330504,
+      "area_mm2": 370.1559682090996,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1729,7 +1729,7 @@
     },
     {
       "z": 42.7,
-      "area_mm2": 367.9021857817506,
+      "area_mm2": 367.90218444100003,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1737,7 +1737,7 @@
     },
     {
       "z": 42.9,
-      "area_mm2": 365.7166399053498,
+      "area_mm2": 365.7166380241497,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1745,7 +1745,7 @@
     },
     {
       "z": 43.1,
-      "area_mm2": 363.61026921275015,
+      "area_mm2": 363.6102679760001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1753,7 +1753,7 @@
     },
     {
       "z": 43.3,
-      "area_mm2": 361.6609855169498,
+      "area_mm2": 361.6609899760001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1761,7 +1761,7 @@
     },
     {
       "z": 43.5,
-      "area_mm2": 359.74869512694977,
+      "area_mm2": 359.7486926987501,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1769,7 +1769,7 @@
     },
     {
       "z": 43.7,
-      "area_mm2": 357.8566580540501,
+      "area_mm2": 357.8566621322502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1777,7 +1777,7 @@
     },
     {
       "z": 43.9,
-      "area_mm2": 356.00729544785065,
+      "area_mm2": 356.0072958879007,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1785,7 +1785,7 @@
     },
     {
       "z": 44.1,
-      "area_mm2": 354.3243596670992,
+      "area_mm2": 354.32436179204984,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1793,7 +1793,7 @@
     },
     {
       "z": 44.3,
-      "area_mm2": 352.6871444261999,
+      "area_mm2": 352.6871453969507,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1801,7 +1801,7 @@
     },
     {
       "z": 44.5,
-      "area_mm2": 351.14770766284954,
+      "area_mm2": 351.1477119939996,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1809,7 +1809,7 @@
     },
     {
       "z": 44.7,
-      "area_mm2": 349.64552611285023,
+      "area_mm2": 349.64552913615023,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1817,7 +1817,7 @@
     },
     {
       "z": 44.9,
-      "area_mm2": 348.1667227087495,
+      "area_mm2": 348.1667272216996,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1825,7 +1825,7 @@
     },
     {
       "z": 45.1,
-      "area_mm2": 346.80146349445005,
+      "area_mm2": 346.8014644334502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1833,7 +1833,7 @@
     },
     {
       "z": 45.3,
-      "area_mm2": 345.4798394064996,
+      "area_mm2": 345.47983865255003,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1841,7 +1841,7 @@
     },
     {
       "z": 45.5,
-      "area_mm2": 344.1943008012996,
+      "area_mm2": 344.19430055949954,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1849,7 +1849,7 @@
     },
     {
       "z": 45.7,
-      "area_mm2": 342.92170400305025,
+      "area_mm2": 342.9217090794999,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1857,7 +1857,7 @@
     },
     {
       "z": 45.9,
-      "area_mm2": 341.65115515535047,
+      "area_mm2": 341.6511559333005,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1865,7 +1865,7 @@
     },
     {
       "z": 46.1,
-      "area_mm2": 340.4305671440003,
+      "area_mm2": 340.4305684617499,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1873,7 +1873,7 @@
     },
     {
       "z": 46.3,
-      "area_mm2": 339.2533137365004,
+      "area_mm2": 339.2533103525003,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1881,7 +1881,7 @@
     },
     {
       "z": 46.5,
-      "area_mm2": 338.07612011629914,
+      "area_mm2": 338.0761215300494,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1889,7 +1889,7 @@
     },
     {
       "z": 46.7,
-      "area_mm2": 336.89884662099973,
+      "area_mm2": 336.89884292285006,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1897,7 +1897,7 @@
     },
     {
       "z": 46.9,
-      "area_mm2": 335.72160218029927,
+      "area_mm2": 335.7216028126994,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1905,7 +1905,7 @@
     },
     {
       "z": 47.1,
-      "area_mm2": 334.58777820315015,
+      "area_mm2": 334.58777499075006,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1913,7 +1913,7 @@
     },
     {
       "z": 47.3,
-      "area_mm2": 333.49735771639973,
+      "area_mm2": 333.49735737999924,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1921,7 +1921,7 @@
     },
     {
       "z": 47.5,
-      "area_mm2": 332.40695827555027,
+      "area_mm2": 332.4069542519496,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1929,7 +1929,7 @@
     },
     {
       "z": 47.7,
-      "area_mm2": 331.3164970758503,
+      "area_mm2": 331.31649926865015,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1937,7 +1937,7 @@
     },
     {
       "z": 47.9,
-      "area_mm2": 330.22603224485016,
+      "area_mm2": 330.22603508334964,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1945,7 +1945,7 @@
     },
     {
       "z": 48.1,
-      "area_mm2": 329.1790330316495,
+      "area_mm2": 329.17903276679954,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1953,7 +1953,7 @@
     },
     {
       "z": 48.3,
-      "area_mm2": 328.1754925623995,
+      "area_mm2": 328.17549411814963,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1961,7 +1961,7 @@
     },
     {
       "z": 48.5,
-      "area_mm2": 327.1719744056506,
+      "area_mm2": 327.17197206585024,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1969,7 +1969,7 @@
     },
     {
       "z": 48.7,
-      "area_mm2": 326.16840745785015,
+      "area_mm2": 326.16840315414953,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1977,7 +1977,7 @@
     },
     {
       "z": 48.9,
-      "area_mm2": 325.16483635815047,
+      "area_mm2": 325.1648361280504,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1985,7 +1985,7 @@
     },
     {
       "z": 49.1,
-      "area_mm2": 324.2046994971006,
+      "area_mm2": 324.20470071355055,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -1993,7 +1993,7 @@
     },
     {
       "z": 49.3,
-      "area_mm2": 323.28811991280025,
+      "area_mm2": 323.2881222637,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2001,7 +2001,7 @@
     },
     {
       "z": 49.5,
-      "area_mm2": 322.3715412378,
+      "area_mm2": 322.37154360169984,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2009,7 +2009,7 @@
     },
     {
       "z": 49.7,
-      "area_mm2": 321.614508336299,
+      "area_mm2": 321.61451542274943,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2017,7 +2017,7 @@
     },
     {
       "z": 49.9,
-      "area_mm2": 321.2301087200501,
+      "area_mm2": 321.2301094334498,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2025,7 +2025,7 @@
     },
     {
       "z": 50.1,
-      "area_mm2": 321.3692996793499,
+      "area_mm2": 321.3692967081003,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2033,7 +2033,7 @@
     },
     {
       "z": 50.3,
-      "area_mm2": 321.92329229549983,
+      "area_mm2": 321.92329747615014,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2041,7 +2041,7 @@
     },
     {
       "z": 50.5,
-      "area_mm2": 322.89266756184975,
+      "area_mm2": 322.8926787867001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2049,7 +2049,7 @@
     },
     {
       "z": 50.7,
-      "area_mm2": 324.5281699818494,
+      "area_mm2": 324.52817029864923,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2057,7 +2057,7 @@
     },
     {
       "z": 50.9,
-      "area_mm2": 326.68631552485033,
+      "area_mm2": 326.68631412350027,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2065,7 +2065,7 @@
     },
     {
       "z": 51.1,
-      "area_mm2": 329.5201773521491,
+      "area_mm2": 329.52017573004855,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0,
       "front_dam_growth_mm2": 0.0,
@@ -2073,7 +2073,7 @@
     },
     {
       "z": 51.3,
-      "area_mm2": 333.07216115035055,
+      "area_mm2": 333.07216362085023,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 4.98155854428337e-06,
       "front_dam_growth_mm2": 0.0,
@@ -2081,7 +2081,7 @@
     },
     {
       "z": 51.5,
-      "area_mm2": 337.13089103174985,
+      "area_mm2": 337.1308920044503,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.00010674730798885465,
       "front_dam_growth_mm2": 0.0,
@@ -2089,7 +2089,7 @@
     },
     {
       "z": 51.7,
-      "area_mm2": 341.3836393426497,
+      "area_mm2": 341.3836394354999,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 8.181921345367854e-05,
       "front_dam_growth_mm2": 0.0,
@@ -2097,7 +2097,7 @@
     },
     {
       "z": 51.9,
-      "area_mm2": 345.81039776340026,
+      "area_mm2": 345.81039847530036,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 7.790892493799684e-05,
       "front_dam_growth_mm2": 0.0,
@@ -2105,7 +2105,7 @@
     },
     {
       "z": 52.1,
-      "area_mm2": 350.43660060335,
+      "area_mm2": 350.43659976295027,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 7.373155946905071e-05,
       "front_dam_growth_mm2": 0.0,
@@ -2113,7 +2113,7 @@
     },
     {
       "z": 52.3,
-      "area_mm2": 355.56257175034915,
+      "area_mm2": 355.562571963699,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0002307673175868322,
       "front_dam_growth_mm2": 0.0,
@@ -2121,7 +2121,7 @@
     },
     {
       "z": 52.5,
-      "area_mm2": 360.87280194414996,
+      "area_mm2": 360.87280361989986,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.00017393048045303173,
       "front_dam_growth_mm2": 0.0,
@@ -2129,7 +2129,7 @@
     },
     {
       "z": 52.7,
-      "area_mm2": 366.2971421208493,
+      "area_mm2": 366.29714655529915,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.00016844453177398334,
       "front_dam_growth_mm2": 0.0,
@@ -2137,7 +2137,7 @@
     },
     {
       "z": 52.9,
-      "area_mm2": 371.7072701500497,
+      "area_mm2": 371.7072659087998,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0001671170287710796,
       "front_dam_growth_mm2": 0.0,
@@ -2145,7 +2145,7 @@
     },
     {
       "z": 53.1,
-      "area_mm2": 377.3400177750992,
+      "area_mm2": 377.34002119179956,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.00027824364722916123,
       "front_dam_growth_mm2": 0.0,
@@ -2153,7 +2153,7 @@
     },
     {
       "z": 53.3,
-      "area_mm2": 383.1219135866497,
+      "area_mm2": 383.12191435100016,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.000362104665364719,
       "front_dam_growth_mm2": 0.0,
@@ -2161,7 +2161,7 @@
     },
     {
       "z": 53.5,
-      "area_mm2": 388.8786827085499,
+      "area_mm2": 388.87868302194994,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0004143696798374089,
       "front_dam_growth_mm2": 0.0,
@@ -2169,7 +2169,7 @@
     },
     {
       "z": 53.7,
-      "area_mm2": 394.5831564399,
+      "area_mm2": 394.58316054240026,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0004080098313770029,
       "front_dam_growth_mm2": 0.0,
@@ -2177,7 +2177,7 @@
     },
     {
       "z": 53.9,
-      "area_mm2": 400.26279521975084,
+      "area_mm2": 400.2627970197505,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0003318289838975322,
       "front_dam_growth_mm2": 0.0,
@@ -2185,7 +2185,7 @@
     },
     {
       "z": 54.1,
-      "area_mm2": 405.98216311575004,
+      "area_mm2": 405.98216644960013,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0010374075933302991,
       "front_dam_growth_mm2": 0.0,
@@ -2193,7 +2193,7 @@
     },
     {
       "z": 54.3,
-      "area_mm2": 411.4138573628501,
+      "area_mm2": 411.4138592599001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0010258820650341988,
       "front_dam_growth_mm2": 0.0,
@@ -2201,7 +2201,7 @@
     },
     {
       "z": 54.5,
-      "area_mm2": 416.61322737004974,
+      "area_mm2": 416.61323028474965,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0010172457329293513,
       "front_dam_growth_mm2": 0.0,
@@ -2209,7 +2209,7 @@
     },
     {
       "z": 54.7,
-      "area_mm2": 421.90532334155057,
+      "area_mm2": 421.9053254742006,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.002089585882942385,
       "front_dam_growth_mm2": 0.0,
@@ -2217,7 +2217,7 @@
     },
     {
       "z": 54.9,
-      "area_mm2": 427.12780621545005,
+      "area_mm2": 427.1278096192001,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0026860929029016763,
       "front_dam_growth_mm2": 0.0,
@@ -2225,7 +2225,7 @@
     },
     {
       "z": 55.1,
-      "area_mm2": 432.2515886266001,
+      "area_mm2": 432.25158958475026,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.002668054897032126,
       "front_dam_growth_mm2": 0.0,
@@ -2233,7 +2233,7 @@
     },
     {
       "z": 55.3,
-      "area_mm2": 437.31214298560064,
+      "area_mm2": 437.31214515275053,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.0027984607681377648,
       "front_dam_growth_mm2": 0.0,
@@ -2241,23 +2241,23 @@
     },
     {
       "z": 55.5,
-      "area_mm2": 442.48671136750005,
+      "area_mm2": 442.4867130559997,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 0.19756050574282735,
+      "beyond_45_degree_layer_growth_mm2": 0.19756052139278393,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 0.19756050574282735
+      "pylon_and_root_growth_mm2": 0.19756052139278393
     },
     {
       "z": 55.7,
-      "area_mm2": 447.7371530742002,
+      "area_mm2": 447.7371539459502,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 0.36023259880939695,
+      "beyond_45_degree_layer_growth_mm2": 0.3602325831866693,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 0.360232598809397
+      "pylon_and_root_growth_mm2": 0.3602325831866693
     },
     {
       "z": 55.9,
-      "area_mm2": 452.9028420817998,
+      "area_mm2": 452.9028461116496,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.3499992649716353,
       "front_dam_growth_mm2": 0.0,
@@ -2265,7 +2265,7 @@
     },
     {
       "z": 56.1,
-      "area_mm2": 458.3598765450997,
+      "area_mm2": 458.3598775393498,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.6353436890264765,
       "front_dam_growth_mm2": 0.0,
@@ -2273,7 +2273,7 @@
     },
     {
       "z": 56.3,
-      "area_mm2": 463.94694120155015,
+      "area_mm2": 463.9469415846502,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.7671125753093385,
       "front_dam_growth_mm2": 0.0,
@@ -2281,7 +2281,7 @@
     },
     {
       "z": 56.5,
-      "area_mm2": 469.5034301038506,
+      "area_mm2": 469.5034318703507,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 0.752936113721262,
       "front_dam_growth_mm2": 0.0,
@@ -2289,39 +2289,39 @@
     },
     {
       "z": 56.7,
-      "area_mm2": 475.2059955784002,
+      "area_mm2": 475.2059950246,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 0.8634310715241638,
+      "beyond_45_degree_layer_growth_mm2": 0.8634309351741639,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 0.8634310715241638
+      "pylon_and_root_growth_mm2": 0.8634309351741638
     },
     {
       "z": 56.9,
-      "area_mm2": 481.30509056469987,
+      "area_mm2": 481.30509002685005,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 1.2193627976749586,
+      "beyond_45_degree_layer_growth_mm2": 1.219363342272946,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 1.2193627976749586
+      "pylon_and_root_growth_mm2": 1.219363342272946
     },
     {
       "z": 57.1,
-      "area_mm2": 487.46635673039964,
+      "area_mm2": 487.4663589484495,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 1.2094669581049629,
+      "beyond_45_degree_layer_growth_mm2": 1.2094737571367515,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 1.2094669581049629
+      "pylon_and_root_growth_mm2": 1.2094737571367515
     },
     {
       "z": 57.3,
-      "area_mm2": 494.0171536474503,
+      "area_mm2": 494.0171544073503,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 1.5497771532588807,
+      "beyond_45_degree_layer_growth_mm2": 1.549777244016019,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 1.5497771532588809
+      "pylon_and_root_growth_mm2": 1.549777244016019
     },
     {
       "z": 57.5,
-      "area_mm2": 500.363164997499,
+      "area_mm2": 500.36316393104903,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 1.5861392036655981,
       "front_dam_growth_mm2": 0.0,
@@ -2329,7 +2329,7 @@
     },
     {
       "z": 57.7,
-      "area_mm2": 506.0673288012507,
+      "area_mm2": 506.06732929175064,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 1.4709798522833597,
       "front_dam_growth_mm2": 0.0,
@@ -2337,7 +2337,7 @@
     },
     {
       "z": 57.9,
-      "area_mm2": 512.2491932137002,
+      "area_mm2": 512.2491925787501,
       "components": 1,
       "beyond_45_degree_layer_growth_mm2": 1.9977023267354952,
       "front_dam_growth_mm2": 0.0,
@@ -2345,59 +2345,59 @@
     },
     {
       "z": 58.1,
-      "area_mm2": 518.6870288527497,
+      "area_mm2": 518.6870288123996,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 2.150589801947411,
+      "beyond_45_degree_layer_growth_mm2": 2.1505904279109505,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 2.1505898019474103
+      "pylon_and_root_growth_mm2": 2.15059042791095
     },
     {
       "z": 58.3,
-      "area_mm2": 525.9114098846502,
+      "area_mm2": 525.9114098653002,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 2.7747962094818357,
+      "beyond_45_degree_layer_growth_mm2": 2.774796066888479,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 2.774796209481836
+      "pylon_and_root_growth_mm2": 2.7747960668884795
     },
     {
       "z": 58.5,
-      "area_mm2": 533.6651063706499,
+      "area_mm2": 533.6651056046499,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 3.2300630328647815,
+      "beyond_45_degree_layer_growth_mm2": 3.23006244933519,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 3.230063032864781
+      "pylon_and_root_growth_mm2": 3.2300624493351897
     },
     {
       "z": 58.7,
-      "area_mm2": 542.6992204988494,
+      "area_mm2": 542.6992206868994,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 4.525919611959147,
+      "beyond_45_degree_layer_growth_mm2": 4.525920551998775,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 4.525919611959148
+      "pylon_and_root_growth_mm2": 4.525920551998775
     },
     {
       "z": 58.9,
-      "area_mm2": 552.4441711850499,
+      "area_mm2": 552.4441716872499,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 5.405617053388916,
+      "beyond_45_degree_layer_growth_mm2": 5.405617366379088,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 5.405617053388919
+      "pylon_and_root_growth_mm2": 5.405617366379089
     },
     {
       "z": 59.1,
-      "area_mm2": 563.6922710383498,
+      "area_mm2": 563.6922717610497,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 7.223121174794121,
+      "beyond_45_degree_layer_growth_mm2": 7.223121964625745,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 7.2231211747941195
+      "pylon_and_root_growth_mm2": 7.223121964625744
     },
     {
       "z": 59.3,
       "area_mm2": 577.0745515707006,
       "components": 1,
-      "beyond_45_degree_layer_growth_mm2": 9.808672792607704,
+      "beyond_45_degree_layer_growth_mm2": 9.808672051912739,
       "front_dam_growth_mm2": 0.0,
-      "pylon_and_root_growth_mm2": 9.808672792607702
+      "pylon_and_root_growth_mm2": 9.808672051912737
     },
     {
       "z": 59.5,

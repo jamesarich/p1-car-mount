@@ -8,9 +8,9 @@
 // on its bulkhead connector, held by the bulkhead nut and washer.
 // Both variants share the tapered rear recess. N-type (antenna = "alfa"): the
 // nut and washer are trapped under the roof and the connector turns from above.
-// Stock: the front-mount RP-SMA jack's hex body sits in a round pocket under the
-// D-flat roof, the nut and lock washer tighten on top, and the cable leaves
-// through the recess.
+// Stock: the front-mount RP-SMA jack's hex body and its two washers sit in a
+// round pocket under the D-flat roof, the nut tightens on top, and the cable
+// leaves through the recess.
 //
 // +Y is the front of the car. The node's port end faces the pylon.
 // Assembly: nylocs in, nylon up; node on with blue threadlocker; magnets.
@@ -117,28 +117,36 @@ tail_straight = 24;                      // free length below bulkhead thread
 cable_d = 2.5;                           // RG316 nominal, check supplied cable
 cable_clear = 1;                         // radial keep-out around free cable
 cable_bend_r = 25;                       // conservative Belden 83284 benchmark
-// Stock front-mount RP-SMA bulkhead jack, provisional from Amphenol 901-9610-3
-// and Wurth WR-SMA 60312082111560 drawings; measure the supplied Seeed cable.
-// Hex body and crimp ferrule hang under the roof; nut and lock washer go on top.
-s_body_af = 7.92;      // body hex across flats, cable side
-s_body_h = 5;          // body hex height under the roof
-s_body_clear = 0.4;    // radial, round pocket around the hex corners
-s_ferrule_d = 3.3;     // RG316 crimp ferrule
-s_ferrule_h = 8;       // rigid length below the hex, estimated
-s_nut_af = 7.9;        // 1/4-36 panel nut, on the roof
-s_nut_h = 2;
-s_washer = [10.2, 0.5]; // internal-tooth lock washer, on the roof
-s_panel_max = 3.18;    // Amphenol max panel thickness
-s_thread_len = 9.5;    // thread above the body shoulder, estimated
+// Stock front-mount RP-SMA bulkhead jack, measured from a photo of the supplied
+// Seeed pigtail beside a US quarter (1/4-36 pitch sets the scale at the part,
+// about 3% plus 0.1 mm per edge). Cable side up: hex body, flat washer, toothed
+// lock washer, then the roof, then the nut. The thread OD reads 6.06 from the
+// same photo, so the 1/4-36 D-flat bore stays.
+s_body_af = 8.1;       // body hex across flats, 9.4 across corners
+s_body_h = 1.9;        // body hex height, read 1.7 to 1.9
+s_pocket_clear = 0.7;  // radial, round pocket around the widest element
+s_ferrule_d = 5.4;     // heat shrink over the crimp ferrule
+s_ferrule_h = 9;       // rigid length below the hex
+s_nut_af = 7.8;        // 5/16" panel nut, 9.0 across corners, on the roof
+s_nut_h = 1.5;         // read 1.36 at the silhouette, chamfers hidden
+s_flat_washer = [10.0, 1.0]; // on the body, under the roof
+s_washer = [8.7, 2.1];       // toothed lock washer as photographed, cocked on the thread; sizes the pocket
+s_washer_flat = 0.6;         // toothed washer thickness once the nut flattens it
+s_stack_free = s_flat_washer[1] + s_washer[1];   // sizes the pocket
+s_stack = s_flat_washer[1] + s_washer_flat;      // installed stack under the roof
+s_nose_h = 0.9;        // plain socket nose above the thread
+s_thread_len = 10.25;  // threaded length above the body, 11.2 to the tip, +-0.5
 s_mate_engage = 4;     // antenna coupling thread above the nut
-s_cable_d = 2.5;       // RG316 assumed; RG178 and 1.13 mm are smaller
+s_panel_max = s_thread_len - s_stack - s_nut_h - s_mate_engage;
+s_cable_d = 2.9;       // grey jacket read 2.88 at the table
 s_bend_r = 15;         // RG316 minimum bend
-s_tail_straight = 6;   // free cable below the ferrule before the bend
+s_tail_straight = 9.5; // heat shrink tail below the ferrule, Ø4.6, kept straight
 s_recess_floor = 22;   // the stock bowl stays above the lower pylon
+s_pocket_d = max(s_body_af / cos(30), s_flat_washer[0], s_washer[0]) + 2 * s_pocket_clear;
 // The N-type nut is spun up by hand in the chamber and stops turning in a rounded
 // hex trap under the roof; the last turn is on the connector, from above. The
-// stock body rises into a round pocket; the D-flat bore keys it.
-trap_h = alfa ? n_nut_h + n_washer[1] + 0.6 : s_body_h + 0.6;
+// stock body and both washers rise into a round pocket; the D-flat bore keys it.
+trap_h = alfa ? n_nut_h + n_washer[1] + 0.6 : s_body_h + s_stack_free + 0.6;
 drop_straight = alfa ? tail_straight : s_tail_straight;
 bend_r = alfa ? cable_bend_r : s_bend_r;
 free_cable_d = alfa ? cable_d : s_cable_d;
@@ -179,16 +187,18 @@ y_max = max(foot_y + boss_r, foot_y + bow + rail_r, nose_edge + ramp_t / 2);
 y_min = min(-foot_y - boss_r, tail_y - rail_r, hole_y - pylon_r);
 length = y_max - y_min;
 width = 2 * (foot_x + boss_r);
-drop_z = alfa ? fin_h - n_thread : fin_h - fin_wall - s_body_h - s_ferrule_h; // free cable starts here
+drop_z = alfa ? fin_h - n_thread : fin_h - fin_wall - s_stack - s_body_h - s_ferrule_h; // free cable starts here
 cable_low_z = drop_z - drop_straight - bend_r - free_cable_d / 2 - cable_clear;
 
 function under_box(p, r) = abs(p[0]) - r < box_w / 2 && abs(p[1] - box_c_y) - r < box_l / 2;
 assert(len([for (f = feet) if (under_box(f, nut_boss_r) && foot_top(f[1]) > rail_t(f[1])) f]) == 0,
   "a nut pocket under the node's box stands taller than the rail: reduce recess or stud_len");
 assert(fin_wall <= (alfa ? n_thread - n_nut_h - n_washer[1] - 2 : s_panel_max), "bulkhead thread too short for the pylon roof");
-assert(alfa || s_thread_len >= fin_wall + s_washer[1] + s_nut_h + s_mate_engage,
+assert(alfa || s_thread_len >= s_stack + fin_wall + s_nut_h + s_mate_engage,
   "stock thread leaves no antenna engagement above the panel nut");
-assert(alfa || s_body_af / cos(30) + 2 * s_body_clear < slot[0] - 1, "stock body pocket is wider than the chamber");
+assert(alfa || s_pocket_d < slot[0] - 1, "stock pocket is wider than the chamber");
+assert(alfa || pylon_r - s_pocket_d / 2 >= 4, "stock pocket leaves thin pylon walls");
+assert(alfa || s_pocket_d > s_body_af / cos(30) + 0.6, "stock pocket does not clear the body hex corners");
 assert(!alfa || hole_y - fin_back + n_nut_af / 2 / cos(30) + 0.5 < slot[2], "nut corners hit the front of the slot");
 assert(!alfa || n_washer[0] + 2 * n_washer_clear + 0.8 < n_nut_af / cos(30),
   "washer passage removes nut corner engagement; recheck hardware dimensions");
@@ -347,9 +357,9 @@ module fin_cuts() {
                h = fin_h - fin_wall - n_washer[1] + 0.2 - trap_bottom, $fn = 6);
     }
   } else {
-    // Round pocket for the jack's hex body at any angle; the D-flat keys it.
+    // Round pocket for the jack's hex body and washers at any angle; the D-flat keys it.
     translate([0, hole_y, trap_bottom])
-      cylinder(d = s_body_af / cos(30) + 2 * s_body_clear, h = fin_h - fin_wall - trap_bottom);
+      cylinder(d = s_pocket_d, h = fin_h - fin_wall - trap_bottom);
   }
 }
 
@@ -507,7 +517,7 @@ use <p1-node-model.scad>
 module antenna_preview() {
   translate([0, hole_y, fin_h])
     if (alfa) alfa_915(n_flange=n_flange, coupling_d=n_coupling_d, coupling_h=n_coupling_h);
-    else translate([0, 0, s_washer[1] + s_nut_h]) seeed_rod();   // the rod seats on the panel nut
+    else translate([0, 0, s_nut_h]) seeed_rod();   // the rod seats on the panel nut
 }
 module node_ghost() {
   seat_frame() translate([0, -seat_c[1], 0]) p1_node();
@@ -526,16 +536,18 @@ module bulkhead_hardware() {
     translate([0, 0, -fin_wall-n_washer[1]-n_nut_h])
       cylinder(r=n_nut_af/(2*cos(30)), h=n_nut_h-e, $fn=6);
   } else {
-    // 1/4-36 thread with its D-flat through the roof; hex body and ferrule below;
-    // lock washer and nut above.
-    translate([0, 0, -fin_wall - e]) linear_extrude(fin_wall + s_thread_len + e) intersection() {
-      circle(d = 6.35);
-      translate([-4, -3.175]) square([8, 5.8]);
-    }
-    translate([0, 0, -fin_wall - s_body_h]) cylinder(r = s_body_af / (2 * cos(30)), h = s_body_h - e, $fn = 6);
-    translate([0, 0, -fin_wall - s_body_h - s_ferrule_h]) cylinder(d = s_ferrule_d, h = s_ferrule_h);
-    translate([0, 0, e]) cylinder(d = s_washer[0], h = s_washer[1] - e);
-    translate([0, 0, s_washer[1]]) cylinder(r = s_nut_af / (2 * cos(30)), h = s_nut_h, $fn = 6);
+    // 1/4-36 thread with its D-flat through the roof; hex body, flat washer and
+    // flattened toothed washer below the roof, ferrule under the body, nut above.
+    translate([0, 0, -fin_wall - s_stack - e])
+      linear_extrude(s_thread_len + s_nose_h + e) intersection() {
+        circle(d = 6.35);
+        translate([-4, -3.175]) square([8, 5.8]);
+      }
+    translate([0, 0, -fin_wall - s_stack - s_body_h]) cylinder(r = s_body_af / (2 * cos(30)), h = s_body_h - e, $fn = 6);
+    translate([0, 0, -fin_wall - s_stack]) cylinder(d = s_flat_washer[0], h = s_flat_washer[1] - e);
+    translate([0, 0, -fin_wall - s_washer_flat]) cylinder(d = s_washer[0], h = s_washer_flat - e);
+    translate([0, 0, -fin_wall - s_stack - s_body_h - s_ferrule_h]) cylinder(d = s_ferrule_d, h = s_ferrule_h);
+    translate([0, 0, e]) cylinder(r = s_nut_af / (2 * cos(30)), h = s_nut_h - e, $fn = 6);
   }
 }
 check_dy = 0;

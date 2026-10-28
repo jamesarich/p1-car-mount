@@ -38,15 +38,15 @@ The N-type pylon has been printed and assembled with the same geometry as this r
 - 6× DIYMAG 1.69" (43 mm) magnets with 1/4" studs, plus 6× 1/4-20 nylon-insert lock nuts
 - 2× 1/4-20 screws into the node's back inserts, length checked against `docs/print-notes.md`
 - N-type frame: Seeed 100007236 RP-SMA male to N-female bulkhead cable (300 mm, RG316) and an N-male antenna
-- Stock frame: the node's 300 mm RP-SMA bulkhead pigtail (front-mount jack with its toothed lock washer and nut) and the stock rod antenna
+- Stock frame: the node's 300 mm RP-SMA bulkhead pigtail (front-mount jack with its flat washer, toothed lock washer and nut) and the stock rod antenna
 - Blue threadlocker
 
-Hardware dimensions are modeled from datasheets and photos and are still provisional. Confirm the nut corners, washer, thread length, socket and magnet studs with the coupons.
+N-type hardware dimensions are modeled from datasheets and are still provisional; the stock pigtail is measured from a scaled photo. Confirm the nut corners, washers, thread length, socket and magnet studs with the coupons.
 
 ## Assembly
 
 1. Press the lock nuts into the feet, nylon up, and thread on the magnets.
-2. Fit the bulkhead connector. N-type: the connector drops in from above and its nut and washer go on from the rear chamber. Stock: the jack pushes up from inside the rear recess and its nut and lock washer go on top. Full steps are in `docs/print-notes.md`.
+2. Fit the bulkhead connector. N-type: the connector drops in from above and its nut and washer go on from the rear chamber. Stock: the jack pushes up from inside the rear recess with both washers on its body and the nut goes on top. Full steps are in `docs/print-notes.md`.
 3. Bolt the node to the hub with threadlocker.
 4. Remove the mount by lifting one rear corner at the grip under the boss, never by the node.
 

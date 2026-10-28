@@ -2,7 +2,7 @@
   "openscad": "OpenSCAD version 2026.10.11",
   "version": "1.0",
   "source_sha256": {
-    "p1-roof-mount.scad": "5929b085cbbd4b1dc83d90330e7e363cc30b27724e2b3a37a3f1d97956c8f127",
+    "p1-roof-mount.scad": "5c4f4fc54c054bd7118a9c67bf2d6193f6304f13cb0b33fbf7fb1adafc83e467",
     "p1-node-model.scad": "bc72f5cf37ecba9f15331bdb6e1bdc2e26b64c3fb83ad066765c54823ae163fe"
   },
   "intersection_checks": [
@@ -252,7 +252,7 @@
     "p1-roof-mount-n-type.stl": {
       "surface_areas_mm2": {
         "other_sloping": 512.6366979794242,
-        "pylon_sloping": 172.99629132276166,
+        "pylon_sloping": 172.9962913227616,
         "pylon_horizontal": 147.51924782437573
       },
       "screw_tool_access": [
@@ -582,7 +582,7 @@
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 8.281009263916799
+          "radial_width_mm": 8.281009263916797
         },
         {
           "z": 36,
@@ -602,7 +602,7 @@
         {
           "z": 36,
           "angle": 30,
-          "radial_width_mm": 8.281009263916799
+          "radial_width_mm": 8.281009263916797
         },
         {
           "z": 36,
@@ -712,7 +712,7 @@
         {
           "z": 48,
           "angle": -30,
-          "radial_width_mm": 5.762126339085519
+          "radial_width_mm": 5.7621263390855155
         },
         {
           "z": 48,
@@ -782,7 +782,7 @@
         {
           "z": 54,
           "angle": -15,
-          "radial_width_mm": 5.231402798709301
+          "radial_width_mm": 5.231402798709304
         },
         {
           "z": 54,
@@ -802,7 +802,7 @@
         {
           "z": 54,
           "angle": 45,
-          "radial_width_mm": 5.0300393851910705
+          "radial_width_mm": 5.030039385191072
         },
         {
           "z": 54,
@@ -885,7 +885,7 @@
           "radial_width_mm": 6.068448187794221
         }
       ],
-      "lower_channel_width_mm": 9.993332534951474,
+      "lower_channel_width_mm": 9.993332534951481,
       "lower_channel_section": {
         "z": 12,
         "y": -132
@@ -945,7 +945,7 @@
     },
     "p1-coupon-pylon.stl": {
       "surface_areas_mm2": {
-        "pylon_sloping": 172.99681303884873,
+        "pylon_sloping": 172.99629132276158,
         "pylon_horizontal": 147.51924782437575
       },
       "lower_cheek_sections": [
@@ -1114,7 +1114,7 @@
         {
           "z": 24,
           "angle": -45,
-          "radial_width_mm": 12.437582469696661
+          "radial_width_mm": 12.43758246969666
         },
         {
           "z": 24,
@@ -1144,7 +1144,7 @@
         {
           "z": 24,
           "angle": 45,
-          "radial_width_mm": 12.437582469696661
+          "radial_width_mm": 12.43758246969666
         },
         {
           "z": 24,
@@ -1349,7 +1349,7 @@
         {
           "z": 42,
           "angle": 75,
-          "radial_width_mm": 4.871284094235111
+          "radial_width_mm": 4.87128409423511
         },
         {
           "z": 42,
@@ -1619,8 +1619,8 @@
     "p1-roof-mount-stock.stl": {
       "surface_areas_mm2": {
         "other_sloping": 512.6366979794243,
-        "pylon_sloping": 61.430277136977814,
-        "pylon_horizontal": 45.53266001570133
+        "pylon_sloping": 51.718441104333166,
+        "pylon_horizontal": 69.68235621581255
       },
       "screw_tool_access": [
         {
@@ -1713,8 +1713,8 @@
         {
           "z": 55,
           "x_widths_mm": [
-            6.885450491392485,
-            6.885450491392485
+            6.597592369696467,
+            6.597592369696467
           ],
           "minimum": 3.8
         }
@@ -1743,7 +1743,7 @@
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 11.176928136043664
+          "radial_width_mm": 11.17692813604367
         },
         {
           "z": 36,
@@ -1833,7 +1833,7 @@
         {
           "z": 42,
           "angle": 45,
-          "radial_width_mm": 6.8903707231092195
+          "radial_width_mm": 6.890370723109218
         },
         {
           "z": 42,
@@ -1878,7 +1878,7 @@
         {
           "z": 48,
           "angle": -15,
-          "radial_width_mm": 6.789436205815539
+          "radial_width_mm": 6.789436205815537
         },
         {
           "z": 48,
@@ -1898,7 +1898,7 @@
         {
           "z": 48,
           "angle": 45,
-          "radial_width_mm": 6.190297673448377
+          "radial_width_mm": 6.190297673448375
         },
         {
           "z": 48,
@@ -1923,7 +1923,7 @@
         {
           "z": 54,
           "angle": -75,
-          "radial_width_mm": 6.318639369472241
+          "radial_width_mm": 6.318639369472242
         },
         {
           "z": 54,
@@ -1943,7 +1943,7 @@
         {
           "z": 54,
           "angle": -15,
-          "radial_width_mm": 6.026957009596773
+          "radial_width_mm": 6.026957009596768
         },
         {
           "z": 54,
@@ -1973,7 +1973,7 @@
         {
           "z": 54,
           "angle": 75,
-          "radial_width_mm": 6.318639369472241
+          "radial_width_mm": 6.318639369472242
         },
         {
           "z": 54,
@@ -1983,67 +1983,67 @@
         {
           "z": 60,
           "angle": -90,
-          "radial_width_mm": 7.327374283350186
+          "radial_width_mm": 6.599988415332022
         },
         {
           "z": 60,
           "angle": -75,
-          "radial_width_mm": 7.324186159917009
+          "radial_width_mm": 6.596800291898848
         },
         {
           "z": 60,
           "angle": -60,
-          "radial_width_mm": 7.3242091955905835
+          "radial_width_mm": 6.59682332757242
         },
         {
           "z": 60,
           "angle": -45,
-          "radial_width_mm": 7.327481202122262
+          "radial_width_mm": 6.600095334104098
         },
         {
           "z": 60,
           "angle": -30,
-          "radial_width_mm": 7.324147966039225
+          "radial_width_mm": 6.59676209802107
         },
         {
           "z": 60,
           "angle": -15,
-          "radial_width_mm": 7.324108475541399
+          "radial_width_mm": 6.596722607523232
         },
         {
           "z": 60,
           "angle": 0,
-          "radial_width_mm": 7.327385868018169
+          "radial_width_mm": 6.6000000000000085
         },
         {
           "z": 60,
           "angle": 15,
-          "radial_width_mm": 7.324108475541399
+          "radial_width_mm": 6.596722607523232
         },
         {
           "z": 60,
           "angle": 30,
-          "radial_width_mm": 7.324147966039225
+          "radial_width_mm": 6.59676209802107
         },
         {
           "z": 60,
           "angle": 45,
-          "radial_width_mm": 7.327481202122262
+          "radial_width_mm": 6.600095334104098
         },
         {
           "z": 60,
           "angle": 60,
-          "radial_width_mm": 7.3242091955905835
+          "radial_width_mm": 6.59682332757242
         },
         {
           "z": 60,
           "angle": 75,
-          "radial_width_mm": 7.324186159917009
+          "radial_width_mm": 6.596800291898848
         },
         {
           "z": 60,
           "angle": 90,
-          "radial_width_mm": 7.327374283350186
+          "radial_width_mm": 6.599988415332022
         }
       ]
     },
@@ -2086,7 +2086,7 @@
     "p1-roof-mount-n-type.stl": {
       "antenna": "alfa",
       "part": "mount",
-      "triangles": 93994,
+      "triangles": 93982,
       "bounds": [
         [
           -100.0,
@@ -2104,17 +2104,17 @@
         241.5,
         68.0
       ],
-      "volume_mm3": 399471.6808408172,
+      "volume_mm3": 399471.68084081635,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 147.51924782437573,
-      "sha256": "7974d6a96daee41ecf732f41b56344643165f4402f3ac896a962c082acbd9c16",
+      "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
       "render_attempts": 1
     },
     "p1-coupon-pylon.stl": {
       "antenna": "alfa",
       "part": "coupon",
-      "triangles": 40742,
+      "triangles": 40792,
       "bounds": [
         [
           -26.7171375,
@@ -2132,11 +2132,11 @@
         61.952749999999995,
         68.0
       ],
-      "volume_mm3": 61291.17406238274,
+      "volume_mm3": 61291.17406238276,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 147.51924782437575,
-      "sha256": "8549dbbe371d32f7c461d8f85149cb6e6a3de2e93a684eef1e08902dc4507553",
+      "sha256": "a062c53da20f2bf7a69f0cf6a25969cd14d0a4e5c1ba170310fc99fde18632f9",
       "render_attempts": 1
     },
     "p1-coupon-front-foot.stl": {
@@ -2170,7 +2170,7 @@
     "p1-coupon-rear-right-foot.stl": {
       "antenna": "alfa",
       "part": "rear_foot_coupon",
-      "triangles": 7144,
+      "triangles": 7136,
       "bounds": [
         [
           -25.0,
@@ -2188,17 +2188,17 @@
         49.0,
         18.0
       ],
-      "volume_mm3": 31334.82762048307,
+      "volume_mm3": 31334.827620483073,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "51f4069062e9a721355476d7830b64d9ae984f4b943293c1f2be7aa0f0ff51e3",
+      "sha256": "ac845ac862fc5cc70377cc1f3ff9f2f2b9c20f10a43042854de28c20e53d3ec4",
       "render_attempts": 1
     },
     "p1-roof-mount-stock.stl": {
       "antenna": "stock",
       "part": "mount",
-      "triangles": 86830,
+      "triangles": 86392,
       "bounds": [
         [
           -100.0,
@@ -2216,17 +2216,17 @@
         231.6,
         68.0
       ],
-      "volume_mm3": 382385.0412851811,
+      "volume_mm3": 382192.05059616116,
       "components": 1,
       "near_zero_area_triangles": 0,
-      "elevated_downward_flat_area_mm2": 45.53266001570133,
-      "sha256": "8c4a1eb2970b33c7547754e72f0697cd576347abd581f146da48afe7d31aac53",
+      "elevated_downward_flat_area_mm2": 69.68235621581255,
+      "sha256": "c96e7b9a2abd1907473308363c17f222ab392a85c112f864468e470bb195828c",
       "render_attempts": 1
     },
     "p1-coupon-rear-left-foot.stl": {
       "antenna": "alfa",
       "part": "rear_left_foot_coupon",
-      "triangles": 7250,
+      "triangles": 7254,
       "bounds": [
         [
           -24.0,
@@ -2248,7 +2248,7 @@
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "81adce404eb7c5e9f468338afc77e892bf1a5852e095f1a4ecdedfa47c2f4794",
+      "sha256": "67ae66bc4cb8825ce1b3f3bb5e67373f2abb02cabd9ea72741b7226daf7669e8",
       "render_attempts": 1
     },
     "p1-coupon-seat.stl": {
