@@ -30,7 +30,7 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 - Orientation: feet down, as exported. Center on the bed.
 - Supports: under the pylon crown and hardware chamber, and the two node-screw ceilings. The flat feet need none.
 
-No slicer project or physical print has validated this design yet. Treat these as starting settings and tune with the coupons.
+The N-type pylon has been printed and assembled with the same geometry as this release and works. The stock pylon has not been printed. Treat these as starting settings and tune with the coupons.
 
 ## Hardware
 
@@ -38,7 +38,7 @@ No slicer project or physical print has validated this design yet. Treat these a
 - 6× DIYMAG 1.69" (43 mm) magnets with 1/4" studs, plus 6× 1/4-20 nylon-insert lock nuts
 - 2× 1/4-20 screws into the node's back inserts, length checked against `docs/print-notes.md`
 - N-type frame: Seeed 100007236 RP-SMA male to N-female bulkhead cable (300 mm, RG316) and an N-male antenna
-- Stock frame: the node's 300 mm RP-SMA bulkhead cable with its nut and lock washer, and the stock rod antenna
+- Stock frame: the node's 300 mm RP-SMA bulkhead pigtail (front-mount jack with its toothed lock washer and nut) and the stock rod antenna
 - Blue threadlocker
 
 Hardware dimensions are modeled from datasheets and photos and are still provisional. Confirm the nut corners, washer, thread length, socket and magnet studs with the coupons.

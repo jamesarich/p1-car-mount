@@ -47,7 +47,7 @@ Both pylons need selective support under their crowns and chambers; the small ho
 
 ## Physical and printing limits
 
-No sliced extrusion/support toolpaths, physical assembly, torque, fatigue, temperature or road-load test is claimed. Hardware dimensions are provisional. Confirm the actual nut corners, washer, thread length, cable ends, socket and magnet studs with the coupons. The main assembly is one printed frame; coupons are optional test pieces.
+An N-type pylon of this geometry has been printed and assembled and works; the stock pylon has not been printed. No sliced toolpath, torque, fatigue, temperature or road-load test is claimed. Hardware dimensions are provisional. Confirm the actual nut corners, washer, thread length, cable ends, socket and magnet studs with the coupons. The main assembly is one printed frame; coupons are optional test pieces.
 
 Support the rounded pylon crown and flat washer/nut shoulders as indicated by the slicer, and support or bridge the node-screw ceilings. Remove pylon supports through the wide upper opening. The cable's final route to the node is not fully modeled. No aerodynamic performance is inferred from the swept shape.
 
