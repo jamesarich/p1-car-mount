@@ -1,0 +1,2748 @@
+{
+  "file": "p1-roof-mount-stock.stl",
+  "sha256": "894e80c90a4151f671305d86e66377756e29270fa4232f6aa52c9de7eb2f2dcd",
+  "step_mm": 0.2,
+  "section_count": 340,
+  "floating_islands": [],
+  "integrated_section_volume_mm3": 387397.6857614146,
+  "mesh_volume_mm3": 387398.25813216215,
+  "volume_relative_error": 1.4774737251778823e-06,
+  "peak_layer_growth_by_region": {
+    "front_dam": {
+      "z": 0.3,
+      "area_mm2": 24279.58053682586,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 13.658861936696335,
+      "front_dam_growth_mm2": 13.004522031365294,
+      "pylon_and_root_growth_mm2": 0.6502623421004894
+    },
+    "pylon_and_root": {
+      "z": 65.5,
+      "area_mm2": 418.41779384444953,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 72.25401761119542,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 72.25401761119531
+    }
+  },
+  "sections": [
+    {
+      "z": 0.1,
+      "area_mm2": 23964.563772620568,
+      "components": 1
+    },
+    {
+      "z": 0.3,
+      "area_mm2": 24279.58053682586,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 13.658861936696335,
+      "front_dam_growth_mm2": 13.004522031365294,
+      "pylon_and_root_growth_mm2": 0.6502623421004894
+    },
+    {
+      "z": 0.5,
+      "area_mm2": 24564.928743703385,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.6600522228186615,
+      "front_dam_growth_mm2": 3.6121600338342394e-06,
+      "pylon_and_root_growth_mm2": 0.6558650515613925
+    },
+    {
+      "z": 0.7,
+      "area_mm2": 24700.049194377047,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 0.9,
+      "area_mm2": 24701.616246196743,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 1.1,
+      "area_mm2": 24698.669101845473,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 1.3,
+      "area_mm2": 24691.703327067382,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 1.5,
+      "area_mm2": 24681.256047809875,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 1.7,
+      "area_mm2": 24667.18667047141,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 1.9,
+      "area_mm2": 24650.088527095148,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 2.1,
+      "area_mm2": 24632.618595207892,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 2.3,
+      "area_mm2": 24615.053982904374,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 2.5,
+      "area_mm2": 24597.385144236585,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 2.7,
+      "area_mm2": 24579.58890218974,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 2.9,
+      "area_mm2": 24561.68764318461,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 3.1,
+      "area_mm2": 24050.13719977546,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 3.3,
+      "area_mm2": 24032.06471694258,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 3.5,
+      "area_mm2": 24013.866306964617,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 3.7,
+      "area_mm2": 23995.55536122953,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 3.9,
+      "area_mm2": 23977.11325341537,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 4.1,
+      "area_mm2": 23958.58583745048,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 4.3,
+      "area_mm2": 23939.96084062693,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 4.5,
+      "area_mm2": 23921.214118814954,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 4.7,
+      "area_mm2": 23900.804005240097,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 4.9,
+      "area_mm2": 23879.814040730253,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 5.1,
+      "area_mm2": 23856.287805040985,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 5.3,
+      "area_mm2": 23831.05224117859,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 5.5,
+      "area_mm2": 23803.46009645833,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 5.7,
+      "area_mm2": 23773.50893951885,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 5.9,
+      "area_mm2": 23741.033248673946,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 6.1,
+      "area_mm2": 23705.607623625605,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 6.3,
+      "area_mm2": 23667.451353336935,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 6.5,
+      "area_mm2": 23625.784937688717,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 6.7,
+      "area_mm2": 23580.93164437915,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 6.9,
+      "area_mm2": 23532.08050882205,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 7.1,
+      "area_mm2": 23479.23043516522,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 7.3,
+      "area_mm2": 23422.167393520333,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 7.5,
+      "area_mm2": 23359.449330258256,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 7.7,
+      "area_mm2": 23292.405330323985,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 7.9,
+      "area_mm2": 23217.76820651357,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 8.1,
+      "area_mm2": 23136.189179660272,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 8.3,
+      "area_mm2": 23046.06703717943,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 8.5,
+      "area_mm2": 22943.97549479988,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 8.7,
+      "area_mm2": 22763.58869132518,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 8.9,
+      "area_mm2": 22266.003073200165,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 9.1,
+      "area_mm2": 21705.671810586493,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 9.3,
+      "area_mm2": 21164.44565937554,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 9.5,
+      "area_mm2": 20869.24065917017,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 9.7,
+      "area_mm2": 20575.400152241218,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 9.9,
+      "area_mm2": 20279.556857759475,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 10.1,
+      "area_mm2": 19963.772477126644,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 10.3,
+      "area_mm2": 19582.84166842601,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0005182368080577126,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 10.5,
+      "area_mm2": 19201.542998870515,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0005184014767412994,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 10.7,
+      "area_mm2": 18858.915260342706,
+      "components": 4,
+      "beyond_45_degree_layer_growth_mm2": 21.951123044839267,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 10.9,
+      "area_mm2": 18563.06128105955,
+      "components": 4,
+      "beyond_45_degree_layer_growth_mm2": 33.208755942119836,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 11.1,
+      "area_mm2": 18269.337517748616,
+      "components": 4,
+      "beyond_45_degree_layer_growth_mm2": 24.64289200434451,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 11.3,
+      "area_mm2": 17999.38900642263,
+      "components": 14,
+      "beyond_45_degree_layer_growth_mm2": 24.454435785915706,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 11.5,
+      "area_mm2": 17843.324098035733,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 24.459045618187908,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 11.7,
+      "area_mm2": 17702.045202253525,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 26.820136536643865,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 11.9,
+      "area_mm2": 17564.823133476493,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 33.95754241312805,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 12.1,
+      "area_mm2": 17397.667948931125,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 11.158818614254187,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 12.3,
+      "area_mm2": 17213.82172457438,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 12.5,
+      "area_mm2": 17019.661205408447,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 12.7,
+      "area_mm2": 16767.823879704818,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 12.9,
+      "area_mm2": 16504.538821760307,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 1.0178011913625895e-05,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 13.1,
+      "area_mm2": 16233.657852909257,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0005180720003556223,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 13.3,
+      "area_mm2": 15903.4932065786,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 5.378005667331923,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 13.5,
+      "area_mm2": 15562.325753678797,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 30.17048449424032,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 13.7,
+      "area_mm2": 15186.245543248995,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 29.27200655202999,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 13.9,
+      "area_mm2": 14779.091404925304,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 24.213254352213955,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 14.1,
+      "area_mm2": 14418.17419442379,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 24.46555023931363,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 14.3,
+      "area_mm2": 14083.328818500031,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 24.62462232880811,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 14.5,
+      "area_mm2": 13745.837114010516,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 31.76124707953297,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 14.7,
+      "area_mm2": 13356.139448042806,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 28.105256180931352,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 14.9,
+      "area_mm2": 12885.10742553785,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 1.7537171974071548,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 15.1,
+      "area_mm2": 12575.500097155162,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 15.3,
+      "area_mm2": 12263.872927420722,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 15.5,
+      "area_mm2": 11942.455043067277,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 15.7,
+      "area_mm2": 11603.133190410465,
+      "components": 3,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 15.9,
+      "area_mm2": 11219.66794026176,
+      "components": 4,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 16.1,
+      "area_mm2": 10839.220870961859,
+      "components": 4,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 16.3,
+      "area_mm2": 10473.586303995648,
+      "components": 3,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 16.5,
+      "area_mm2": 10093.81527260239,
+      "components": 3,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 16.7,
+      "area_mm2": 9713.2434199651,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 16.9,
+      "area_mm2": 9426.769040554304,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 17.1,
+      "area_mm2": 9127.203232218295,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 17.3,
+      "area_mm2": 8805.464539259192,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 17.5,
+      "area_mm2": 8456.322004250102,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 17.7,
+      "area_mm2": 8069.074277315296,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 17.9,
+      "area_mm2": 7589.101506134048,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 18.1,
+      "area_mm2": 3050.4768622260976,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 18.3,
+      "area_mm2": 3031.6930491650496,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 18.5,
+      "area_mm2": 3012.880353551899,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 18.7,
+      "area_mm2": 2994.040128718248,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 18.9,
+      "area_mm2": 2975.1742225893004,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 19.1,
+      "area_mm2": 2956.1586328611015,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 19.3,
+      "area_mm2": 2936.9979910167485,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 19.5,
+      "area_mm2": 2917.7733517615975,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 19.7,
+      "area_mm2": 2897.7645651271996,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 19.9,
+      "area_mm2": 2877.7429901033506,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 20.1,
+      "area_mm2": 2857.2384448995494,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 20.3,
+      "area_mm2": 2836.474628963798,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 20.5,
+      "area_mm2": 2815.4779752575505,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 20.7,
+      "area_mm2": 2793.759046065151,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 20.9,
+      "area_mm2": 2772.0630636385504,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 21.1,
+      "area_mm2": 2749.417305503,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 21.3,
+      "area_mm2": 2726.820121785498,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 21.5,
+      "area_mm2": 2702.1613743134503,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 21.7,
+      "area_mm2": 2676.752169257652,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 21.9,
+      "area_mm2": 2648.5785154372506,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 22.1,
+      "area_mm2": 2618.7861719855505,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 22.3,
+      "area_mm2": 2585.7774335185504,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 22.5,
+      "area_mm2": 2551.044230702949,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 22.7,
+      "area_mm2": 2511.3355032488516,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 22.9,
+      "area_mm2": 2469.456639745899,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 23.1,
+      "area_mm2": 2421.636937683401,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 23.3,
+      "area_mm2": 2367.2793157284,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 23.5,
+      "area_mm2": 2304.6179190079,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 23.7,
+      "area_mm2": 2227.347084280801,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 23.9,
+      "area_mm2": 2119.70043133895,
+      "components": 2,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 24.1,
+      "area_mm2": 698.1833182282495,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 24.3,
+      "area_mm2": 694.8988617798001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 24.5,
+      "area_mm2": 691.6220313127004,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 24.7,
+      "area_mm2": 688.3525883332995,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 24.9,
+      "area_mm2": 685.09066184545,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 25.1,
+      "area_mm2": 681.9031699692995,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 25.3,
+      "area_mm2": 678.7894937768999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 25.5,
+      "area_mm2": 675.6827350836002,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 25.7,
+      "area_mm2": 672.5827834712502,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 25.9,
+      "area_mm2": 669.4897490823,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 26.1,
+      "area_mm2": 666.4697600354496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 26.3,
+      "area_mm2": 663.5224542161005,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 26.5,
+      "area_mm2": 660.5813143756003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 26.7,
+      "area_mm2": 657.6463658533,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 26.9,
+      "area_mm2": 654.7176050086001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 27.1,
+      "area_mm2": 651.8608749071,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 27.3,
+      "area_mm2": 649.0754119484496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 27.5,
+      "area_mm2": 646.29564428575,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 27.7,
+      "area_mm2": 643.52139899385,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 27.9,
+      "area_mm2": 640.7527968457006,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 28.1,
+      "area_mm2": 638.0548495081504,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 28.3,
+      "area_mm2": 635.4271895779506,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 28.5,
+      "area_mm2": 632.8045261305494,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 28.7,
+      "area_mm2": 630.186906386,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 28.9,
+      "area_mm2": 627.5742096585003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 29.1,
+      "area_mm2": 625.0311544518498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 29.3,
+      "area_mm2": 622.5571822232998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 29.5,
+      "area_mm2": 620.0876937986999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 29.7,
+      "area_mm2": 617.6226618603501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 29.9,
+      "area_mm2": 615.1621119805496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 30.1,
+      "area_mm2": 612.7699374925007,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 30.3,
+      "area_mm2": 610.4459398736496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 30.5,
+      "area_mm2": 608.1258337943498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 30.7,
+      "area_mm2": 605.8096104368999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 30.9,
+      "area_mm2": 603.4972704948497,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 31.1,
+      "area_mm2": 601.2523689321999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 31.3,
+      "area_mm2": 599.0745942652,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 31.5,
+      "area_mm2": 596.9002175093,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 31.7,
+      "area_mm2": 594.72916609875,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 31.9,
+      "area_mm2": 592.5615280789997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 32.1,
+      "area_mm2": 590.4604534574,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 32.3,
+      "area_mm2": 588.4253783257998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 32.5,
+      "area_mm2": 586.3933530583998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 32.7,
+      "area_mm2": 584.3641018991002,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 32.9,
+      "area_mm2": 582.3377389370997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 33.1,
+      "area_mm2": 580.3769944861996,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 33.3,
+      "area_mm2": 578.4814339542,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 33.5,
+      "area_mm2": 576.58839428195,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 33.7,
+      "area_mm2": 574.6976774159003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 33.9,
+      "area_mm2": 572.8093848034499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 34.1,
+      "area_mm2": 570.9858515234,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 34.3,
+      "area_mm2": 569.2266772046501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 34.5,
+      "area_mm2": 567.4695302830501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 34.7,
+      "area_mm2": 565.7143049935997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 34.9,
+      "area_mm2": 563.9611114814496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 35.1,
+      "area_mm2": 562.2718334566999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 35.3,
+      "area_mm2": 560.6461646463005,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 35.5,
+      "area_mm2": 559.0220528077499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 35.7,
+      "area_mm2": 557.3994026840993,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 35.9,
+      "area_mm2": 555.7784261791,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 36.1,
+      "area_mm2": 554.2205882535998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 36.3,
+      "area_mm2": 552.7256314532998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 36.5,
+      "area_mm2": 551.2318224739004,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 36.7,
+      "area_mm2": 549.7391375734495,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 36.9,
+      "area_mm2": 548.2476984027,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 37.1,
+      "area_mm2": 546.8186915652998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 37.3,
+      "area_mm2": 545.4519286747499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 37.5,
+      "area_mm2": 544.0859596657504,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 37.7,
+      "area_mm2": 542.7207502177997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 37.9,
+      "area_mm2": 541.3564021635003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 38.1,
+      "area_mm2": 540.0538325063999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 38.3,
+      "area_mm2": 538.8128992961501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 38.5,
+      "area_mm2": 537.5724268989998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 38.7,
+      "area_mm2": 536.3323819617997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 38.9,
+      "area_mm2": 535.0928782153494,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 39.1,
+      "area_mm2": 533.9145948167003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 39.3,
+      "area_mm2": 532.79735119865,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 39.5,
+      "area_mm2": 531.6802627972496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 39.7,
+      "area_mm2": 530.5632938525501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 39.9,
+      "area_mm2": 529.4464920034494,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 40.1,
+      "area_mm2": 528.3724710772499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 40.3,
+      "area_mm2": 527.3412652542004,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 40.5,
+      "area_mm2": 526.3100211325999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 40.7,
+      "area_mm2": 525.2787893656503,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 40.9,
+      "area_mm2": 524.2475135010499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 41.1,
+      "area_mm2": 523.2412134696004,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 41.3,
+      "area_mm2": 522.2598189468501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 41.5,
+      "area_mm2": 521.2784610736503,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 41.7,
+      "area_mm2": 520.2970959304,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 41.9,
+      "area_mm2": 519.3156657988001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 42.1,
+      "area_mm2": 518.3594161821503,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 42.3,
+      "area_mm2": 517.4282517227493,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 42.5,
+      "area_mm2": 516.4970658917493,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 42.7,
+      "area_mm2": 515.5658841967997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 42.9,
+      "area_mm2": 514.6347008226,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 43.1,
+      "area_mm2": 513.7287762921995,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 43.3,
+      "area_mm2": 512.8481781655998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 43.5,
+      "area_mm2": 511.9675613022001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 43.7,
+      "area_mm2": 511.08692722740005,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 43.9,
+      "area_mm2": 510.2062668738504,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 44.1,
+      "area_mm2": 509.3510994280506,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 44.3,
+      "area_mm2": 508.5213621739998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 44.5,
+      "area_mm2": 507.69164516125005,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 44.7,
+      "area_mm2": 506.8618996734002,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 44.9,
+      "area_mm2": 506.0321371105001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 45.1,
+      "area_mm2": 505.22802023339943,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 45.3,
+      "area_mm2": 504.4495281634004,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 45.5,
+      "area_mm2": 503.67104729089993,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 45.7,
+      "area_mm2": 502.89251482270026,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 45.9,
+      "area_mm2": 502.11399084959993,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 46.1,
+      "area_mm2": 501.36126334584986,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 46.3,
+      "area_mm2": 500.63435068495016,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 46.5,
+      "area_mm2": 499.90741519930026,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 46.7,
+      "area_mm2": 499.1804879027001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 46.9,
+      "area_mm2": 498.4535405871498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 47.1,
+      "area_mm2": 497.75255846889996,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 47.3,
+      "area_mm2": 497.07753363379953,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 47.5,
+      "area_mm2": 496.4025496723496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 47.7,
+      "area_mm2": 495.72750386730036,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 47.9,
+      "area_mm2": 495.05247793615,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 48.1,
+      "area_mm2": 494.40358001970003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 48.3,
+      "area_mm2": 493.7808211860504,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 48.5,
+      "area_mm2": 493.04994292000043,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 48.7,
+      "area_mm2": 492.18476753235,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 48.9,
+      "area_mm2": 491.23929230250025,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 49.1,
+      "area_mm2": 490.20806502545025,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 49.3,
+      "area_mm2": 489.13873660825,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 49.5,
+      "area_mm2": 488.01428210265027,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 49.7,
+      "area_mm2": 486.8421273184999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 49.9,
+      "area_mm2": 485.6224845759001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 50.1,
+      "area_mm2": 484.3848720115,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 50.3,
+      "area_mm2": 483.1368417563003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 50.5,
+      "area_mm2": 481.8346999543002,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 50.7,
+      "area_mm2": 480.43086866875035,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 50.9,
+      "area_mm2": 478.9741219039499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 51.1,
+      "area_mm2": 477.4998063758501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 51.3,
+      "area_mm2": 476.00752802685025,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 51.5,
+      "area_mm2": 474.4820893628001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 51.7,
+      "area_mm2": 472.8580751689499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 51.9,
+      "area_mm2": 471.16685246515016,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 52.1,
+      "area_mm2": 469.43707725959985,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 52.3,
+      "area_mm2": 467.6826328396001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 52.5,
+      "area_mm2": 465.86910464584986,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 52.7,
+      "area_mm2": 463.92258591914964,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 52.9,
+      "area_mm2": 461.88053495245,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 53.1,
+      "area_mm2": 459.7952618151499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 53.3,
+      "area_mm2": 457.58047539120014,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 53.5,
+      "area_mm2": 455.1763996360499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 53.7,
+      "area_mm2": 452.5636355122499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 53.9,
+      "area_mm2": 449.50774750005,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 54.1,
+      "area_mm2": 410.0879281878496,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 54.3,
+      "area_mm2": 404.75630901935017,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 54.5,
+      "area_mm2": 399.85716023195016,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 54.7,
+      "area_mm2": 395.43259222985006,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 54.9,
+      "area_mm2": 391.36511733955,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 55.1,
+      "area_mm2": 370.2132181576501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 55.3,
+      "area_mm2": 358.98753354840034,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 55.5,
+      "area_mm2": 350.34025367955024,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 55.7,
+      "area_mm2": 343.5386649140498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 55.9,
+      "area_mm2": 337.8363467010503,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 56.1,
+      "area_mm2": 332.87001293595,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 56.3,
+      "area_mm2": 328.5994378866501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 56.5,
+      "area_mm2": 325.1206408680501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 56.7,
+      "area_mm2": 321.89138415745015,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 56.9,
+      "area_mm2": 319.4074626975999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 57.1,
+      "area_mm2": 317.1937855156497,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 57.3,
+      "area_mm2": 315.5498409729,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 57.5,
+      "area_mm2": 314.2250223130499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 57.7,
+      "area_mm2": 313.3376322553498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 57.9,
+      "area_mm2": 312.8071507928501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 58.1,
+      "area_mm2": 312.6926786408501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 58.3,
+      "area_mm2": 312.6070375780504,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 58.5,
+      "area_mm2": 312.52137220659995,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 58.7,
+      "area_mm2": 312.4356992019998,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 58.9,
+      "area_mm2": 312.35003062290036,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 59.1,
+      "area_mm2": 312.2932483156499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 59.3,
+      "area_mm2": 312.26541105870007,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 59.5,
+      "area_mm2": 312.2375443260001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 59.7,
+      "area_mm2": 312.2096718300504,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 59.9,
+      "area_mm2": 312.1818017886498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 60.1,
+      "area_mm2": 312.1682498628498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 60.3,
+      "area_mm2": 312.1691075280997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 60.5,
+      "area_mm2": 312.1699284932997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 60.7,
+      "area_mm2": 312.1707489305499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 60.9,
+      "area_mm2": 312.17155306120003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 61.1,
+      "area_mm2": 312.1721946592502,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 61.3,
+      "area_mm2": 312.17260950540015,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 61.5,
+      "area_mm2": 312.17305331264976,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 61.7,
+      "area_mm2": 312.1734774944501,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 61.9,
+      "area_mm2": 312.17387154785024,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 62.1,
+      "area_mm2": 312.1741733727498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 62.3,
+      "area_mm2": 312.17434285405,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 62.5,
+      "area_mm2": 312.1745198509003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 62.7,
+      "area_mm2": 312.18881526555003,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 62.9,
+      "area_mm2": 312.93444238669974,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 63.1,
+      "area_mm2": 313.73456121834994,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 63.3,
+      "area_mm2": 315.24071229215,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 63.5,
+      "area_mm2": 316.88332056100023,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 63.7,
+      "area_mm2": 319.1790339644002,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 63.9,
+      "area_mm2": 321.7797799555498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 64.1,
+      "area_mm2": 324.69640834560005,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 64.3,
+      "area_mm2": 327.8626158379001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 64.5,
+      "area_mm2": 330.72757205185,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 64.7,
+      "area_mm2": 333.77954390779996,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.00026308132163983166,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0002630813216398317
+    },
+    {
+      "z": 64.9,
+      "area_mm2": 337.14467051155,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 1.0819904247897694,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 1.0819904247897694
+    },
+    {
+      "z": 65.1,
+      "area_mm2": 341.13864031484974,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 2.5346338172024985,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 2.5346338172024963
+    },
+    {
+      "z": 65.3,
+      "area_mm2": 346.7705305530001,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 5.070755356979927,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 5.070755356979927
+    },
+    {
+      "z": 65.5,
+      "area_mm2": 418.41779384444953,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 72.25401761119542,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 72.25401761119531
+    },
+    {
+      "z": 65.7,
+      "area_mm2": 411.7862478108,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 65.9,
+      "area_mm2": 404.23746662775,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 66.1,
+      "area_mm2": 395.6967962030499,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 66.3,
+      "area_mm2": 386.06953985539997,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 66.5,
+      "area_mm2": 375.23417011820004,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 66.7,
+      "area_mm2": 363.0331461824502,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 66.9,
+      "area_mm2": 349.2576858433,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 67.1,
+      "area_mm2": 333.6278775666498,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 67.3,
+      "area_mm2": 315.7590430864999,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 67.5,
+      "area_mm2": 294.50304631334996,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 67.7,
+      "area_mm2": 268.43318273254994,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    },
+    {
+      "z": 67.9,
+      "area_mm2": 230.29656252654974,
+      "components": 1,
+      "beyond_45_degree_layer_growth_mm2": 0.0,
+      "front_dam_growth_mm2": 0.0,
+      "pylon_and_root_growth_mm2": 0.0
+    }
+  ],
+  "limitations": "Geometry sections only. No extrusion widths, support toolpaths, bridge direction, thermal deformation or material strength modeled."
+}
