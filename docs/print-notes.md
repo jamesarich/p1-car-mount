@@ -48,7 +48,7 @@ N-type frame: remove the connector nut and washer. Feed the cable through the an
 
 Start the nut on the thread with its corners aligned to the pocket, turning the connector from above as needed while its cable is free to rotate. Tighten before connecting the cable to the node. Confirm capture with the actual nut in the coupon; do not force or over-tighten the small printed stops. Fit the antenna onto the metal coupling afterward.
 
-The underside access slots accept the modeled Ø15 mm tool envelope at all three tested positions. Confirm the actual socket diameter and supplied screw head. A nominal 6 mm screw through a 2 mm bearing web leaves 4 mm before any washer or insert recess; check actual engagement and bottoming before tightening.
+The underside access slots accept the modeled Ø15 mm tool envelope at all three tested positions. Confirm the actual socket diameter and supplied screw head. A 1/4" screw through the 2 mm bearing web bottoms in the node's inserts before it clamps: the built frame needed about two flat washers under the front screw head and one under the rear. Add washers until each screw tightens on the node without bottoming.
 
 ## Dimensions and limits
 

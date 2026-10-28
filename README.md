@@ -39,7 +39,8 @@ The N-type pylon has been printed and assembled with the same geometry as this r
 | 1 | Seeed SenseCAP Solar Node P1 or P1-Pro | |
 | 6 | DIYMAG rubber-coated mounting magnet, 1.69" (43 mm) base, 1/4-20 male stud, 30 lb ([Amazon B0FX1XP121](https://www.amazon.com/dp/B0FX1XP121), 12-pack) | Amazon variant "1/4in-30LB-1.69in". The foot is sized for a 12.7 mm stud; avoid the M5 and female-thread versions. |
 | 6 | 1/4-20 nylon-insert lock nut, 7/16" across flats | Pressed into the feet, nylon up |
-| 2 | 1/4-20 × 1/4" socket head cap screw | Into the node's back inserts; check engagement and bottoming before tightening |
+| 2 | 1/4-20 × 1/4" socket head cap screw | Into the node's back inserts |
+| 3-4 | 1/4" flat washer | Under the screw heads so the screws tighten before they bottom in the inserts: the built frame needed about two at the front and one at the rear |
 | 1 | Seeed 100007236 RP-SMA male to N-female bulkhead cable, 300 mm, RG316 ([Seeed](https://www.seeedstudio.com/RF-Cable-RP-SMA-Male-to-N-Type-SMA-Female-300mm.html)) | N-type frame only |
 | 1 | ALFA AOA-915-5ACM 5 dBi N-male antenna ([Rokland](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application)) | N-type frame only |
 | 1 | The node's 300 mm RP-SMA bulkhead pigtail and stock rod antenna | Stock frame only; ships with the node |
@@ -52,7 +53,7 @@ N-type hardware dimensions are modeled from datasheets and are still provisional
 
 1. Press the lock nuts into the feet, nylon up, and thread on the magnets.
 2. Fit the bulkhead connector. N-type: the connector drops in from above and its nut and washer go on from the rear chamber. Stock: the jack pushes up from inside the rear recess with both washers on its body and the nut goes on top. Full steps are in `docs/print-notes.md`.
-3. Bolt the node to the hub with threadlocker.
+3. Bolt the node to the hub with threadlocker, with washers under the screw heads. Add washers until each screw clamps the node before it bottoms in its insert.
 4. Remove the mount by lifting one rear corner at the grip under the boss, never by the node.
 
 ## Rebuild
