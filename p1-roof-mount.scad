@@ -6,9 +6,11 @@
 // down. The rails follow the node's tilted box face. The front rail is a wedge
 // to the panel's edge. A swept pylon behind the rear rail carries the antenna
 // on its bulkhead connector, held by the bulkhead nut and washer.
-// N-type (antenna = "alfa"): the cable drops through a tapered rear recess.
-// Stock: the RP-SMA nut sits in a chamber under the roof and the cable leaves
-// through a scoop in the back.
+// Both variants share the tapered rear recess. N-type (antenna = "alfa"): the
+// nut and washer are trapped under the roof and the connector turns from above.
+// Stock: the front-mount RP-SMA jack's hex body sits in a round pocket under the
+// D-flat roof, the nut and lock washer tighten on top, and the cable leaves
+// through the recess.
 //
 // +Y is the front of the car. The node's port end faces the pylon.
 // Assembly: nylocs in, nylon up; node on with blue threadlocker; magnets.
@@ -115,16 +117,36 @@ tail_straight = 24;                      // free length below bulkhead thread
 cable_d = 2.5;                           // RG316 nominal, check supplied cable
 cable_clear = 1;                         // radial keep-out around free cable
 cable_bend_r = 25;                       // conservative Belden 83284 benchmark
-// The nut is spun up by hand in the chamber and stops turning in a rounded hex trap
-// under the roof; the last turn is on the connector, from above.
-trap_h = alfa ? n_nut_h + n_washer[1] + 0.6 : 0;
-tail = alfa ? [12, 22] : [0, 0];
+// Stock front-mount RP-SMA bulkhead jack, provisional from Amphenol 901-9610-3
+// and Wurth WR-SMA 60312082111560 drawings; measure the supplied Seeed cable.
+// Hex body and crimp ferrule hang under the roof; nut and lock washer go on top.
+s_body_af = 7.92;      // body hex across flats, cable side
+s_body_h = 5;          // body hex height under the roof
+s_body_clear = 0.4;    // radial, round pocket around the hex corners
+s_ferrule_d = 3.3;     // RG316 crimp ferrule
+s_ferrule_h = 8;       // rigid length below the hex, estimated
+s_nut_af = 7.9;        // 1/4-36 panel nut, on the roof
+s_nut_h = 2;
+s_washer = [10.2, 0.5]; // internal-tooth lock washer, on the roof
+s_panel_max = 3.18;    // Amphenol max panel thickness
+s_thread_len = 9.5;    // thread above the body shoulder, estimated
+s_mate_engage = 4;     // antenna coupling thread above the nut
+s_cable_d = 2.5;       // RG316 assumed; RG178 and 1.13 mm are smaller
+s_bend_r = 15;         // RG316 minimum bend
+s_tail_straight = 6;   // free cable below the ferrule before the bend
+s_recess_floor = 22;   // the stock bowl stays above the lower pylon
+// The N-type nut is spun up by hand in the chamber and stops turning in a rounded
+// hex trap under the roof; the last turn is on the connector, from above. The
+// stock body rises into a round pocket; the D-flat bore keys it.
+trap_h = alfa ? n_nut_h + n_washer[1] + 0.6 : s_body_h + 0.6;
+drop_straight = alfa ? tail_straight : s_tail_straight;
+bend_r = alfa ? cable_bend_r : s_bend_r;
+free_cable_d = alfa ? cable_d : s_cable_d;
 recess_channel_w = 10; // rounded lower cable exit, before widening to hardware access
 recess_channel_z = 12; // short lower exit; the taper starts immediately above the bowl
 recess_flare_h = 34;
 recess_arch_drop = 7; // shallow curved crown outside the hardware passage
 recess_scoop_r = 14; // transverse bowl radius beneath rear access opening
-scoop_d = 9;         // sloped scoop from the slot floor out of the back, for the cable
 
 floor_t = recess + stud_len - nut_h - stud_protrusion;
 nut_top = floor_t + nut_h;
@@ -150,26 +172,28 @@ fin_front = tail_y - rail_r - pylon_gap;
 fin_back = fin_front - fin_base_l;
 hole_y = alfa ? -124 : fin_back + fin_top_l / 2;
 pylon_reach = tail_y + 2;             // loft base front Y, buried in the rear rail
-slot = alfa ? [26, 12, hole_y - fin_back + 12] : [12, 10.5, 14];
+slot = [alfa ? 26 : 14, 12, hole_y - fin_back + 12];
 slot_z = fin_h - fin_wall - trap_h - slot[1];
-slot_floor = slot_z - tail[1];
 nose_edge = alfa ? case_l / 2 - 2 : case_l / 2 + 0.5;
 y_max = max(foot_y + boss_r, foot_y + bow + rail_r, nose_edge + ramp_t / 2);
 y_min = min(-foot_y - boss_r, tail_y - rail_r, hole_y - pylon_r);
 length = y_max - y_min;
 width = 2 * (foot_x + boss_r);
-cable_low_z = fin_h - n_thread - tail_straight - cable_bend_r - cable_d / 2 - cable_clear;
+drop_z = alfa ? fin_h - n_thread : fin_h - fin_wall - s_body_h - s_ferrule_h; // free cable starts here
+cable_low_z = drop_z - drop_straight - bend_r - free_cable_d / 2 - cable_clear;
 
 function under_box(p, r) = abs(p[0]) - r < box_w / 2 && abs(p[1] - box_c_y) - r < box_l / 2;
 assert(len([for (f = feet) if (under_box(f, nut_boss_r) && foot_top(f[1]) > rail_t(f[1])) f]) == 0,
   "a nut pocket under the node's box stands taller than the rail: reduce recess or stud_len");
-assert(fin_wall <= (alfa ? n_thread - n_nut_h - n_washer[1] - 2 : 2.8), "bulkhead thread too short for the pylon roof");
+assert(fin_wall <= (alfa ? n_thread - n_nut_h - n_washer[1] - 2 : s_panel_max), "bulkhead thread too short for the pylon roof");
+assert(alfa || s_thread_len >= fin_wall + s_washer[1] + s_nut_h + s_mate_engage,
+  "stock thread leaves no antenna engagement above the panel nut");
+assert(alfa || s_body_af / cos(30) + 2 * s_body_clear < slot[0] - 1, "stock body pocket is wider than the chamber");
 assert(!alfa || hole_y - fin_back + n_nut_af / 2 / cos(30) + 0.5 < slot[2], "nut corners hit the front of the slot");
 assert(!alfa || n_washer[0] + 2 * n_washer_clear + 0.8 < n_nut_af / cos(30),
   "washer passage removes nut corner engagement; recheck hardware dimensions");
 assert(!alfa || fin_h - n_thread < slot_z + slot[1] - n_nut_h, "connector thread ends above the chamber; the nut cannot be started");
 assert(hole_y < -case_l / 2 - 8, "whip would sit under the panel frame");
-assert(alfa || slot[2] < fin_top_l - 4, "nut slot breaks through the pylon's leading edge");
 assert(length + 2 * brim + 2 <= bed && width + 2 * brim + 2 <= bed,
   str("frame plus brim/edge margin exceeds ", bed, " mm: ", width, " x ", length));
 assert(floor_t - recess >= foot_web_min, "stud/nut stack leaves too little plastic: use longer studs or shorter nuts");
@@ -177,7 +201,7 @@ assert(recess >= 0 && stud_leadin >= 0 && stud_leadin < floor_t - recess - 1 && 
   "invalid magnet recess or stud-hole lead-in; retain at least 1 mm straight bore");
 assert(recess + stud_len >= nut_top + stud_protrusion - 0.001, "stud does not fully engage the locknut");
 assert(ramp_half_w <= foot_x - boss_r + 2, "nose wedge runs into the front pockets");
-assert(!alfa || cable_low_z >= 1.5, "lower pylon crowds cable bend below frame");
+assert(cable_low_z >= 1.5, "lower pylon crowds cable bend below frame");
 assert(!alfa || pylon_top_r - top_e >= n_flange[0] / 2 + 0.75,
   "flange reaches pylon roundover; increase flat seating area");
 assert(pylon_r - slot[0] / 2 >= 4, "upper chamber leaves thin pylon cheeks");
@@ -185,12 +209,12 @@ assert(pylon_reach - hole_y > pylon_r, "pylon root does not reach the rear rail"
 
 assert(!alfa || n_nut_corner_d > n_washer[0] + 2 * n_washer_clear + 0.3,
   "rounded nut envelope loses capture; measure nut corners and washer");
-assert(!alfa || recess_channel_w > 6 && recess_channel_w >= cable_d + 2*cable_clear + 2,
+assert(recess_channel_w > 6 && recess_channel_w >= free_cable_d + 2*cable_clear + 2,
   "lower cable channel is too narrow for the cable keep-out and rounded walls");
-assert(!alfa || recess_channel_w < slot[0], "cable exit must be narrower than the hardware chamber");
-assert(!alfa || recess_flare_h > 12 && recess_channel_z + recess_flare_h < slot_z,
+assert(recess_channel_w < slot[0], "cable exit must be narrower than the hardware chamber");
+assert(recess_flare_h > 12 && recess_channel_z + recess_flare_h < slot_z,
   "recess transition must finish below the nut chamber");
-assert(!alfa || recess_scoop_r > slot[0] / 2 - 3, "scoop radius too small for access opening");
+assert(recess_scoop_r > slot[0] / 2 - 3, "scoop radius too small for access opening");
 
 assert(screw_access_bevel >= 0 && screw_access_d - 2*screw_access_bevel >= 16,
   "screw approach crowds the 15 mm tool envelope");
@@ -308,12 +332,12 @@ module bulkhead_bore() {
 
 module fin_cuts() {
   bulkhead_bore();
+  rear_recess();
+  trap_bottom = slot_z - 1;
   if (alfa) {
-    rear_recess();
     // Extend the entrance into the arched chamber, preserving the nut's
     // vertical installation path and the round washer passage. Bearing roof
     // stays flat and 4 mm thick; the six corner stops remain below it.
-    trap_bottom = slot_z - 1;
     translate([0, hole_y, trap_bottom - 1.2])
       cylinder(r1 = (n_nut_af + 2 * n_nut_clear) / (2 * cos(30)) + 0.6,
                r2 = (n_nut_af + 2 * n_nut_clear) / (2 * cos(30)), h = 1.21, $fn = 6);
@@ -323,14 +347,9 @@ module fin_cuts() {
                h = fin_h - fin_wall - n_washer[1] + 0.2 - trap_bottom, $fn = 6);
     }
   } else {
-    r = 3;
-    hull() for (x = [-slot[0] / 2 + r, slot[0] / 2 - r], y = [fin_back - 5, fin_back + slot[2] - r], z = [slot_z + r, slot_z + slot[1] - r])
-      translate([x, y, z]) sphere(r = r, $fn = 48);
-    for (k = [0 : 11]) hull() for (t = [k / 12, (k + 1) / 12]) {
-      y = fin_back + 6 - 14 * t;
-      z = slot_floor + scoop_d / 2 - 1 - 16 * t * t;
-      translate([0, y, z]) sphere(d = scoop_d, $fn = 48);
-    }
+    // Round pocket for the jack's hex body at any angle; the D-flat keys it.
+    translate([0, hole_y, trap_bottom])
+      cylinder(d = s_body_af / cos(30) + 2 * s_body_clear, h = fin_h - fin_wall - trap_bottom);
   }
 }
 
@@ -353,8 +372,10 @@ module rear_recess() {
   yb = hole_y - pylon_r - 8;
   yf = hole_y + slot[0]/2;
   zt = fin_h - fin_wall - trap_h;
-  zc = fin_h - n_thread - tail_straight + 8;
-  zb = max(3, fin_h - 65);
+  // The bowl must start under the arched crown at the chamber's edge, or the
+  // slice polygon folds over itself.
+  zc = min(drop_z - drop_straight + 8, zt - recess_arch_drop - 2);
+  zb = alfa ? max(3, fin_h - 65) : s_recess_floor;
   curve = [for (k = [0 : 48]) bezier([yf, zc], [yf, zb + 10],
     [hole_y - 5, zb], [yb, zb], k / 48)];
   core_half_w = slot[0] / 2 - r;
@@ -473,11 +494,11 @@ module foot_coupon(rear = false, left = false) {
 }
 
 module n_tail_clearance() {
-  bz = fin_h - n_thread - tail_straight;
-  points = concat([[0, hole_y, fin_h - n_thread]],
-    [for (a = [0 : 3 : 90]) [0, hole_y - cable_bend_r * (1 - cos(a)), bz - cable_bend_r * sin(a)]]);
+  bz = drop_z - drop_straight;
+  points = concat([[0, hole_y, drop_z]],
+    [for (a = [0 : 3 : 90]) [0, hole_y - bend_r * (1 - cos(a)), bz - bend_r * sin(a)]]);
   for (i = [0 : len(points) - 2]) hull() for (j = [i, i + 1])
-    translate(points[j]) sphere(d = cable_d + 2 * cable_clear, $fn = 48);
+    translate(points[j]) sphere(d = free_cable_d + 2 * cable_clear, $fn = 48);
 }
 
 use <p1-node-model.scad>
@@ -486,7 +507,7 @@ use <p1-node-model.scad>
 module antenna_preview() {
   translate([0, hole_y, fin_h])
     if (alfa) alfa_915(n_flange=n_flange, coupling_d=n_coupling_d, coupling_h=n_coupling_h);
-    else seeed_rod();
+    else translate([0, 0, s_washer[1] + s_nut_h]) seeed_rod();   // the rod seats on the panel nut
 }
 module node_ghost() {
   seat_frame() translate([0, -seat_c[1], 0]) p1_node();
@@ -497,13 +518,24 @@ module node_ghost() {
 // Actual-size provisional connector stack; exclude bearing-plane contact.
 module bulkhead_hardware() {
   e = 0.01;
-  translate([0, hole_y, fin_h]) {
+  translate([0, hole_y, fin_h]) if (alfa) {
     translate([0, 0, -n_thread]) cylinder(d=n_body_d, h=n_thread+n_flange[1]);
     translate([0, 0, e]) cylinder(d=n_flange[0], h=n_flange[1]-e);
     translate([0, 0, -fin_wall-n_washer[1]])
       cylinder(d=n_washer[0], h=n_washer[1]-e);
     translate([0, 0, -fin_wall-n_washer[1]-n_nut_h])
       cylinder(r=n_nut_af/(2*cos(30)), h=n_nut_h-e, $fn=6);
+  } else {
+    // 1/4-36 thread with its D-flat through the roof; hex body and ferrule below;
+    // lock washer and nut above.
+    translate([0, 0, -fin_wall - e]) linear_extrude(fin_wall + s_thread_len + e) intersection() {
+      circle(d = 6.35);
+      translate([-4, -3.175]) square([8, 5.8]);
+    }
+    translate([0, 0, -fin_wall - s_body_h]) cylinder(r = s_body_af / (2 * cos(30)), h = s_body_h - e, $fn = 6);
+    translate([0, 0, -fin_wall - s_body_h - s_ferrule_h]) cylinder(d = s_ferrule_d, h = s_ferrule_h);
+    translate([0, 0, e]) cylinder(d = s_washer[0], h = s_washer[1] - e);
+    translate([0, 0, s_washer[1]]) cylinder(r = s_nut_af / (2 * cos(30)), h = s_nut_h, $fn = 6);
   }
 }
 check_dy = 0;
@@ -518,13 +550,11 @@ module node_body(dy = check_dy, dz = check_dz) {
 // Union must be empty: no positive interference can cancel another.
 // Grouping checks lets OpenSCAD reuse the same evaluated mount geometry.
 module audit_checks() {
-  if (alfa) {
-    intersection() { mount(); n_tail_clearance(); }
-    intersection() { mount(); bulkhead_hardware(); }
-  }
+  intersection() { mount(); n_tail_clearance(); }
+  intersection() { mount(); bulkhead_hardware(); }
   for (dy = [-3, 0, 3]) {
     intersection() { mount(); node_body(dy, 0); }
-    if (alfa) intersection() { antenna_preview(); node_body(dy, 0); }
+    intersection() { antenna_preview(); node_body(dy, 0); }
   }
 }
 
@@ -540,6 +570,7 @@ else if (part == "seat_coupon") intersection() {
   translate([-pad[0]/2-1, seat_c[1]-pad[1]/2-5, -1]) cube([pad[0]+2,pad[1]+10,fin_h+2]);
 }
 else if (part == "pylon") difference() { fin(); fin_cuts(); }
+else if (part == "recess") rear_recess();
 else if (part == "section") intersection() { mount(); translate([0,y_min-1,-1]) cube([width,length+2,fin_h+2]); }
 else if (part == "check") intersection() { mount(); node_body(); }
 else if (part == "cable_check") intersection() { mount(); n_tail_clearance(); }

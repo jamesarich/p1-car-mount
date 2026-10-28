@@ -2,46 +2,13 @@
   "openscad": "OpenSCAD version 2026.10.11",
   "version": "1.0",
   "source_sha256": {
-    "p1-roof-mount.scad": "37073486db4f3830c2756f6a26d2767ab3a89bc99da1994a11ed6cb44489d38f",
+    "p1-roof-mount.scad": "5929b085cbbd4b1dc83d90330e7e363cc30b27724e2b3a37a3f1d97956c8f127",
     "p1-node-model.scad": "bc72f5cf37ecba9f15331bdb6e1bdc2e26b64c3fb83ad066765c54823ae163fe"
   },
   "intersection_checks": [
     {
       "part": "cable_check",
       "overrides": [],
-      "result": "empty",
-      "batch": "alfa"
-    },
-    {
-      "part": "check",
-      "overrides": [
-        "-D",
-        "check_dy=-3",
-        "-D",
-        "check_dz=0"
-      ],
-      "result": "empty",
-      "batch": "alfa"
-    },
-    {
-      "part": "check",
-      "overrides": [
-        "-D",
-        "check_dy=0",
-        "-D",
-        "check_dz=0"
-      ],
-      "result": "empty",
-      "batch": "alfa"
-    },
-    {
-      "part": "check",
-      "overrides": [
-        "-D",
-        "check_dy=3",
-        "-D",
-        "check_dz=0"
-      ],
       "result": "empty",
       "batch": "alfa"
     },
@@ -55,6 +22,90 @@
       "part": "check",
       "overrides": [
         "-D",
+        "check_dy=-3",
+        "-D",
+        "check_dz=0"
+      ],
+      "result": "empty",
+      "batch": "alfa"
+    },
+    {
+      "part": "antenna_node_check",
+      "overrides": [
+        "-D",
+        "check_dy=-3",
+        "-D",
+        "check_dz=0"
+      ],
+      "result": "empty",
+      "batch": "alfa"
+    },
+    {
+      "part": "check",
+      "overrides": [
+        "-D",
+        "check_dy=0",
+        "-D",
+        "check_dz=0"
+      ],
+      "result": "empty",
+      "batch": "alfa"
+    },
+    {
+      "part": "antenna_node_check",
+      "overrides": [
+        "-D",
+        "check_dy=0",
+        "-D",
+        "check_dz=0"
+      ],
+      "result": "empty",
+      "batch": "alfa"
+    },
+    {
+      "part": "check",
+      "overrides": [
+        "-D",
+        "check_dy=3",
+        "-D",
+        "check_dz=0"
+      ],
+      "result": "empty",
+      "batch": "alfa"
+    },
+    {
+      "part": "antenna_node_check",
+      "overrides": [
+        "-D",
+        "check_dy=3",
+        "-D",
+        "check_dz=0"
+      ],
+      "result": "empty",
+      "batch": "alfa"
+    },
+    {
+      "part": "cable_check",
+      "overrides": [
+        "-D",
+        "antenna=\"stock\""
+      ],
+      "result": "empty",
+      "batch": "stock"
+    },
+    {
+      "part": "bulkhead_check",
+      "overrides": [
+        "-D",
+        "antenna=\"stock\""
+      ],
+      "result": "empty",
+      "batch": "stock"
+    },
+    {
+      "part": "check",
+      "overrides": [
+        "-D",
         "antenna=\"stock\"",
         "-D",
         "check_dy=-3",
@@ -68,12 +119,14 @@
       "part": "antenna_node_check",
       "overrides": [
         "-D",
+        "antenna=\"stock\"",
+        "-D",
         "check_dy=-3",
         "-D",
         "check_dz=0"
       ],
       "result": "empty",
-      "batch": "alfa"
+      "batch": "stock"
     },
     {
       "part": "check",
@@ -92,12 +145,14 @@
       "part": "antenna_node_check",
       "overrides": [
         "-D",
+        "antenna=\"stock\"",
+        "-D",
         "check_dy=0",
         "-D",
         "check_dz=0"
       ],
       "result": "empty",
-      "batch": "alfa"
+      "batch": "stock"
     },
     {
       "part": "check",
@@ -116,12 +171,14 @@
       "part": "antenna_node_check",
       "overrides": [
         "-D",
+        "antenna=\"stock\"",
+        "-D",
         "check_dy=3",
         "-D",
         "check_dz=0"
       ],
       "result": "empty",
-      "batch": "alfa"
+      "batch": "stock"
     }
   ],
   "exported_bore_checks": [
@@ -145,7 +202,7 @@
       "file": "p1-roof-mount-stock.stl",
       "gauge_diameter": 6.75,
       "gauge_shape": "D-flat",
-      "z_from": 55.0,
+      "z_from": 53.5,
       "z_to": 69,
       "result": "empty"
     }
@@ -170,13 +227,18 @@
       "file": "p1-coupon-pylon.stl",
       "path": "washer_rear_entry_and_lift",
       "result": "empty"
+    },
+    {
+      "file": "p1-roof-mount-stock.stl",
+      "path": "body_rear_entry_and_lift",
+      "result": "empty"
     }
   ],
   "exported_nut_rotation_checks": [
     {
       "file": "p1-roof-mount-n-type.stl",
       "angle_degrees": 30,
-      "interference_mm3": 7.124456682295914,
+      "interference_mm3": 7.1244566822958575,
       "result": "blocked"
     },
     {
@@ -190,7 +252,7 @@
     "p1-roof-mount-n-type.stl": {
       "surface_areas_mm2": {
         "other_sloping": 512.6366979794242,
-        "pylon_sloping": 172.99681303884876,
+        "pylon_sloping": 172.99629132276166,
         "pylon_horizontal": 147.51924782437573
       },
       "screw_tool_access": [
@@ -301,11 +363,6 @@
           "minimum": 3.8
         }
       ],
-      "lower_channel_width_mm": 9.993332534951481,
-      "lower_channel_section": {
-        "z": 12,
-        "y": -132
-      },
       "front_and_side_wall_sections": [
         {
           "z": 18,
@@ -465,7 +522,7 @@
         {
           "z": 30,
           "angle": -15,
-          "radial_width_mm": 11.421794082011111
+          "radial_width_mm": 11.421794082011113
         },
         {
           "z": 30,
@@ -525,7 +582,7 @@
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 8.281009263916797
+          "radial_width_mm": 8.281009263916799
         },
         {
           "z": 36,
@@ -595,7 +652,7 @@
         {
           "z": 42,
           "angle": -15,
-          "radial_width_mm": 7.305606909347308
+          "radial_width_mm": 7.305606909347306
         },
         {
           "z": 42,
@@ -640,7 +697,7 @@
         {
           "z": 48,
           "angle": -75,
-          "radial_width_mm": 4.703959898542358
+          "radial_width_mm": 4.70395989854236
         },
         {
           "z": 48,
@@ -655,12 +712,12 @@
         {
           "z": 48,
           "angle": -30,
-          "radial_width_mm": 5.762126339085523
+          "radial_width_mm": 5.762126339085519
         },
         {
           "z": 48,
           "angle": -15,
-          "radial_width_mm": 6.012017527903787
+          "radial_width_mm": 6.012017527903792
         },
         {
           "z": 48,
@@ -725,7 +782,7 @@
         {
           "z": 54,
           "angle": -15,
-          "radial_width_mm": 5.231402798709299
+          "radial_width_mm": 5.231402798709301
         },
         {
           "z": 54,
@@ -745,7 +802,7 @@
         {
           "z": 54,
           "angle": 45,
-          "radial_width_mm": 5.030039385191072
+          "radial_width_mm": 5.0300393851910705
         },
         {
           "z": 54,
@@ -828,6 +885,11 @@
           "radial_width_mm": 6.068448187794221
         }
       ],
+      "lower_channel_width_mm": 9.993332534951474,
+      "lower_channel_section": {
+        "z": 12,
+        "y": -132
+      },
       "root_sections": [
         {
           "z": 8,
@@ -852,7 +914,7 @@
         {
           "test": "corner_d21.5_offset-0.3",
           "result": "blocked",
-          "interference_mm3": 6.632739373757676
+          "interference_mm3": 6.63273937375779
         },
         {
           "test": "corner_d21.5_offset0",
@@ -862,7 +924,7 @@
         {
           "test": "corner_d21.5_offset0.3",
           "result": "blocked",
-          "interference_mm3": 6.632739373761147
+          "interference_mm3": 6.632739373761204
         },
         {
           "test": "corner_d21.3_offset-0.3",
@@ -883,7 +945,7 @@
     },
     "p1-coupon-pylon.stl": {
       "surface_areas_mm2": {
-        "pylon_sloping": 172.99629132276158,
+        "pylon_sloping": 172.99681303884873,
         "pylon_horizontal": 147.51924782437575
       },
       "lower_cheek_sections": [
@@ -968,11 +1030,6 @@
           "minimum": 3.8
         }
       ],
-      "lower_channel_width_mm": 9.993332534951481,
-      "lower_channel_section": {
-        "z": 12,
-        "y": -8
-      },
       "front_and_side_wall_sections": [
         {
           "z": 18,
@@ -1057,7 +1114,7 @@
         {
           "z": 24,
           "angle": -45,
-          "radial_width_mm": 12.43758246969666
+          "radial_width_mm": 12.437582469696661
         },
         {
           "z": 24,
@@ -1127,7 +1184,7 @@
         {
           "z": 30,
           "angle": -30,
-          "radial_width_mm": 10.21727865041422
+          "radial_width_mm": 10.217278650414217
         },
         {
           "z": 30,
@@ -1147,7 +1204,7 @@
         {
           "z": 30,
           "angle": 30,
-          "radial_width_mm": 10.21727865041422
+          "radial_width_mm": 10.217278650414217
         },
         {
           "z": 30,
@@ -1192,7 +1249,7 @@
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 8.281009263916799
+          "radial_width_mm": 8.281009263916797
         },
         {
           "z": 36,
@@ -1212,7 +1269,7 @@
         {
           "z": 36,
           "angle": 30,
-          "radial_width_mm": 8.281009263916799
+          "radial_width_mm": 8.281009263916797
         },
         {
           "z": 36,
@@ -1495,6 +1552,11 @@
           "radial_width_mm": 6.068448187794221
         }
       ],
+      "lower_channel_width_mm": 9.993332534951481,
+      "lower_channel_section": {
+        "z": 12,
+        "y": -8
+      },
       "root_sections": [
         {
           "z": 8,
@@ -1524,7 +1586,7 @@
         {
           "test": "corner_d21.5_offset0",
           "result": "blocked",
-          "interference_mm3": 4.700354507273129
+          "interference_mm3": 4.700354507273122
         },
         {
           "test": "corner_d21.5_offset0.3",
@@ -1539,7 +1601,7 @@
         {
           "test": "corner_d21.3_offset0",
           "result": "blocked",
-          "interference_mm3": 2.680517402959746
+          "interference_mm3": 2.680517402959739
         },
         {
           "test": "corner_d21.3_offset0.3",
@@ -1557,8 +1619,8 @@
     "p1-roof-mount-stock.stl": {
       "surface_areas_mm2": {
         "other_sloping": 512.6366979794243,
-        "pylon_sloping": 45.14315063947954,
-        "pylon_horizontal": 58.0042671851034
+        "pylon_sloping": 61.430277136977814,
+        "pylon_horizontal": 45.53266001570133
       },
       "screw_tool_access": [
         {
@@ -1607,14 +1669,383 @@
         }
       ],
       "chamber_cheek_section": {
-        "z": 60.25,
+        "z": 53.9,
         "y": -121.2,
         "x_widths_mm": [
-          5.934529483249925,
-          5.934529410538369
+          6.040396525809355,
+          6.040456295018385
         ],
         "minimum": 4
-      }
+      },
+      "lower_cheek_sections": [
+        {
+          "z": 35,
+          "x_widths_mm": [
+            5.792326862730431,
+            5.792326862730431
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 40,
+          "x_widths_mm": [
+            5.4200550252653095,
+            5.4200550252653095
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 45,
+          "x_widths_mm": [
+            5.272899203359516,
+            5.272899203359516
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 50,
+          "x_widths_mm": [
+            5.294215332837854,
+            5.294215332837854
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 55,
+          "x_widths_mm": [
+            6.885450491392485,
+            6.885450491392485
+          ],
+          "minimum": 3.8
+        }
+      ],
+      "front_and_side_wall_sections": [
+        {
+          "z": 36,
+          "angle": -90,
+          "radial_width_mm": 5.693424950018703
+        },
+        {
+          "z": 36,
+          "angle": -75,
+          "radial_width_mm": 6.297168774620565
+        },
+        {
+          "z": 36,
+          "angle": -60,
+          "radial_width_mm": 7.5030489399847164
+        },
+        {
+          "z": 36,
+          "angle": -45,
+          "radial_width_mm": 9.414591631955503
+        },
+        {
+          "z": 36,
+          "angle": -30,
+          "radial_width_mm": 11.176928136043664
+        },
+        {
+          "z": 36,
+          "angle": -15,
+          "radial_width_mm": 12.34853539394536
+        },
+        {
+          "z": 36,
+          "angle": 0,
+          "radial_width_mm": 12.768696758136414
+        },
+        {
+          "z": 36,
+          "angle": 15,
+          "radial_width_mm": 12.34853539394536
+        },
+        {
+          "z": 36,
+          "angle": 30,
+          "radial_width_mm": 11.176928136043664
+        },
+        {
+          "z": 36,
+          "angle": 45,
+          "radial_width_mm": 9.414591631955503
+        },
+        {
+          "z": 36,
+          "angle": 60,
+          "radial_width_mm": 7.503048939984716
+        },
+        {
+          "z": 36,
+          "angle": 75,
+          "radial_width_mm": 6.297168774620565
+        },
+        {
+          "z": 36,
+          "angle": 90,
+          "radial_width_mm": 5.693424950018703
+        },
+        {
+          "z": 42,
+          "angle": -90,
+          "radial_width_mm": 5.323720028553885
+        },
+        {
+          "z": 42,
+          "angle": -75,
+          "radial_width_mm": 5.636692459691045
+        },
+        {
+          "z": 42,
+          "angle": -60,
+          "radial_width_mm": 6.208677355949605
+        },
+        {
+          "z": 42,
+          "angle": -45,
+          "radial_width_mm": 6.8903707231092195
+        },
+        {
+          "z": 42,
+          "angle": -30,
+          "radial_width_mm": 7.5845626232971215
+        },
+        {
+          "z": 42,
+          "angle": -15,
+          "radial_width_mm": 8.389136049564165
+        },
+        {
+          "z": 42,
+          "angle": 0,
+          "radial_width_mm": 8.730528850580413
+        },
+        {
+          "z": 42,
+          "angle": 15,
+          "radial_width_mm": 8.389136049564165
+        },
+        {
+          "z": 42,
+          "angle": 30,
+          "radial_width_mm": 7.58456262329712
+        },
+        {
+          "z": 42,
+          "angle": 45,
+          "radial_width_mm": 6.8903707231092195
+        },
+        {
+          "z": 42,
+          "angle": 60,
+          "radial_width_mm": 6.208677355949605
+        },
+        {
+          "z": 42,
+          "angle": 75,
+          "radial_width_mm": 5.636692459691045
+        },
+        {
+          "z": 42,
+          "angle": 90,
+          "radial_width_mm": 5.323720028553885
+        },
+        {
+          "z": 48,
+          "angle": -90,
+          "radial_width_mm": 5.290218109540846
+        },
+        {
+          "z": 48,
+          "angle": -75,
+          "radial_width_mm": 5.494926699077966
+        },
+        {
+          "z": 48,
+          "angle": -60,
+          "radial_width_mm": 5.8123625097537355
+        },
+        {
+          "z": 48,
+          "angle": -45,
+          "radial_width_mm": 6.190297673448377
+        },
+        {
+          "z": 48,
+          "angle": -30,
+          "radial_width_mm": 6.539700084415367
+        },
+        {
+          "z": 48,
+          "angle": -15,
+          "radial_width_mm": 6.789436205815539
+        },
+        {
+          "z": 48,
+          "angle": 0,
+          "radial_width_mm": 6.879613631384487
+        },
+        {
+          "z": 48,
+          "angle": 15,
+          "radial_width_mm": 6.789436205815537
+        },
+        {
+          "z": 48,
+          "angle": 30,
+          "radial_width_mm": 6.539700084415367
+        },
+        {
+          "z": 48,
+          "angle": 45,
+          "radial_width_mm": 6.190297673448377
+        },
+        {
+          "z": 48,
+          "angle": 60,
+          "radial_width_mm": 5.8123625097537355
+        },
+        {
+          "z": 48,
+          "angle": 75,
+          "radial_width_mm": 5.494926699077966
+        },
+        {
+          "z": 48,
+          "angle": 90,
+          "radial_width_mm": 5.290218109540846
+        },
+        {
+          "z": 54,
+          "angle": -90,
+          "radial_width_mm": 6.477586156525845
+        },
+        {
+          "z": 54,
+          "angle": -75,
+          "radial_width_mm": 6.318639369472241
+        },
+        {
+          "z": 54,
+          "angle": -60,
+          "radial_width_mm": 5.854252383725911
+        },
+        {
+          "z": 54,
+          "angle": -45,
+          "radial_width_mm": 5.736972160372139
+        },
+        {
+          "z": 54,
+          "angle": -30,
+          "radial_width_mm": 5.905297699672
+        },
+        {
+          "z": 54,
+          "angle": -15,
+          "radial_width_mm": 6.026957009596773
+        },
+        {
+          "z": 54,
+          "angle": 0,
+          "radial_width_mm": 6.0726136313844705
+        },
+        {
+          "z": 54,
+          "angle": 15,
+          "radial_width_mm": 6.026957009596768
+        },
+        {
+          "z": 54,
+          "angle": 30,
+          "radial_width_mm": 5.905297699672
+        },
+        {
+          "z": 54,
+          "angle": 45,
+          "radial_width_mm": 5.736972160372139
+        },
+        {
+          "z": 54,
+          "angle": 60,
+          "radial_width_mm": 5.854252383725911
+        },
+        {
+          "z": 54,
+          "angle": 75,
+          "radial_width_mm": 6.318639369472241
+        },
+        {
+          "z": 54,
+          "angle": 90,
+          "radial_width_mm": 6.477586156525845
+        },
+        {
+          "z": 60,
+          "angle": -90,
+          "radial_width_mm": 7.327374283350186
+        },
+        {
+          "z": 60,
+          "angle": -75,
+          "radial_width_mm": 7.324186159917009
+        },
+        {
+          "z": 60,
+          "angle": -60,
+          "radial_width_mm": 7.3242091955905835
+        },
+        {
+          "z": 60,
+          "angle": -45,
+          "radial_width_mm": 7.327481202122262
+        },
+        {
+          "z": 60,
+          "angle": -30,
+          "radial_width_mm": 7.324147966039225
+        },
+        {
+          "z": 60,
+          "angle": -15,
+          "radial_width_mm": 7.324108475541399
+        },
+        {
+          "z": 60,
+          "angle": 0,
+          "radial_width_mm": 7.327385868018169
+        },
+        {
+          "z": 60,
+          "angle": 15,
+          "radial_width_mm": 7.324108475541399
+        },
+        {
+          "z": 60,
+          "angle": 30,
+          "radial_width_mm": 7.324147966039225
+        },
+        {
+          "z": 60,
+          "angle": 45,
+          "radial_width_mm": 7.327481202122262
+        },
+        {
+          "z": 60,
+          "angle": 60,
+          "radial_width_mm": 7.3242091955905835
+        },
+        {
+          "z": 60,
+          "angle": 75,
+          "radial_width_mm": 7.324186159917009
+        },
+        {
+          "z": 60,
+          "angle": 90,
+          "radial_width_mm": 7.327374283350186
+        }
+      ]
     },
     "p1-coupon-rear-left-foot.stl": {
       "surface_areas_mm2": {}
@@ -1655,7 +2086,7 @@
     "p1-roof-mount-n-type.stl": {
       "antenna": "alfa",
       "part": "mount",
-      "triangles": 93988,
+      "triangles": 93994,
       "bounds": [
         [
           -100.0,
@@ -1673,17 +2104,17 @@
         241.5,
         68.0
       ],
-      "volume_mm3": 399471.68084081716,
+      "volume_mm3": 399471.6808408172,
       "components": 1,
-      "near_zero_area_triangles": 5,
+      "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 147.51924782437573,
-      "sha256": "36ed69bef5b041ae29156446a3b89f15a29c239bf59fef74466858c9dc80d2b1",
+      "sha256": "7974d6a96daee41ecf732f41b56344643165f4402f3ac896a962c082acbd9c16",
       "render_attempts": 1
     },
     "p1-coupon-pylon.stl": {
       "antenna": "alfa",
       "part": "coupon",
-      "triangles": 40768,
+      "triangles": 40742,
       "bounds": [
         [
           -26.7171375,
@@ -1705,7 +2136,7 @@
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 147.51924782437575,
-      "sha256": "f16a9ceecb22b335d76561985691567685d277c69db30712c5dcee1f35426e7f",
+      "sha256": "8549dbbe371d32f7c461d8f85149cb6e6a3de2e93a684eef1e08902dc4507553",
       "render_attempts": 1
     },
     "p1-coupon-front-foot.stl": {
@@ -1733,13 +2164,13 @@
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "639ea82255378156cbefde0029f5fe366e9e26fce24c1d3c0ce243753385d21e",
+      "sha256": "6dcd132ee0e73c634995cc9285aa60e7076a07fdadb4ebcde1065c3c0d4f0aad",
       "render_attempts": 1
     },
     "p1-coupon-rear-right-foot.stl": {
       "antenna": "alfa",
       "part": "rear_foot_coupon",
-      "triangles": 7138,
+      "triangles": 7144,
       "bounds": [
         [
           -25.0,
@@ -1761,17 +2192,17 @@
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "cf6ced42b038727b8b4f45ce150f706eaa5cd0cb4d079c872deae9fa970fd586",
+      "sha256": "51f4069062e9a721355476d7830b64d9ae984f4b943293c1f2be7aa0f0ff51e3",
       "render_attempts": 1
     },
     "p1-roof-mount-stock.stl": {
       "antenna": "stock",
       "part": "mount",
-      "triangles": 78472,
+      "triangles": 86830,
       "bounds": [
         [
           -100.0,
-          -130.44300140173874,
+          -130.5,
           0.0
         ],
         [
@@ -1782,20 +2213,20 @@
       ],
       "size": [
         200.0,
-        231.54300140173874,
+        231.6,
         68.0
       ],
-      "volume_mm3": 387398.25813216215,
+      "volume_mm3": 382385.0412851811,
       "components": 1,
       "near_zero_area_triangles": 0,
-      "elevated_downward_flat_area_mm2": 58.0042671851034,
-      "sha256": "894e80c90a4151f671305d86e66377756e29270fa4232f6aa52c9de7eb2f2dcd",
+      "elevated_downward_flat_area_mm2": 45.53266001570133,
+      "sha256": "8c4a1eb2970b33c7547754e72f0697cd576347abd581f146da48afe7d31aac53",
       "render_attempts": 1
     },
     "p1-coupon-rear-left-foot.stl": {
       "antenna": "alfa",
       "part": "rear_left_foot_coupon",
-      "triangles": 7248,
+      "triangles": 7250,
       "bounds": [
         [
           -24.0,
@@ -1813,11 +2244,11 @@
         49.0,
         18.0
       ],
-      "volume_mm3": 31334.827620482996,
+      "volume_mm3": 31334.827620483004,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "e6b284aabfbb727a7a84858d5d0053c1b1d5df5e78644086990bcde613129a58",
+      "sha256": "81adce404eb7c5e9f468338afc77e892bf1a5852e095f1a4ecdedfa47c2f4794",
       "render_attempts": 1
     },
     "p1-coupon-seat.stl": {

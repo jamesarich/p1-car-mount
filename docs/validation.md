@@ -8,36 +8,37 @@ Version `1.0`, built with `OpenSCAD version 2026.10.11`. Values refer to the pub
 |---|---:|---:|
 | Pylon root width at Y=−98, Z=8/12/16 | 39.910 / 34.285 / 28.358 mm | 30.119 / 26.376 / 22.357 mm |
 | Root width minimums enforced | 34 / 30 / 24 mm | 26 / 22 / 18 mm |
-| Minimum sampled radial front/side wall | 4.489 mm | n/a (solid below the chamber) |
-| Chamber cheeks at Y=hole−3, mid-height | n/a | 5.935 mm each |
+| Minimum sampled radial front/side wall | 4.489 mm | 5.290 mm |
+| Minimum recess cheek, transverse sections | 4.49 mm (4.2 mm enforced to Z=30, 3.8 mm above) | 5.27 mm (3.8 mm enforced, Z=35 to 55) |
+| Chamber cheeks at Y=hole−3, mid-height | n/a | 6.040 mm each |
 | Lower cable channel at Y=−132, Z=12 | 9.993 mm | n/a |
-| Pylon horizontal downward area | 147.519 mm² | 58.004 mm² |
-| Other pylon downward slopes over 45° from vertical | 172.996 mm² | 45.143 mm² |
-| Envelope | 200 × 241.5 × 68 mm | 200 × 231.5 × 68 mm |
-| Solid mesh volume | 399.472 cm³ | 387.398 cm³ |
+| Pylon horizontal downward area | 147.519 mm² | 45.533 mm² |
+| Other pylon downward slopes over 45° from vertical | 172.996 mm² | 61.430 mm² |
+| Envelope | 200 × 241.5 × 68 mm | 200 × 231.6 × 68 mm |
+| Solid mesh volume | 399.472 cm³ | 382.385 cm³ |
 
-Radial wall samples cover Z=18/24/30/36/42/48/54/60 mm and angles −90° through +90° in 15° steps around the connector axis, toward the front half of the N-type pylon. They are not a global minimum-thickness or strength calculation. Root widths exclude the distant magnet feet.
+Radial wall samples cover angles −90° through +90° in 15° steps around the connector axis, toward the front half of each pylon, at Z=18 to 60 mm in 6 mm steps (N-type) or Z=36 to 60 mm (stock, whose bowl floor is higher). They are not a global minimum-thickness or strength calculation. Root widths exclude the distant magnet feet.
 
 Both pylons need selective support under their crowns and chambers; the small horizontal ledge areas do not make them support-free. Solid mesh volume is not slicer filament usage.
 
 ## Completed checks
 
-- 22 scalar assertions for each antenna configuration, plus OpenSCAD's source-rendered assertions.
-- 11 source interference checks, grouped into two empty unions: eight N-type and three stock checks. These cover cable bend, connector stack, node travel at −3/0/+3 mm and N-type antenna/node clearance. Union cannot cancel interference.
-- 3 exported bore probes; 4 rear nut/washer entry-and-lift sweeps.
+- 23 scalar assertions for each antenna configuration, plus OpenSCAD's source-rendered assertions.
+- 16 source interference checks, grouped into two empty unions of eight per antenna. Each covers cable bend, connector stack, node travel at −3/0/+3 mm and antenna/node clearance. Union cannot cancel interference.
+- 3 exported bore probes; 5 rear entry-and-lift sweeps: N-type nut and washer on the frame and coupon, and the stock jack body with its ferrule.
 - 18 Ø15 mm screw/tool access sweeps at both slots' −3/0/+3 mm positions.
 - 2 nominal nut rotation stops and 12 rounded-corner sensitivity checks.
-- 208 radial front/side wall checks, each requiring at least 4 mm; nine root-section checks across both pylons; twenty transverse N-type pylon sections, two lower-channel gauges and one stock chamber-cheek section.
+- 273 radial front/side wall checks (208 N-type, 65 stock), each requiring at least 4 mm; nine root-section checks across both pylons; 25 transverse pylon sections (20 N-type, 5 stock), two lower-channel gauges and one stock chamber-cheek section.
 - Both rear grips checked for excessive downward overhang, with separate strict horizontal-underside checks on all foot coupons.
 - 7 meshes pass finite vertices, no zero-area triangles, two incident faces per edge, positive oriented volume, one connected component, bed bounds and no geometry below the build plane.
-- 680 horizontal sections across the two frames at 0.2 mm spacing: no entirely floating material islands. Section-integrated volume agrees with mesh volume within 0.0011% (N-type) and 0.0001% (stock), which rules out missing or open section contours.
+- 680 horizontal sections across the two frames at 0.2 mm spacing: no entirely floating material islands. Section-integrated volume agrees with mesh volume within 0.0011% (N-type) and 0.0003% (stock), which rules out missing or open section contours.
 
 ## Exports
 
 | File | Dimensions, mm |
 |---|---|
 | `p1-roof-mount-n-type.stl` | 200.000 × 241.500 × 68.000 |
-| `p1-roof-mount-stock.stl` | 200.000 × 231.543 × 68.000 |
+| `p1-roof-mount-stock.stl` | 200.000 × 231.600 × 68.000 |
 | `p1-coupon-pylon.stl` | 53.434 × 61.953 × 68.000 |
 | `p1-coupon-seat.stl` | 44.000 × 80.000 × 16.650 |
 | `p1-coupon-front-foot.stl` | 49.000 × 49.000 × 24.000 |

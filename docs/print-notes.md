@@ -5,12 +5,12 @@ One printed frame with direct bulkhead antenna mounting and no added fasteners. 
 ## Design
 
 - Both pylons are the same continuous loft: a round top with a 4 mm roundover over a broad root that spreads forward and sideways into the rear rail and center spine. The N-type top is Ø35 mm; the stock top is Ø24.6 mm. The spine ends inside the root.
-- The stock pylon is solid below a rounded chamber under its 2.5 mm roof. The RP-SMA nut is fitted in that chamber and the cable leaves through a sloped scoop in the back.
-- The N-type rear recess has a short 10 mm cable exit, a long gentle taper from Z=12 mm above a curved bowl, and a rounded crown. Its forward end is rounded in plan to follow the outside wall; the build rejects any sampled radial wall under 4 mm across 104 front/side samples per N-type frame and coupon. These are sampled thicknesses, not a strength rating.
+- Both pylons share one rear recess: a short 10 mm cable exit, a long gentle taper above a curved bowl, and a rounded crown, rounded in plan at its forward end to follow the outside wall. The N-type chamber is 26 mm wide with its bowl near the bed; the stock chamber is 14 mm wide with its bowl floor at Z=22 mm. The build rejects any sampled radial wall under 4 mm (104 front/side samples per N-type frame and coupon, 65 on the stock frame). These are sampled thicknesses, not a strength rating.
+- The stock RP-SMA jack mounts from below: its hex body sits in a round pocket under the 2.5 mm D-flat roof, which keys it against turning, and the lock washer and nut tighten on top.
 - The lower rear face retreats to clear the modeled cable bend.
 - The underside node-screw pockets follow the full ±3 mm shank-slot travel. Their 18 × 24 mm capsule entrances bevel down to 16 × 22 mm at the flat bearing shoulder; the bearing web is 2 mm.
 - The rear grips are curved finger scoops under level rear bosses, each boss a single rounded solid with no underside shelf.
-- Nut capture is slotless: a Ø21.1 mm washer passage with six hex corner stops. Rotation checks include hypothetical nut corner diameters of 21.5 and 21.3 mm at lateral offsets −0.3/0/+0.3 mm. Those are sensitivity tests, not measured hardware specifications.
+- N-type nut capture is slotless: a Ø21.1 mm washer passage with six hex corner stops. Rotation checks include hypothetical nut corner diameters of 21.5 and 21.3 mm at lateral offsets −0.3/0/+0.3 mm. Those are sensitivity tests, not measured hardware specifications.
 - OpenSCAD's fast preview can show a stray line on the front air dam; the evaluated and exported solid has none. Preview evaluates the mount before display.
 
 ## Which files to print
@@ -25,7 +25,7 @@ One printed frame with direct bulkhead antenna mounting and no added fasteners. 
 | `p1-coupon-rear-right-foot.stl` | Right rear foot and grip |
 | `p1-coupon-rear-left-foot.stl` | Left rear foot and grip |
 
-Coupons are test pieces, not assembly parts; the pylon coupon is N-type only. The N-type frame is 200 × 241.5 × 68 mm and the stock frame is 200 × 231.5 × 68 mm. Center it on the bed and reserve space for the brim and supports; the 256 mm bed allowance includes a 4 mm brim and at least 1 mm edge margin on each side.
+Coupons are test pieces, not assembly parts; the pylon coupon is N-type only. The N-type frame is 200 × 241.5 × 68 mm and the stock frame is 200 × 231.6 × 68 mm. Center it on the bed and reserve space for the brim and supports; the 256 mm bed allowance includes a 4 mm brim and at least 1 mm edge margin on each side.
 
 ## Printing and supports
 
@@ -33,7 +33,7 @@ Print feet down in the exported orientation. Start with ASA at 0.2 mm layers, si
 
 The complete frame needs selective support or bridging:
 
-- Beneath the flat washer-bearing ledge and small nut-pocket shoulders. Keep supports removable through the rear opening and avoid damaging the corner stops during cleanup.
+- Beneath the flat washer-bearing ledge and small nut-pocket shoulders (N-type) or the body-pocket ceiling (stock). Keep supports removable through the rear opening and avoid damaging the corner stops during cleanup.
 - The two node-screw bearing ceilings. Their enlarged access pockets accommodate tool travel but still have flat bearing shoulders.
 - The rounded pylon crown, where the slicer shows shallow overhangs. Remove these supports through the upper opening; the 10 mm lower cable exit is not the removal route.
 - The magnet foot bearing faces are flat and their vertical stud holes have first-layer lead-ins, so the feet need no support.
@@ -42,7 +42,7 @@ The horizontal-section audit is a geometry check, not a sliced toolpath. No slic
 
 ## Assembly
 
-Stock frame: remove the RP-SMA bulkhead nut, feed the cable down through the D-flat bore so the flat keys the connector, and start the nut on the thread inside the chamber through the rear window. Lead the cable out of the rear scoop to the node's jack.
+Stock frame: remove the bulkhead nut and lock washer. The cable's node-end plug is wider than the Ø6.8 bore, so work from inside: bring the bulkhead end up through the rear recess and push its thread up through the D-flat bore until the hex body seats in the pocket under the roof. Fit the lock washer and nut on top and tighten with an 8 mm wrench, then screw on the antenna. Lead the cable down through the recess and out of the rear opening to the node's jack.
 
 N-type frame: remove the connector nut and washer. Feed the cable through the antenna bore from above and slip the washer, then nut, onto the free cable end. Bring each into the rear chamber below the threaded shank, roughly 44 mm above the frame bed, and raise it on the connector axis. The washer passes upward through the round relief and rests beneath the roof.
 
@@ -52,9 +52,11 @@ The underside access slots accept the modeled Ø15 mm tool envelope at all three
 
 ## Dimensions and limits
 
-The bulkhead envelope is provisional: shank Ø15.875 mm, 15 mm panel-thread length, flange Ø24 mm, nut 19.1 mm across flats × 2.82 mm thick, and washer Ø20.5 × 1.1 mm. The straight antenna bore is Ø16.475 mm with a 0.4 mm entrance chamfer. The washer passage has 0.3 mm radial allowance. Confirm nut corners as well as flats: small or heavily rounded corners can defeat capture even if the nut fits.
+The bulkhead envelope is provisional: shank Ø15.875 mm, 15 mm panel-thread length, flange Ø24 mm, nut 19.1 mm across flats × 2.82 mm thick, and washer Ø20.5 × 1.1 mm. The straight antenna bore is Ø16.475 mm with a 0.4 mm entrance chamfer. The washer passage has 0.3 mm radial allowance. Confirm nut corners as well as flats: small or heavily rounded corners can defeat capture even if the nut fits. Seeed publishes no drawing for the 100007236 cable's N-female bulkhead; a standard N bulkhead drawing (L-com AXA-NFNFB) shows a Ø22 × 0.5 mm toothed lock washer, which would not pass the Ø21.1 mm passage. Measure the supplied washer before printing.
 
-The modeled cable uses a 25 mm bend radius and a 1 mm radial keep-out around Ø2.5 mm cable. The magnet foot web is nominally 3.03 mm, with 1.27 mm stud protrusion beyond the modeled nut. Back-box and insert coordinates, connector hardware and magnet stud/nut dimensions still require confirmation against the actual parts. No aerodynamic, road-load or tightening-torque performance has been measured.
+The stock RP-SMA envelope is provisional, taken from Amphenol 901-9610-3 and Würth WR-SMA 60312082111560 drawings because Seeed publishes none for the P1 cable: 1/4-36 UNS thread with a 5.8 mm D-flat, hex body 7.92 mm across flats × 5 mm, nut 7.9 mm across flats × 2 mm, lock washer Ø10.2 × 0.5 mm, 3.18 mm maximum panel, and an estimated 9.5 mm thread above the body, which leaves 4 mm of antenna engagement above the nut.
+
+The modeled N-type cable uses a 25 mm bend radius and the stock cable a 15 mm bend radius (RG316; RG178 is rated to 10.16 mm), each with a 1 mm radial keep-out around Ø2.5 mm cable. The magnet foot web is nominally 3.03 mm, with 1.27 mm stud protrusion beyond the modeled nut. Back-box and insert coordinates, connector hardware and magnet stud/nut dimensions still require confirmation against the actual parts. No aerodynamic, road-load or tightening-torque performance has been measured.
 
 ## Rebuild
 

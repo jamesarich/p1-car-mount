@@ -24,11 +24,11 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 
 ## Print settings
 
-- Printer: Bambu P1S (256 mm bed). Frames are 200 × 241.5 × 68 mm (N-type) and 200 × 231.5 × 68 mm (stock).
+- Printer: Bambu P1S (256 mm bed). Frames are 200 × 241.5 × 68 mm (N-type) and 200 × 231.6 × 68 mm (stock).
 - Material: ASA, light color.
 - 0.2 mm layers, 6 walls, 40% infill, 4 mm brim.
 - Orientation: feet down, as exported. Center on the bed.
-- Supports: under the pylon crown and nut chamber, and the two node-screw ceilings. The flat feet need none.
+- Supports: under the pylon crown and hardware chamber, and the two node-screw ceilings. The flat feet need none.
 
 No slicer project or physical print has validated this design yet. Treat these as starting settings and tune with the coupons.
 
@@ -37,8 +37,8 @@ No slicer project or physical print has validated this design yet. Treat these a
 - Seeed SenseCAP Solar Node P1 or P1-Pro
 - 6× DIYMAG 1.69" (43 mm) magnets with 1/4" studs, plus 6× 1/4-20 nylon-insert lock nuts
 - 2× 1/4-20 screws into the node's back inserts, length checked against `docs/print-notes.md`
-- N-type frame: an RP-SMA to N-female bulkhead cable (RG316) and an N-male antenna
-- Stock frame: the node's RP-SMA bulkhead cable and stock rod antenna
+- N-type frame: Seeed 100007236 RP-SMA male to N-female bulkhead cable (300 mm, RG316) and an N-male antenna
+- Stock frame: the node's 300 mm RP-SMA bulkhead cable with its nut and lock washer, and the stock rod antenna
 - Blue threadlocker
 
 Hardware dimensions are modeled from datasheets and photos and are still provisional. Confirm the nut corners, washer, thread length, socket and magnet studs with the coupons.
@@ -46,7 +46,7 @@ Hardware dimensions are modeled from datasheets and photos and are still provisi
 ## Assembly
 
 1. Press the lock nuts into the feet, nylon up, and thread on the magnets.
-2. Fit the bulkhead connector down through the pylon bore and start its nut from the rear chamber. Full steps for both frames are in `docs/print-notes.md`.
+2. Fit the bulkhead connector. N-type: the connector drops in from above and its nut and washer go on from the rear chamber. Stock: the jack pushes up from inside the rear recess and its nut and lock washer go on top. Full steps are in `docs/print-notes.md`.
 3. Bolt the node to the hub with threadlocker.
 4. Remove the mount by lifting one rear corner at the grip under the boss, never by the node.
 

@@ -30,10 +30,10 @@ def cross_section(triangles, z, y):
     return unique
 
 
-def radial_walls(triangles, y, minimum=4):
+def radial_walls(triangles, y, minimum=4, levels=(18, 24, 30, 36, 42, 48, 54, 60)):
     """Sample the front half of the shell along rays from the connector axis."""
     results = []
-    for z in (18, 24, 30, 36, 42, 48, 54, 60):
+    for z in levels:
         segments = []
         for tri in triangles:
             points = []
@@ -147,10 +147,11 @@ def validate(path, part, antenna, p, executable, temp, vertices, mesh_stats):
             raise ValueError(f'{path.name}: thin chamber cheeks: {widths}')
         result['chamber_cheek_section'] = dict(z=z, y=p['hole_y']-3, x_widths_mm=widths, minimum=4)
 
-    if antenna == 'alfa' and part in ('mount', 'coupon'):
+    if part in ('mount', 'coupon'):
         y = 0 if part == 'coupon' else p['hole_y']
         result['lower_cheek_sections'] = []
-        for z in (16, 18, 20, 25, 30, 35, 40, 45, 50, 55):
+        # The stock bowl floor sits higher, so its open sections start at Z=35.
+        for z in ((16, 18, 20, 25, 30, 35, 40, 45, 50, 55) if antenna == 'alfa' else (35, 40, 45, 50, 55)):
             crossings = cross_section(triangles, z, y)
             if len(crossings) != 4:
                 raise ValueError(f'{path.name}: unexpected lower pylon section at Z={z}: {crossings}')
@@ -159,6 +160,10 @@ def validate(path, part, antenna, p, executable, temp, vertices, mesh_stats):
             if min(widths) < minimum:
                 raise ValueError(f'{path.name}: thin pylon cheeks at Z={z}: {widths}')
             result['lower_cheek_sections'].append(dict(z=z, x_widths_mm=widths, minimum=minimum))
+        result['front_and_side_wall_sections'] = radial_walls(
+            triangles, y, levels=(18, 24, 30, 36, 42, 48, 54, 60) if antenna == 'alfa' else (36, 42, 48, 54, 60))
+
+    if antenna == 'alfa' and part in ('mount', 'coupon'):
         channel_z = p['recess_channel_z']
         channel_y = y-8
         crossings = cross_section(triangles, channel_z, channel_y)
@@ -169,7 +174,6 @@ def validate(path, part, antenna, p, executable, temp, vertices, mesh_stats):
             raise ValueError(f'{path.name}: unexpected lower cable channel width {opening}')
         result['lower_channel_width_mm'] = opening
         result['lower_channel_section'] = dict(z=channel_z, y=channel_y)
-        result['front_and_side_wall_sections'] = radial_walls(triangles, y)
         result['root_sections'] = root_sections(y+26, ((8, 34), (12, 30), (16, 24)))
         if result['surface_areas_mm2'].get('pylon_horizontal', 0) > 220:
             raise ValueError(f'{path.name}: broad flat chamber ceiling returned')

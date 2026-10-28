@@ -125,16 +125,17 @@ def main():
                 raise RuntimeError(result.stderr)
             return result
         # Intersections must render empty. OpenSCAD may exit nonzero on an empty mesh.
-        checks = [('cable_check', ())]
-        for shift in (-3, 0, 3):
-            checks.append(('check', ('-D', f'check_dy={shift}', '-D', 'check_dz=0')))
-        checks.append(('bulkhead_check', ()))
-        for shift in (-3, 0, 3):
-            checks.append(('check', ('-D', 'antenna="stock"', '-D', f'check_dy={shift}', '-D', 'check_dz=0')))
-            checks.append(('antenna_node_check', ('-D', f'check_dy={shift}', '-D', 'check_dz=0')))
-        # The source's audit_checks part unions the eight ALFA and three stock
-        # interference checks in two evaluations, reusing geometry within each
-        # process. A union is empty only if every constituent intersection is empty.
+        checks = []
+        for antenna in ('alfa', 'stock'):
+            override = () if antenna == 'alfa' else ('-D', 'antenna="stock"')
+            checks.append(('cable_check', override))
+            checks.append(('bulkhead_check', override))
+            for shift in (-3, 0, 3):
+                checks.append(('check', (*override, '-D', f'check_dy={shift}', '-D', 'check_dz=0')))
+                checks.append(('antenna_node_check', (*override, '-D', f'check_dy={shift}', '-D', 'check_dz=0')))
+        # The source's audit_checks part unions the eight interference checks of
+        # each antenna in one evaluation, reusing geometry within the process.
+        # A union is empty only if every constituent intersection is empty.
         manifest['source_check_batches'] = []
         for antenna in ('alfa', 'stock'):
             result = render(temp / f'intersection-{antenna}.stl', antenna, 'audit_checks')
@@ -197,38 +198,53 @@ def main():
                     raise ValueError(f'{name}: exported antenna passage obstructed:\n{result.stderr}')
                 manifest['exported_bore_checks'].append(dict(file=name, gauge_diameter=diameter, gauge_shape='round' if antenna == 'alfa' else 'D-flat',
                                                             z_from=top-depth, z_to=top+1, result='empty'))
+                # Sweep solid hardware envelopes through the exported mesh.
+                # N-type: nut enters below the shank, then rises into its hex
+                # seat; washer follows the same lower entrance and rises through
+                # the round relief inside the hex pocket. Stock: the jack's hex
+                # body with its ferrule enters the chamber and rises into the
+                # round pocket under the roof.
+                dz = params['fin_h'] - top
+                rear_y = y - params['fin_top_l'] - 5
+                def sweep(shape, start, end):
+                    return f'hull() {{ translate({start}) {shape} translate({end}) {shape} }}'
                 if antenna == 'alfa':
-                    # Sweep solid hardware envelopes through the exported mesh.
-                    # Nut enters below the shank, then rises into its hex seat.
-                    # Washer follows the same lower entrance and rises through
-                    # the round relief inside the hex pocket.
-                    dz = params['fin_h'] - top
                     entry_z = params['fin_h'] - params['n_thread'] - params['n_nut_h'] - 6 - dz
                     nut_z = top - params['fin_wall'] - params['n_washer'][1] - params['n_nut_h']
                     washer_z = top - params['fin_wall'] - params['n_washer'][1] - .01
-                    rear_y = y - params['fin_top_l'] - 5
                     nut = f'cylinder(r={params["n_nut_af"]}/(2*cos(30)), h={params["n_nut_h"]}, $fn=6);'
                     washer = f'cylinder(d={params["n_washer"][0]}, h={params["n_washer"][1]}, $fn=96);'
-                    def sweep(shape, start, end):
-                        return f'hull() {{ translate({start}) {shape} translate({end}) {shape} }}'
                     paths = {
                         'nut_rear_entry_and_lift': sweep(nut, [0, rear_y, entry_z], [0, y, entry_z]) +
                             sweep(nut, [0, y, entry_z], [0, y, nut_z]),
                         'washer_rear_entry_and_lift': sweep(washer, [0, rear_y, entry_z], [0, y, entry_z]) +
                             sweep(washer, [0, y, entry_z], [0, y, washer_z]),
                     }
-                    for label, path in paths.items():
-                        probe = temp / 'exported-hardware-access.scad'
-                        probe.write_text(f'intersection() {{ import({json.dumps(name)}); union() {{ {path} }} }}\n')
-                        result = subprocess.run([executable, '-o', str(temp / 'exported-hardware-access.stl'), str(probe)],
-                                                capture_output=True, text=True)
-                        if ('WARNING:' in result.stderr or 'ERROR:' in result.stderr or
-                                'top level object is empty' not in result.stderr.lower()):
-                            raise ValueError(f'{name}: {label} obstructed:\n{result.stderr}')
-                        manifest['exported_hardware_access_checks'].append(dict(file=name, path=label, result='empty'))
+                else:
+                    # The body enters under the arched crown, below the chamber's
+                    # widest station, and only then rises on the axis.
+                    entry_z = params['slot_z'] - 4 - dz
+                    body_z = top - params['fin_wall'] - params['s_body_h'] - .01
+                    body = (f'union() {{ cylinder(r={params["s_body_af"]}/(2*cos(30)), h={params["s_body_h"]}, $fn=6); '
+                            f'translate([0,0,{-params["s_ferrule_h"]}]) cylinder(d={params["s_ferrule_d"]}, h={params["s_ferrule_h"]}, $fn=48); }}')
+                    paths = {
+                        'body_rear_entry_and_lift': sweep(body, [0, rear_y, entry_z], [0, y, entry_z]) +
+                            sweep(body, [0, y, entry_z], [0, y, body_z]),
+                    }
+                for label, path in paths.items():
+                    probe = temp / 'exported-hardware-access.scad'
+                    probe.write_text(f'intersection() {{ import({json.dumps(name)}); union() {{ {path} }} }}\n')
+                    result = subprocess.run([executable, '-o', str(temp / 'exported-hardware-access.stl'), str(probe)],
+                                            capture_output=True, text=True)
+                    if ('WARNING:' in result.stderr or 'ERROR:' in result.stderr or
+                            'top level object is empty' not in result.stderr.lower()):
+                        raise ValueError(f'{name}: {label} obstructed:\n{result.stderr}')
+                    manifest['exported_hardware_access_checks'].append(dict(file=name, path=label, result='empty'))
+                if antenna == 'alfa':
                     # The round washer relief must not turn the trap into a
                     # free-spinning socket. A seated hex rotated halfway to
                     # the next alignment must intersect the remaining walls.
+                    # Stock has no trapped hex: its round pocket is keyed by the D-flat bore.
                     probe = temp / 'exported-nut-rotation.scad'
                     probe.write_text(f'intersection() {{ import({json.dumps(name)}); '
                                      f'translate({[0, y, nut_z]}) rotate([0,0,30]) {nut} }}\n')
