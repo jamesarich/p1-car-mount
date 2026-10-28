@@ -32,14 +32,19 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 
 The N-type pylon has been printed and assembled with the same geometry as this release and works. The stock pylon has not been printed. Treat these as starting settings and tune with the coupons.
 
-## Hardware
+## Bill of materials
 
-- Seeed SenseCAP Solar Node P1 or P1-Pro
-- 6× DIYMAG 1.69" (43 mm) magnets with 1/4" studs, plus 6× 1/4-20 nylon-insert lock nuts
-- 2× 1/4-20 screws into the node's back inserts, length checked against `docs/print-notes.md`
-- N-type frame: Seeed 100007236 RP-SMA male to N-female bulkhead cable (300 mm, RG316) and an N-male antenna
-- Stock frame: the node's 300 mm RP-SMA bulkhead pigtail (front-mount jack with its flat washer, toothed lock washer and nut) and the stock rod antenna
-- Blue threadlocker
+| Qty | Part | Notes |
+|---|---|---|
+| 1 | Seeed SenseCAP Solar Node P1 or P1-Pro | |
+| 6 | DIYMAG rubber-coated mounting magnet, 1.69" (43 mm) base, 1/4-20 male stud, 30 lb ([Amazon B0FX1XP121](https://www.amazon.com/dp/B0FX1XP121), 12-pack) | Amazon variant "1/4in-30LB-1.69in". The foot is sized for a 12.7 mm stud; avoid the M5 and female-thread versions. |
+| 6 | 1/4-20 nylon-insert lock nut, 7/16" across flats | Pressed into the feet, nylon up |
+| 2 | 1/4-20 × 1/4" socket head cap screw | Into the node's back inserts; check engagement and bottoming before tightening |
+| 1 | Seeed 100007236 RP-SMA male to N-female bulkhead cable, 300 mm, RG316 ([Seeed](https://www.seeedstudio.com/RF-Cable-RP-SMA-Male-to-N-Type-SMA-Female-300mm.html)) | N-type frame only |
+| 1 | ALFA AOA-915-5ACM 5 dBi N-male antenna ([Rokland](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application)) | N-type frame only |
+| 1 | The node's 300 mm RP-SMA bulkhead pigtail and stock rod antenna | Stock frame only; ships with the node |
+| | Blue (medium-strength) threadlocker | Node screws |
+| ~400 cm³ | ASA filament | Solid-model volume of one frame; slicer usage is lower at 40% infill |
 
 N-type hardware dimensions are modeled from datasheets and are still provisional; the stock pigtail is measured from a scaled photo. Confirm the nut corners, washers, thread length, socket and magnet studs with the coupons.
 
