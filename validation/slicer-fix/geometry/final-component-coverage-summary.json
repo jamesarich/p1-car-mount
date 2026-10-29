@@ -1,0 +1,103 @@
+{
+  "scope": "All 340 model layers: section-component disappearance check. Does not establish full infill coverage, bridge anchoring or printed fitness.",
+  "section_component_area_threshold_mm2": 0.05,
+  "arc_chord_allowance_mm": 0.03,
+  "nozzle_mm": 0.4,
+  "mesh_sha256": "1a2fe490b098ef7b9cd2699e5a0b3f0520d4b120b0e40e29843954c6edec655f",
+  "no_new_omitted_components": true,
+  "all_omissions_are_sub_nozzle_width": true,
+  "variants": {
+    "baseline": {
+      "gcode_sha256": "bd4595356b6076dacd1f4ea7aa1c2c5bd6aa4294c429b62c876cc1eb4457d8e0",
+      "model_layer_count": 340,
+      "total_section_components": 534,
+      "missing": [
+        {
+          "z": 11.4,
+          "component": 1,
+          "area_mm2": 0.20132647029999912,
+          "bounds": [
+            50.75534046325684,
+            212.15077599456788,
+            53.24464046325683,
+            212.27692599456788
+          ],
+          "approx_max_inscribed_diameter_mm": 0.1261160926406497,
+          "terminal_sub_line_width_cap": true
+        },
+        {
+          "z": 11.4,
+          "component": 7,
+          "area_mm2": 0.20132647029999784,
+          "bounds": [
+            202.75534046325686,
+            212.15077599456788,
+            205.24464046325681,
+            212.27692599456788
+          ],
+          "approx_max_inscribed_diameter_mm": 0.12611609264064827,
+          "terminal_sub_line_width_cap": true
+        },
+        {
+          "z": 16.2,
+          "component": 1,
+          "area_mm2": 0.14378743349998366,
+          "bounds": [
+            126.83720046325683,
+            118.71640599456788,
+            129.16278046325684,
+            118.81105599456787
+          ],
+          "approx_max_inscribed_diameter_mm": 0.09462453059242813,
+          "terminal_sub_line_width_cap": true
+        }
+      ]
+    },
+    "floating-slow": {
+      "gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d",
+      "model_layer_count": 340,
+      "total_section_components": 534,
+      "missing": [
+        {
+          "z": 11.4,
+          "component": 1,
+          "area_mm2": 0.20132647029999912,
+          "bounds": [
+            50.75534046325684,
+            212.15077599456788,
+            53.24464046325683,
+            212.27692599456788
+          ],
+          "approx_max_inscribed_diameter_mm": 0.1261160926406497,
+          "terminal_sub_line_width_cap": true
+        },
+        {
+          "z": 11.4,
+          "component": 7,
+          "area_mm2": 0.20132647029999784,
+          "bounds": [
+            202.75534046325686,
+            212.15077599456788,
+            205.24464046325681,
+            212.27692599456788
+          ],
+          "approx_max_inscribed_diameter_mm": 0.12611609264064827,
+          "terminal_sub_line_width_cap": true
+        },
+        {
+          "z": 16.2,
+          "component": 1,
+          "area_mm2": 0.14378743349998366,
+          "bounds": [
+            126.83720046325683,
+            118.71640599456788,
+            129.16278046325684,
+            118.81105599456787
+          ],
+          "approx_max_inscribed_diameter_mm": 0.09462453059242813,
+          "terminal_sub_line_width_cap": true
+        }
+      ]
+    }
+  }
+}

@@ -1,10 +1,22 @@
 # SenseCAP Solar Node P1 magnetic roof mount
 
-![N-type frame](images/overall.png)
+![Proposed v1.1 N-type frame](comparison/after-n-overview.png)
 
-A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pro. The node bolts to a center hub through its two 1/4-20 back inserts, tilted 4° nose down. Six stud magnets hold the frame to the roof. A swept pylon behind the node carries the antenna on its bulkhead connector: an N-type bulkhead for an external antenna, or the node's stock RP-SMA rod. Version 1.0.
+A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pro. The node bolts to a center hub through its two 1/4-20 back inserts, tilted 4° nose down. Six stud magnets hold the frame to the roof. A swept pylon behind the node carries the antenna on its bulkhead connector: an N-type bulkhead for an external antenna, or the node's stock RP-SMA rod. Proposed version 1.1; the refinements have not been physically printed or qualified.
 
-![Stock-antenna frame](images/overall-stock.png)
+![Proposed v1.1 stock-antenna frame](comparison/after-stock-overview.png)
+
+## Proposed v1.1 refinements
+
+This revision adds rounded R4 frame-window roots with separate R2 upper-edge relief, an integrated left-rear cable-tie saddle for each antenna variant, a stock-bore entry lead-in and stock-pylon coupon, and optional screw-stack calibration shims. The node seat, original 2 mm bearing web, slot travel and six magnet mounting datums are retained. Reference-only complete cable routes support nominal assembly checks.
+
+[Before-and-after renders](comparison/before-after-overview.png) · [Detailed changes and remaining checks](docs/REVISION-1.1.md) · [Full visual report](COMPARISON.html) · [Build evidence](BUILD-MANIFEST.json)
+
+The source remains editable in `p1-roof-mount.scad` and `assembly-refinements.scad`. The hardware list and assembly workflow below are retained from v1.0. No shim thickness is selected without measured insert depths and washers. Roof conformity, an independent tether, cable slack, heat/UV/creep behavior and road retention remain unverified.
+
+For **fit/support evaluation on a Bambu A1, 0.4 mm nozzle**, open the [stock project](slicer/stock/p1-v11-stock-A1-supported.3mf) or [N-type project](slicer/n-type/p1-v11-n-type-A1-supported.3mf) as a project, keeping its settings. Both are sliced with provisional Bambu PETG HF, 0.2 mm model layers, six walls, 40% infill, 1.2 mm skins and normal automatic supports. These prototype files do not qualify PETG for vehicle-roof service or replace the original ASA/P1S material decision. The actual filament and AMS mapping must be confirmed before printing.
+
+A stock-specific [fill-preserving slicer workaround](docs/STOCK-SLICER-FIX.md) and [GUI preset import correction](docs/GUI-PROJECT-FIX.md) are included. The corrected files retain their settings through actual GUI save/reopen checks. Print the relevant fit coupons before a complete mount.
 
 ## Files
 
@@ -19,6 +31,10 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 | `p1-coupon-rear-left-foot.stl` | test | Left rear foot and grip | either | `rear_left_foot_coupon` |
 | `p1-roof-mount.scad` | source | OpenSCAD model | | |
 | `p1-node-model.scad` | source | Fit-check model of the P1, used by the main source | | |
+| `assembly-refinements.scad` | source | Editable cable routes, saddle, screw shims and assembly references | | |
+| `p1-coupon-pylon-stock.stl` | test | Stock connector fit and support cleanup | `stock` | `coupon` |
+| `p1-screw-shim-set.stl` | optional test | Four separate calibration shims; no thickness selected | either | `shim_set` |
+| `p1-screw-shim-calibration-kit.3mf` | optional test | Geometry-only kit; four named parts, no printer profile | | |
 
 `antenna = "alfa"` is the N-type variant, named for the ALFA antenna it was sized around. Coupons are optional test pieces, not assembly parts. Print the pylon and seat coupons first.
 
@@ -28,9 +44,9 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 - Material: ASA, light color.
 - 0.2 mm layers, 6 walls, 40% infill, 4 mm brim.
 - Orientation: feet down, as exported. Center on the bed.
-- Supports: under the pylon crown and hardware chamber, and the two node-screw ceilings. The flat feet need none.
+- Supports: under the pylon crown and hardware chamber, and the two node-screw ceilings. The original flat foot undersides need none; inspect supports around the added cable saddle and tie-eye roof.
 
-The N-type pylon has been printed and assembled with the same geometry as this release and works. The stock pylon has not been printed. Treat these as starting settings and tune with the coupons.
+The original v1.0 N-type pylon was printed and assembled successfully. This v1.1 revision has not been printed, and the stock pylon remains unprinted. Treat these as starting settings and tune with the coupons.
 
 ## Bill of materials
 
@@ -58,14 +74,18 @@ N-type hardware dimensions are modeled from datasheets and are still provisional
 
 ## Rebuild
 
-Needs OpenSCAD on PATH and Python 3.
+Needs Python 3 and a current OpenSCAD with Manifold support; the recorded build used OpenSCAD 2026.10.27. Install `tools/requirements-v11.txt` in a virtual environment. Pass the OpenSCAD executable explicitly or place it on PATH:
 
 ```sh
 python3 tools/check_parameters.py
-python3 tools/build_models.py
+python3 tools/build_models.py --openscad /path/to/openscad
+python3 tools/export_shims.py --openscad /path/to/openscad
+python3 slicer/verify_projects.py
 ```
 
-The build writes the seven STLs and `BUILD-MANIFEST.json` only after its geometry checks pass. OpenSCAD tessellation varies between runs, so a rebuild passes the same checks but does not reproduce the released mesh hashes. Renders come from the `.scad` scripts in `images/`, each of which stores its camera:
+The build writes eight frame/coupon STLs and `BUILD-MANIFEST.json` only after geometry checks pass. Shims are exported separately. Native blends are evaluated once per variant within a build; the source always constructs its geometry directly when the optional cache is unset. Tessellation can vary on rebuilding, so use geometric checks rather than expecting identical mesh hashes. See [review reproduction](docs/REVIEW-REPRODUCTION.md) for render and assembly checks and the scope of retained historical evidence.
+
+The original v1.0 image scripts remain in `images/`; the v1.1 matched comparisons use `comparison/render_comparison.py`. To regenerate an original image script against the current source:
 
 ```sh
 openscad --render --colorscheme Tomorrow --imgsize 1300,1000 -o images/overall.png images/overall.scad

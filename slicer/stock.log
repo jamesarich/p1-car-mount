@@ -1,0 +1,267 @@
+[2026-10-28 15:03:02.015443] [0x00000001fa752180] [trace]   Initializing StaticPrintConfigs
+[2026-10-28 15:03:02.029073] [0x00000001fa752180] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-28 15:03:02.029105] [0x00000001fa752180] [info]    Will start to read model file now, file count :1
+
+[2026-10-28 15:03:02.029130] [0x00000001fa752180] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0, allow_mix_temp 0
+[2026-10-28 15:03:02.029144] [0x00000001fa752180] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-10-28 15:03:02.029156] [0x00000001fa752180] [info]    read model file:p1-roof-mount-stock.stl
+
+[2026-10-28 15:03:02.117466] [0x00000001fa752180] [info]    object p1-roof-mount-stock.stl, id :5, from stl or other 3mf
+
+[2026-10-28 15:03:02.117568] [0x00000001fa752180] [info]    run:before load settings, file count=2
+
+[2026-10-28 15:03:02.117607] [0x00000001fa752180] [info]    operator():load setting file slicer/machine.json, with rule 1
+
+[2026-10-28 15:03:02.119427] [0x00000001fa752180] [info]    no substitutions performed from file slicer/machine.json
+
+[2026-10-28 15:03:02.119482] [0x00000001fa752180] [info]    loaded machine config slicer/machine.json, type Bambu Lab A1 0.4 nozzle, name system, inherits Bambu Lab A1 0.4 nozzle, printer_model_id
+[2026-10-28 15:03:02.119503] [0x00000001fa752180] [info]    operator():load setting file slicer/process-stock.json, with rule 1
+
+[2026-10-28 15:03:02.120116] [0x00000001fa752180] [info]    no substitutions performed from file slicer/process-stock.json
+
+[2026-10-28 15:03:02.120133] [0x00000001fa752180] [info]    loaded process config slicer/process-stock.json, type 0.20mm Standard @BBL A1, name system, inherits 0.20mm Standard @BBL A1
+[2026-10-28 15:03:02.120147] [0x00000001fa752180] [info]    operator():load setting file slicer/filament.json, with rule 1
+
+[2026-10-28 15:03:02.120864] [0x00000001fa752180] [info]    no substitutions performed from file slicer/filament.json
+
+[2026-10-28 15:03:02.120892] [0x00000001fa752180] [info]    loaded filament 1 from file slicer/filament.json, type system, name Bambu PETG HF @BBL A1, inherits
+[2026-10-28 15:03:02.120912] [0x00000001fa752180] [info]    current printer , new printer Bambu Lab A1 0.4 nozzle, current process , new process 0.20mm Standard @BBL A1
+[2026-10-28 15:03:02.120926] [0x00000001fa752180] [info]    current printer inherits , new printer inherits Bambu Lab A1 0.4 nozzle, current process inherits , new process inherits 0.20mm Standard @BBL A1
+[2026-10-28 15:03:02.120936] [0x00000001fa752180] [info]    index 0, new print compatible printer Bambu Lab A1 0.4 nozzle
+[2026-10-28 15:03:02.120950] [0x00000001fa752180] [info]    new printer Bambu Lab A1 0.4 nozzle, inherited from Bambu Lab A1 0.4 nozzle, new process 0.20mm Standard @BBL A1, inherited from 0.20mm Standard @BBL A1 ,compatible 1
+[2026-10-28 15:03:02.120964] [0x00000001fa752180] [info]    update printer config to newest, different size 0, different_settings:
+[2026-10-28 15:03:02.120988] [0x00000001fa752180] [info]    update_full_config: config keys count 108
+[2026-10-28 15:03:02.121097] [0x00000001fa752180] [info]    load a new printer, update all the keys, different_settings:
+[2026-10-28 15:03:02.121109] [0x00000001fa752180] [info]    check printer cli safe params, current_printer_name , new_printer_name Bambu Lab A1 0.4 nozzle, printer_model Bambu Lab A1
+[2026-10-28 15:03:02.121121] [0x00000001fa752180] [info]    line 3260 , will parse file /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/cli_config.json
+[2026-10-28 15:03:02.122054] [0x00000001fa752180] [info]    set key machine_max_acceleration_travel  index 0, from 9000  to 6000
+[2026-10-28 15:03:02.122067] [0x00000001fa752180] [info]    set key machine_max_acceleration_travel  index 1, from 9000  to 6000
+[2026-10-28 15:03:02.122080] [0x00000001fa752180] [info]    set key machine_max_acceleration_x  index 0, from 12000  to 6000
+[2026-10-28 15:03:02.122102] [0x00000001fa752180] [info]    set key machine_max_acceleration_x  index 1, from 12000  to 6000
+[2026-10-28 15:03:02.122110] [0x00000001fa752180] [info]    set key machine_max_acceleration_y  index 0, from 12000  to 6000
+[2026-10-28 15:03:02.122117] [0x00000001fa752180] [info]    set key machine_max_acceleration_y  index 1, from 12000  to 6000
+[2026-10-28 15:03:02.122222] [0x00000001fa752180] [info]    update process config to newest, different size 0, different_settings:
+[2026-10-28 15:03:02.122235] [0x00000001fa752180] [info]    update_full_config: config keys count 189
+[2026-10-28 15:03:02.122418] [0x00000001fa752180] [info]    load a new process, update all the keys, different_settings:
+[2026-10-28 15:03:02.122449] [0x00000001fa752180] [info]    update filament 1's config to newest, different size 0, name Bambu PETG HF @BBL A1, different_settings
+[2026-10-28 15:03:02.122633] [0x00000001fa752180] [warning] no filament colors found in projects
+[2026-10-28 15:03:02.122642] [0x00000001fa752180] [info]    total 1 models, 0 objects
+
+[2026-10-28 15:03:02.123772] [0x00000001fa752180] [info]    4160, remove_wrapping_detect 0, old value 0
+[2026-10-28 15:03:02.123831] [0x00000001fa752180] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {256, 256, 256}
+[2026-10-28 15:03:02.123840] [0x00000001fa752180] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-10-28 15:03:02.123846] [0x00000001fa752180] [info]    reset_size:after size: plate_width 256, plate_depth 256, plate_height 256
+[2026-10-28 15:03:02.123855] [0x00000001fa752180] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-28 15:03:02.123863] [0x00000001fa752180] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-28 15:03:02.123869] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-28 15:03:02.123876] [0x00000001fa752180] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-28 15:03:02.123883] [0x00000001fa752180] [info]    set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-28 15:03:02.123889] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-28 15:03:02.123907] [0x00000001fa752180] [info]    will start transforms, commands count 2
+
+[2026-10-28 15:03:02.123912] [0x00000001fa752180] [info]    process transform orient
+
+[2026-10-28 15:03:02.123919] [0x00000001fa752180] [info]    object p1-roof-mount-stock.stl, id :5, no need to orient when setting orient to 0
+
+[2026-10-28 15:03:02.123924] [0x00000001fa752180] [info]    orient_option 0
+[2026-10-28 15:03:02.123928] [0x00000001fa752180] [info]    process transform arrange
+
+[2026-10-28 15:03:02.123933] [0x00000001fa752180] [info]    finished model pre-process commands
+
+[2026-10-28 15:03:02.123943] [0x00000001fa752180] [info]    before arrange, need_arrange=1, duplicate_count 0, filament_color_changed 0
+[2026-10-28 15:03:02.137343] [0x00000001fa752180] [info]    Arrange full params: {"min_obj_distance":0,"accuracy":1.000000,"parallel":1,"allow_rotations":1,"do_final_align":1,"allow_multi_materials_on_same_plate":1,"avoid_extrusion_cali_region":0,"is_seq_print":0,"bed_shrink_x":0.000000,"bed_shrink_y":0.000000,"brim_skirt_distance":6.000000,"clearance_height_to_rod":25.000000,"clearance_height_to_lid":256.000000,"cleareance_radius":73.000000,"printable_height":256.000000,
+[2026-10-28 15:03:02.137372] [0x00000001fa752180] [info]    arrange: items selected before arranging: 1
+[2026-10-28 15:03:02.137380] [0x00000001fa752180] [info]    arrange: items unselected before arranging: 0
+[2026-10-28 15:03:02.137388] [0x00000001fa752180] [info]    start 1 th arranging...
+[2026-10-28 15:03:02.139472] [0x00000001fa752180] [info]    finished 1 th arranging...
+[2026-10-28 15:03:02.139502] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-28 15:03:02.139516] [0x00000001fa752180] [info]    rebuild_plates_after_arrangement:before rebuild, plates count 1, recycle_plates 1
+[2026-10-28 15:03:02.139524] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-28 15:03:02.139557] [0x00000001fa752180] [info]    add_instance: plate 0 , m_ready_for_slice changes to 1
+[2026-10-28 15:03:02.139564] [0x00000001fa752180] [info]    rebuild_plates_after_arrangement:after rebuild, plates count 1
+[2026-10-28 15:03:02.139578] [0x00000001fa752180] [info]    Need to slice for plate 0, total plate count 1 partplates!
+
+[2026-10-28 15:03:02.139599] [0x00000001fa752180] [info]    Plate 1: pre_check 1, start
+[2026-10-28 15:03:02.139630] [0x00000001fa752180] [info]    update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 256}, got 1 printable istances
+[2026-10-28 15:03:02.139654] [0x00000001fa752180] [info]    plate 1: load cached data success, go on.
+[2026-10-28 15:03:02.139976] [0x00000001fa752180] [info]    apply, Line 1184: enter
+[2026-10-28 15:03:02.139998] [0x00000001fa752180] [info]    apply, has_scarf_joint_seam:false
+[2026-10-28 15:03:02.140005] [0x00000001fa752180] [info]    apply, has_scarf_joint_seam:false
+[2026-10-28 15:03:02.140660] [0x00000001fa752180] [info]    apply, got print_diff 130, object_diff 18, region_diff 31, set status to APPLY_STATUS_CHANGED
+[2026-10-28 15:03:02.140748] [0x00000001fa752180] [info]    apply 1508: found full_config_diff changed.
+[2026-10-28 15:03:02.141708] [0x00000001fa752180] [info]    apply 1835: found print object changed.
+[2026-10-28 15:03:02.142924] [0x00000001fa752180] [info]    apply 2121: finished,  this 0xc25804000, m_modified_count 1, apply_status 1, m_support_used 1
+[2026-10-28 15:03:02.142991] [0x00000001fa752180] [info]    set no_check to 0:
+[2026-10-28 15:03:02.143068] [0x00000001fa752180] [info]    start Print::process for partplate 1
+
+[2026-10-28 15:03:02.143073] [0x00000001fa752180] [info]    set print's callback to default_status_callback.
+[2026-10-28 15:03:02.143081] [0x00000001fa752180] [info]    printer_model_string: Bambu Lab A1, is_bbl_vendor_preset 1
+[2026-10-28 15:03:02.287665] [0x00000001fa752180] [info]    process: this=0xc25804000, enter, use_cache=0, object size=1
+[2026-10-28 15:03:02.287718] [0x00000001fa752180] [info]    process: total object counts 1 in current print, need to slice 1
+[2026-10-28 15:03:02.287743] [0x00000001fa752180] [info]    Starting the slicing process. Resident memory: 84MB; Peak memory usage: 84MB
+[2026-10-28 15:03:02.287792] [0x00000001fa752180] [info]    Slicing volumes... Resident memory: 84MB; Peak memory usage: 84MB
+[2026-10-28 15:03:02.570995] [0x00000001fa752180] [info]    Generating walls... Resident memory: 129MB; Peak memory usage: 129MB
+[2026-10-28 15:03:04.373230] [0x00000001fa752180] [info]    Detecting solid surfaces... Resident memory: 127MB; Peak memory usage: 147MB
+[2026-10-28 15:03:04.534758] [0x00000001fa752180] [info]    Preparing fill surfaces... Resident memory: 130MB; Peak memory usage: 147MB
+[2026-10-28 15:03:04.535291] [0x00000001fa752180] [info]    Discovering vertical shells... Resident memory: 130MB; Peak memory usage: 147MB
+[2026-10-28 15:03:05.516906] [0x00000001fa752180] [info]    Processing external surfaces... Resident memory: 135MB; Peak memory usage: 147MB
+[2026-10-28 15:03:05.620902] [0x00000001fa752180] [info]    Bridge over infill - Start Resident memory: 136MB; Peak memory usage: 147MB
+[2026-10-28 15:03:08.242635] [0x00000001fa752180] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 138MB; Peak memory usage: 147MB
+[2026-10-28 15:03:08.346915] [0x00000001fa752180] [info]    Bridge over infill - End Resident memory: 138MB; Peak memory usage: 147MB
+[2026-10-28 15:03:09.975052] [0x00000001fa752180] [info]    Support generator - Start
+[2026-10-28 15:03:09.975103] [0x00000001fa752180] [info]    Support generator - Creating top contacts
+[2026-10-28 15:03:10.630298] [0x00000001fa752180] [info]    Support generator - Creating bottom contacts
+[2026-10-28 15:03:11.511049] [0x00000001fa752180] [info]    Support generator - Creating intermediate layers - indices
+[2026-10-28 15:03:11.528430] [0x00000001fa752180] [info]    Support generator - Creating base layers
+[2026-10-28 15:03:11.652832] [0x00000001fa752180] [info]    Support generator - Trimming top contacts by bottom contacts
+[2026-10-28 15:03:11.652914] [0x00000001fa752180] [info]    Support generator - Creating interfaces
+[2026-10-28 15:03:11.660996] [0x00000001fa752180] [info]    Support generator - Creating raft
+[2026-10-28 15:03:11.664527] [0x00000001fa752180] [info]    Support generator - Creating layers
+[2026-10-28 15:03:11.664621] [0x00000001fa752180] [info]    Support generator - Generating tool paths
+[2026-10-28 15:03:11.688743] [0x00000001fa752180] [info]    Support generator - End
+[2026-10-28 15:03:11.740404] [0x00000001fa752180] [info]    update_filament_maps_to_config: filament maps changed after pre-slicing.
+[2026-10-28 15:03:11.740680] [0x00000001fa752180] [info]    update_filament_maps_to_config, Line 2887:  extruder_count 1, extruder_volume_type_count 1
+[2026-10-28 15:03:12.230042] [0x00000001fa752180] [info]    gcode path conflicts check takes 0 secs.
+[2026-10-28 15:03:12.230102] [0x00000001fa752180] [info]    Slicing process finished. Resident memory: 197MB; Peak memory usage: 197MB
+[2026-10-28 15:03:12.230116] [0x00000001fa752180] [info]    print::process: first time_using_cache is 46 secs.
+[2026-10-28 15:03:12.230130] [0x00000001fa752180] [info]    process finished, will export gcode temporily to ${REPO_ROOT}/validation/slicer-fix/final-preserved/plate_1.gcode
+
+[2026-10-28 15:03:12.230235] [0x00000001fa752180] [info]    reset 1589: this=0x16f3c3558 reset finished
+[2026-10-28 15:03:12.230301] [0x00000001fa752180] [info]    Will export G-code to plate_1.gcode soon
+[2026-10-28 15:03:12.230525] [0x00000001fa752180] [info]    Exporting G-code... Resident memory: 197MB; Peak memory usage: 197MB
+[2026-10-28 15:03:12.230742] [0x00000001fa752180] [info]    reset 1589: this=0x16f3c3558 reset finished
+[2026-10-28 15:03:14.729432] [0x00000001fa752180] [info]    post_process:  before process plate_1.gcode.tmp
+[2026-10-28 15:03:14.949608] [0x00000001fa752180] [info]    post_process:  after process plate_1.gcode.tmp
+[2026-10-28 15:03:14.987352] [0x00000001fa752180] [info]    rename_file from plate_1.gcode.tmp to plate_1.gcode successfully
+[2026-10-28 15:03:14.987382] [0x00000001fa752180] [info]    Exporting G-code finished Resident memory: 602MB; Peak memory usage: 602MB
+[2026-10-28 15:03:15.001082] [0x00000001fa752180] [info]    export_gcode finished: time_using_cache update to 2817 secs.
+[2026-10-28 15:03:15.001118] [0x00000001fa752180] [info]    Slicing result exported to ${REPO_ROOT}/validation/slicer-fix/final-preserved/plate_1.gcode
+
+[2026-10-28 15:03:15.001131] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 1
+[2026-10-28 15:03:15.001363] [0x00000001fa752180] [info]    ~PrintObject: this=0xc268ed800, m_shared_object 0
+[2026-10-28 15:03:15.046432] [0x00000001fa752180] [info]    Plate 1: slice data released to free memory.
+[2026-10-28 15:03:15.046553] [0x00000001fa752180] [info]    store_to_3mf_structure: plate 1 before load, width 0, height 0, size 0!
+[2026-10-28 15:03:15.046564] [0x00000001fa752180] [info]    store_to_3mf_structure: plate 1 after load, width 0, height 0, size 0!
+[2026-10-28 15:03:15.046598] [0x00000001fa752180] [info]    store_to_3mf_structure: plate 0, gcode_filename=plate_1.gcode, with_slice_info=1, slice_valid 1, object item count 1.
+[2026-10-28 15:03:15.046629] [0x00000001fa752180] [info]    store_to_3mf_structure:stored 1 plates!
+[2026-10-28 15:03:15.046652] [0x00000001fa752180] [info]    thumbnails stage: plate 1's thumbnail data is invalid, check the file  exist or not
+[2026-10-28 15:03:15.046659] [0x00000001fa752180] [info]    thumbnails stage: plate 1's thumbnail file also not there, need to regenerate
+[2026-10-28 15:03:15.046685] [0x00000001fa752180] [info]    thumbnails stage: plate 1's no_light_thumbnail_file  also not there, need to regenerate
+[2026-10-28 15:03:15.046691] [0x00000001fa752180] [info]    thumbnails stage: plate 1's top_file  also not there, need to regenerate
+[2026-10-28 15:03:15.046703] [0x00000001fa752180] [info]    opengl version 3.3.7
+[2026-10-28 15:03:15.162298] [0x00000001fa752180] [info]    glfwInit Success.
+
+[2026-10-28 15:03:15.446177] [0x00000001fa752180] [info]    got opengl version 4.1 Metal - 90.5, glsl version 4.10, vendor Apple , graphics card model Apple M4 Max
+
+[2026-10-28 15:03:15.446214] [0x00000001fa752180] [info]    Opengl version >= 30, FrameBuffer normal.
+
+[2026-10-28 15:03:15.597779] [0x00000001fa752180] [info]    glewInit Sucess.
+
+[2026-10-28 15:03:15.603011] [0x00000001fa752180] [info]    init_opengl_and_colors finished, gl_valid=1
+[2026-10-28 15:03:15.603036] [0x00000001fa752180] [info]    plate 1's thumbnail, need to regenerate
+[2026-10-28 15:03:15.603062] [0x00000001fa752180] [info]    framebuffer_type: Supported
+[2026-10-28 15:03:15.603071] [0x00000001fa752180] [info]    framebuffer msaa type: X4
+[2026-10-28 15:03:15.603184] [0x00000001fa752180] [info]    render_thumbnail: plate_idx 0 volumes size 1, shader 0xc28684230, use_top_view=0, for_picking=0
+[2026-10-28 15:03:15.603815] [0x00000001fa752180] [info]    render_thumbnail: finished
+[2026-10-28 15:03:15.606769] [0x00000001fa752180] [info]    render_thumbnail prepare: w 512, h 512, samples  4, render_fbo 2
+[2026-10-28 15:03:15.606786] [0x00000001fa752180] [info]    render_thumbnail prepare: finished
+[2026-10-28 15:03:15.606793] [0x00000001fa752180] [info]    plate 1's thumbnail,finished rendering
+[2026-10-28 15:03:15.606798] [0x00000001fa752180] [info]    plate 1: add thumbnail data into group
+[2026-10-28 15:03:15.606803] [0x00000001fa752180] [info]    plate 1's no_light_thumbnail_file missed, need to regenerate
+[2026-10-28 15:03:15.606937] [0x00000001fa752180] [info]    framebuffer_type: Supported
+[2026-10-28 15:03:15.606942] [0x00000001fa752180] [info]    framebuffer msaa type: X4
+[2026-10-28 15:03:15.606951] [0x00000001fa752180] [info]    render_thumbnail: plate_idx 0 volumes size 1, shader 0xc28684230, use_top_view=0, for_picking=0
+[2026-10-28 15:03:15.607139] [0x00000001fa752180] [info]    render_thumbnail: finished
+[2026-10-28 15:03:15.609169] [0x00000001fa752180] [info]    render_thumbnail prepare: w 512, h 512, samples  4, render_fbo 2
+[2026-10-28 15:03:15.609178] [0x00000001fa752180] [info]    render_thumbnail prepare: finished
+[2026-10-28 15:03:15.609184] [0x00000001fa752180] [info]    plate 1's no_light thumbnail,finished rendering
+[2026-10-28 15:03:15.609189] [0x00000001fa752180] [info]    plate 1: add thumbnail data for no_light into group
+[2026-10-28 15:03:15.609195] [0x00000001fa752180] [info]    plate 1's top/pick thumbnail missed, need to regenerate, objects count 1, skip_useless_pick 0
+[2026-10-28 15:03:15.609200] [0x00000001fa752180] [info]    framebuffer_type: Supported
+[2026-10-28 15:03:15.609331] [0x00000001fa752180] [info]    framebuffer_type: Supported
+[2026-10-28 15:03:15.609336] [0x00000001fa752180] [info]    framebuffer msaa type: X4
+[2026-10-28 15:03:15.609343] [0x00000001fa752180] [info]    render_thumbnail: plate_idx 0 volumes size 1, shader 0xc28684230, use_top_view=9, for_picking=0
+[2026-10-28 15:03:15.609378] [0x00000001fa752180] [info]    render_thumbnail: finished
+[2026-10-28 15:03:15.610089] [0x00000001fa752180] [info]    render_thumbnail prepare: w 512, h 512, samples  4, render_fbo 2
+[2026-10-28 15:03:15.610095] [0x00000001fa752180] [info]    render_thumbnail prepare: finished
+[2026-10-28 15:03:15.610218] [0x00000001fa752180] [info]    framebuffer_type: Supported
+[2026-10-28 15:03:15.610287] [0x00000001fa752180] [info]    render_thumbnail: plate_idx 0 volumes size 1, shader 0xc28684230, use_top_view=9, for_picking=1
+[2026-10-28 15:03:15.610504] [0x00000001fa752180] [info]    render_thumbnail: finished
+[2026-10-28 15:03:15.613613] [0x00000001fa752180] [info]    render_thumbnail prepare: w 512, h 512, samples  0, render_fbo 1
+[2026-10-28 15:03:15.613624] [0x00000001fa752180] [info]    render_thumbnail prepare: finished
+[2026-10-28 15:03:15.613630] [0x00000001fa752180] [info]    plate 1's top_thumbnail,finished rendering
+[2026-10-28 15:03:15.613635] [0x00000001fa752180] [info]    plate 1: add thumbnail data for top and pick into group
+[2026-10-28 15:03:15.613651] [0x00000001fa752180] [info]    plate 1 bed type: Textured PEI Plate, set from global
+[2026-10-28 15:03:15.613663] [0x00000001fa752180] [info]    will export 3mf to ${REPO_ROOT}/validation/slicer-fix/final-preserved/p1-v11-stock-A1-fit-prototype.3mf
+
+[2026-10-28 15:03:15.613705] [0x00000001fa752180] [info]    _save_model_to_file:6449,before open zip writer, m_skip_static 0, m_save_gcode 1, m_use_loaded_id 1
+[2026-10-28 15:03:15.613853] [0x00000001fa752180] [info]    _save_model_to_file:6477, before add _add_content_types_file_to_archive
+
+[2026-10-28 15:03:15.613898] [0x00000001fa752180] [info]    _save_model_to_file:6491,before add thumbnails, count 1
+[2026-10-28 15:03:15.613904] [0x00000001fa752180] [info]    _save_model_to_file:6492,top&&pick thumbnails, count 1
+[2026-10-28 15:03:15.629507] [0x00000001fa752180] [info]    _save_model_to_file:6541,add thumbnail 1's data into 3mf
+[2026-10-28 15:03:15.635131] [0x00000001fa752180] [info]    _save_model_to_file:6552,add no light thumbnail 1's data into 3mf
+[2026-10-28 15:03:15.635138] [0x00000001fa752180] [info]    _save_model_to_file:6561,add top thumbnail 1's data into 3mf
+[2026-10-28 15:03:15.660126] [0x00000001fa752180] [info]    _save_model_to_file:6570,add pick thumbnail 1's data into 3mf
+[2026-10-28 15:03:15.666281] [0x00000001fa752180] [info]    _save_model_to_file:6630,before add calibration thumbnails, count 0
+
+[2026-10-28 15:03:15.666294] [0x00000001fa752180] [info]    _save_model_to_file:6652,before add calibration boundingbox, count 1
+
+[2026-10-28 15:03:15.666362] [0x00000001fa752180] [info]    _save_model_to_file:6668, before add models
+
+[2026-10-28 15:03:15.666376] [0x00000001fa752180] [info]    _add_model_file_to_archive:7153, filename p1-v11-stock-A1-fit-prototype.3mf.tmp, m_split_model 1,  sub_model 0
+[2026-10-28 15:03:15.666455] [0x00000001fa752180] [info]    bbs_3mf: save key= Application, value = BambuStudio-02.08.02.61
+[2026-10-28 15:03:15.666462] [0x00000001fa752180] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-28 15:03:15.666467] [0x00000001fa752180] [info]    bbs_3mf: save key= Copyright, value =
+[2026-10-28 15:03:15.666472] [0x00000001fa752180] [info]    bbs_3mf: save key= CreationDate, value = 2026-10-28
+[2026-10-28 15:03:15.666476] [0x00000001fa752180] [info]    bbs_3mf: save key= Description, value =
+[2026-10-28 15:03:15.666480] [0x00000001fa752180] [info]    bbs_3mf: save key= Designer, value =
+[2026-10-28 15:03:15.666484] [0x00000001fa752180] [info]    bbs_3mf: save key= DesignerCover, value =
+[2026-10-28 15:03:15.666488] [0x00000001fa752180] [info]    bbs_3mf: save key= DesignerUserId, value =
+[2026-10-28 15:03:15.666492] [0x00000001fa752180] [info]    bbs_3mf: save key= License, value =
+[2026-10-28 15:03:15.666495] [0x00000001fa752180] [info]    bbs_3mf: save key= ModificationDate, value = 2026-10-28
+[2026-10-28 15:03:15.666500] [0x00000001fa752180] [info]    bbs_3mf: save key= Origin, value =
+[2026-10-28 15:03:15.666503] [0x00000001fa752180] [info]    bbs_3mf: save key= ProfileCover, value =
+[2026-10-28 15:03:15.666507] [0x00000001fa752180] [info]    bbs_3mf: save key= ProfileDescription, value =
+[2026-10-28 15:03:15.666510] [0x00000001fa752180] [info]    bbs_3mf: save key= ProfileTitle, value =
+[2026-10-28 15:03:15.666514] [0x00000001fa752180] [info]    bbs_3mf: save key= Title, value =
+[2026-10-28 15:03:15.666618] [0x00000001fa752180] [info]    _add_model_file_to_archive:7153, filename object_1.model, m_split_model 1,  sub_model 1
+[2026-10-28 15:03:15.666632] [0x00000001fa752180] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-28 15:03:16.042165] [0x00000001fa752180] [info]    _save_model_to_file:6731, before add custom gcodes
+
+[2026-10-28 15:03:16.042184] [0x00000001fa752180] [info]    _save_model_to_file:6742, before add project_settings
+
+[2026-10-28 15:03:16.042206] [0x00000001fa752180] [info]    model 0xc268f4000, id 3, backup_path empty, set to 15_03_16#16341#3
+[2026-10-28 15:03:16.042225] [0x00000001fa752180] [info]    create /3D/Objects in 15_03_16#16341#3
+[2026-10-28 15:03:16.042474] [0x00000001fa752180] [info]    create /Metadata in 15_03_16#16341#3
+[2026-10-28 15:03:16.042558] [0x00000001fa752180] [info]    create /lock.txt in 15_03_16#16341#3
+[2026-10-28 15:03:16.043795] [0x00000001fa752180] [info]    save_to_json:1573, saved config to _temp_1.config
+
+[2026-10-28 15:03:16.045199] [0x00000001fa752180] [info]    _add_file_to_archive:6928, add file _temp_1.config to archive Metadata/project_settings.config
+
+[2026-10-28 15:03:16.045245] [0x00000001fa752180] [info]    _save_model_to_file:6757, before add project embedded settings
+
+[2026-10-28 15:03:17.410594] [0x00000001fa752180] [info]    operator():8937, store  plate_1.gcode to 3mf plate_1.gcode
+
+[2026-10-28 15:03:17.410802] [0x00000001fa752180] [info]    _save_model_to_file:6832, before add sliced info to 3mf
+
+[2026-10-28 15:03:17.410908] [0x00000001fa752180] [info]    _save_model_to_file:6864, before add auxiliary dir to 3mf
+
+[2026-10-28 15:03:17.410942] [0x00000001fa752180] [info]    create missing sub_pathAuxiliaries
+[2026-10-28 15:03:17.411105] [0x00000001fa752180] [info]    _save_model_to_file:6877, before add relation file to 3mf
+
+[2026-10-28 15:03:17.411133] [0x00000001fa752180] [info]    _save_model_to_file:6899, finished exporting 3mf
+
+[2026-10-28 15:03:17.419177] [0x00000001fa752180] [info]    Project exported to ${REPO_ROOT}/validation/slicer-fix/final-preserved/p1-v11-stock-A1-fit-prototype.3mf
+
+[2026-10-28 15:03:17.419210] [0x00000001fa752180] [info]    remove_backup_path_if_existmodel 0xc268f4000, id 3 remove backup_path 15_03_16#16341#3
+[2026-10-28 15:03:17.438245] [0x00000001fa752180] [info]    run, Finished
+
+[2026-10-28 15:03:17.438293] [0x00000001fa752180] [info]    record_exit_reson:586 Slicer_Info_Report: plate_id=0, return_code=0, error_message=Success., slice_time_s=12.862, pring_time_s=29761.6, filament_usage_g=311.717
+
+[2026-10-28 15:03:17.438549] [0x00000001fa752180] [info]    record_exit_reson:604, saved config to ${REPO_ROOT}/validation/slicer-fix/final-preserved/result.json
+
+[2026-10-28 15:03:17.438566] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 1 to 0
+[2026-10-28 15:03:17.438573] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-28 15:03:17.438704] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-28 15:03:17.438713] [0x00000001fa752180] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0

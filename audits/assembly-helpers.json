@@ -1,0 +1,107 @@
+{
+  "scope": "Nominal helper exports; full frame, actual hardware and physical fit remain separate.",
+  "source": "${REPO_ROOT}/assembly-refinements.scad",
+  "screw_stack": "not checked: actual lengths/depths/washer thickness/minimum engagement unknown",
+  "shim_set": {
+    "components": 4,
+    "parts": [
+      {
+        "size_mm": [
+          14.0,
+          20.0,
+          0.5
+        ],
+        "watertight": true,
+        "volume_mm3": 79.84207635795815
+      },
+      {
+        "size_mm": [
+          14.0,
+          20.0,
+          1.0
+        ],
+        "watertight": true,
+        "volume_mm3": 159.97851655534166
+      },
+      {
+        "size_mm": [
+          14.0,
+          20.0,
+          1.5
+        ],
+        "watertight": true,
+        "volume_mm3": 240.34715236085307
+      },
+      {
+        "size_mm": [
+          14.0,
+          20.0,
+          2.0
+        ],
+        "watertight": true,
+        "volume_mm3": 320.71578816660457
+      }
+    ],
+    "bearing_recess_radial_gap_mm": 1,
+    "shank_travel_mm": 6,
+    "metal_flat_washer_required": true
+  },
+  "n-type": {
+    "saddle_bounds_mm": [
+      [
+        -97.60318406349535,
+        -96.2352807102025,
+        8.0
+      ],
+      [
+        -66.81382317684327,
+        -77.0196105005984,
+        32.42044588620236
+      ]
+    ],
+    "saddle_one_volume": true,
+    "saddle_center_mm": [
+      -88.823,
+      -86.6274,
+      33.2253
+    ],
+    "centerline_length_mm": 288.36705279481413,
+    "source_sampled_minimum_3point_radius_mm": 25.0,
+    "radius_scope": "Native full-precision route samples; not physical bend measurement",
+    "catalog_300mm_datum_and_surplus_slack": "not checked",
+    "tie_2.5_by_1.5mm_complete_transverse_sweep": "pass, final helper STL intersection empty",
+    "sampled_vertical_web_mm": 3.0634600000000005,
+    "web_columns_with_eye_and_cradle": 169,
+    "web_scope": "169 central vertical columns; no global thickness or strength claim",
+    "physical_test": "not checked"
+  },
+  "stock": {
+    "saddle_bounds_mm": [
+      [
+        -93.03777717011079,
+        -74.19274314205543,
+        8.0
+      ],
+      [
+        -67.12860144724863,
+        -54.592992567498584,
+        34.463576504500686
+      ]
+    ],
+    "saddle_one_volume": true,
+    "saddle_center_mm": [
+      -84.7305,
+      -64.3929,
+      35.2684
+    ],
+    "centerline_length_mm": 211.07644081884973,
+    "source_sampled_minimum_3point_radius_mm": 15.0,
+    "radius_scope": "Native full-precision route samples; not physical bend measurement",
+    "catalog_300mm_datum_and_surplus_slack": "not checked",
+    "tie_2.5_by_1.5mm_complete_transverse_sweep": "pass, final helper STL intersection empty",
+    "sampled_vertical_web_mm": 2.93024,
+    "web_columns_with_eye_and_cradle": 169,
+    "web_scope": "169 central vertical columns; no global thickness or strength claim",
+    "physical_test": "not checked"
+  }
+}

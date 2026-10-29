@@ -79,6 +79,12 @@ def surface_metrics(triangles, part, p):
         center = [sum(q[j] for q in (a, b, c))/3 for j in range(3)]
         if part == 'coupon' or center[1] < p['fin_front']:
             region = 'pylon'
+        elif p['cable_saddle'] and center[2] > p['max_t']+.001 and (
+                part == 'rear_left_foot_coupon' or (center[0] < -50 and center[1] < -50)):
+            # v1.1 tie passage/head is above the original rear-foot/grip envelope.
+            # Record its bridging/support area separately; retain the strict
+            # original grip test at and below the original foot top.
+            region = 'cable_saddle'
         elif part in ('rear_foot_coupon', 'rear_left_foot_coupon'):
             region = 'grip'
         elif abs(center[0]) > 50 and center[1] < -50:

@@ -1,3 +1,5 @@
+> **Historical v1.0 notes.** Measurements and physical-print statements below refer to the original geometry at `9981cb6`, not the proposed v1.1 refinements. The v1.1 revision is unprinted and includes an additional stock-pylon coupon. Use [v1.1 revision notes](REVISION-1.1.md), the [current review](../COMPARISON.html) and [reproduction guide](REVIEW-REPRODUCTION.md) for current exports, checks and limitations.
+
 # Validation
 
 Version `1.0`, built with `OpenSCAD version 2026.10.11`. Values refer to the published meshes recorded in `BUILD-MANIFEST.json`.

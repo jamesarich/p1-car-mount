@@ -1,0 +1,57 @@
+[2026-10-28 14:42:36.139416] [0x00000001fa752180] [trace]   Initializing StaticPrintConfigs
+[p1-screw-shim-calibration-kit.3mf]
+size_x = 14.000000
+size_y = 20.000000
+size_z = 0.500000
+min_x = -7.000000
+min_y = -10.000000
+min_z = -0.250000
+max_x = 7.000000
+max_y = 10.000000
+max_z = 0.250000
+number_of_facets = 1384
+manifold = yes
+number_of_parts =  1
+volume = 79.842140
+[p1-screw-shim-calibration-kit.3mf]
+size_x = 14.000000
+size_y = 20.000000
+size_z = 1.000000
+min_x = -7.000000
+min_y = -10.000000
+min_z = -0.500000
+max_x = 7.000000
+max_y = 10.000000
+max_z = 0.500000
+number_of_facets = 1384
+manifold = yes
+number_of_parts =  1
+volume = 159.978516
+[p1-screw-shim-calibration-kit.3mf]
+size_x = 14.000000
+size_y = 20.000000
+size_z = 1.500000
+min_x = -7.000000
+min_y = -10.000000
+min_z = -0.750000
+max_x = 7.000000
+max_y = 10.000000
+max_z = 0.750000
+number_of_facets = 1384
+manifold = yes
+number_of_parts =  1
+volume = 240.347290
+[p1-screw-shim-calibration-kit.3mf]
+size_x = 14.000000
+size_y = 20.000000
+size_z = 2.000000
+min_x = -7.000000
+min_y = -10.000000
+min_z = -1.000000
+max_x = 7.000000
+max_y = 10.000000
+max_z = 1.000000
+number_of_facets = 1384
+manifold = yes
+number_of_parts =  1
+volume = 320.715820

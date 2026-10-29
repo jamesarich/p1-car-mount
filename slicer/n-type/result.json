@@ -1,0 +1,69 @@
+{
+    "error_string": "Success.",
+    "export_time": 3610,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 144,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 725.3487548828125,
+                "Bridge": 1324.543212890625,
+                "Brim": 143.3549346923828,
+                "Custom": 367.3905334472656,
+                "Flush": 25.0,
+                "Gap infill": 205.2620849609375,
+                "Inner wall": 6492.54345703125,
+                "Internal solid infill": 4305.080078125,
+                "Outer wall": 1548.8056640625,
+                "Overhang wall": 120.12818145751953,
+                "Sparse infill": 9510.3984375,
+                "Support": 720.8064575195313,
+                "Support interface": 84.64122772216797,
+                "Support transition": 34.02348709106445,
+                "Top surface": 1368.0169677734375,
+                "Travel": 3887.755126953125,
+                "Undefined": 3870.64013671875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG02",
+                    "id": 1,
+                    "main_used_g": 330.3139953613281,
+                    "total_used_g": 330.31402587890625
+                }
+            ],
+            "generate_support_material_time": 1490,
+            "id": 1,
+            "infill_time": 6905,
+            "layer_filament_change": 0,
+            "main_predication": 30445.630859375,
+            "make_perimeters_time": 2928,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 241.5,
+                        "height": 68.0,
+                        "width": 200.0,
+                        "x": 28.0,
+                        "y": 7.249989986419678,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "p1-roof-mount-n-type.stl",
+                    "triangle_count": 111612
+                }
+            ],
+            "sliced_time": 18055,
+            "sliced_time_with_cache": 5785,
+            "total_predication": 30845.90625,
+            "triangle_count": 111612,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 40.0,
+    "wall_loops": 6
+}

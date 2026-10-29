@@ -1,3 +1,5 @@
+> **Historical v1.0 notes.** Measurements and physical-print statements below refer to the original geometry at `9981cb6`, not the proposed v1.1 refinements. The v1.1 revision is unprinted and includes an additional stock-pylon coupon. Use [v1.1 revision notes](REVISION-1.1.md), the [current review](../COMPARISON.html) and [reproduction guide](REVIEW-REPRODUCTION.md) for current exports, checks and limitations.
+
 # Print notes
 
 One printed frame with direct bulkhead antenna mounting and no added fasteners. The source is `p1-roof-mount.scad`; the N-type frame is `p1-roof-mount-n-type.stl` (`antenna = "alfa"` in the source, after the ALFA antenna it was sized for) and the stock-antenna frame is `p1-roof-mount-stock.stl` (`antenna = "stock"`).

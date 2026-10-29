@@ -1,0 +1,86 @@
+P1 mount 1.1 — assembly refinements and physical calibration
+
+Editable helper: assembly-refinements.scad, used by the main frame source.
+All dimensions are millimeters. These nominal digital additions do not establish
+vehicle retention, service temperature, clamp load or cable/connector suitability.
+
+SCREW STACK
+The original 2 mm bearing webs, slot datums and +/-3 mm shank travel remain.
+Do not select a spacer from the author's trial washer count: actual washer
+thicknesses and usable insert depths were not supplied.
+
+Four flat calibration shims are supplied at 0.5 / 1 / 1.5 / 2 mm, arranged left
+to right in the shim-set export. Each has a 14 x 20 capsule outline and a
+6.8 x 12.8 capsule bore, preserving the full 6 mm screw travel. The bearing
+recess is 16 x 22, giving 1 mm nominal radial perimeter clearance. The bore
+has short separate entry relief; both bearing faces stay planar.
+
+Stack order from below: screw head, METAL flat washer, selected printed shim,
+original 2 mm web, node insert. The shim is not a replacement for the metal
+washer. The 0.5 mm shim is intentionally a thin, fully supported fit specimen;
+it is not an unsupported structural tab. Do not assume shim thickness is exact
+until printed thickness, compression and creep are measured.
+
+ar_screw_engagement = measured_under_head_length - web - measured_metal_washer
+                     - selected_shim.
+ar_screw_stack_report reports NOT CHECKED until screw length, washer thickness,
+front and rear insert depths and required minimum engagement are supplied.
+A provisional 0.5 mm bottoming margin is exposed as a parameter, not a verified
+hardware specification. Measure both inserts independently. Tightening must
+clamp the node before bottoming while preserving the hardware's specified
+minimum thread engagement. Check tightening torque with the actual material.
+
+CABLE ROUTE AND RESTRAINT
+The reference-only cable centerline preserves the original connector tail bend,
+loops behind and left of the pylon, then approaches the photo-derived left jack
+axially. It has C1 joins, 25 mm N-type / 15 mm stock minimum source-sampled
+curvature radius, and source-sampled centerline lengths ~288.37 / 211.08 mm.
+The N-type route extends rearward to Y about -174; stock to -148.2. These are
+reference wire envelopes, not additions to the printable frame footprint.
+
+The 300 mm catalog cable length datum and rigid termination lengths have not
+been measured. In particular N-type leaves little nominal centerline margin;
+the actual cable may require a different route or a longer cable. Stock has
+surplus length whose final service loop remains unverified. Do not claim that
+every millimeter of a purchased cable has been routed or its assembly proven.
+
+A variant-specific, printable saddle is integrated with the left rear foot/rail
+shoulder. The 16 x 20 capsule root lofts smoothly from Z8 into a rounded 14 x 20
+working head. N-type nominal cable center is (-88.823,-86.627,33.225); stock
+(-84.731,-64.393,35.268). The body stays inside the original X=-100 boundary.
+The open cradle follows the curved wire centerline with 1 mm radial allowance.
+Its crest is 0.8 mm below the nominal cable axis so the tie bears on the cable
+instead of bridging on two high shoulders. Retention is from the separate tie,
+not an untested integral snap catch.
+
+Nominal tie: 2.5 mm wide, no more than 1.5 mm thick. The transverse 3.4 x 2.2
+capsule passage has R1.1 outline and a separate 0.35 mm entry flare. The actual
+supplier/grade, insertion force and tightening force remain unknown. Tighten
+only enough to restrain motion; do not crush coax or force a bend at a crimp.
+
+EXPORTED-GEOMETRY CHECKS
+tools/check_assembly_helpers.py regenerates only helper geometry and tests the
+result independently. audits/assembly-helpers.json records actual bounds and
+topology. Four shim pieces and each saddle are watertight positive solids.
+A 2.5 x 1.5 rectangular tie envelope swept across the complete exported eye
+gives an empty Boolean interference for both variants. Central vertical
+ligament sampling (169 columns within a 3 x 3 mm region) gives 3.063 mm N-type
+and 2.930 mm stock minimum material between tie eye and cable cradle. These
+are local samples, not global minimum thickness or strength validation.
+The final frame's cuts/union still need their own checks; standalone helper
+checks do not automatically transfer to a changed assembled export.
+
+PHYSICAL CHECKS STILL REQUIRED
+Print shims flat and a small saddle/foot region in the intended material and
+orientation. Verify measured thickness, actual screw/washer stack, clamp,
+thread engagement, socket access at both slot extremes, and creep under load.
+Thread the actual tie both ways, inspect its mouth contact, install/remove the
+cable without pinching, and confirm the tie does not collapse the coax.
+Verify the complete cable and both connector/tool envelopes against the node,
+magnet nuts, roof, rear removal grip and antenna. Confirm release/cleanup access.
+Full-frame export and slicer checks are separate from these helper tests.
+
+Use the actual material grade and outdoor/temperature qualification chosen for
+the full mount. A provisional A1 PETG prototype is not a quiet substitution for
+the original ASA/P1S service-material choice. No print or printer operation was
+performed as part of this digital helper work.

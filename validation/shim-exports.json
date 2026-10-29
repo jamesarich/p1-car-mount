@@ -1,0 +1,154 @@
+{
+  "p1-screw-shim-0p5mm.stl": {
+    "triangles": 1384,
+    "bounds": [
+      [
+        -7.0,
+        -10.0,
+        0.0
+      ],
+      [
+        7.0,
+        10.0,
+        0.5
+      ]
+    ],
+    "size": [
+      14.0,
+      20.0,
+      0.5
+    ],
+    "volume_mm3": 79.842075079276,
+    "components": 1,
+    "near_zero_area_triangles": 0,
+    "elevated_downward_flat_area_mm2": 0,
+    "sha256": "4d1ca00bbaddff17ca060b7bf39dae191cd4218a58da1a0a42dc8accb4de6b1f",
+    "normalization": {
+      "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+      "source_triangles": 1760,
+      "exported_triangles": 1384,
+      "precision_edge_contractions": {
+        "contractions": 8,
+        "max_allowed_motion_mm": 1e-06,
+        "max_actual_motion_mm": 1.4901161193847656e-08
+      },
+      "relative_volume_delta": 1.604425712922632e-08,
+      "bound_tolerance_mm": 0.0001,
+      "binary_roundtrip_valid": true
+    }
+  },
+  "p1-screw-shim-1mm.stl": {
+    "triangles": 1384,
+    "bounds": [
+      [
+        -7.0,
+        -10.0,
+        0.0
+      ],
+      [
+        7.0,
+        10.0,
+        1.0
+      ]
+    ],
+    "size": [
+      14.0,
+      20.0,
+      1.0
+    ],
+    "volume_mm3": 159.97851386425387,
+    "components": 1,
+    "near_zero_area_triangles": 0,
+    "elevated_downward_flat_area_mm2": 0,
+    "sha256": "960f2fba2a7af040b9dc231d000b6734f8b59f9b9133377a97899d473507a4eb",
+    "normalization": {
+      "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+      "source_triangles": 1760,
+      "exported_triangles": 1384,
+      "precision_edge_contractions": {
+        "contractions": 0,
+        "max_allowed_motion_mm": 1e-06,
+        "max_actual_motion_mm": 0.0
+      },
+      "relative_volume_delta": 1.6885729544330337e-08,
+      "bound_tolerance_mm": 0.0001,
+      "binary_roundtrip_valid": true
+    }
+  },
+  "p1-screw-shim-1p5mm.stl": {
+    "triangles": 1384,
+    "bounds": [
+      [
+        -7.0,
+        -10.0,
+        0.0
+      ],
+      [
+        7.0,
+        10.0,
+        1.5
+      ]
+    ],
+    "size": [
+      14.0,
+      20.0,
+      1.5
+    ],
+    "volume_mm3": 240.34714828232686,
+    "components": 1,
+    "near_zero_area_triangles": 0,
+    "elevated_downward_flat_area_mm2": 0,
+    "sha256": "fb132036fc2b2ef30bbd6c3acdc4fc7daefeb768f3627ee6abed0022850197c9",
+    "normalization": {
+      "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+      "source_triangles": 1760,
+      "exported_triangles": 1384,
+      "precision_edge_contractions": {
+        "contractions": 0,
+        "max_allowed_motion_mm": 1e-06,
+        "max_actual_motion_mm": 0.0
+      },
+      "relative_volume_delta": 1.704731624709649e-08,
+      "bound_tolerance_mm": 0.0001,
+      "binary_roundtrip_valid": true
+    }
+  },
+  "p1-screw-shim-2mm.stl": {
+    "triangles": 1384,
+    "bounds": [
+      [
+        -7.0,
+        -10.0,
+        0.0
+      ],
+      [
+        7.0,
+        10.0,
+        2.0
+      ]
+    ],
+    "size": [
+      14.0,
+      20.0,
+      2.0
+    ],
+    "volume_mm3": 320.7157827003986,
+    "components": 1,
+    "near_zero_area_triangles": 0,
+    "elevated_downward_flat_area_mm2": 0,
+    "sha256": "28bb5fd475ffc6df398edff9d9a07b1b88febbe1554c04c5573c530389592e6d",
+    "normalization": {
+      "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+      "source_triangles": 1760,
+      "exported_triangles": 1384,
+      "precision_edge_contractions": {
+        "contractions": 0,
+        "max_allowed_motion_mm": 1e-06,
+        "max_actual_motion_mm": 0.0
+      },
+      "relative_volume_delta": 1.7127918722004207e-08,
+      "bound_tolerance_mm": 0.0001,
+      "binary_roundtrip_valid": true
+    }
+  }
+}

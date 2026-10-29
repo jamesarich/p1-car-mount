@@ -1,0 +1,70 @@
+[
+  {
+    "part": "p1-screw-shim-0p5mm.stl",
+    "sha256": "4d1ca00bbaddff17ca060b7bf39dae191cd4218a58da1a0a42dc8accb4de6b1f",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "900,700",
+      "-o",
+      "${REPO_ROOT}/comparison/shim-0p5.png",
+      "${REPO_ROOT}/comparison/shim-0p5.scad"
+    ]
+  },
+  {
+    "part": "p1-screw-shim-1mm.stl",
+    "sha256": "960f2fba2a7af040b9dc231d000b6734f8b59f9b9133377a97899d473507a4eb",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "900,700",
+      "-o",
+      "${REPO_ROOT}/comparison/shim-1.png",
+      "${REPO_ROOT}/comparison/shim-1.scad"
+    ]
+  },
+  {
+    "part": "p1-screw-shim-1p5mm.stl",
+    "sha256": "fb132036fc2b2ef30bbd6c3acdc4fc7daefeb768f3627ee6abed0022850197c9",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "900,700",
+      "-o",
+      "${REPO_ROOT}/comparison/shim-1p5.png",
+      "${REPO_ROOT}/comparison/shim-1p5.scad"
+    ]
+  },
+  {
+    "part": "p1-screw-shim-2mm.stl",
+    "sha256": "28bb5fd475ffc6df398edff9d9a07b1b88febbe1554c04c5573c530389592e6d",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "900,700",
+      "-o",
+      "${REPO_ROOT}/comparison/shim-2.png",
+      "${REPO_ROOT}/comparison/shim-2.scad"
+    ]
+  }
+]

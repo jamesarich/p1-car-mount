@@ -1,0 +1,108 @@
+{
+  "n-type": {
+    "project": "slicer/n-type/p1-v11-n-type-A1-supported.3mf",
+    "size_mm": [
+      200.0,
+      241.5,
+      68.0
+    ],
+    "triangles": 111612,
+    "source_volume_mm3": 415446.76269122306,
+    "imported_volume_mm3": 415446.7613021175,
+    "relative_volume_delta": 3.3436427869491946e-09,
+    "vertex_set_max_gap_mm": 4.279061335097263e-06,
+    "embedded_gcode_sha256": "ece543a6eba76dc645ff257dca8fdfd2d5c0331b4251b4ad2a40dbd3615d39b3",
+    "toolpath_hash_matches_retained_evidence": true,
+    "positive_support_extrusion_moves": {
+      "Support": 11502,
+      "Support interface": 2358,
+      "Support transition": 758
+    },
+    "support_check_scope": "Positive extrusion only; not exhaustive bridge anchoring or physical print acceptance",
+    "settings": {
+      "printer_model": "Bambu Lab A1",
+      "printer_settings_id": "Bambu Lab A1 0.4 nozzle",
+      "nozzle_diameter": [
+        "0.4"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "filament_settings_id": [
+        "Bambu PETG HF @BBL A1"
+      ],
+      "filament_type": [
+        "PETG"
+      ],
+      "wall_loops": "6",
+      "layer_height": "0.2",
+      "sparse_infill_density": "40%",
+      "brim_width": "4",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "0",
+      "internal_solid_infill_line_width": "0.42",
+      "detect_floating_vertical_shell": "1",
+      "vertical_shell_speed": [
+        "80%"
+      ],
+      "bottom_shell_layers": "6",
+      "top_shell_layers": "6",
+      "bottom_shell_thickness": "1.2",
+      "top_shell_thickness": "1.2"
+    },
+    "slice_metadata_present": true,
+    "sha256": "0b90a3a68e4cd20d11368230c0495988ba96a68ad65345ddf51674796c027549"
+  },
+  "stock": {
+    "project": "slicer/stock/p1-v11-stock-A1-supported.3mf",
+    "size_mm": [
+      200.0,
+      231.600006,
+      68.0
+    ],
+    "triangles": 103392,
+    "source_volume_mm3": 398815.31693745917,
+    "imported_volume_mm3": 398815.3209306956,
+    "relative_volume_delta": 1.0012745975897074e-08,
+    "vertex_set_max_gap_mm": 4.576027655555455e-06,
+    "embedded_gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d",
+    "toolpath_hash_matches_retained_evidence": true,
+    "positive_support_extrusion_moves": {
+      "Support": 5754,
+      "Support transition": 571,
+      "Support interface": 2153
+    },
+    "support_check_scope": "Positive extrusion only; not exhaustive bridge anchoring or physical print acceptance",
+    "settings": {
+      "printer_model": "Bambu Lab A1",
+      "printer_settings_id": "Bambu Lab A1 0.4 nozzle",
+      "nozzle_diameter": [
+        "0.4"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "filament_settings_id": [
+        "Bambu PETG HF @BBL A1"
+      ],
+      "filament_type": [
+        "PETG"
+      ],
+      "wall_loops": "6",
+      "layer_height": "0.2",
+      "sparse_infill_density": "40%",
+      "brim_width": "4",
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": "0",
+      "internal_solid_infill_line_width": "0.42",
+      "detect_floating_vertical_shell": "0",
+      "vertical_shell_speed": [
+        "50"
+      ],
+      "bottom_shell_layers": "6",
+      "top_shell_layers": "6",
+      "bottom_shell_thickness": "1.2",
+      "top_shell_thickness": "1.2"
+    },
+    "slice_metadata_present": true,
+    "sha256": "78a74fc51abeefb057525f01d43177843ff2201bb2cca380b9491b03f9150776"
+  }
+}

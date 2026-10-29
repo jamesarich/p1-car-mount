@@ -1,0 +1,15 @@
+[2026-10-28 15:05:24.262065] [0x00000001fa752180] [trace]   Initializing StaticPrintConfigs
+[p1-v11-stock-A1-fit-prototype.3mf]
+size_x = 200.000000
+size_y = 231.600006
+size_z = 68.000000
+min_x = -100.000000
+min_y = -115.800003
+min_z = -34.000000
+max_x = 100.000000
+max_y = 115.800003
+max_z = 34.000000
+number_of_facets = 103392
+manifold = yes
+number_of_parts =  1
+volume = 398816.375000

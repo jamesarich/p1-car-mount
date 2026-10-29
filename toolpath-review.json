@@ -1,0 +1,443 @@
+{
+  "scope": "Targeted actual toolpath inspection. No printer operated. Not exhaustive support/bridge proof.",
+  "profile": "Bambu A1 0.4; Bambu PETG HF provisional prototype; 0.20mm model layers; 6 walls, 40% infill, 4mm brim, automatic supports",
+  "parser": "Positive-E XY extrusion after Z_HEIGHT markers; G2/G3 IJ arcs interpolated with <=0.02mm sagitta and <=10deg steps. Full prior paths shown and axis-clipped, never endpoint-filtered.",
+  "variants": {
+    "n-type": {
+      "gcode_sha256": "ece543a6eba76dc645ff257dca8fdfd2d5c0331b4251b4ad2a40dbd3615d39b3",
+      "path_commands_by_feature": {
+        "Support": 11502,
+        "Brim": 4075,
+        "Outer wall": 46705,
+        "Inner wall": 211250,
+        "Bottom surface": 2991,
+        "Internal solid infill": 69979,
+        "Sparse infill": 125970,
+        "Floating vertical shell": 36208,
+        "Bridge": 23620,
+        "Top surface": 14219,
+        "Gap infill": 14213,
+        "Support interface": 2357,
+        "Support transition": 758,
+        "Overhang wall": 448
+      },
+      "deposited_length_mm_by_feature": {
+        "Support": 60506.16529669416,
+        "Brim": 6856.667975436497,
+        "Outer wall": 216869.01102712724,
+        "Inner wall": 1068097.9243762253,
+        "Bottom surface": 43220.51707411301,
+        "Internal solid infill": 482954.0635172979,
+        "Sparse infill": 1284913.6795634474,
+        "Floating vertical shell": 69524.54023396148,
+        "Bridge": 58457.17202578905,
+        "Top surface": 82540.75659932753,
+        "Gap infill": 4643.91787338819,
+        "Support interface": 4207.058495177912,
+        "Support transition": 1418.624180101839,
+        "Overhang wall": 1345.2931753128407
+      },
+      "filament_E_mm_by_feature": {
+        "Support": 2111.2498400000572,
+        "Brim": 244.9611899999997,
+        "Outer wall": 6405.160479999979,
+        "Inner wall": 34031.11424999866,
+        "Bottom surface": 1546.3568499999888,
+        "Internal solid infill": 14266.171269998837,
+        "Sparse infill": 40883.666060002775,
+        "Floating vertical shell": 2135.185110000036,
+        "Bridge": 2885.202560000033,
+        "Top surface": 2432.727970000068,
+        "Gap infill": 100.03796,
+        "Support interface": 133.55154999999968,
+        "Support transition": 48.02567999999986,
+        "Overhang wall": 42.81605999999998
+      },
+      "arc_commands_by_feature": {
+        "Support": 2593,
+        "Outer wall": 17256,
+        "Inner wall": 80338,
+        "Bottom surface": 547,
+        "Internal solid infill": 7693,
+        "Sparse infill": 24177,
+        "Floating vertical shell": 6867,
+        "Bridge": 942,
+        "Gap infill": 1308,
+        "Support interface": 602,
+        "Support transition": 115,
+        "Overhang wall": 149
+      },
+      "z_levels_with_extrusion": 480,
+      "z_bounds_mm": [
+        0.2,
+        68.0
+      ],
+      "model_layer_count": 340,
+      "support_layer_count": 263,
+      "all_extrusion_centerline_bounds_xy_mm": [
+        [
+          24.487,
+          5.225
+        ],
+        [
+          231.513,
+          252.263
+        ]
+      ],
+      "model_centerline_bounds_xy_mm": [
+        [
+          28.21,
+          7.462
+        ],
+        [
+          227.79,
+          248.53791259843612
+        ]
+      ],
+      "selected_layers": [
+        {
+          "feature": "First layer / bed contact",
+          "z_mm": 0.2,
+          "previous_model_z": null,
+          "previous_support_z": null,
+          "counts_current": {
+            "Support": 300,
+            "Brim": 4075,
+            "Outer wall": 445,
+            "Inner wall": 2557,
+            "Bottom surface": 2991
+          }
+        },
+        {
+          "feature": "Front node-screw ceiling",
+          "z_mm": 11.2,
+          "previous_model_z": 11.0,
+          "previous_support_z": 11.0,
+          "counts_current": {
+            "Support interface": 38,
+            "Support transition": 25,
+            "Support": 54,
+            "Inner wall": 2123,
+            "Outer wall": 499,
+            "Overhang wall": 24,
+            "Sparse infill": 1263,
+            "Internal solid infill": 661,
+            "Top surface": 192,
+            "Gap infill": 235,
+            "Bridge": 432,
+            "Floating vertical shell": 330
+          }
+        },
+        {
+          "feature": "Rear node-screw ceiling",
+          "z_mm": 14.0,
+          "previous_model_z": 13.8,
+          "previous_support_z": 13.8,
+          "counts_current": {
+            "Support": 36,
+            "Support transition": 17,
+            "Support interface": 40,
+            "Inner wall": 1684,
+            "Outer wall": 369,
+            "Floating vertical shell": 316,
+            "Sparse infill": 960,
+            "Overhang wall": 28,
+            "Bridge": 420,
+            "Internal solid infill": 711,
+            "Top surface": 260,
+            "Gap infill": 66
+          }
+        },
+        {
+          "feature": "Pylon chamber / nut shoulder",
+          "z_mm": 60.0,
+          "previous_model_z": 59.8,
+          "previous_support_z": 59.7429,
+          "counts_current": {
+            "Inner wall": 121,
+            "Outer wall": 23,
+            "Sparse infill": 104,
+            "Internal solid infill": 48
+          }
+        },
+        {
+          "feature": "Pylon roof underside",
+          "z_mm": 64.2,
+          "previous_model_z": 64.0,
+          "previous_support_z": 63.8,
+          "counts_current": {
+            "Inner wall": 19,
+            "Overhang wall": 19,
+            "Outer wall": 3,
+            "Sparse infill": 135,
+            "Floating vertical shell": 115
+          }
+        },
+        {
+          "feature": "Connector bore / crown",
+          "z_mm": 67.0,
+          "previous_model_z": 66.8,
+          "previous_support_z": 63.8,
+          "counts_current": {
+            "Inner wall": 36,
+            "Outer wall": 8,
+            "Floating vertical shell": 43
+          }
+        },
+        {
+          "feature": "Cable tie-eye roof",
+          "z_mm": 27.8,
+          "previous_model_z": 27.6,
+          "previous_support_z": 27.6,
+          "counts_current": {
+            "Inner wall": 142,
+            "Outer wall": 51,
+            "Sparse infill": 116,
+            "Floating vertical shell": 21
+          }
+        },
+        {
+          "feature": "Open cable cradle",
+          "z_mm": 32.0,
+          "previous_model_z": 31.8,
+          "previous_support_z": 31.7667,
+          "counts_current": {
+            "Inner wall": 183,
+            "Outer wall": 39,
+            "Gap infill": 54,
+            "Top surface": 10,
+            "Sparse infill": 93,
+            "Floating vertical shell": 15
+          }
+        }
+      ],
+      "preview": "toolpaths-n-type.png"
+    },
+    "stock": {
+      "gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d",
+      "path_commands_by_feature": {
+        "Support": 5754,
+        "Brim": 4245,
+        "Outer wall": 44854,
+        "Inner wall": 205390,
+        "Bottom surface": 2958,
+        "Internal solid infill": 67634,
+        "Sparse infill": 119275,
+        "Floating vertical shell": 29826,
+        "Bridge": 23645,
+        "Top surface": 13974,
+        "Gap infill": 10166,
+        "Support transition": 571,
+        "Support interface": 2153,
+        "Overhang wall": 413
+      },
+      "deposited_length_mm_by_feature": {
+        "Support": 29371.615329408793,
+        "Brim": 6895.855488615988,
+        "Outer wall": 199475.1088632333,
+        "Inner wall": 983527.564441153,
+        "Bottom surface": 42055.66708478551,
+        "Internal solid infill": 475081.94929536624,
+        "Sparse infill": 1252133.412850789,
+        "Floating vertical shell": 55349.86203597935,
+        "Bridge": 58517.94831952861,
+        "Top surface": 81941.84987483668,
+        "Gap infill": 2753.218081518517,
+        "Support transition": 1015.8115106652378,
+        "Support interface": 3352.5193347697805,
+        "Overhang wall": 1106.03589987931
+      },
+      "filament_E_mm_by_feature": {
+        "Support": 1074.6959099999858,
+        "Brim": 246.36113000000054,
+        "Outer wall": 5892.367820000017,
+        "Inner wall": 31339.69466000035,
+        "Bottom surface": 1504.679879999986,
+        "Internal solid infill": 14035.09987999881,
+        "Sparse infill": 39840.68345999969,
+        "Floating vertical shell": 1755.8679100000095,
+        "Bridge": 2893.399189999961,
+        "Top surface": 2415.077950000062,
+        "Gap infill": 51.766270000000155,
+        "Support transition": 35.01411999999982,
+        "Support interface": 105.89459000000063,
+        "Overhang wall": 35.20064000000003
+      },
+      "arc_commands_by_feature": {
+        "Support": 1695,
+        "Outer wall": 16980,
+        "Inner wall": 78088,
+        "Bottom surface": 532,
+        "Internal solid infill": 7475,
+        "Sparse infill": 22752,
+        "Floating vertical shell": 5254,
+        "Bridge": 935,
+        "Gap infill": 622,
+        "Support transition": 76,
+        "Support interface": 697,
+        "Overhang wall": 147
+      },
+      "z_levels_with_extrusion": 499,
+      "z_bounds_mm": [
+        0.2,
+        68.0
+      ],
+      "model_layer_count": 340,
+      "support_layer_count": 265,
+      "all_extrusion_centerline_bounds_xy_mm": [
+        [
+          24.487,
+          8.102
+        ],
+        [
+          231.513,
+          247.318
+        ]
+      ],
+      "model_centerline_bounds_xy_mm": [
+        [
+          28.21,
+          12.411
+        ],
+        [
+          227.79,
+          243.587
+        ]
+      ],
+      "selected_layers": [
+        {
+          "feature": "First layer / bed contact",
+          "z_mm": 0.2,
+          "previous_model_z": null,
+          "previous_support_z": null,
+          "counts_current": {
+            "Support": 208,
+            "Brim": 4245,
+            "Outer wall": 451,
+            "Inner wall": 2512,
+            "Bottom surface": 2958
+          }
+        },
+        {
+          "feature": "Front node-screw ceiling",
+          "z_mm": 11.2,
+          "previous_model_z": 11.0,
+          "previous_support_z": 11.0,
+          "counts_current": {
+            "Support interface": 37,
+            "Support": 37,
+            "Support transition": 29,
+            "Inner wall": 2089,
+            "Outer wall": 496,
+            "Overhang wall": 24,
+            "Sparse infill": 1231,
+            "Internal solid infill": 590,
+            "Top surface": 194,
+            "Gap infill": 287,
+            "Bridge": 418,
+            "Floating vertical shell": 232
+          }
+        },
+        {
+          "feature": "Rear node-screw ceiling",
+          "z_mm": 14.0,
+          "previous_model_z": 13.8,
+          "previous_support_z": 13.8,
+          "counts_current": {
+            "Support interface": 39,
+            "Support": 10,
+            "Support transition": 20,
+            "Inner wall": 1612,
+            "Outer wall": 353,
+            "Sparse infill": 919,
+            "Floating vertical shell": 219,
+            "Overhang wall": 28,
+            "Bridge": 419,
+            "Internal solid infill": 724,
+            "Top surface": 257,
+            "Gap infill": 55
+          }
+        },
+        {
+          "feature": "Pylon chamber / nut shoulder",
+          "z_mm": 60.0,
+          "previous_model_z": 59.8,
+          "previous_support_z": 59.8762,
+          "counts_current": {
+            "Inner wall": 119,
+            "Overhang wall": 24,
+            "Outer wall": 24,
+            "Sparse infill": 60,
+            "Bridge": 20,
+            "Internal solid infill": 10
+          }
+        },
+        {
+          "feature": "Pylon roof underside",
+          "z_mm": 65.6,
+          "previous_model_z": 65.4,
+          "previous_support_z": 65.4,
+          "counts_current": {
+            "Inner wall": 41,
+            "Outer wall": 9,
+            "Sparse infill": 71,
+            "Floating vertical shell": 4
+          }
+        },
+        {
+          "feature": "Connector bore / crown",
+          "z_mm": 67.0,
+          "previous_model_z": 66.8,
+          "previous_support_z": 65.4,
+          "counts_current": {
+            "Inner wall": 47,
+            "Outer wall": 6,
+            "Floating vertical shell": 111
+          }
+        },
+        {
+          "feature": "Cable tie-eye roof",
+          "z_mm": 30.0,
+          "previous_model_z": 29.8,
+          "previous_support_z": 29.8,
+          "counts_current": {
+            "Support interface": 21,
+            "Support": 14,
+            "Inner wall": 278,
+            "Overhang wall": 36,
+            "Outer wall": 61,
+            "Internal solid infill": 16,
+            "Bridge": 53,
+            "Sparse infill": 57,
+            "Floating vertical shell": 77,
+            "Gap infill": 3
+          }
+        },
+        {
+          "feature": "Open cable cradle",
+          "z_mm": 34.0,
+          "previous_model_z": 33.8,
+          "previous_support_z": 33.8,
+          "counts_current": {
+            "Support": 16,
+            "Support interface": 21,
+            "Inner wall": 164,
+            "Outer wall": 34,
+            "Sparse infill": 54,
+            "Gap infill": 34,
+            "Floating vertical shell": 30
+          }
+        }
+      ],
+      "preview": "toolpaths-stock.png"
+    }
+  },
+  "visual_observations": [
+    "Both first layers show continuous frame/foot paths plus brim and support footprints; all inspected deposition centerlines lie inside 0..256 mm bed coordinates.",
+    "Both node-screw pocket crops show support and support-interface paths in the access recesses, alongside bridge/overhang paths near the sloping ceilings. Removal and surface quality require coupon prints.",
+    "Both pylons show multiple perimeter paths around the retained connector bore/chamber, with support paths below the roof; stock also shows bridge paths in the rear crown region at Z60.",
+    "Previous support ghosting at the top bore views is from the reported lower support Z, not evidence that support reaches the bore top.",
+    "These eight crops per variant do not prove every deposited run is anchored; no exhaustive width-aware prior-layer contact analysis was performed.",
+    "Final v1.1 slicer diagnostics and metadata are recorded separately; no complete anchoring or physical printing proof follows from these crops."
+  ]
+}

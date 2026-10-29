@@ -1,0 +1,1190 @@
+{
+  "${BASELINE_ROOT}/p1-roof-mount-n-type.stl": [
+    {
+      "z_mm": 3,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.0,
+            "y": -68.873904,
+            "turn_deg": 91.09935014299094,
+            "incoming_segment_mm": 6.551535999999999,
+            "outgoing_segment_mm": 0.5377329806186344
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.0,
+            "y": -68.873904,
+            "turn_deg": 91.09935014299094,
+            "incoming_segment_mm": 6.551535999999999,
+            "outgoing_segment_mm": 0.5377329806186344
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.0,
+            "y": -26.067993,
+            "turn_deg": 90.0,
+            "incoming_segment_mm": 2.8600259999999995,
+            "outgoing_segment_mm": 2.3922109999999996
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.0,
+            "y": -26.067993,
+            "turn_deg": 90.0,
+            "incoming_segment_mm": 2.8600259999999995,
+            "outgoing_segment_mm": 2.3922109999999996
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.0,
+            "y": 48.43379,
+            "turn_deg": 90.0,
+            "incoming_segment_mm": 1.925421,
+            "outgoing_segment_mm": 1.8877260000000007
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.0,
+            "y": 48.43379,
+            "turn_deg": 90.0,
+            "incoming_segment_mm": 1.925421,
+            "outgoing_segment_mm": 1.8877260000000007
+          }
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 12.0,
+          "y": -68.873904,
+          "turn_deg": 91.09935014299094,
+          "incoming_segment_mm": 6.551535999999999,
+          "outgoing_segment_mm": 0.5377329806186344
+        },
+        {
+          "x": 12.0,
+          "y": 66.475762,
+          "turn_deg": 90.0,
+          "incoming_segment_mm": 16.887184,
+          "outgoing_segment_mm": 2.3311390000000074
+        },
+        {
+          "x": 12.0,
+          "y": 48.43379,
+          "turn_deg": 90.0,
+          "incoming_segment_mm": 1.925421,
+          "outgoing_segment_mm": 1.8877260000000007
+        },
+        {
+          "x": 12.0,
+          "y": -26.067993,
+          "turn_deg": 90.0,
+          "incoming_segment_mm": 2.8600259999999995,
+          "outgoing_segment_mm": 2.3922109999999996
+        },
+        {
+          "x": 54.003702,
+          "y": -66.425367,
+          "turn_deg": 60.14447247803503,
+          "incoming_segment_mm": 0.18572698115244168,
+          "outgoing_segment_mm": 0.22105187174959387
+        },
+        {
+          "x": 54.046999,
+          "y": 66.421213,
+          "turn_deg": 59.519703948046235,
+          "incoming_segment_mm": 0.782591936455386,
+          "outgoing_segment_mm": 0.21967912059410488
+        },
+        {
+          "x": 64.0,
+          "y": 55.21539,
+          "turn_deg": 58.12495926370891,
+          "incoming_segment_mm": 2.2805940000000007,
+          "outgoing_segment_mm": 0.2742598971559686
+        },
+        {
+          "x": 64.0,
+          "y": -20.78461,
+          "turn_deg": 58.12494171580895,
+          "incoming_segment_mm": 1.0807429999999982,
+          "outgoing_segment_mm": 0.48344465973676864
+        },
+        {
+          "x": 64.0,
+          "y": -55.21539,
+          "turn_deg": 58.12490626693641,
+          "incoming_segment_mm": 0.30397150197510536,
+          "outgoing_segment_mm": 3.653222999999997
+        },
+        {
+          "x": 64.0,
+          "y": 20.78461,
+          "turn_deg": 58.12481864290326,
+          "incoming_segment_mm": 0.20962540400676513,
+          "outgoing_segment_mm": 2.961137000000001
+        },
+        {
+          "x": 53.478445,
+          "y": 66.475762,
+          "turn_deg": 5.480445113733964,
+          "incoming_segment_mm": 0.3514856930260476,
+          "outgoing_segment_mm": 24.591261
+        },
+        {
+          "x": 60.913359,
+          "y": -18.658156,
+          "turn_deg": 3.7503310728861012,
+          "incoming_segment_mm": 0.17277778701268154,
+          "outgoing_segment_mm": 0.1727783510194478
+        }
+      ]
+    },
+    {
+      "z_mm": 8,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.0,
+            "y": -68.873904,
+            "turn_deg": 91.09945667398705,
+            "incoming_segment_mm": 3.2757679999999993,
+            "outgoing_segment_mm": 0.26886649990283296
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.0,
+            "y": -68.873904,
+            "turn_deg": 91.09945667398705,
+            "incoming_segment_mm": 3.2757679999999993,
+            "outgoing_segment_mm": 0.26886649990283296
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.0,
+            "y": -23.673331,
+            "turn_deg": 90.0,
+            "incoming_segment_mm": 0.9537150000000008,
+            "outgoing_segment_mm": 0.7977159999999976
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.0,
+            "y": -23.673331,
+            "turn_deg": 90.0,
+            "incoming_segment_mm": 0.9537150000000008,
+            "outgoing_segment_mm": 0.7977159999999976
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 11.476838,
+            "y": 44.978588,
+            "turn_deg": 88.10570029847567,
+            "incoming_segment_mm": 2.4443558170610076,
+            "outgoing_segment_mm": 0.4442170000000001
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 11.476838,
+            "y": 44.978588,
+            "turn_deg": 88.10570029847567,
+            "incoming_segment_mm": 2.4443558170610076,
+            "outgoing_segment_mm": 0.4442170000000001
+          }
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 10.581131,
+          "y": 66.475762,
+          "turn_deg": 93.06964509073667,
+          "incoming_segment_mm": 0.8672210000000007,
+          "outgoing_segment_mm": 0.4394415191410583
+        },
+        {
+          "x": 12.0,
+          "y": -68.873904,
+          "turn_deg": 91.09945667398705,
+          "incoming_segment_mm": 3.2757679999999993,
+          "outgoing_segment_mm": 0.26886649990283296
+        },
+        {
+          "x": 12.0,
+          "y": -23.673331,
+          "turn_deg": 90.0,
+          "incoming_segment_mm": 0.9537150000000008,
+          "outgoing_segment_mm": 0.7977159999999976
+        },
+        {
+          "x": 11.476838,
+          "y": 44.978588,
+          "turn_deg": 88.10570029847567,
+          "incoming_segment_mm": 2.4443558170610076,
+          "outgoing_segment_mm": 0.4442170000000001
+        },
+        {
+          "x": 55.749172,
+          "y": 66.608613,
+          "turn_deg": 76.33384349529614,
+          "incoming_segment_mm": 0.6133257341820904,
+          "outgoing_segment_mm": 0.1853334407601645
+        },
+        {
+          "x": 64.982122,
+          "y": 56.181536,
+          "turn_deg": 64.72109374472024,
+          "incoming_segment_mm": 1.1135785907936662,
+          "outgoing_segment_mm": 0.2634192283224598
+        },
+        {
+          "x": 64.029204,
+          "y": 20.80022,
+          "turn_deg": 61.27848865240866,
+          "incoming_segment_mm": 0.01323841780576197,
+          "outgoing_segment_mm": 0.9462889024336077
+        },
+        {
+          "x": 54.003702,
+          "y": -66.425367,
+          "turn_deg": 60.144583572539425,
+          "incoming_segment_mm": 0.5726596691124609,
+          "outgoing_segment_mm": 0.6815750746359414
+        },
+        {
+          "x": 64.0,
+          "y": -55.21539,
+          "turn_deg": 58.125001078659864,
+          "incoming_segment_mm": 0.9372432242833257,
+          "outgoing_segment_mm": 1.787596999999998
+        },
+        {
+          "x": 64.0,
+          "y": -20.78461,
+          "turn_deg": 58.12493268315465,
+          "incoming_segment_mm": 3.332293,
+          "outgoing_segment_mm": 0.12732430668179354
+        },
+        {
+          "x": 60.913359,
+          "y": 18.658156,
+          "turn_deg": 3.75443683780551,
+          "incoming_segment_mm": 0.01637266334473488,
+          "outgoing_segment_mm": 0.016372683866731602
+        },
+        {
+          "x": 64.0,
+          "y": 20.78461,
+          "turn_deg": 3.7511469141308167,
+          "incoming_segment_mm": 0.5565589456310992,
+          "outgoing_segment_mm": 0.019875713873968283
+        }
+      ]
+    },
+    {
+      "z_mm": 12,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.0,
+            "y": -68.873904,
+            "turn_deg": 91.09967791555728,
+            "incoming_segment_mm": 0.655153999999996,
+            "outgoing_segment_mm": 0.053772903892201976
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.0,
+            "y": -68.873904,
+            "turn_deg": 91.09967791555728,
+            "incoming_segment_mm": 0.655153999999996,
+            "outgoing_segment_mm": 0.053772903892201976
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 11.749888,
+            "y": -21.757603,
+            "turn_deg": 91.43328343642146,
+            "incoming_segment_mm": 0.16329799999999928,
+            "outgoing_segment_mm": 1.3918414677800053
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 11.749888,
+            "y": -21.757603,
+            "turn_deg": 91.43328343642146,
+            "incoming_segment_mm": 0.16329799999999928,
+            "outgoing_segment_mm": 1.3918414677800053
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 17.68493,
+            "y": 40.839788,
+            "turn_deg": 14.34242161093641,
+            "incoming_segment_mm": 0.03884735559854711,
+            "outgoing_segment_mm": 0.03421360228037931
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 17.68493,
+            "y": 40.839788,
+            "turn_deg": 14.34242161093641,
+            "incoming_segment_mm": 0.03884735559854711,
+            "outgoing_segment_mm": 0.03421360228037931
+          }
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 60.0,
+          "y": 68.083457,
+          "turn_deg": 121.8748955217637,
+          "incoming_segment_mm": 0.21177264965995551,
+          "outgoing_segment_mm": 4.846799000000004
+        },
+        {
+          "x": 11.749888,
+          "y": -21.757603,
+          "turn_deg": 91.43328343642146,
+          "incoming_segment_mm": 0.16329799999999928,
+          "outgoing_segment_mm": 1.3918414677800053
+        },
+        {
+          "x": 12.0,
+          "y": -68.873904,
+          "turn_deg": 91.09967791555728,
+          "incoming_segment_mm": 0.655153999999996,
+          "outgoing_segment_mm": 0.053772903892201976
+        },
+        {
+          "x": 64.285469,
+          "y": -20.344454,
+          "turn_deg": 63.308526040066226,
+          "incoming_segment_mm": 1.200243507737078,
+          "outgoing_segment_mm": 0.027159952466825746
+        },
+        {
+          "x": 54.003702,
+          "y": -66.425367,
+          "turn_deg": 60.144599527658464,
+          "incoming_segment_mm": 0.8822056012937086,
+          "outgoing_segment_mm": 1.0499935373139209
+        },
+        {
+          "x": 64.0,
+          "y": -55.21539,
+          "turn_deg": 58.12498753965836,
+          "incoming_segment_mm": 1.4438613000385427,
+          "outgoing_segment_mm": 0.2950960000000009
+        },
+        {
+          "x": 17.68493,
+          "y": 40.839788,
+          "turn_deg": 14.34242161093641,
+          "incoming_segment_mm": 0.03884735559854711,
+          "outgoing_segment_mm": 0.03421360228037931
+        },
+        {
+          "x": 17.469059,
+          "y": 41.237442,
+          "turn_deg": 14.007931797752308,
+          "incoming_segment_mm": 0.06084912607425139,
+          "outgoing_segment_mm": 0.4136225244567834
+        },
+        {
+          "x": 17.171767,
+          "y": 41.561838,
+          "turn_deg": 13.750266488592873,
+          "incoming_segment_mm": 0.34559891152750855,
+          "outgoing_segment_mm": 0.3791682577642812
+        },
+        {
+          "x": 16.81413,
+          "y": 41.800768,
+          "turn_deg": 13.569339972535463,
+          "incoming_segment_mm": 0.3300615183537763,
+          "outgoing_segment_mm": 0.08450778299068105
+        },
+        {
+          "x": 16.41686,
+          "y": 41.946751,
+          "turn_deg": 13.463354637824454,
+          "incoming_segment_mm": 0.09608685379904876,
+          "outgoing_segment_mm": 0.09318130697194488
+        },
+        {
+          "x": 17.79905,
+          "y": 40.387209,
+          "turn_deg": 7.263274074268254,
+          "incoming_segment_mm": 0.43253164477526995,
+          "outgoing_segment_mm": 0.22705122880090162
+        }
+      ]
+    },
+    {
+      "z_mm": 16,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 10.992591,
+            "y": -69.900643,
+            "turn_deg": 91.09928199771211,
+            "incoming_segment_mm": 5.231163000000009,
+            "outgoing_segment_mm": 1.0156939358118677
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 10.992591,
+            "y": -69.900643,
+            "turn_deg": 91.09928199771211,
+            "incoming_segment_mm": 5.231163000000009,
+            "outgoing_segment_mm": 1.0156939358118677
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 8.163448,
+            "y": -30.496184,
+            "turn_deg": 3.081522049468987,
+            "incoming_segment_mm": 0.18290848012052155,
+            "outgoing_segment_mm": 0.12609809027895877
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 8.163448,
+            "y": -30.496184,
+            "turn_deg": 3.081522049468987,
+            "incoming_segment_mm": 0.18290848012052155,
+            "outgoing_segment_mm": 0.12609809027895877
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": null,
+          "max_turn_adjacent_segments_ge_0_002mm": null
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 60.0,
+          "y": 68.083457,
+          "turn_deg": 121.87499517064819,
+          "incoming_segment_mm": 0.5394780959751742,
+          "outgoing_segment_mm": 2.077200000000005
+        },
+        {
+          "x": 10.992591,
+          "y": -69.900643,
+          "turn_deg": 91.09928199771211,
+          "incoming_segment_mm": 5.231163000000009,
+          "outgoing_segment_mm": 1.0156939358118677
+        },
+        {
+          "x": 54.693777,
+          "y": -67.370732,
+          "turn_deg": 63.89455440706816,
+          "incoming_segment_mm": 0.9413097938771215,
+          "outgoing_segment_mm": 0.1446128691922035
+        },
+        {
+          "x": 65.120726,
+          "y": -55.758027,
+          "turn_deg": 58.90248779481148,
+          "incoming_segment_mm": 0.11633116636998894,
+          "outgoing_segment_mm": 0.35693527021716065
+        },
+        {
+          "x": 63.022078,
+          "y": 70.563612,
+          "turn_deg": 3.7502959941993788,
+          "incoming_segment_mm": 0.5228578491655211,
+          "outgoing_segment_mm": 0.17358227179352642
+        },
+        {
+          "x": 62.485281,
+          "y": 69.99048,
+          "turn_deg": 3.750207684912586,
+          "incoming_segment_mm": 0.08665001637622391,
+          "outgoing_segment_mm": 0.25579989321733443
+        },
+        {
+          "x": 60.666843,
+          "y": 68.498126,
+          "turn_deg": 3.7501732235703336,
+          "incoming_segment_mm": 0.2524487807853325,
+          "outgoing_segment_mm": 0.24577980192237378
+        },
+        {
+          "x": 61.91215,
+          "y": 69.453684,
+          "turn_deg": 3.7500746704737944,
+          "incoming_segment_mm": 0.5294574459888258,
+          "outgoing_segment_mm": 0.5294579531794682
+        },
+        {
+          "x": 62.002997,
+          "y": -57.758751,
+          "turn_deg": 3.7500719891000105,
+          "incoming_segment_mm": 0.8433812261723658,
+          "outgoing_segment_mm": 0.6612118731367411
+        },
+        {
+          "x": 54.757616,
+          "y": -67.201116,
+          "turn_deg": 3.75007140237947,
+          "incoming_segment_mm": 0.03661904129001779,
+          "outgoing_segment_mm": 0.6612106589620255
+        },
+        {
+          "x": 64.503704,
+          "y": -56.087832,
+          "turn_deg": 3.7500310896137914,
+          "incoming_segment_mm": 0.843381333780869,
+          "outgoing_segment_mm": 0.5833026567897628
+        },
+        {
+          "x": 60.839931,
+          "y": -58.713255,
+          "turn_deg": 3.750030271709261,
+          "incoming_segment_mm": 0.8433815356984077,
+          "outgoing_segment_mm": 0.6612118770863074
+        }
+      ]
+    }
+  ],
+  ".build-frame/core-final.stl": [
+    {
+      "z_mm": 3,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 13.922966,
+            "y": -68.210276,
+            "turn_deg": 5.62623743177673,
+            "incoming_segment_mm": 0.0318572614642248,
+            "outgoing_segment_mm": 0.22322883031768376
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 13.922966,
+            "y": -68.210276,
+            "turn_deg": 5.62623743177673,
+            "incoming_segment_mm": 0.0318572614642248,
+            "outgoing_segment_mm": 0.22322883031768376
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 18.601802,
+            "y": -26.885386,
+            "turn_deg": 28.12603200538763,
+            "incoming_segment_mm": 0.04248719502391237,
+            "outgoing_segment_mm": 1.0000000010279564e-06
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.461694,
+            "y": -29.608736,
+            "turn_deg": 5.625599656623016,
+            "incoming_segment_mm": 0.05466329303106471,
+            "outgoing_segment_mm": 0.3076451135464362
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 13.060174,
+            "y": 51.768497,
+            "turn_deg": 5.625605559187392,
+            "incoming_segment_mm": 0.10377906394836707,
+            "outgoing_segment_mm": 0.31994127997649985
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 13.060174,
+            "y": 51.768497,
+            "turn_deg": 5.625605559187392,
+            "incoming_segment_mm": 0.10377906394836707,
+            "outgoing_segment_mm": 0.31994127997649985
+          }
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 20.774321,
+          "y": 48.102446,
+          "turn_deg": 39.377193036653196,
+          "incoming_segment_mm": 0.023649840950841477,
+          "outgoing_segment_mm": 9.999999974752427e-07
+        },
+        {
+          "x": 20.774321,
+          "y": 48.102445,
+          "turn_deg": 36.562485715889025,
+          "incoming_segment_mm": 9.999999974752427e-07,
+          "outgoing_segment_mm": 0.19044514116406533
+        },
+        {
+          "x": 54.378958,
+          "y": -65.468882,
+          "turn_deg": 30.937488114339686,
+          "incoming_segment_mm": 0.05270084565735402,
+          "outgoing_segment_mm": 0.780131539232325
+        },
+        {
+          "x": 18.601802,
+          "y": -26.885386,
+          "turn_deg": 28.12603200538763,
+          "incoming_segment_mm": 0.04248719502391237,
+          "outgoing_segment_mm": 1.0000000010279564e-06
+        },
+        {
+          "x": 18.601801,
+          "y": -26.885386,
+          "turn_deg": 25.31257868536152,
+          "incoming_segment_mm": 1.0000000010279564e-06,
+          "outgoing_segment_mm": 0.22939667125745236
+        },
+        {
+          "x": 21.783566,
+          "y": 46.020711,
+          "turn_deg": 16.87741851470779,
+          "incoming_segment_mm": 1.00000000458067e-06,
+          "outgoing_segment_mm": 0.019219835170987586
+        },
+        {
+          "x": 21.783566,
+          "y": 46.020712,
+          "turn_deg": 16.87400964677737,
+          "incoming_segment_mm": 0.03278348120623969,
+          "outgoing_segment_mm": 1.00000000458067e-06
+        },
+        {
+          "x": 54.128037,
+          "y": -65.603002,
+          "turn_deg": 11.251358841848317,
+          "incoming_segment_mm": 0.015997504711672075,
+          "outgoing_segment_mm": 0.2318154502573121
+        },
+        {
+          "x": 54.898229,
+          "y": 64.595745,
+          "turn_deg": 7.343047103802408,
+          "incoming_segment_mm": 0.00807342758684243,
+          "outgoing_segment_mm": 0.05195426124006224
+        },
+        {
+          "x": 62.608511,
+          "y": -56.086151,
+          "turn_deg": 6.562722474900934,
+          "incoming_segment_mm": 1.2091962068998574,
+          "outgoing_segment_mm": 0.23715011865272323
+        },
+        {
+          "x": 63.538306,
+          "y": -54.933434,
+          "turn_deg": 5.628846104062562,
+          "incoming_segment_mm": 0.019357218627687287,
+          "outgoing_segment_mm": 0.017947856529402516
+        },
+        {
+          "x": 63.587255,
+          "y": -21.15315,
+          "turn_deg": 5.6268012092529505,
+          "incoming_segment_mm": 0.064470219559111,
+          "outgoing_segment_mm": 0.04415860759806744
+        }
+      ]
+    },
+    {
+      "z_mm": 8,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.365107,
+            "y": -66.477582,
+            "turn_deg": 5.625728799225427,
+            "incoming_segment_mm": 0.08812782144135509,
+            "outgoing_segment_mm": 0.13864634139060528
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.365107,
+            "y": -66.477582,
+            "turn_deg": 5.625728799225427,
+            "incoming_segment_mm": 0.08812782144135509,
+            "outgoing_segment_mm": 0.13864634139060528
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 18.601802,
+            "y": -26.885386,
+            "turn_deg": 28.124519658031826,
+            "incoming_segment_mm": 0.022217303279202873,
+            "outgoing_segment_mm": 1.0000000010279564e-06
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.898649,
+            "y": -28.954787,
+            "turn_deg": 5.625606498414535,
+            "incoming_segment_mm": 0.14331787568199506,
+            "outgoing_segment_mm": 0.1694960439213864
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 14.064676,
+            "y": 50.984576,
+            "turn_deg": 5.626917059252777,
+            "incoming_segment_mm": 0.3100376186787693,
+            "outgoing_segment_mm": 0.022939007585331093
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 14.064676,
+            "y": 50.984576,
+            "turn_deg": 5.626917059252777,
+            "incoming_segment_mm": 0.3100376186787693,
+            "outgoing_segment_mm": 0.022939007585331093
+          }
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 54.378958,
+          "y": -65.468882,
+          "turn_deg": 30.937560521218447,
+          "incoming_segment_mm": 0.1405361763675108,
+          "outgoing_segment_mm": 0.4845382616605179
+        },
+        {
+          "x": 18.601802,
+          "y": -26.885386,
+          "turn_deg": 28.124519658031826,
+          "incoming_segment_mm": 0.022217303279202873,
+          "outgoing_segment_mm": 1.0000000010279564e-06
+        },
+        {
+          "x": 18.601801,
+          "y": -26.885386,
+          "turn_deg": 25.31277877362702,
+          "incoming_segment_mm": 1.0000000010279564e-06,
+          "outgoing_segment_mm": 0.11995523660099157
+        },
+        {
+          "x": 14.738951,
+          "y": 66.475762,
+          "turn_deg": 20.24649605718484,
+          "incoming_segment_mm": 10.345275,
+          "outgoing_segment_mm": 0.06395139686512043
+        },
+        {
+          "x": 52.756511,
+          "y": 66.475762,
+          "turn_deg": 20.246196240117367,
+          "incoming_segment_mm": 0.09044522016115711,
+          "outgoing_segment_mm": 0.013980000000003656
+        },
+        {
+          "x": 52.998035,
+          "y": -6.767355,
+          "turn_deg": 16.87630128734934,
+          "incoming_segment_mm": 0.03359898242506781,
+          "outgoing_segment_mm": 1.000000000139778e-06
+        },
+        {
+          "x": 52.998035,
+          "y": -6.767354,
+          "turn_deg": 16.875245181963255,
+          "incoming_segment_mm": 1.000000000139778e-06,
+          "outgoing_segment_mm": 0.042905551960091465
+        },
+        {
+          "x": 54.128037,
+          "y": -65.603002,
+          "turn_deg": 11.250570865465756,
+          "incoming_segment_mm": 0.042662192969884126,
+          "outgoing_segment_mm": 0.14398011954780696
+        },
+        {
+          "x": 21.788011,
+          "y": 46.006059,
+          "turn_deg": 9.690212814115785,
+          "incoming_segment_mm": 0.08854149448140476,
+          "outgoing_segment_mm": 2.236067978209548e-06
+        },
+        {
+          "x": 21.788012,
+          "y": 46.006057,
+          "turn_deg": 9.689774501868236,
+          "incoming_segment_mm": 2.236067978209548e-06,
+          "outgoing_segment_mm": 0.001870547780731488
+        },
+        {
+          "x": 20.774321,
+          "y": 48.102445,
+          "turn_deg": 8.435690861042278,
+          "incoming_segment_mm": 1.414213561314697e-06,
+          "outgoing_segment_mm": 0.015487020275055484
+        },
+        {
+          "x": 62.608511,
+          "y": -56.086151,
+          "turn_deg": 6.562571060031044,
+          "incoming_segment_mm": 0.6045985098732901,
+          "outgoing_segment_mm": 0.11857472354595541
+        }
+      ]
+    },
+    {
+      "z_mm": 12,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 13.922966,
+            "y": -68.210276,
+            "turn_deg": 5.625459062677081,
+            "incoming_segment_mm": 0.12742790339639004,
+            "outgoing_segment_mm": 0.07098134702159874
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 13.922966,
+            "y": -68.210276,
+            "turn_deg": 5.625459062677081,
+            "incoming_segment_mm": 0.12742790339639004,
+            "outgoing_segment_mm": 0.07098134702159874
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 18.601802,
+            "y": -26.885386,
+            "turn_deg": 28.12809098628224,
+            "incoming_segment_mm": 0.006000708708145979,
+            "outgoing_segment_mm": 1.0000000010279564e-06
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 13.454787,
+            "y": -28.398649,
+            "turn_deg": 5.625869688902909,
+            "incoming_segment_mm": 0.21786013634898815,
+            "outgoing_segment_mm": 0.056031418838007004
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 19.946712,
+            "y": 43.892578,
+            "turn_deg": 5.258059736491487,
+            "incoming_segment_mm": 0.07620826530632846,
+            "outgoing_segment_mm": 0.06224529805535385
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 19.946712,
+            "y": 43.892578,
+            "turn_deg": 5.258059736491487,
+            "incoming_segment_mm": 0.07620826530632846,
+            "outgoing_segment_mm": 0.06224529805535385
+          }
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 60.0,
+          "y": 68.083457,
+          "turn_deg": 121.8748955217637,
+          "incoming_segment_mm": 0.21177264965995551,
+          "outgoing_segment_mm": 4.846799000000004
+        },
+        {
+          "x": 54.970138,
+          "y": -11.517443,
+          "turn_deg": 30.93766641501267,
+          "incoming_segment_mm": 0.04707790998971874,
+          "outgoing_segment_mm": 9.999999992515995e-07
+        },
+        {
+          "x": 54.378958,
+          "y": -65.468882,
+          "turn_deg": 30.937402500188785,
+          "incoming_segment_mm": 0.21080473594774793,
+          "outgoing_segment_mm": 0.24806329704532173
+        },
+        {
+          "x": 18.601802,
+          "y": -26.885386,
+          "turn_deg": 28.12809098628224,
+          "incoming_segment_mm": 0.006000708708145979,
+          "outgoing_segment_mm": 1.0000000010279564e-06
+        },
+        {
+          "x": 54.970138,
+          "y": -11.517442,
+          "turn_deg": 26.565051197433522,
+          "incoming_segment_mm": 9.999999992515995e-07,
+          "outgoing_segment_mm": 4.472135956419096e-06
+        },
+        {
+          "x": 18.601801,
+          "y": -26.885386,
+          "turn_deg": 25.3131214160618,
+          "incoming_segment_mm": 1.0000000010279564e-06,
+          "outgoing_segment_mm": 0.03240209865116434
+        },
+        {
+          "x": 65.837003,
+          "y": 27.499347,
+          "turn_deg": 11.261786594980977,
+          "incoming_segment_mm": 0.005683943173538952,
+          "outgoing_segment_mm": 0.0056848645542377525
+        },
+        {
+          "x": 65.924981,
+          "y": 27.571549,
+          "turn_deg": 11.25346674435807,
+          "incoming_segment_mm": 0.005684414569686239,
+          "outgoing_segment_mm": 0.005683768204276504
+        },
+        {
+          "x": 65.861383,
+          "y": 27.529054,
+          "turn_deg": 11.251168323452063,
+          "incoming_segment_mm": 0.032745465304375776,
+          "outgoing_segment_mm": 0.03274469228745413
+        },
+        {
+          "x": 54.128037,
+          "y": -65.603002,
+          "turn_deg": 11.25067647991542,
+          "incoming_segment_mm": 0.06399297225476616,
+          "outgoing_segment_mm": 0.0737115599685731
+        },
+        {
+          "x": 65.891089,
+          "y": 27.553433,
+          "turn_deg": 11.249739167339028,
+          "incoming_segment_mm": 0.005684230114967382,
+          "outgoing_segment_mm": 0.03274548422302276
+        },
+        {
+          "x": 65.961756,
+          "y": 27.582704,
+          "turn_deg": 11.248073231950002,
+          "incoming_segment_mm": 0.03274583822411278,
+          "outgoing_segment_mm": 0.03274471971174015
+        }
+      ]
+    },
+    {
+      "z_mm": 16,
+      "root_neighborhoods": [
+        {
+          "original_corner_xy": [
+            12,
+            -68.874
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 12.365107,
+            "y": -66.477582,
+            "turn_deg": 5.637376633571478,
+            "incoming_segment_mm": 0.17625507702758075,
+            "outgoing_segment_mm": 0.003315761300218737
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 12.365107,
+            "y": -66.477582,
+            "turn_deg": 5.637376633571478,
+            "incoming_segment_mm": 0.17625507702758075,
+            "outgoing_segment_mm": 0.003315761300218737
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            -23.673
+          ],
+          "max_raw_turn_within8mm": {
+            "x": 10.360795,
+            "y": -29.657045,
+            "turn_deg": 39.37441486854339,
+            "incoming_segment_mm": 7.982844,
+            "outgoing_segment_mm": 0.02361655902116202
+          },
+          "max_turn_adjacent_segments_ge_0_002mm": {
+            "x": 10.360795,
+            "y": -29.657045,
+            "turn_deg": 39.37441486854339,
+            "incoming_segment_mm": 7.982844,
+            "outgoing_segment_mm": 0.02361655902116202
+          }
+        },
+        {
+          "original_corner_xy": [
+            12,
+            44.5
+          ],
+          "max_raw_turn_within8mm": null,
+          "max_turn_adjacent_segments_ge_0_002mm": null
+        }
+      ],
+      "largest_in_window_region": [
+        {
+          "x": 60.0,
+          "y": 68.083457,
+          "turn_deg": 121.87499517064819,
+          "incoming_segment_mm": 0.5394780959751742,
+          "outgoing_segment_mm": 2.077200000000005
+        },
+        {
+          "x": 10.360795,
+          "y": -29.657045,
+          "turn_deg": 39.37441486854339,
+          "incoming_segment_mm": 7.982844,
+          "outgoing_segment_mm": 0.02361655902116202
+        },
+        {
+          "x": 54.378958,
+          "y": -65.468882,
+          "turn_deg": 30.936540847890413,
+          "incoming_segment_mm": 0.2810719422105264,
+          "outgoing_segment_mm": 0.011588846534491768
+        },
+        {
+          "x": 54.128037,
+          "y": -65.603002,
+          "turn_deg": 11.262554833083437,
+          "incoming_segment_mm": 0.0853237515408244,
+          "outgoing_segment_mm": 0.0034443537855528453
+        },
+        {
+          "x": 65.837003,
+          "y": -29.703318,
+          "turn_deg": 11.253742641961203,
+          "incoming_segment_mm": 0.008772650340687282,
+          "outgoing_segment_mm": 0.008773589915196361
+        },
+        {
+          "x": 10.405361,
+          "y": -29.703318,
+          "turn_deg": 11.251017400749122,
+          "incoming_segment_mm": 0.014840788691977443,
+          "outgoing_segment_mm": 0.014839123761195703
+        },
+        {
+          "x": 65.861383,
+          "y": -29.673611,
+          "turn_deg": 11.250183033891828,
+          "incoming_segment_mm": 0.02965673989163511,
+          "outgoing_segment_mm": 0.0296567398916356
+        },
+        {
+          "x": 65.891089,
+          "y": -29.649232,
+          "turn_deg": 11.250120903191856,
+          "incoming_segment_mm": 0.008772182510631308,
+          "outgoing_segment_mm": 0.02965677705011369
+        },
+        {
+          "x": 65.961756,
+          "y": -29.619961,
+          "turn_deg": 11.249609868445647,
+          "incoming_segment_mm": 0.029657027514569185,
+          "outgoing_segment_mm": 0.029655822666055105
+        },
+        {
+          "x": 10.423476,
+          "y": -29.737209,
+          "turn_deg": 11.249423035238598,
+          "incoming_segment_mm": 0.02358942169702192,
+          "outgoing_segment_mm": 0.014840056098276624
+        },
+        {
+          "x": 10.380981,
+          "y": -29.673611,
+          "turn_deg": 11.248550657013945,
+          "incoming_segment_mm": 0.002496789138073679,
+          "outgoing_segment_mm": 0.023589541114655617
+        },
+        {
+          "x": 65.924981,
+          "y": -29.631117,
+          "turn_deg": 11.244518478892143,
+          "incoming_segment_mm": 0.008772650340695439,
+          "outgoing_segment_mm": 0.008772869199975714
+        }
+      ]
+    }
+  ]
+}

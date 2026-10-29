@@ -15,9 +15,13 @@ import shutil
 import struct
 import subprocess
 import tempfile
+import numpy as np
+import trimesh
+import manifold3d as md
 
 from check_parameters import ROOT, SOURCE, load, main as check_parameters
 from validate import validate
+from normalize_export import normalize_export
 
 
 def mesh_vertices(path):
@@ -43,6 +47,7 @@ def mesh_stats(path):
     edges = Counter()
     volume = 0
     elevated_downward_flat_area = 0
+    elevated_downward_flat_below_rear_foot_top = 0
     near_zero_area_triangles = 0
     for i in range(0, len(vertices), 3):
         a, b, c = vertices[i:i+3]
@@ -57,6 +62,8 @@ def mesh_stats(path):
             near_zero_area_triangles += 1
         if magnitude and -normal[2] > .999999*magnitude and min(a[2], b[2], c[2]) > 1.5:
             elevated_downward_flat_area += magnitude/2
+            if max(a[2],b[2],c[2]) <= 18.001:
+                elevated_downward_flat_below_rear_foot_top += magnitude/2
         for u, v in ((a, b), (b, c), (c, a)):
             if u == v:
                 raise ValueError(f'{path.name}: collapsed triangle edge')
@@ -86,6 +93,7 @@ def mesh_stats(path):
             'volume_mm3': volume, 'components': components,
             'near_zero_area_triangles': near_zero_area_triangles,
             'elevated_downward_flat_area_mm2': elevated_downward_flat_area,
+            'elevated_downward_flat_below_rear_foot_top_mm2': elevated_downward_flat_below_rear_foot_top,
             'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
 
 
@@ -93,6 +101,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--openscad', help='path to OpenSCAD executable')
     parser.add_argument('--source', type=Path, default=SOURCE, help='SCAD source; defaults to p1-roof-mount.scad')
+    parser.add_argument('--blend-cache-dir', type=Path, help='Reuse fingerprint-verified native blend cache')
+    parser.add_argument('--reuse-frames', type=Path, help='Reuse native frames with matching source/version fingerprint')
     args = parser.parse_args()
     source = args.source.resolve()
     check_parameters(source)
@@ -105,6 +115,7 @@ def main():
     version = (version_result.stdout + version_result.stderr).strip()
     jobs = [('p1-roof-mount-n-type.stl', 'alfa', 'mount'),
             ('p1-coupon-pylon.stl', 'alfa', 'coupon'),
+            ('p1-coupon-pylon-stock.stl', 'stock', 'coupon'),
             ('p1-coupon-front-foot.stl', 'alfa', 'foot_coupon'),
             ('p1-coupon-rear-right-foot.stl', 'alfa', 'rear_foot_coupon'),
             ('p1-roof-mount-stock.stl', 'stock', 'mount'),
@@ -112,18 +123,103 @@ def main():
             ('p1-coupon-seat.stl', 'alfa', 'seat_coupon')]
     manifest = {'openscad': version, 'version': load('alfa', source)[0]['version'],
                 'source_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
-                for p in (source, source.parent / 'p1-node-model.scad')},
+                for p in (source, source.parent / 'p1-node-model.scad',
+                          source.parent / 'assembly-refinements.scad',
+                          source.parent / 'tools/normalize_export.py',
+                          source.parent / 'tools/precision_edges.py',
+                          source.parent / 'tools/validate.py',
+                          Path(__file__))},
                 'intersection_checks': [], 'exported_bore_checks': [],
                 'exported_hardware_access_checks': [], 'exported_nut_rotation_checks': [], 'mesh_checks': {}, 'models': {}}
     with tempfile.TemporaryDirectory(prefix='.build-', dir=ROOT) as temp:
         temp = Path(temp)
+        blend_caches = {}
+        reusable_frames = {}
         def render(path, antenna, part, extra=()):
+            if part == 'mount' and antenna in reusable_frames:
+                shutil.copy2(reusable_frames[antenna],path)
+                return subprocess.CompletedProcess([],0,'','')
+            # Coupons crop the freshly checked frame, retaining the exact same
+            # geometry without rebuilding the expensive rounded envelope.
+            frame = temp/'p1-roof-mount-n-type.stl'
+            if frame.exists() and part in ('foot_coupon','rear_foot_coupon','rear_left_foot_coupon','seat_coupon'):
+                pp,_ = load(antenna,source)
+                if part == 'seat_coupon':
+                    body=f'intersection() {{ import({json.dumps(str(frame))}); translate([{ -pp["pad"][0]/2-1},{pp["seat_c"][1]-pp["pad"][1]/2-5},-1]) cube([{pp["pad"][0]+2},{pp["pad"][1]+10},{pp["fin_h"]+2}]); }}'
+                else:
+                    fx=-pp['foot_x'] if part=='rear_left_foot_coupon' else pp['foot_x']
+                    fy=pp['foot_y'] if part=='foot_coupon' else -pp['foot_y']
+                    r=pp['boss_r']
+                    body=f'translate([{ -fx},{-fy},0]) intersection() {{ import({json.dumps(str(frame))}); translate([{fx-r-1},{fy-r-1},-1]) cube([{2*r+2},{2*r+2},{pp["dam_h"]+pp["max_t"]}]); }}'
+                wrapper=temp/'coupon-from-frame.scad';wrapper.write_text(body)
+                return subprocess.run([executable,'-o',str(path),str(wrapper)],capture_output=True,text=True)
+            if part == 'audit_checks' and antenna in reusable_frames:
+                # Same source-native frame, final exported boundary. Repeat all
+                # collision checks with native source reference/tool geometry.
+                wrapper=temp/f'assembly-audit-{antenna}.scad'
+                wrapper.write_text(f'use <{source}>\n$fn=96;\n'
+                    f'module tested_frame() import({json.dumps(str(reusable_frames[antenna]))});\n'
+                    'intersection(){tested_frame();n_tail_clearance();}\n'
+                    'intersection(){tested_frame();bulkhead_hardware();}\n'
+                    'for(dy=[-3,0,3]) { intersection(){tested_frame();node_body(dy,0);} intersection(){antenna_preview();node_body(dy,0);} }\n')
+                return subprocess.run([executable,'-o',str(path),'-D',f'antenna="{antenna}"',str(wrapper)],capture_output=True,text=True)
             command = [executable, '-o', str(path), '-D', f'antenna="{antenna}"',
-                       '-D', f'part="{part}"', '-D', 'show_node=false', *extra, str(source)]
+                       '-D', f'part="{part}"', '-D', 'show_node=false',
+                       *(['-D', f'blend_cache={json.dumps(str(blend_caches[antenna]))}']
+                         if antenna in blend_caches else []), *extra, str(source)]
             result = subprocess.run(command, capture_output=True, text=True)
             if 'WARNING:' in result.stderr or 'ERROR:' in result.stderr:
                 raise RuntimeError(result.stderr)
             return result
+        # Evaluate the same expensive native blend once per antenna variant.
+        # Cache is local to this build and is not substituted for editable CAD.
+        manifest['native_blend_caches'] = {}
+        fingerprint = hashlib.sha256(source.read_bytes() +
+            (source.parent/'assembly-refinements.scad').read_bytes() + version.encode()).hexdigest()
+        if args.reuse_frames:
+            prior=json.loads((args.reuse_frames/'frames.json').read_text())
+            if prior['source_fingerprint'] != fingerprint:
+                raise ValueError('Native frame source/version mismatch')
+            for antenna,name in [('alfa','p1-roof-mount-n-type.stl'),('stock','p1-roof-mount-stock.stl')]:
+                saved=args.reuse_frames/name
+                if hashlib.sha256(saved.read_bytes()).hexdigest()!=prior['files'][name]:
+                    raise ValueError('Native frame content mismatch')
+                reusable_frames[antenna]=saved.resolve()
+            manifest['native_frame_reuse']=prior
+        reusable = None
+        if args.blend_cache_dir:
+            reusable = json.loads((args.blend_cache_dir/'cache.json').read_text())
+            if reusable['source_fingerprint'] != fingerprint:
+                raise ValueError('Native blend cache source/version mismatch')
+        for antenna in ('alfa','stock'):
+            cache = temp / f'blend-{antenna}.stl'
+            if reusable:
+                saved = args.blend_cache_dir/cache.name
+                if hashlib.sha256(saved.read_bytes()).hexdigest() != reusable['files'][cache.name]:
+                    raise ValueError('Native blend cache content mismatch')
+                shutil.copy2(saved,cache)
+            else:
+                result = render(cache, antenna, 'frame_blend')
+                if result.returncode:
+                    raise RuntimeError(result.stderr)
+            # Native Minkowski construction contains many redundant tiny facets.
+            # Bounded tessellation reduction is limited to the NEW additive blend
+            # before all interface cuts; source dimensions remain unchanged.
+            raw_cache_hash = hashlib.sha256(cache.read_bytes()).hexdigest()
+            native = trimesh.load(cache,process=False,force='mesh')
+            vertices,inverse = np.unique(native.vertices,axis=0,return_inverse=True)
+            solid = md.Manifold(md.Mesh64(vertices,inverse[native.faces].astype(np.uint64)))
+            reduced = solid.as_original().simplify(.001).to_mesh64()
+            tessellated = trimesh.Trimesh(reduced.vert_properties[:,:3],reduced.tri_verts,process=False)
+            cache.write_bytes(trimesh.exchange.stl.export_stl_ascii(tessellated).encode())
+            cache_normalization = normalize_export(cache)
+            blend_caches[antenna] = cache
+            manifest['native_blend_caches'][antenna] = dict(
+                native_sha256=raw_cache_hash,sha256=hashlib.sha256(cache.read_bytes()).hexdigest(),
+                additive_blend_tessellation_tolerance_mm=.001,
+                native_triangles=len(native.faces), reduced_triangles=len(tessellated.faces),
+                normalization=cache_normalization)
+            print(f'{antenna}: native rounded-frame blend evaluated', flush=True)
         # Intersections must render empty. OpenSCAD may exit nonzero on an empty mesh.
         checks = []
         for antenna in ('alfa', 'stock'):
@@ -154,6 +250,7 @@ def main():
                 result = render(temp / name, antenna, part)
                 if result.returncode:
                     raise RuntimeError(result.stderr)
+                normalization = normalize_export(temp / name)
                 try:
                     stats = mesh_stats(temp / name)
                 except ValueError as error:
@@ -162,10 +259,16 @@ def main():
                     print(f'{name}: rejected zero-area facet; re-exporting ({attempt + 1}/2)')
                 else:
                     stats['render_attempts'] = attempt + 1
+                    stats['export_normalization'] = normalization
                     break
             if stats['components'] != 1:
                 raise ValueError(f'{name}: expected 1 component, found {stats["components"]}')
-            if part in ('foot_coupon', 'rear_foot_coupon', 'rear_left_foot_coupon') and stats['elevated_downward_flat_area_mm2'] > .01:
+            flat_area = stats['elevated_downward_flat_area_mm2']
+            if part == 'rear_left_foot_coupon':
+                # The newly integrated upper tie eye is deliberately bridged/
+                # supported. The original lower foot/grip remains support-free.
+                flat_area = stats['elevated_downward_flat_below_rear_foot_top_mm2']
+            if part in ('foot_coupon', 'rear_foot_coupon', 'rear_left_foot_coupon') and flat_area > .01:
                 raise ValueError(f'{name}: unexpected elevated flat underside; inspect a pocket ceiling or capped cut')
             params, _ = load(antenna, source)
             if any(size + 2*params['brim'] + 2 > params['bed'] + .01 for size in stats['size'][:2]):
@@ -259,6 +362,8 @@ def main():
                         raise ValueError(f'{name}: insufficient nominal nut rotation interference')
                     manifest['exported_nut_rotation_checks'].append(dict(file=name, angle_degrees=30,
                         interference_mm3=blocked['volume_mm3'], result='blocked'))
+            if part == 'mount':
+                shutil.copy2(temp/name,ROOT/'validation'/('last-'+name))
             manifest['mesh_checks'][name] = validate(temp / name, part, antenna, params, executable, temp, mesh_vertices(temp / name), mesh_stats)
             manifest['models'][name] = dict(antenna=antenna, part=part, **stats)
             print(f'{name}: {stats["triangles"]} triangles, size {stats["size"]}')

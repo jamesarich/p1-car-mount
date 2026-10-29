@@ -1,0 +1,38 @@
+Bambu Studio stock-slice diagnostic — source analysis
+Installed release: 02.08.02.61. No user CAD or profiles edited by this analysis.
+
+The exact diagnostic is in detect_floating_line(), FillFloatingConcentric.cpp,
+v02.08.02.61 lines389–492. It is part of floating-shell path classification.
+Input toolpath vertices carry indices0..N-1 in Clipper's auxiliary Z field;
+clipping-area vertices use indicesN upward. New crossings receive negative tags.
+After intersection/difference the diagnostic fires if an output vertex retains a
+clipping-area tag. Thus369 is metadata, not a physical Z, layer, or STL-face index.
+
+The log does not directly delete that path or abort slicing: merge_lines follows.
+For non-subject tags its width branch uses interpolation. A successful slice alone
+does not prove the classification or path widths were unaffected; inspect the
+actual generated coverage, extrusion width/speed, and local anchors.
+
+Project-specific workaround under evaluation by the parent:
+internal_solid_infill_line_width 0.42 ->0.45 mm only. Keep floating-shell and narrow-
+solid detection enabled, supports, shell counts and geometry unchanged. The width
+changes the flow spacing used to generate the concentric paths (lines886–917),
+so their intersections differ. Avoidance of an edge/vertex coincidence is a
+reasonable inference, not an instrumented finding of the exact offending XY.
+Repeated clean slices and final path comparison are required evidence. This is a
+profile workaround for this project; it does not repair the upstream algorithm.
+
+Switching the wall generator alone need not bypass this code: Fill.cpp line716
+selects Arachne for concentric/floating-concentric infill independently. Disabling
+floating-shell detection would skip the clipping pass, but also remove per-segment
+bridge slowdown flags. That is not the selected fix; preserving detection is
+preferable. No installed binary or global system settings were changed.
+
+Primary source references (pinned to installed release):
+https://github.com/bambulab/BambuStudio/blob/v02.08.02.61/src/libslic3r/Fill/FillFloatingConcentric.cpp#L389-L492
+https://github.com/bambulab/BambuStudio/blob/v02.08.02.61/src/libslic3r/Fill/FillFloatingConcentric.cpp#L886-L917
+https://github.com/bambulab/BambuStudio/blob/v02.08.02.61/src/libslic3r/Fill/Fill.cpp#L716
+https://github.com/bambulab/BambuStudio/blob/v02.08.02.61/src/libslic3r/PrintConfig.cpp#L2055-L2059
+
+Downloaded third-party source files under source/ are analysis references only;
+keep this finding/URLs in the delivered package rather than bundling those copies.

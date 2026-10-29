@@ -1,0 +1,202 @@
+{
+  "version": "1.1-draft",
+  "scope": "Published final exported frame geometry at recorded hashes; nominal reference hardware.",
+  "physical_testing": "not checked",
+  "catalog_300mm_cable_datum": "not checked",
+  "variants": {
+    "n-type": {
+      "sha256": "886753b507f94769600f7d99b89697eb8be9cf22946dd635f7f9528fc66088e8",
+      "size_mm": [
+        200.0,
+        241.5,
+        68.0
+      ],
+      "physical_cable_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "cable_1mm_radial_keepout_vs_frame": {
+        "intersection_volume_mm3": 3.8177575140052795e-05,
+        "triangles": 3010,
+        "status": "fail",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "cable_0p9999mm_radial_keepout_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "clearance_tolerance_scope": "Exact 1mm raw result retained; 0.9999mm probe separately bounds float32 export boundary sensitivity within 0.0001mm, not physical clearance calibration",
+      "tie_complete_transverse_insertion_vs_final_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "nominal_node_plug_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "nominal_node_plug_vs_node_reference": {
+        "intersection_volume_mm3": -2.2870594307278225e-14,
+        "triangles": 44,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "conservative_15mm_tool_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "conservative_15mm_tool_vs_node_reference": {
+        "intersection_volume_mm3": 8.590994751837274,
+        "triangles": 104,
+        "status": "fail",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "candidate_2p5mm_thick_15mm_head_wrench_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "candidate_2p5mm_thick_15mm_head_wrench_vs_node_reference": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "actual_tool_dimensions_and_motion": "not checked; thin wrench is a hypothetical static envelope",
+      "cable_keepout_vs_node_at_slot_positions": {
+        "-3": {
+          "intersection_volume_mm3": 0.0,
+          "triangles": 0,
+          "status": "pass",
+          "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+        },
+        "0": {
+          "intersection_volume_mm3": 0.0,
+          "triangles": 0,
+          "status": "pass",
+          "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+        },
+        "3": {
+          "intersection_volume_mm3": 0.0,
+          "triangles": 0,
+          "status": "pass",
+          "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+        }
+      },
+      "final_saddle_sampled_vertical_web": {
+        "minimum_mm": 3.0634630000000023,
+        "sample_columns": 169,
+        "material_columns": 169,
+        "status": "pass",
+        "scope": "Local central 3x3mm region; not global minimum thickness or strength"
+      }
+    },
+    "stock": {
+      "sha256": "1a2fe490b098ef7b9cd2699e5a0b3f0520d4b120b0e40e29843954c6edec655f",
+      "size_mm": [
+        200.0,
+        231.5999984741211,
+        68.0
+      ],
+      "physical_cable_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "cable_1mm_radial_keepout_vs_frame": {
+        "intersection_volume_mm3": 4.120986187865493e-05,
+        "triangles": 2976,
+        "status": "fail",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "cable_0p9999mm_radial_keepout_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "clearance_tolerance_scope": "Exact 1mm raw result retained; 0.9999mm probe separately bounds float32 export boundary sensitivity within 0.0001mm, not physical clearance calibration",
+      "tie_complete_transverse_insertion_vs_final_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "nominal_node_plug_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "nominal_node_plug_vs_node_reference": {
+        "intersection_volume_mm3": -2.2870594307278225e-14,
+        "triangles": 44,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "conservative_15mm_tool_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "conservative_15mm_tool_vs_node_reference": {
+        "intersection_volume_mm3": 8.590994751837274,
+        "triangles": 104,
+        "status": "fail",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "candidate_2p5mm_thick_15mm_head_wrench_vs_frame": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "candidate_2p5mm_thick_15mm_head_wrench_vs_node_reference": {
+        "intersection_volume_mm3": 0.0,
+        "triangles": 0,
+        "status": "pass",
+        "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+      },
+      "actual_tool_dimensions_and_motion": "not checked; thin wrench is a hypothetical static envelope",
+      "cable_keepout_vs_node_at_slot_positions": {
+        "-3": {
+          "intersection_volume_mm3": 0.0,
+          "triangles": 0,
+          "status": "pass",
+          "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+        },
+        "0": {
+          "intersection_volume_mm3": 0.0,
+          "triangles": 0,
+          "status": "pass",
+          "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+        },
+        "3": {
+          "intersection_volume_mm3": 0.0,
+          "triangles": 0,
+          "status": "pass",
+          "scope": "Nominal modeled envelopes; no tolerance or physical qualification"
+        }
+      },
+      "final_saddle_sampled_vertical_web": {
+        "minimum_mm": 2.9302409999999988,
+        "sample_columns": 169,
+        "material_columns": 169,
+        "status": "pass",
+        "scope": "Local central 3x3mm region; not global minimum thickness or strength"
+      }
+    }
+  }
+}

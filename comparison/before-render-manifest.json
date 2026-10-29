@@ -1,0 +1,227 @@
+[
+  {
+    "view": "assembly-n",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-assembly-n.png",
+      "${REPO_ROOT}/comparison/before-assembly-n.scad"
+    ]
+  },
+  {
+    "view": "assembly-stock",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-stock.stl",
+    "sha256": "c96e7b9a2abd1907473308363c17f222ab392a85c112f864468e470bb195828c",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-assembly-stock.png",
+      "${REPO_ROOT}/comparison/before-assembly-stock.scad"
+    ]
+  },
+  {
+    "view": "n-overview",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-n-overview.png",
+      "${REPO_ROOT}/comparison/before-n-overview.scad"
+    ]
+  },
+  {
+    "view": "stock-overview",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-stock.stl",
+    "sha256": "c96e7b9a2abd1907473308363c17f222ab392a85c112f864468e470bb195828c",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-stock-overview.png",
+      "${REPO_ROOT}/comparison/before-stock-overview.scad"
+    ]
+  },
+  {
+    "view": "top",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-top.png",
+      "${REPO_ROOT}/comparison/before-top.scad"
+    ]
+  },
+  {
+    "view": "window",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-window.png",
+      "${REPO_ROOT}/comparison/before-window.scad"
+    ]
+  },
+  {
+    "view": "underside",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-underside.png",
+      "${REPO_ROOT}/comparison/before-underside.scad"
+    ]
+  },
+  {
+    "view": "saddle-n",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-saddle-n.png",
+      "${REPO_ROOT}/comparison/before-saddle-n.scad"
+    ]
+  },
+  {
+    "view": "saddle-stock",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-stock.stl",
+    "sha256": "c96e7b9a2abd1907473308363c17f222ab392a85c112f864468e470bb195828c",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-saddle-stock.png",
+      "${REPO_ROOT}/comparison/before-saddle-stock.scad"
+    ]
+  },
+  {
+    "view": "n-section",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-n-type.stl",
+    "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-n-section.png",
+      "${REPO_ROOT}/comparison/before-n-section-display.scad"
+    ],
+    "crop_command": [
+      "${REPO_ROOT}/.tools/OpenSCAD.app/Contents/MacOS/OpenSCAD",
+      "--backend",
+      "Manifold",
+      "-o",
+      "${REPO_ROOT}/comparison/before-n-section-display.off",
+      "${REPO_ROOT}/comparison/before-n-section.scad"
+    ]
+  },
+  {
+    "view": "stock-bore",
+    "revision": "before",
+    "mesh": "${BASELINE_ROOT}/p1-roof-mount-stock.stl",
+    "sha256": "c96e7b9a2abd1907473308363c17f222ab392a85c112f864468e470bb195828c",
+    "command": [
+      "/Applications/OpenSCAD-2021.01.app/Contents/MacOS/OpenSCAD",
+      "--preview",
+      "--projection",
+      "o",
+      "--colorscheme",
+      "Tomorrow",
+      "--imgsize",
+      "1600,1200",
+      "-o",
+      "${REPO_ROOT}/comparison/before-stock-bore.png",
+      "${REPO_ROOT}/comparison/before-stock-bore-display.scad"
+    ],
+    "crop_command": [
+      "${REPO_ROOT}/.tools/OpenSCAD.app/Contents/MacOS/OpenSCAD",
+      "--backend",
+      "Manifold",
+      "-o",
+      "${REPO_ROOT}/comparison/before-stock-bore-display.off",
+      "${REPO_ROOT}/comparison/before-stock-bore.scad"
+    ]
+  }
+]

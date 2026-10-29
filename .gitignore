@@ -2,3 +2,23 @@
 __pycache__/
 .build-*/
 .claude/
+.tools/
+OpenSCAD.dmg
+OpenSCAD.sha256
+
+# Local render/build products and historical slicing experiments.
+comparison/.build-*/
+comparison/*-display.off
+comparison/coax-*-crop.scad
+comparison/*-display.scad
+slicer/**/plate_*.gcode
+slicer/**/gui-*.3mf
+slicer/**/*-A1-fit-prototype.3mf
+validation/assembly-assets/
+validation/cantilever-reopen/*.3mf
+validation/slicer-fix/source/
+validation/slicer-fix/**/*.pkl
+validation/slicer-fix/**/plate_*.gcode
+validation/slicer-fix/**/plate_*.3mf
+validation/slicer-fix/trials/
+p1-mount-v1.1-package.zip

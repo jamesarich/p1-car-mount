@@ -23,11 +23,14 @@ $fn = $preview ? 48 : 96;
 
 /* [Output] */
 // Frame or test coupon; tools/build_models.py also renders internal check parts.
-part = "mount"; // [mount, coupon, foot_coupon, rear_foot_coupon, rear_left_foot_coupon, seat_coupon]
+part = "mount"; // [mount, coupon, foot_coupon, rear_foot_coupon, rear_left_foot_coupon, seat_coupon, shim_set, cable_reference]
 show_node = false;   // preview only
+show_cable = false;  // reference only; never include it in printable exports
+cable_saddle = true; // integrated rounded tie cradle; cable/tie remain separate
 
 /* [Hidden] */
-version = "1.0";
+version = "1.1-draft";
+blend_cache = ""; // build-only evaluated native blend; empty regenerates directly
 bed = 256;
 brim = 4;            // reserved on every side, plus 1 mm bed-edge margin
 
@@ -80,6 +83,9 @@ ramp_half_w = 54;
 ramp_t = 2.5;
 dam_h = 24;          // front lip, closing the gap under the panel's skirt; the skirt underside is ~30 mm above the box face at the rim
 scallop = [24, 12, 8];   // width, height, depth
+// v1.1: concave window/root additions; independent of the original rail top radius.
+window_outline_radius = 4;
+window_entry_radius = 2;
 
 /* [Antenna pylon] */
 // stock: Seeed's rod on the stock RP-SMA bulkhead cable.
@@ -103,6 +109,7 @@ fin_wall = alfa ? 4 : 2.5; // thicker roof carries the bulkhead directly
 // Provisional Seeed 100007236 hardware envelope, NOT a verified drawing.
 n_body_d = 15.875;
 n_bore_leadin = 0.4;                     // 45-degree entrance chamfer
+stock_bore_entry_relief = 0.25;          // exterior rim only; retain the keyed throat below
 bulkhead_clear = 0.3;                     // radial
 sma_d = alfa ? n_body_d + 2 * bulkhead_clear : 6.8;
 sma_flat = alfa ? sma_d : 6.1;            // flat >= d: round hole
@@ -291,6 +298,90 @@ module hub() {
   }
 }
 
+// v1.1 additive window blends. The plan is the original maximum footprint,
+// including the foot/hub junctions; a 2D closing fills only concave corners.
+// Existing solids remain in the final union, and every interface/keep-out cut
+// is applied afterward. This is editable construction, not mesh smoothing.
+module frame_plan_rail(a, b) hull() {
+  translate(a) circle(r=rail_r);
+  translate(b) circle(r=rail_r);
+}
+
+module frame_plan_polyrail(pts) for(i=[0:len(pts)-2])
+  frame_plan_rail(pts[i],pts[i+1]);
+
+module frame_plan() {
+  n=24;
+  for(s=[-1,1]) {
+    frame_plan_polyrail([for(k=[0:n]) let(x=s*foot_x*k/n) [x,front_y(x)]]);
+    frame_plan_polyrail([for(k=[0:n]) [s*foot_x,foot_y-2*foot_y*k/n]]);
+    frame_plan_polyrail([for(k=[0:n]) let(x=s*foot_x*k/n) [x,rear_y(x)]]);
+  }
+  frame_plan_rail([0,front_y(0)],[0,tail_y]);
+  // The final pylon/root controls the spine behind the rear rail.
+  for(f=feet) translate(f) circle(r=boss_r);
+  translate(seat_c) offset(r=pad_r)
+    square([pad[0]-2*pad_r,pad[1]+8-2*pad_r],center=true);
+  hull() {
+    for(s=[-1,1]) translate([s*ramp_half_w,nose_edge-ramp_t/2]) circle(r=ramp_t/2);
+    for(k=[0:8]) let(x=-ramp_half_w+2*ramp_half_w*k/8)
+      translate([x,front_y(x)]) circle(r=rail_r);
+  }
+}
+
+module frame_closed_plan() offset(r=-window_outline_radius)
+  offset(r=window_outline_radius) frame_plan();
+
+// A wide solid under the original raked rail surface. Offsetting its top by
+// the sphere radius keeps the final rounded surface at/below that datum.
+module frame_blend_roof_clip(r) {
+  top_center=box_face(0)-1.5-r/cos(tilt);
+  union() {
+    translate([-width,-length,-10]) cube([2*width,2*length,min_t-r+10]);
+    intersection() {
+      translate([-width,-length,-10]) cube([2*width,2*length,max_t-r+10]);
+      translate([0,0,top_center]) rotate([-tilt,0,0])
+        translate([-width,-length,-100]) cube([2*width,2*length,100]);
+    }
+    // Carry the rounded hub outline to the existing seat plane so the low
+    // rail blend does not end in a sharp intersection on the tapered hub.
+    // This stays inside the nominal pad and is trimmed by the seat cut.
+    intersection() {
+      linear_extrude(max_t+5) translate(seat_c)
+        offset(delta=-r) offset(r=pad_r)
+          square([pad[0]-2*pad_r,pad[1]-2*pad_r],center=true);
+      translate([0,0,box_face(0)-r/cos(tilt)]) rotate([-tilt,0,0])
+        translate([-width,-length,-100]) cube([2*width,2*length,100]);
+    }
+  }
+}
+
+module frame_window_blends() {
+  if (blend_cache != "") import(blend_cache,convexity=12);
+  else frame_window_blends_native();
+}
+module frame_window_blends_native() {
+  // R4 closing arcs at 64 segments have <0.005 mm nominal chord error.
+  $fn=64;
+  // The delivered default is reviewed; changing it requires revalidation.
+  assert(window_outline_radius>0 && window_outline_radius<=rail_r/2,
+    "window blend radius must be positive and no larger than half a rail");
+  assert(window_entry_radius>0 && window_entry_radius<=window_outline_radius,
+    "invalid window top-edge radius");
+  r=window_entry_radius;
+  intersection() {
+    translate([-width,-length,0]) cube([2*width,2*length,max_t]);
+    minkowski() {
+      intersection() {
+        translate([0,0,-r]) linear_extrude(max_t+r)
+          offset(delta=-r) frame_closed_plan();
+        frame_blend_roof_clip(r);
+      }
+      sphere(r=r,$fn=32);
+    }
+  }
+}
+
 // A single swept envelope grows into the rear rail and center spine.
 // The lower rear face retreats clear of the cable bend; no separate foot ring.
 module fin() pylon_loft();
@@ -338,6 +429,15 @@ module bulkhead_bore() {
   if (alfa && n_bore_leadin > 0)
     translate([0, hole_y, fin_h - n_bore_leadin])
       cylinder(d1 = sma_d, d2 = sma_d + 2 * n_bore_leadin + 0.02, h = n_bore_leadin + 0.01);
+  // Entry relief preserves the D-flat rather than replacing its upper rim
+  // with a round counterbore. The bottom 2.25 mm remains the original key.
+  if (!alfa && stock_bore_entry_relief > 0)
+    hull() for (dz = [0, stock_bore_entry_relief])
+      translate([0,hole_y,fin_h-stock_bore_entry_relief+dz])
+        linear_extrude(0.01) offset(delta=dz) intersection() {
+          circle(d=sma_d);
+          translate([-sma_d,-sma_d/2]) square([2*sma_d,sma_flat]);
+        }
 }
 
 module fin_cuts() {
@@ -440,6 +540,9 @@ module mount_solid(include_pylon = true) {
       ring();
       nose_wedge();
       hub();
+      if (cable_saddle) ar_cable_saddle(alfa,hole_y,fin_h,drop_z,
+        drop_straight,bend_r,seat_z,tilt,insert_offset);
+      frame_window_blends();
       for (f = feet)
         if (foot_top(f[1]) > rail_t(f[1]) + 0.5)
           hull() { sboss(f, boss_r); rpuck(f, foot_top(f[1]), nut_boss_r); }   // dome up to the pocket
@@ -512,6 +615,18 @@ module n_tail_clearance() {
 }
 
 use <p1-node-model.scad>
+use <assembly-refinements.scad>
+
+function full_coax_points() = ar_coax_route(alfa,hole_y,fin_h,drop_z,
+    drop_straight,bend_r,seat_z,tilt,insert_offset);
+module full_coax_reference(keepout=0,tool=false) {
+  ar_coax_reference(alfa,hole_y,fin_h,drop_z,drop_straight,bend_r,
+    seat_z,tilt,insert_offset,keepout,tool);
+}
+module full_route_check() intersection() {
+  union() { mount(); node_body(); }
+  ar_path_tube(full_coax_points(),free_cable_d+2*cable_clear);
+}
 
 // Visual hardware only; not part of the exported frame.
 module antenna_preview() {
@@ -571,9 +686,9 @@ module audit_checks() {
 }
 
 
-if (part == "mount") { mount(); if (show_node) node_ghost(); }
+if (part == "mount") { mount(); if (show_node) node_ghost(); if(show_cable) full_coax_reference(); }
 else if (part == "plate") translate([0, -(y_min+y_max)/2, 0]) mount();
-else if (part == "coupon") { assert(alfa, "coupon requires alfa"); pylon_coupon(); }
+else if (part == "coupon") pylon_coupon();
 else if (part == "foot_coupon") foot_coupon();
 else if (part == "rear_foot_coupon") foot_coupon(rear=true);
 else if (part == "rear_left_foot_coupon") foot_coupon(rear=true, left=true);
@@ -589,6 +704,10 @@ else if (part == "cable_check") intersection() { mount(); n_tail_clearance(); }
 else if (part == "bulkhead_check") intersection() { mount(); bulkhead_hardware(); }
 else if (part == "antenna_node_check") intersection() { antenna_preview(); node_body(); }
 else if (part == "audit_checks") audit_checks();
+else if (part == "full_route_check") full_route_check();
+else if (part == "shim_set") ar_screw_shim_set();
+else if (part == "cable_reference") full_coax_reference();
+else if (part == "frame_blend") frame_window_blends_native();
 else assert(false, str("Unknown part: ", part));
 
 echo(str("version ",version,"; one printed frame; bounds ",width," x ",length,

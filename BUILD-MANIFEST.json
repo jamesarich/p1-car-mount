@@ -1,9 +1,14 @@
 {
-  "openscad": "OpenSCAD version 2026.10.11",
-  "version": "1.0",
+  "openscad": "OpenSCAD version 2026.10.27",
+  "version": "1.1-draft",
   "source_sha256": {
-    "p1-roof-mount.scad": "5c4f4fc54c054bd7118a9c67bf2d6193f6304f13cb0b33fbf7fb1adafc83e467",
-    "p1-node-model.scad": "bc72f5cf37ecba9f15331bdb6e1bdc2e26b64c3fb83ad066765c54823ae163fe"
+    "p1-roof-mount.scad": "0079a10a1c427ea9193e9d7d2859ae4f19bb2744bb860d8d25a52b7542ad1a1e",
+    "p1-node-model.scad": "bc72f5cf37ecba9f15331bdb6e1bdc2e26b64c3fb83ad066765c54823ae163fe",
+    "assembly-refinements.scad": "b46633a334f90582e661da5c4fca965e39187a4bba1bb151ae2002a699292a8d",
+    "normalize_export.py": "88b2b73cb3804918b7eaa2171f3350d22dbb82d8040e1f46e1842b881104dc2c",
+    "precision_edges.py": "3c5ed7a4f8e03c9f0b68c4f2bf335350f15662140be051a9279f64447ac8e6c8",
+    "validate.py": "4730566fddc88e5156f4b6387b9ea4ce970e43eb3a51929b01490fdb27316b7e",
+    "build_models.py": "03fb0c5cf072c76f2130b2ef2106319cd2a041b9992af46de9edf5f9d9bae869"
   },
   "intersection_checks": [
     {
@@ -199,6 +204,14 @@
       "result": "empty"
     },
     {
+      "file": "p1-coupon-pylon-stock.stl",
+      "gauge_diameter": 6.75,
+      "gauge_shape": "D-flat",
+      "z_from": 53.5,
+      "z_to": 69,
+      "result": "empty"
+    },
+    {
       "file": "p1-roof-mount-stock.stl",
       "gauge_diameter": 6.75,
       "gauge_shape": "D-flat",
@@ -229,6 +242,11 @@
       "result": "empty"
     },
     {
+      "file": "p1-coupon-pylon-stock.stl",
+      "path": "body_rear_entry_and_lift",
+      "result": "empty"
+    },
+    {
       "file": "p1-roof-mount-stock.stl",
       "path": "body_rear_entry_and_lift",
       "result": "empty"
@@ -238,22 +256,24 @@
     {
       "file": "p1-roof-mount-n-type.stl",
       "angle_degrees": 30,
-      "interference_mm3": 7.1244566822958575,
+      "interference_mm3": 7.124463688417835,
       "result": "blocked"
     },
     {
       "file": "p1-coupon-pylon.stl",
       "angle_degrees": 30,
-      "interference_mm3": 7.124456682305745,
+      "interference_mm3": 7.1244557327841775,
       "result": "blocked"
     }
   ],
   "mesh_checks": {
     "p1-roof-mount-n-type.stl": {
       "surface_areas_mm2": {
-        "other_sloping": 512.6366979794242,
-        "pylon_sloping": 172.9962913227616,
-        "pylon_horizontal": 147.51924782437573
+        "cable_saddle_sloping": 26.320845687635284,
+        "cable_saddle_horizontal": 15.576046005677199,
+        "pylon_sloping": 173.21770616598013,
+        "pylon_horizontal": 147.51924548489933,
+        "other_sloping": 512.6097311325068
       },
       "screw_tool_access": [
         {
@@ -285,80 +305,80 @@
         {
           "z": 16,
           "x_widths_mm": [
-            14.087007876583565,
-            14.087007876583565
+            14.087008279311535,
+            14.087008279311483
           ],
           "minimum": 4.2
         },
         {
           "z": 18,
           "x_widths_mm": [
-            13.225477174716197,
-            13.225477174716197
+            13.225476712926397,
+            13.225476744865706
           ],
           "minimum": 4.2
         },
         {
           "z": 20,
           "x_widths_mm": [
-            12.353703248404713,
-            12.353703248404713
+            12.353703454173209,
+            12.353703422428673
           ],
           "minimum": 4.2
         },
         {
           "z": 25,
           "x_widths_mm": [
-            10.280638758186635,
-            10.280638758186635
+            10.280639572010895,
+            10.280639572010895
           ],
           "minimum": 4.2
         },
         {
           "z": 30,
           "x_widths_mm": [
-            8.365631728509747,
-            8.365631728509745
+            8.365631996164495,
+            8.3656319966174
           ],
           "minimum": 4.2
         },
         {
           "z": 35,
           "x_widths_mm": [
-            6.651106456424818,
-            6.651106456424818
+            6.651106541275221,
+            6.651106541275221
           ],
           "minimum": 3.8
         },
         {
           "z": 40,
           "x_widths_mm": [
-            5.170530717602896,
-            5.170530717602896
+            5.170531448025388,
+            5.1705314238373035
           ],
           "minimum": 3.8
         },
         {
           "z": 45,
           "x_widths_mm": [
-            4.48554677066727,
-            4.48554677066727
+            4.4855467418990465,
+            4.4855467418990465
           ],
           "minimum": 3.8
         },
         {
           "z": 50,
           "x_widths_mm": [
-            4.537113102032247,
-            4.537113102032247
+            4.537113432495158,
+            4.537113432495158
           ],
           "minimum": 3.8
         },
         {
           "z": 55,
           "x_widths_mm": [
-            6.065945526108461,
-            6.065945526108461
+            6.065945053694136,
+            6.065945053694136
           ],
           "minimum": 3.8
         }
@@ -367,525 +387,525 @@
         {
           "z": 18,
           "angle": -90,
-          "radial_width_mm": 13.225477174716197
+          "radial_width_mm": 13.225476712926397
         },
         {
           "z": 18,
           "angle": -75,
-          "radial_width_mm": 14.798806739093866
+          "radial_width_mm": 14.798806601861935
         },
         {
           "z": 18,
           "angle": -60,
-          "radial_width_mm": 16.2950184510226
+          "radial_width_mm": 16.295018015442245
         },
         {
           "z": 18,
           "angle": -45,
-          "radial_width_mm": 17.556541318104657
+          "radial_width_mm": 17.556542935643478
         },
         {
           "z": 18,
           "angle": -30,
-          "radial_width_mm": 19.68289188553628
+          "radial_width_mm": 19.68289095977906
         },
         {
           "z": 18,
           "angle": -15,
-          "radial_width_mm": 22.155833292543953
+          "radial_width_mm": 22.155832717393736
         },
         {
           "z": 18,
           "angle": 0,
-          "radial_width_mm": 23.08998039002529
+          "radial_width_mm": 23.08998039791176
         },
         {
           "z": 18,
           "angle": 15,
-          "radial_width_mm": 22.155833292543953
+          "radial_width_mm": 22.155832717393736
         },
         {
           "z": 18,
           "angle": 30,
-          "radial_width_mm": 19.68289188553628
+          "radial_width_mm": 19.68289095977906
         },
         {
           "z": 18,
           "angle": 45,
-          "radial_width_mm": 17.556541318104657
+          "radial_width_mm": 17.556542935643478
         },
         {
           "z": 18,
           "angle": 60,
-          "radial_width_mm": 16.2950184510226
+          "radial_width_mm": 16.295018015442245
         },
         {
           "z": 18,
           "angle": 75,
-          "radial_width_mm": 14.798806739093866
+          "radial_width_mm": 14.798806617882434
         },
         {
           "z": 18,
           "angle": 90,
-          "radial_width_mm": 13.225477174716197
+          "radial_width_mm": 13.225476744865706
         },
         {
           "z": 24,
           "angle": -90,
-          "radial_width_mm": 10.680540615855293
+          "radial_width_mm": 10.680541472536405
         },
         {
           "z": 24,
           "angle": -75,
-          "radial_width_mm": 11.718175663301356
+          "radial_width_mm": 11.718175879510543
         },
         {
           "z": 24,
           "angle": -60,
-          "radial_width_mm": 12.477915206114252
+          "radial_width_mm": 12.477915084135228
         },
         {
           "z": 24,
           "angle": -45,
-          "radial_width_mm": 12.437582469696661
+          "radial_width_mm": 12.437582698742585
         },
         {
           "z": 24,
           "angle": -30,
-          "radial_width_mm": 13.362563036288012
+          "radial_width_mm": 13.362564915262187
         },
         {
           "z": 24,
           "angle": -15,
-          "radial_width_mm": 15.658143608138444
+          "radial_width_mm": 15.658144356720333
         },
         {
           "z": 24,
           "angle": 0,
-          "radial_width_mm": 16.52900857986684
+          "radial_width_mm": 16.529009984407736
         },
         {
           "z": 24,
           "angle": 15,
-          "radial_width_mm": 15.658143608138444
+          "radial_width_mm": 15.658144356720333
         },
         {
           "z": 24,
           "angle": 30,
-          "radial_width_mm": 13.362563036288012
+          "radial_width_mm": 13.362564915262187
         },
         {
           "z": 24,
           "angle": 45,
-          "radial_width_mm": 12.437582469696661
+          "radial_width_mm": 12.437582698742585
         },
         {
           "z": 24,
           "angle": 60,
-          "radial_width_mm": 12.477915206114252
+          "radial_width_mm": 12.477915084135228
         },
         {
           "z": 24,
           "angle": 75,
-          "radial_width_mm": 11.718175663301356
+          "radial_width_mm": 11.718175879510543
         },
         {
           "z": 24,
           "angle": 90,
-          "radial_width_mm": 10.680540615855293
+          "radial_width_mm": 10.680541472536405
         },
         {
           "z": 30,
           "angle": -90,
-          "radial_width_mm": 8.365631728509747
+          "radial_width_mm": 8.365631996164495
         },
         {
           "z": 30,
           "angle": -75,
-          "radial_width_mm": 8.973972763414872
+          "radial_width_mm": 8.973972669078583
         },
         {
           "z": 30,
           "angle": -60,
-          "radial_width_mm": 9.080023846448292
+          "radial_width_mm": 9.080024665687548
         },
         {
           "z": 30,
           "angle": -45,
-          "radial_width_mm": 8.796339299566643
+          "radial_width_mm": 8.796338089365348
         },
         {
           "z": 30,
           "angle": -30,
-          "radial_width_mm": 10.217278650414217
+          "radial_width_mm": 10.217276177920091
         },
         {
           "z": 30,
           "angle": -15,
-          "radial_width_mm": 11.421794082011113
+          "radial_width_mm": 11.421794401273045
         },
         {
           "z": 30,
           "angle": 0,
-          "radial_width_mm": 11.936522301825349
+          "radial_width_mm": 11.936525796897698
         },
         {
           "z": 30,
           "angle": 15,
-          "radial_width_mm": 11.421794082011118
+          "radial_width_mm": 11.42179440127304
         },
         {
           "z": 30,
           "angle": 30,
-          "radial_width_mm": 10.217278650414217
+          "radial_width_mm": 10.217276482540797
         },
         {
           "z": 30,
           "angle": 45,
-          "radial_width_mm": 8.796339299566643
+          "radial_width_mm": 8.796338089365348
         },
         {
           "z": 30,
           "angle": 60,
-          "radial_width_mm": 9.080023846448292
+          "radial_width_mm": 9.080024746941294
         },
         {
           "z": 30,
           "angle": 75,
-          "radial_width_mm": 8.97397276341487
+          "radial_width_mm": 8.973972674754254
         },
         {
           "z": 30,
           "angle": 90,
-          "radial_width_mm": 8.365631728509745
+          "radial_width_mm": 8.3656319966174
         },
         {
           "z": 36,
           "angle": -90,
-          "radial_width_mm": 6.333738463727899
+          "radial_width_mm": 6.33373748090354
         },
         {
           "z": 36,
           "angle": -75,
-          "radial_width_mm": 6.577818383042487
+          "radial_width_mm": 6.5778184062787926
         },
         {
           "z": 36,
           "angle": -60,
-          "radial_width_mm": 6.259796176995536
+          "radial_width_mm": 6.259795819599109
         },
         {
           "z": 36,
           "angle": -45,
-          "radial_width_mm": 7.191317590928129
+          "radial_width_mm": 7.191317635240976
         },
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 8.281009263916797
+          "radial_width_mm": 8.281005710682543
         },
         {
           "z": 36,
           "angle": -15,
-          "radial_width_mm": 9.095274192516916
+          "radial_width_mm": 9.095275141049566
         },
         {
           "z": 36,
           "angle": 0,
-          "radial_width_mm": 9.403613631384488
+          "radial_width_mm": 9.403617858886719
         },
         {
           "z": 36,
           "angle": 15,
-          "radial_width_mm": 9.09527419251692
+          "radial_width_mm": 9.095275141049571
         },
         {
           "z": 36,
           "angle": 30,
-          "radial_width_mm": 8.281009263916797
+          "radial_width_mm": 8.281005870558134
         },
         {
           "z": 36,
           "angle": 45,
-          "radial_width_mm": 7.191317590928135
+          "radial_width_mm": 7.1913176352409725
         },
         {
           "z": 36,
           "angle": 60,
-          "radial_width_mm": 6.259796176995536
+          "radial_width_mm": 6.259795819599109
         },
         {
           "z": 36,
           "angle": 75,
-          "radial_width_mm": 6.577818383042489
+          "radial_width_mm": 6.5778184062787926
         },
         {
           "z": 36,
           "angle": 90,
-          "radial_width_mm": 6.333738463727899
+          "radial_width_mm": 6.333737447638617
         },
         {
           "z": 42,
           "angle": -90,
-          "radial_width_mm": 4.733927702436386
+          "radial_width_mm": 4.73392732385329
         },
         {
           "z": 42,
           "angle": -75,
-          "radial_width_mm": 4.87128409423511
+          "radial_width_mm": 4.87128558838125
         },
         {
           "z": 42,
           "angle": -60,
-          "radial_width_mm": 5.472792967690136
+          "radial_width_mm": 5.472794280872231
         },
         {
           "z": 42,
           "angle": -45,
-          "radial_width_mm": 6.167499292877151
+          "radial_width_mm": 6.167498771946171
         },
         {
           "z": 42,
           "angle": -30,
-          "radial_width_mm": 6.828356348874356
+          "radial_width_mm": 6.828351881022931
         },
         {
           "z": 42,
           "angle": -15,
-          "radial_width_mm": 7.305606909347306
+          "radial_width_mm": 7.3056111748867245
         },
         {
           "z": 42,
           "angle": 0,
-          "radial_width_mm": 7.478613631384476
+          "radial_width_mm": 7.478614807128906
         },
         {
           "z": 42,
           "angle": 15,
-          "radial_width_mm": 7.3056069093473095
+          "radial_width_mm": 7.305611174886726
         },
         {
           "z": 42,
           "angle": 30,
-          "radial_width_mm": 6.828356348874356
+          "radial_width_mm": 6.828351896153409
         },
         {
           "z": 42,
           "angle": 45,
-          "radial_width_mm": 6.167499292877155
+          "radial_width_mm": 6.167498771946175
         },
         {
           "z": 42,
           "angle": 60,
-          "radial_width_mm": 5.472792967690136
+          "radial_width_mm": 5.472794280872231
         },
         {
           "z": 42,
           "angle": 75,
-          "radial_width_mm": 4.87128409423511
+          "radial_width_mm": 4.87128558838125
         },
         {
           "z": 42,
           "angle": 90,
-          "radial_width_mm": 4.733927702436386
+          "radial_width_mm": 4.73392727487569
         },
         {
           "z": 48,
           "angle": -90,
-          "radial_width_mm": 4.489466940718433
+          "radial_width_mm": 4.489466447192253
         },
         {
           "z": 48,
           "angle": -75,
-          "radial_width_mm": 4.70395989854236
+          "radial_width_mm": 4.703961503819405
         },
         {
           "z": 48,
           "angle": -60,
-          "radial_width_mm": 5.0326306378669585
+          "radial_width_mm": 5.032629732126461
         },
         {
           "z": 48,
           "angle": -45,
-          "radial_width_mm": 5.412588322864982
+          "radial_width_mm": 5.4125878790990996
         },
         {
           "z": 48,
           "angle": -30,
-          "radial_width_mm": 5.7621263390855155
+          "radial_width_mm": 5.762126412129238
         },
         {
           "z": 48,
           "angle": -15,
-          "radial_width_mm": 6.012017527903792
+          "radial_width_mm": 6.01201869295644
         },
         {
           "z": 48,
           "angle": 0,
-          "radial_width_mm": 6.103613631384476
+          "radial_width_mm": 6.103614807128906
         },
         {
           "z": 48,
           "angle": 15,
-          "radial_width_mm": 6.012017527903787
+          "radial_width_mm": 6.012018692956438
         },
         {
           "z": 48,
           "angle": 30,
-          "radial_width_mm": 5.7621263390855155
+          "radial_width_mm": 5.762126523644138
         },
         {
           "z": 48,
           "angle": 45,
-          "radial_width_mm": 5.412588322864984
+          "radial_width_mm": 5.412587879099101
         },
         {
           "z": 48,
           "angle": 60,
-          "radial_width_mm": 5.0326306378669585
+          "radial_width_mm": 5.032629732126461
         },
         {
           "z": 48,
           "angle": 75,
-          "radial_width_mm": 4.70395989854236
+          "radial_width_mm": 4.703961625231951
         },
         {
           "z": 48,
           "angle": 90,
-          "radial_width_mm": 4.489466940718433
+          "radial_width_mm": 4.489466447192253
         },
         {
           "z": 54,
           "angle": -90,
-          "radial_width_mm": 6.064857886132028
+          "radial_width_mm": 6.064857473858471
         },
         {
           "z": 54,
           "angle": -75,
-          "radial_width_mm": 6.944824719566077
+          "radial_width_mm": 6.944825074940393
         },
         {
           "z": 54,
           "angle": -60,
-          "radial_width_mm": 5.791235598006976
+          "radial_width_mm": 5.7912357997714725
         },
         {
           "z": 54,
           "angle": -45,
-          "radial_width_mm": 5.0300393851910705
+          "radial_width_mm": 5.0300369568620535
         },
         {
           "z": 54,
           "angle": -30,
-          "radial_width_mm": 5.105955183856093
+          "radial_width_mm": 5.105955057488238
         },
         {
           "z": 54,
           "angle": -15,
-          "radial_width_mm": 5.231402798709304
+          "radial_width_mm": 5.231404755254484
         },
         {
           "z": 54,
           "angle": 0,
-          "radial_width_mm": 5.278613631384488
+          "radial_width_mm": 5.278617858886719
         },
         {
           "z": 54,
           "angle": 15,
-          "radial_width_mm": 5.231402798709301
+          "radial_width_mm": 5.231404755254481
         },
         {
           "z": 54,
           "angle": 30,
-          "radial_width_mm": 5.105955183856093
+          "radial_width_mm": 5.105955057488238
         },
         {
           "z": 54,
           "angle": 45,
-          "radial_width_mm": 5.030039385191072
+          "radial_width_mm": 5.0300369568620535
         },
         {
           "z": 54,
           "angle": 60,
-          "radial_width_mm": 5.791235598006976
+          "radial_width_mm": 5.7912357997714725
         },
         {
           "z": 54,
           "angle": 75,
-          "radial_width_mm": 6.944824719566077
+          "radial_width_mm": 6.944825074940393
         },
         {
           "z": 54,
           "angle": 90,
-          "radial_width_mm": 6.064857886132028
+          "radial_width_mm": 6.064857473858471
         },
         {
           "z": 60,
           "angle": -90,
-          "radial_width_mm": 6.068448187794221
+          "radial_width_mm": 6.068447796510057
         },
         {
           "z": 60,
           "angle": -75,
-          "radial_width_mm": 6.945447569774778
+          "radial_width_mm": 6.945449603954337
         },
         {
           "z": 60,
           "angle": -60,
-          "radial_width_mm": 6.945480344107095
+          "radial_width_mm": 6.945479057769338
         },
         {
           "z": 60,
           "angle": -45,
-          "radial_width_mm": 6.950135637952966
+          "radial_width_mm": 6.950135666092908
         },
         {
           "z": 60,
           "angle": -30,
-          "radial_width_mm": 6.063857898937162
+          "radial_width_mm": 6.063856026662565
         },
         {
           "z": 60,
           "angle": -15,
-          "radial_width_mm": 6.945337043224104
+          "radial_width_mm": 6.945335075559472
         },
         {
           "z": 60,
           "angle": 0,
-          "radial_width_mm": 6.950000000000003
+          "radial_width_mm": 6.9499969482421875
         },
         {
           "z": 60,
           "angle": 15,
-          "radial_width_mm": 6.945337043224104
+          "radial_width_mm": 6.945335075820536
         },
         {
           "z": 60,
           "angle": 30,
-          "radial_width_mm": 6.063857898937162
+          "radial_width_mm": 6.063856026662565
         },
         {
           "z": 60,
           "angle": 45,
-          "radial_width_mm": 6.950135637952966
+          "radial_width_mm": 6.950135666092908
         },
         {
           "z": 60,
           "angle": 60,
-          "radial_width_mm": 6.945480344107095
+          "radial_width_mm": 6.945479057769338
         },
         {
           "z": 60,
           "angle": 75,
-          "radial_width_mm": 6.945447569774778
+          "radial_width_mm": 6.945449603954337
         },
         {
           "z": 60,
           "angle": 90,
-          "radial_width_mm": 6.068448187794221
+          "radial_width_mm": 6.068447796510057
         }
       ],
-      "lower_channel_width_mm": 9.993332534951481,
+      "lower_channel_width_mm": 9.993332828003348,
       "lower_channel_section": {
         "z": 12,
         "y": -132
@@ -894,19 +914,19 @@
         {
           "z": 8,
           "y": -98,
-          "width_mm": 39.909503262084236,
+          "width_mm": 39.909501618028436,
           "minimum": 34
         },
         {
           "z": 12,
           "y": -98,
-          "width_mm": 34.28528247953296,
+          "width_mm": 34.28528336545074,
           "minimum": 30
         },
         {
           "z": 16,
           "y": -98,
-          "width_mm": 28.358262942273683,
+          "width_mm": 28.358264514220274,
           "minimum": 24
         }
       ],
@@ -914,118 +934,118 @@
         {
           "test": "corner_d21.5_offset-0.3",
           "result": "blocked",
-          "interference_mm3": 6.63273937375779
+          "interference_mm3": 6.632745972460448
         },
         {
           "test": "corner_d21.5_offset0",
           "result": "blocked",
-          "interference_mm3": 4.700354507270305
+          "interference_mm3": 4.700361471881828
         },
         {
           "test": "corner_d21.5_offset0.3",
           "result": "blocked",
-          "interference_mm3": 6.632739373761204
+          "interference_mm3": 6.6327447237253745
         },
         {
           "test": "corner_d21.3_offset-0.3",
           "result": "blocked",
-          "interference_mm3": 5.2861813041850745
+          "interference_mm3": 5.286187902886699
         },
         {
           "test": "corner_d21.3_offset0",
           "result": "blocked",
-          "interference_mm3": 2.680517402939813
+          "interference_mm3": 2.6805243675467065
         },
         {
           "test": "corner_d21.3_offset0.3",
           "result": "blocked",
-          "interference_mm3": 5.286181304194983
+          "interference_mm3": 5.286186654155149
         }
       ]
     },
     "p1-coupon-pylon.stl": {
       "surface_areas_mm2": {
-        "pylon_sloping": 172.99629132276158,
-        "pylon_horizontal": 147.51924782437575
+        "pylon_sloping": 173.21771927516855,
+        "pylon_horizontal": 147.5192493162276
       },
       "lower_cheek_sections": [
         {
           "z": 16,
           "x_widths_mm": [
-            14.087007876583565,
-            14.087007876583565
+            14.087007918361714,
+            14.087007918361664
           ],
           "minimum": 4.2
         },
         {
           "z": 18,
           "x_widths_mm": [
-            13.225477174716197,
-            13.225477174716197
+            13.225477010638027,
+            13.225477042577342
           ],
           "minimum": 4.2
         },
         {
           "z": 20,
           "x_widths_mm": [
-            12.353703248404713,
-            12.353703248404713
+            12.353703546038773,
+            12.353703514294203
           ],
           "minimum": 4.2
         },
         {
           "z": 25,
           "x_widths_mm": [
-            10.280638758186635,
-            10.280638758186635
+            10.280638920329414,
+            10.280638920329414
           ],
           "minimum": 4.2
         },
         {
           "z": 30,
           "x_widths_mm": [
-            8.365631728509747,
-            8.365631728509745
+            8.365631932424227,
+            8.365631932424227
           ],
           "minimum": 4.2
         },
         {
           "z": 35,
           "x_widths_mm": [
-            6.651106456424818,
-            6.651106456424818
+            6.651106742531812,
+            6.651106742531812
           ],
           "minimum": 3.8
         },
         {
           "z": 40,
           "x_widths_mm": [
-            5.170530717602896,
-            5.170530717602896
+            5.170531228963032,
+            5.170531228963032
           ],
           "minimum": 3.8
         },
         {
           "z": 45,
           "x_widths_mm": [
-            4.48554677066727,
-            4.48554677066727
+            4.485546513574597,
+            4.485546513574597
           ],
           "minimum": 3.8
         },
         {
           "z": 50,
           "x_widths_mm": [
-            4.537113102032247,
-            4.537113102032247
+            4.537113372115435,
+            4.537113372115435
           ],
           "minimum": 3.8
         },
         {
           "z": 55,
           "x_widths_mm": [
-            6.065945526108461,
-            6.065945526108461
+            6.06594507533714,
+            6.06594507533714
           ],
           "minimum": 3.8
         }
@@ -1034,525 +1054,525 @@
         {
           "z": 18,
           "angle": -90,
-          "radial_width_mm": 13.225477174716197
+          "radial_width_mm": 13.225477010638027
         },
         {
           "z": 18,
           "angle": -75,
-          "radial_width_mm": 14.798806739093866
+          "radial_width_mm": 14.798806244307736
         },
         {
           "z": 18,
           "angle": -60,
-          "radial_width_mm": 16.2950184510226
+          "radial_width_mm": 16.29501863196453
         },
         {
           "z": 18,
           "angle": -45,
-          "radial_width_mm": 17.55654131810466
+          "radial_width_mm": 17.556541471065128
         },
         {
           "z": 18,
           "angle": -30,
-          "radial_width_mm": 19.68289188553628
+          "radial_width_mm": 19.68289210623822
         },
         {
           "z": 18,
           "angle": -15,
-          "radial_width_mm": 22.155833292543953
+          "radial_width_mm": 22.155833046380902
         },
         {
           "z": 18,
           "angle": 0,
-          "radial_width_mm": 23.089980390025286
+          "radial_width_mm": 23.089980947786593
         },
         {
           "z": 18,
           "angle": 15,
-          "radial_width_mm": 22.155833292543953
+          "radial_width_mm": 22.155833046380902
         },
         {
           "z": 18,
           "angle": 30,
-          "radial_width_mm": 19.68289188553628
+          "radial_width_mm": 19.68289210623822
         },
         {
           "z": 18,
           "angle": 45,
-          "radial_width_mm": 17.55654131810466
+          "radial_width_mm": 17.556541471065128
         },
         {
           "z": 18,
           "angle": 60,
-          "radial_width_mm": 16.2950184510226
+          "radial_width_mm": 16.29501863196453
         },
         {
           "z": 18,
           "angle": 75,
-          "radial_width_mm": 14.798806739093866
+          "radial_width_mm": 14.798806260328256
         },
         {
           "z": 18,
           "angle": 90,
-          "radial_width_mm": 13.225477174716197
+          "radial_width_mm": 13.225477042577342
         },
         {
           "z": 24,
           "angle": -90,
-          "radial_width_mm": 10.680540615855293
+          "radial_width_mm": 10.68054132724366
         },
         {
           "z": 24,
           "angle": -75,
-          "radial_width_mm": 11.718175663301356
+          "radial_width_mm": 11.718175810379389
         },
         {
           "z": 24,
           "angle": -60,
-          "radial_width_mm": 12.477915206114252
+          "radial_width_mm": 12.477915554799617
         },
         {
           "z": 24,
           "angle": -45,
-          "radial_width_mm": 12.43758246969666
+          "radial_width_mm": 12.437581718365063
         },
         {
           "z": 24,
           "angle": -30,
-          "radial_width_mm": 13.362563036288009
+          "radial_width_mm": 13.362562709640407
         },
         {
           "z": 24,
           "angle": -15,
-          "radial_width_mm": 15.658143608138445
+          "radial_width_mm": 15.658142950531312
         },
         {
           "z": 24,
           "angle": 0,
-          "radial_width_mm": 16.529008579866847
+          "radial_width_mm": 16.529008188730174
         },
         {
           "z": 24,
           "angle": 15,
-          "radial_width_mm": 15.658143608138445
+          "radial_width_mm": 15.658142950531312
         },
         {
           "z": 24,
           "angle": 30,
-          "radial_width_mm": 13.362563036288009
+          "radial_width_mm": 13.362562643088433
         },
         {
           "z": 24,
           "angle": 45,
-          "radial_width_mm": 12.43758246969666
+          "radial_width_mm": 12.437581659759434
         },
         {
           "z": 24,
           "angle": 60,
-          "radial_width_mm": 12.477915206114252
+          "radial_width_mm": 12.477915554799617
         },
         {
           "z": 24,
           "angle": 75,
-          "radial_width_mm": 11.718175663301354
+          "radial_width_mm": 11.718175810379389
         },
         {
           "z": 24,
           "angle": 90,
-          "radial_width_mm": 10.680540615855293
+          "radial_width_mm": 10.68054132724366
         },
         {
           "z": 30,
           "angle": -90,
-          "radial_width_mm": 8.365631728509747
+          "radial_width_mm": 8.365631932424227
         },
         {
           "z": 30,
           "angle": -75,
-          "radial_width_mm": 8.973972763414872
+          "radial_width_mm": 8.973972606265248
         },
         {
           "z": 30,
           "angle": -60,
-          "radial_width_mm": 9.080023846448292
+          "radial_width_mm": 9.080025122062587
         },
         {
           "z": 30,
           "angle": -45,
-          "radial_width_mm": 8.796339299566647
+          "radial_width_mm": 8.796339072529111
         },
         {
           "z": 30,
           "angle": -30,
-          "radial_width_mm": 10.217278650414217
+          "radial_width_mm": 10.217279015760493
         },
         {
           "z": 30,
           "angle": -15,
-          "radial_width_mm": 11.421794082011111
+          "radial_width_mm": 11.421793658953987
         },
         {
           "z": 30,
           "angle": 0,
-          "radial_width_mm": 11.936522301825343
+          "radial_width_mm": 11.936522002596709
         },
         {
           "z": 30,
           "angle": 15,
-          "radial_width_mm": 11.42179408201112
+          "radial_width_mm": 11.421793658953987
         },
         {
           "z": 30,
           "angle": 30,
-          "radial_width_mm": 10.217278650414217
+          "radial_width_mm": 10.217279015760493
         },
         {
           "z": 30,
           "angle": 45,
-          "radial_width_mm": 8.796339299566647
+          "radial_width_mm": 8.796339072529111
         },
         {
           "z": 30,
           "angle": 60,
-          "radial_width_mm": 9.080023846448292
+          "radial_width_mm": 9.080025203316255
         },
         {
           "z": 30,
           "angle": 75,
-          "radial_width_mm": 8.97397276341487
+          "radial_width_mm": 8.973972606265248
         },
         {
           "z": 30,
           "angle": 90,
-          "radial_width_mm": 8.365631728509745
+          "radial_width_mm": 8.365631932424227
         },
         {
           "z": 36,
           "angle": -90,
-          "radial_width_mm": 6.333738463727899
+          "radial_width_mm": 6.333737515674857
         },
         {
           "z": 36,
           "angle": -75,
-          "radial_width_mm": 6.577818383042487
+          "radial_width_mm": 6.577818216417777
         },
         {
           "z": 36,
           "angle": -60,
-          "radial_width_mm": 6.259796176995538
+          "radial_width_mm": 6.259796141251494
         },
         {
           "z": 36,
           "angle": -45,
-          "radial_width_mm": 7.191317590928129
+          "radial_width_mm": 7.191317921222252
         },
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 8.281009263916797
+          "radial_width_mm": 8.281008728448292
         },
         {
           "z": 36,
           "angle": -15,
-          "radial_width_mm": 9.095274192516916
+          "radial_width_mm": 9.095273795276803
         },
         {
           "z": 36,
           "angle": 0,
-          "radial_width_mm": 9.403613631384488
+          "radial_width_mm": 9.403613090515137
         },
         {
           "z": 36,
           "angle": 15,
-          "radial_width_mm": 9.095274192516921
+          "radial_width_mm": 9.095273795276803
         },
         {
           "z": 36,
           "angle": 30,
-          "radial_width_mm": 8.281009263916797
+          "radial_width_mm": 8.281008728448292
         },
         {
           "z": 36,
           "angle": 45,
-          "radial_width_mm": 7.191317590928129
+          "radial_width_mm": 7.191317921222252
         },
         {
           "z": 36,
           "angle": 60,
-          "radial_width_mm": 6.259796176995536
+          "radial_width_mm": 6.259796141251494
         },
         {
           "z": 36,
           "angle": 75,
-          "radial_width_mm": 6.577818383042491
+          "radial_width_mm": 6.577818216417777
         },
         {
           "z": 36,
           "angle": 90,
-          "radial_width_mm": 6.333738463727899
+          "radial_width_mm": 6.333737482409914
         },
         {
           "z": 42,
           "angle": -90,
-          "radial_width_mm": 4.733927702436386
+          "radial_width_mm": 4.733927328635895
         },
         {
           "z": 42,
           "angle": -75,
-          "radial_width_mm": 4.871284094235111
+          "radial_width_mm": 4.871284208895149
         },
         {
           "z": 42,
           "angle": -60,
-          "radial_width_mm": 5.472792967690136
+          "radial_width_mm": 5.472793343775038
         },
         {
           "z": 42,
           "angle": -45,
-          "radial_width_mm": 6.167499292877153
+          "radial_width_mm": 6.167499226373156
         },
         {
           "z": 42,
           "angle": -30,
-          "radial_width_mm": 6.828356348874362
+          "radial_width_mm": 6.8283563990398015
         },
         {
           "z": 42,
           "angle": -15,
-          "radial_width_mm": 7.305606909347308
+          "radial_width_mm": 7.305607180418363
         },
         {
           "z": 42,
           "angle": 0,
-          "radial_width_mm": 7.478613631384476
+          "radial_width_mm": 7.47861385345459
         },
         {
           "z": 42,
           "angle": 15,
-          "radial_width_mm": 7.305606909347311
+          "radial_width_mm": 7.305607180418363
         },
         {
           "z": 42,
           "angle": 30,
-          "radial_width_mm": 6.828356348874362
+          "radial_width_mm": 6.8283563990398015
         },
         {
           "z": 42,
           "angle": 45,
-          "radial_width_mm": 6.167499292877153
+          "radial_width_mm": 6.167499226373156
         },
         {
           "z": 42,
           "angle": 60,
-          "radial_width_mm": 5.472792967690136
+          "radial_width_mm": 5.472793343775038
         },
         {
           "z": 42,
           "angle": 75,
-          "radial_width_mm": 4.87128409423511
+          "radial_width_mm": 4.871284247982798
         },
         {
           "z": 42,
           "angle": 90,
-          "radial_width_mm": 4.733927702436386
+          "radial_width_mm": 4.733927279658253
         },
         {
           "z": 48,
           "angle": -90,
-          "radial_width_mm": 4.489466940718433
+          "radial_width_mm": 4.48946644527728
         },
         {
           "z": 48,
           "angle": -75,
-          "radial_width_mm": 4.70395989854236
+          "radial_width_mm": 4.703960461218093
         },
         {
           "z": 48,
           "angle": -60,
-          "radial_width_mm": 5.0326306378669585
+          "radial_width_mm": 5.032631152235503
         },
         {
           "z": 48,
           "angle": -45,
-          "radial_width_mm": 5.412588322864984
+          "radial_width_mm": 5.412588074863747
         },
         {
           "z": 48,
           "angle": -30,
-          "radial_width_mm": 5.762126339085519
+          "radial_width_mm": 5.762126558702542
         },
         {
           "z": 48,
           "angle": -15,
-          "radial_width_mm": 6.012017527903785
+          "radial_width_mm": 6.012017870658493
         },
         {
           "z": 48,
           "angle": 0,
-          "radial_width_mm": 6.103613631384476
+          "radial_width_mm": 6.10361385345459
         },
         {
           "z": 48,
           "angle": 15,
-          "radial_width_mm": 6.012017527903787
+          "radial_width_mm": 6.012017870658493
         },
         {
           "z": 48,
           "angle": 30,
-          "radial_width_mm": 5.762126339085519
+          "radial_width_mm": 5.762126565954116
         },
         {
           "z": 48,
           "angle": 45,
-          "radial_width_mm": 5.412588322864984
+          "radial_width_mm": 5.412588074863747
         },
         {
           "z": 48,
           "angle": 60,
-          "radial_width_mm": 5.0326306378669585
+          "radial_width_mm": 5.032631152235503
         },
         {
           "z": 48,
           "angle": 75,
-          "radial_width_mm": 4.70395989854236
+          "radial_width_mm": 4.703960550046899
         },
         {
           "z": 48,
           "angle": 90,
-          "radial_width_mm": 4.489466940718433
+          "radial_width_mm": 4.48946644527728
         },
         {
           "z": 54,
           "angle": -90,
-          "radial_width_mm": 6.064857886132028
+          "radial_width_mm": 6.0648574094119
         },
         {
           "z": 54,
           "angle": -75,
-          "radial_width_mm": 6.944824719566078
+          "radial_width_mm": 6.944824482884954
         },
         {
           "z": 54,
           "angle": -60,
-          "radial_width_mm": 5.791235598006976
+          "radial_width_mm": 5.791235961909775
         },
         {
           "z": 54,
           "angle": -45,
-          "radial_width_mm": 5.030039385191072
+          "radial_width_mm": 5.030039185888057
         },
         {
           "z": 54,
           "angle": -30,
-          "radial_width_mm": 5.105955183856096
+          "radial_width_mm": 5.105955251168563
         },
         {
           "z": 54,
           "angle": -15,
-          "radial_width_mm": 5.231402798709301
+          "radial_width_mm": 5.23140313095003
         },
         {
           "z": 54,
           "angle": 0,
-          "radial_width_mm": 5.278613631384488
+          "radial_width_mm": 5.278613090515137
         },
         {
           "z": 54,
           "angle": 15,
-          "radial_width_mm": 5.231402798709301
+          "radial_width_mm": 5.231403130950028
         },
         {
           "z": 54,
           "angle": 30,
-          "radial_width_mm": 5.105955183856096
+          "radial_width_mm": 5.105955251168563
         },
         {
           "z": 54,
           "angle": 45,
-          "radial_width_mm": 5.030039385191072
+          "radial_width_mm": 5.030039185888057
         },
         {
           "z": 54,
           "angle": 60,
-          "radial_width_mm": 5.791235598006976
+          "radial_width_mm": 5.791235961909775
         },
         {
           "z": 54,
           "angle": 75,
-          "radial_width_mm": 6.944824719566078
+          "radial_width_mm": 6.944824482884954
         },
         {
           "z": 54,
           "angle": 90,
-          "radial_width_mm": 6.064857886132028
+          "radial_width_mm": 6.0648574094119
         },
         {
           "z": 60,
           "angle": -90,
-          "radial_width_mm": 6.068448187794221
+          "radial_width_mm": 6.068447796531796
         },
         {
           "z": 60,
           "angle": -75,
-          "radial_width_mm": 6.945447569774778
+          "radial_width_mm": 6.945448188527131
         },
         {
           "z": 60,
           "angle": -60,
-          "radial_width_mm": 6.945480344107095
+          "radial_width_mm": 6.9454806731710335
         },
         {
           "z": 60,
           "angle": -45,
-          "radial_width_mm": 6.950135637952966
+          "radial_width_mm": 6.950135317883998
         },
         {
           "z": 60,
           "angle": -30,
-          "radial_width_mm": 6.063857898937162
+          "radial_width_mm": 6.063858373362393
         },
         {
           "z": 60,
           "angle": -15,
-          "radial_width_mm": 6.945337043224104
+          "radial_width_mm": 6.945336894649499
         },
         {
           "z": 60,
           "angle": 0,
-          "radial_width_mm": 6.950000000000003
+          "radial_width_mm": 6.949999809265137
         },
         {
           "z": 60,
           "angle": 15,
-          "radial_width_mm": 6.945337043224104
+          "radial_width_mm": 6.945336894649499
         },
         {
           "z": 60,
           "angle": 30,
-          "radial_width_mm": 6.063857898937162
+          "radial_width_mm": 6.063858373362393
         },
         {
           "z": 60,
           "angle": 45,
-          "radial_width_mm": 6.950135637952966
+          "radial_width_mm": 6.950135317883998
         },
         {
           "z": 60,
           "angle": 60,
-          "radial_width_mm": 6.945480344107095
+          "radial_width_mm": 6.9454806731710335
         },
         {
           "z": 60,
           "angle": 75,
-          "radial_width_mm": 6.945447569774778
+          "radial_width_mm": 6.945448188527131
         },
         {
           "z": 60,
           "angle": 90,
-          "radial_width_mm": 6.068448187794221
+          "radial_width_mm": 6.068447796531796
         }
       ],
-      "lower_channel_width_mm": 9.993332534951481,
+      "lower_channel_width_mm": 9.993332828003346,
       "lower_channel_section": {
         "z": 12,
         "y": -8
@@ -1561,19 +1581,19 @@
         {
           "z": 8,
           "y": 26,
-          "width_mm": 39.909503262084236,
+          "width_mm": 39.90950381004045,
           "minimum": 34
         },
         {
           "z": 12,
           "y": 26,
-          "width_mm": 34.28528247953296,
+          "width_mm": 34.28528343135194,
           "minimum": 30
         },
         {
           "z": 16,
           "y": 26,
-          "width_mm": 28.358262942273683,
+          "width_mm": 28.358263278362692,
           "minimum": 24
         }
       ],
@@ -1581,32 +1601,407 @@
         {
           "test": "corner_d21.5_offset-0.3",
           "result": "blocked",
-          "interference_mm3": 6.632739373751136
+          "interference_mm3": 6.632738336663819
         },
         {
           "test": "corner_d21.5_offset0",
           "result": "blocked",
-          "interference_mm3": 4.700354507273122
+          "interference_mm3": 4.700353564883681
         },
         {
           "test": "corner_d21.5_offset0.3",
           "result": "blocked",
-          "interference_mm3": 6.632739373750768
+          "interference_mm3": 6.632738354487132
         },
         {
           "test": "corner_d21.3_offset-0.3",
           "result": "blocked",
-          "interference_mm3": 5.286181304208105
+          "interference_mm3": 5.286180267121421
         },
         {
           "test": "corner_d21.3_offset0",
           "result": "blocked",
-          "interference_mm3": 2.680517402959739
+          "interference_mm3": 2.6805164605712153
         },
         {
           "test": "corner_d21.3_offset0.3",
           "result": "blocked",
-          "interference_mm3": 5.28618130420849
+          "interference_mm3": 5.286180284944364
+        }
+      ]
+    },
+    "p1-coupon-pylon-stock.stl": {
+      "surface_areas_mm2": {
+        "pylon_horizontal": 69.68235469806389,
+        "pylon_sloping": 49.71287831968166
+      },
+      "lower_cheek_sections": [
+        {
+          "z": 35,
+          "x_widths_mm": [
+            5.792326621408511,
+            5.792326621408511
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 40,
+          "x_widths_mm": [
+            5.420055148729212,
+            5.4200551289781
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 45,
+          "x_widths_mm": [
+            5.272899289413996,
+            5.272899288092006
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 50,
+          "x_widths_mm": [
+            5.294215113190955,
+            5.294215113190955
+          ],
+          "minimum": 3.8
+        },
+        {
+          "z": 55,
+          "x_widths_mm": [
+            6.597592686747065,
+            6.597592686747065
+          ],
+          "minimum": 3.8
+        }
+      ],
+      "front_and_side_wall_sections": [
+        {
+          "z": 36,
+          "angle": -90,
+          "radial_width_mm": 5.693424640866483
+        },
+        {
+          "z": 36,
+          "angle": -75,
+          "radial_width_mm": 6.297169036581248
+        },
+        {
+          "z": 36,
+          "angle": -60,
+          "radial_width_mm": 7.503048393454955
+        },
+        {
+          "z": 36,
+          "angle": -45,
+          "radial_width_mm": 9.414591158927166
+        },
+        {
+          "z": 36,
+          "angle": -30,
+          "radial_width_mm": 11.176928094679472
+        },
+        {
+          "z": 36,
+          "angle": -15,
+          "radial_width_mm": 12.348535579744517
+        },
+        {
+          "z": 36,
+          "angle": 0,
+          "radial_width_mm": 12.768697188686708
+        },
+        {
+          "z": 36,
+          "angle": 15,
+          "radial_width_mm": 12.348535579744517
+        },
+        {
+          "z": 36,
+          "angle": 30,
+          "radial_width_mm": 11.176928094679472
+        },
+        {
+          "z": 36,
+          "angle": 45,
+          "radial_width_mm": 9.414591158927166
+        },
+        {
+          "z": 36,
+          "angle": 60,
+          "radial_width_mm": 7.503048393454955
+        },
+        {
+          "z": 36,
+          "angle": 75,
+          "radial_width_mm": 6.297168989094486
+        },
+        {
+          "z": 36,
+          "angle": 90,
+          "radial_width_mm": 5.693424841124305
+        },
+        {
+          "z": 42,
+          "angle": -90,
+          "radial_width_mm": 5.323720262293056
+        },
+        {
+          "z": 42,
+          "angle": -75,
+          "radial_width_mm": 5.636692297039251
+        },
+        {
+          "z": 42,
+          "angle": -60,
+          "radial_width_mm": 6.208677084975169
+        },
+        {
+          "z": 42,
+          "angle": -45,
+          "radial_width_mm": 6.890370828730716
+        },
+        {
+          "z": 42,
+          "angle": -30,
+          "radial_width_mm": 7.5845619820791885
+        },
+        {
+          "z": 42,
+          "angle": -15,
+          "radial_width_mm": 8.389136319894135
+        },
+        {
+          "z": 42,
+          "angle": 0,
+          "radial_width_mm": 8.730528935177922
+        },
+        {
+          "z": 42,
+          "angle": 15,
+          "radial_width_mm": 8.389136319894135
+        },
+        {
+          "z": 42,
+          "angle": 30,
+          "radial_width_mm": 7.5845619820791885
+        },
+        {
+          "z": 42,
+          "angle": 45,
+          "radial_width_mm": 6.890370828730716
+        },
+        {
+          "z": 42,
+          "angle": 60,
+          "radial_width_mm": 6.208677084975169
+        },
+        {
+          "z": 42,
+          "angle": 75,
+          "radial_width_mm": 5.636692297039251
+        },
+        {
+          "z": 42,
+          "angle": 90,
+          "radial_width_mm": 5.323720262293056
+        },
+        {
+          "z": 48,
+          "angle": -90,
+          "radial_width_mm": 5.290217783270782
+        },
+        {
+          "z": 48,
+          "angle": -75,
+          "radial_width_mm": 5.494926486715184
+        },
+        {
+          "z": 48,
+          "angle": -60,
+          "radial_width_mm": 5.812362378145717
+        },
+        {
+          "z": 48,
+          "angle": -45,
+          "radial_width_mm": 6.1902980054980095
+        },
+        {
+          "z": 48,
+          "angle": -30,
+          "radial_width_mm": 6.539700137947647
+        },
+        {
+          "z": 48,
+          "angle": -15,
+          "radial_width_mm": 6.7894360830322205
+        },
+        {
+          "z": 48,
+          "angle": 0,
+          "radial_width_mm": 6.879613876342773
+        },
+        {
+          "z": 48,
+          "angle": 15,
+          "radial_width_mm": 6.7894360830322205
+        },
+        {
+          "z": 48,
+          "angle": 30,
+          "radial_width_mm": 6.539700137947647
+        },
+        {
+          "z": 48,
+          "angle": 45,
+          "radial_width_mm": 6.1902980054980095
+        },
+        {
+          "z": 48,
+          "angle": 60,
+          "radial_width_mm": 5.812362378145717
+        },
+        {
+          "z": 48,
+          "angle": 75,
+          "radial_width_mm": 5.494926486715184
+        },
+        {
+          "z": 48,
+          "angle": 90,
+          "radial_width_mm": 5.290217783270782
+        },
+        {
+          "z": 54,
+          "angle": -90,
+          "radial_width_mm": 6.477585650731733
+        },
+        {
+          "z": 54,
+          "angle": -75,
+          "radial_width_mm": 6.3186382676319885
+        },
+        {
+          "z": 54,
+          "angle": -60,
+          "radial_width_mm": 5.854252629955823
+        },
+        {
+          "z": 54,
+          "angle": -45,
+          "radial_width_mm": 5.736972290127467
+        },
+        {
+          "z": 54,
+          "angle": -30,
+          "radial_width_mm": 5.905297941177615
+        },
+        {
+          "z": 54,
+          "angle": -15,
+          "radial_width_mm": 6.026956759892308
+        },
+        {
+          "z": 54,
+          "angle": 0,
+          "radial_width_mm": 6.072613716125488
+        },
+        {
+          "z": 54,
+          "angle": 15,
+          "radial_width_mm": 6.0269567598923075
+        },
+        {
+          "z": 54,
+          "angle": 30,
+          "radial_width_mm": 5.905297941177615
+        },
+        {
+          "z": 54,
+          "angle": 45,
+          "radial_width_mm": 5.736972290127467
+        },
+        {
+          "z": 54,
+          "angle": 60,
+          "radial_width_mm": 5.854252630624776
+        },
+        {
+          "z": 54,
+          "angle": 75,
+          "radial_width_mm": 6.318638372324165
+        },
+        {
+          "z": 54,
+          "angle": 90,
+          "radial_width_mm": 6.477585619308074
+        },
+        {
+          "z": 60,
+          "angle": -90,
+          "radial_width_mm": 6.59998879649255
+        },
+        {
+          "z": 60,
+          "angle": -75,
+          "radial_width_mm": 6.5967998005625805
+        },
+        {
+          "z": 60,
+          "angle": -60,
+          "radial_width_mm": 6.59682376838549
+        },
+        {
+          "z": 60,
+          "angle": -45,
+          "radial_width_mm": 6.600095623266649
+        },
+        {
+          "z": 60,
+          "angle": -30,
+          "radial_width_mm": 6.596762385796709
+        },
+        {
+          "z": 60,
+          "angle": -15,
+          "radial_width_mm": 6.596722441112876
+        },
+        {
+          "z": 60,
+          "angle": 0,
+          "radial_width_mm": 6.600000381469727
+        },
+        {
+          "z": 60,
+          "angle": 15,
+          "radial_width_mm": 6.596722441112876
+        },
+        {
+          "z": 60,
+          "angle": 30,
+          "radial_width_mm": 6.596762385796709
+        },
+        {
+          "z": 60,
+          "angle": 45,
+          "radial_width_mm": 6.600095623266649
+        },
+        {
+          "z": 60,
+          "angle": 60,
+          "radial_width_mm": 6.59682376838552
+        },
+        {
+          "z": 60,
+          "angle": 75,
+          "radial_width_mm": 6.5967998005625805
+        },
+        {
+          "z": 60,
+          "angle": 90,
+          "radial_width_mm": 6.59998879649255
         }
       ]
     },
@@ -1618,9 +2013,11 @@
     },
     "p1-roof-mount-stock.stl": {
       "surface_areas_mm2": {
-        "other_sloping": 512.6366979794243,
-        "pylon_sloping": 51.718441104333166,
-        "pylon_horizontal": 69.68235621581255
+        "cable_saddle_sloping": 25.45093739590621,
+        "cable_saddle_horizontal": 15.576022336113965,
+        "other_sloping": 512.6086206819883,
+        "pylon_sloping": 49.71288343257263,
+        "pylon_horizontal": 69.68235014886955
       },
       "screw_tool_access": [
         {
@@ -1652,19 +2049,19 @@
         {
           "z": 8,
           "y": -98,
-          "width_mm": 30.118807597484793,
+          "width_mm": 30.118807095693068,
           "minimum": 26
         },
         {
           "z": 12,
           "y": -98,
-          "width_mm": 26.37592442918504,
+          "width_mm": 26.375922184300407,
           "minimum": 22
         },
         {
           "z": 16,
           "y": -98,
-          "width_mm": 22.356812376307662,
+          "width_mm": 22.356810849011946,
           "minimum": 18
         }
       ],
@@ -1672,8 +2069,8 @@
         "z": 53.9,
         "y": -121.2,
         "x_widths_mm": [
-          6.040396525809355,
-          6.040456295018385
+          6.040397039152936,
+          6.040457061278502
         ],
         "minimum": 4
       },
@@ -1681,40 +2078,40 @@
         {
           "z": 35,
           "x_widths_mm": [
-            5.792326862730431,
-            5.792326862730431
+            5.792326518115908,
+            5.7923266714265385
           ],
           "minimum": 3.8
         },
         {
           "z": 40,
           "x_widths_mm": [
-            5.4200550252653095,
-            5.4200550252653095
+            5.420055481672103,
+            5.420055461921006
           ],
           "minimum": 3.8
         },
         {
           "z": 45,
           "x_widths_mm": [
-            5.272899203359516,
-            5.272899203359516
+            5.2728993931970844,
+            5.2728993931970844
           ],
           "minimum": 3.8
         },
         {
           "z": 50,
           "x_widths_mm": [
-            5.294215332837854,
-            5.294215332837854
+            5.294215086542463,
+            5.294215086542463
           ],
           "minimum": 3.8
         },
         {
           "z": 55,
           "x_widths_mm": [
-            6.597592369696467,
-            6.597592369696467
+            6.59759273523821,
+            6.59759273523821
           ],
           "minimum": 3.8
         }
@@ -1723,336 +2120,339 @@
         {
           "z": 36,
           "angle": -90,
-          "radial_width_mm": 5.693424950018703
+          "radial_width_mm": 5.693424599012576
         },
         {
           "z": 36,
           "angle": -75,
-          "radial_width_mm": 6.297168774620565
+          "radial_width_mm": 6.297168514718029
         },
         {
           "z": 36,
           "angle": -60,
-          "radial_width_mm": 7.5030489399847164
+          "radial_width_mm": 7.503048366266432
         },
         {
           "z": 36,
           "angle": -45,
-          "radial_width_mm": 9.414591631955503
+          "radial_width_mm": 9.414585861607652
         },
         {
           "z": 36,
           "angle": -30,
-          "radial_width_mm": 11.17692813604367
+          "radial_width_mm": 11.176923755457079
         },
         {
           "z": 36,
           "angle": -15,
-          "radial_width_mm": 12.34853539394536
+          "radial_width_mm": 12.348537584012929
         },
         {
           "z": 36,
           "angle": 0,
-          "radial_width_mm": 12.768696758136414
+          "radial_width_mm": 12.768697767076276
         },
         {
           "z": 36,
           "angle": 15,
-          "radial_width_mm": 12.34853539394536
+          "radial_width_mm": 12.348537584012929
         },
         {
           "z": 36,
           "angle": 30,
-          "radial_width_mm": 11.176928136043664
+          "radial_width_mm": 11.176923755457082
         },
         {
           "z": 36,
           "angle": 45,
-          "radial_width_mm": 9.414591631955503
+          "radial_width_mm": 9.414585861607652
         },
         {
           "z": 36,
           "angle": 60,
-          "radial_width_mm": 7.503048939984716
+          "radial_width_mm": 7.503048366266432
         },
         {
           "z": 36,
           "angle": 75,
-          "radial_width_mm": 6.297168774620565
+          "radial_width_mm": 6.297168467229467
         },
         {
           "z": 36,
           "angle": 90,
-          "radial_width_mm": 5.693424950018703
+          "radial_width_mm": 5.693424799270387
         },
         {
           "z": 42,
           "angle": -90,
-          "radial_width_mm": 5.323720028553885
+          "radial_width_mm": 5.323720246177464
         },
         {
           "z": 42,
           "angle": -75,
-          "radial_width_mm": 5.636692459691045
+          "radial_width_mm": 5.636693057963852
         },
         {
           "z": 42,
           "angle": -60,
-          "radial_width_mm": 6.208677355949605
+          "radial_width_mm": 6.208675251392627
         },
         {
           "z": 42,
           "angle": -45,
-          "radial_width_mm": 6.8903707231092195
+          "radial_width_mm": 6.890372990380785
         },
         {
           "z": 42,
           "angle": -30,
-          "radial_width_mm": 7.5845626232971215
+          "radial_width_mm": 7.584561053504516
         },
         {
           "z": 42,
           "angle": -15,
-          "radial_width_mm": 8.389136049564165
+          "radial_width_mm": 8.389132470444324
         },
         {
           "z": 42,
           "angle": 0,
-          "radial_width_mm": 8.730528850580413
+          "radial_width_mm": 8.730532081852516
         },
         {
           "z": 42,
           "angle": 15,
-          "radial_width_mm": 8.389136049564165
+          "radial_width_mm": 8.389132470444324
         },
         {
           "z": 42,
           "angle": 30,
-          "radial_width_mm": 7.58456262329712
+          "radial_width_mm": 7.584561053504516
         },
         {
           "z": 42,
           "angle": 45,
-          "radial_width_mm": 6.890370723109218
+          "radial_width_mm": 6.890372990380785
         },
         {
           "z": 42,
           "angle": 60,
-          "radial_width_mm": 6.208677355949605
+          "radial_width_mm": 6.208675251392627
         },
         {
           "z": 42,
           "angle": 75,
-          "radial_width_mm": 5.636692459691045
+          "radial_width_mm": 5.636693057963852
         },
         {
           "z": 42,
           "angle": 90,
-          "radial_width_mm": 5.323720028553885
+          "radial_width_mm": 5.323720237622296
         },
         {
           "z": 48,
           "angle": -90,
-          "radial_width_mm": 5.290218109540846
+          "radial_width_mm": 5.29021774310146
         },
         {
           "z": 48,
           "angle": -75,
-          "radial_width_mm": 5.494926699077966
+          "radial_width_mm": 5.494928011284016
         },
         {
           "z": 48,
           "angle": -60,
-          "radial_width_mm": 5.8123625097537355
+          "radial_width_mm": 5.81235990086289
         },
         {
           "z": 48,
           "angle": -45,
-          "radial_width_mm": 6.190297673448377
+          "radial_width_mm": 6.190297644703936
         },
         {
           "z": 48,
           "angle": -30,
-          "radial_width_mm": 6.539700084415367
+          "radial_width_mm": 6.539699222997856
         },
         {
           "z": 48,
           "angle": -15,
-          "radial_width_mm": 6.789436205815537
+          "radial_width_mm": 6.789438807874548
         },
         {
           "z": 48,
           "angle": 0,
-          "radial_width_mm": 6.879613631384487
+          "radial_width_mm": 6.879615783691406
         },
         {
           "z": 48,
           "angle": 15,
-          "radial_width_mm": 6.789436205815537
+          "radial_width_mm": 6.789438807874548
         },
         {
           "z": 48,
           "angle": 30,
-          "radial_width_mm": 6.539700084415367
+          "radial_width_mm": 6.539699222997856
         },
         {
           "z": 48,
           "angle": 45,
-          "radial_width_mm": 6.190297673448375
+          "radial_width_mm": 6.190297644703936
         },
         {
           "z": 48,
           "angle": 60,
-          "radial_width_mm": 5.8123625097537355
+          "radial_width_mm": 5.81235990086289
         },
         {
           "z": 48,
           "angle": 75,
-          "radial_width_mm": 5.494926699077966
+          "radial_width_mm": 5.494928011284016
         },
         {
           "z": 48,
           "angle": 90,
-          "radial_width_mm": 5.290218109540846
+          "radial_width_mm": 5.29021774310146
         },
         {
           "z": 54,
           "angle": -90,
-          "radial_width_mm": 6.477586156525845
+          "radial_width_mm": 6.477585698862533
         },
         {
           "z": 54,
           "angle": -75,
-          "radial_width_mm": 6.318639369472242
+          "radial_width_mm": 6.318638143273041
         },
         {
           "z": 54,
           "angle": -60,
-          "radial_width_mm": 5.854252383725911
+          "radial_width_mm": 5.8542528285304165
         },
         {
           "z": 54,
           "angle": -45,
-          "radial_width_mm": 5.736972160372139
+          "radial_width_mm": 5.7369747673141465
         },
         {
           "z": 54,
           "angle": -30,
-          "radial_width_mm": 5.905297699672
+          "radial_width_mm": 5.905298898049304
         },
         {
           "z": 54,
           "angle": -15,
-          "radial_width_mm": 6.026957009596768
+          "radial_width_mm": 6.026956817943071
         },
         {
           "z": 54,
           "angle": 0,
-          "radial_width_mm": 6.0726136313844705
+          "radial_width_mm": 6.0726165771484375
         },
         {
           "z": 54,
           "angle": 15,
-          "radial_width_mm": 6.026957009596768
+          "radial_width_mm": 6.026956817943071
         },
         {
           "z": 54,
           "angle": 30,
-          "radial_width_mm": 5.905297699672
+          "radial_width_mm": 5.905298898049304
         },
         {
           "z": 54,
           "angle": 45,
-          "radial_width_mm": 5.736972160372139
+          "radial_width_mm": 5.7369747673141465
         },
         {
           "z": 54,
           "angle": 60,
-          "radial_width_mm": 5.854252383725911
+          "radial_width_mm": 5.854252849930886
         },
         {
           "z": 54,
           "angle": 75,
-          "radial_width_mm": 6.318639369472242
+          "radial_width_mm": 6.318638274234775
         },
         {
           "z": 54,
           "angle": 90,
-          "radial_width_mm": 6.477586156525845
+          "radial_width_mm": 6.477585772067528
         },
         {
           "z": 60,
           "angle": -90,
-          "radial_width_mm": 6.599988415332022
+          "radial_width_mm": 6.599988980926019
         },
         {
           "z": 60,
           "angle": -75,
-          "radial_width_mm": 6.596800291898848
+          "radial_width_mm": 6.5968002048956045
         },
         {
           "z": 60,
           "angle": -60,
-          "radial_width_mm": 6.59682332757242
+          "radial_width_mm": 6.596823253618777
         },
         {
           "z": 60,
           "angle": -45,
-          "radial_width_mm": 6.600095334104098
+          "radial_width_mm": 6.600097395547044
         },
         {
           "z": 60,
           "angle": -30,
-          "radial_width_mm": 6.59676209802107
+          "radial_width_mm": 6.59676364556491
         },
         {
           "z": 60,
           "angle": -15,
-          "radial_width_mm": 6.596722607523232
+          "radial_width_mm": 6.596722754474868
         },
         {
           "z": 60,
           "angle": 0,
-          "radial_width_mm": 6.6000000000000085
+          "radial_width_mm": 6.599998474121094
         },
         {
           "z": 60,
           "angle": 15,
-          "radial_width_mm": 6.596722607523232
+          "radial_width_mm": 6.59672275447589
         },
         {
           "z": 60,
           "angle": 30,
-          "radial_width_mm": 6.59676209802107
+          "radial_width_mm": 6.59676364556491
         },
         {
           "z": 60,
           "angle": 45,
-          "radial_width_mm": 6.600095334104098
+          "radial_width_mm": 6.600097395547044
         },
         {
           "z": 60,
           "angle": 60,
-          "radial_width_mm": 6.59682332757242
+          "radial_width_mm": 6.596823253577984
         },
         {
           "z": 60,
           "angle": 75,
-          "radial_width_mm": 6.596800291898848
+          "radial_width_mm": 6.5968002048956045
         },
         {
           "z": 60,
           "angle": 90,
-          "radial_width_mm": 6.599988415332022
+          "radial_width_mm": 6.599988980926019
         }
       ]
     },
     "p1-coupon-rear-left-foot.stl": {
-      "surface_areas_mm2": {}
+      "surface_areas_mm2": {
+        "cable_saddle_sloping": 26.32084568763528,
+        "cable_saddle_horizontal": 15.576046005677199
+      }
     },
     "p1-coupon-seat.stl": {
       "surface_areas_mm2": {
-        "other_sloping": 512.6366979794245
+        "other_sloping": 512.6086206819884
       },
       "screw_tool_access": [
         {
@@ -2086,7 +2486,7 @@
     "p1-roof-mount-n-type.stl": {
       "antenna": "alfa",
       "part": "mount",
-      "triangles": 93982,
+      "triangles": 111612,
       "bounds": [
         [
           -100.0,
@@ -2104,45 +2504,115 @@
         241.5,
         68.0
       ],
-      "volume_mm3": 399471.68084081635,
+      "volume_mm3": 415446.762691226,
       "components": 1,
       "near_zero_area_triangles": 0,
-      "elevated_downward_flat_area_mm2": 147.51924782437573,
-      "sha256": "b2966a4cb7baf4e17a8f9ce6b3ee5ce8f0964e23008006e0ec81d6b8f2a8e4be",
-      "render_attempts": 1
+      "elevated_downward_flat_area_mm2": 163.09529149057653,
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "886753b507f94769600f7d99b89697eb8be9cf22946dd635f7f9528fc66088e8",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 111612,
+        "exported_triangles": 111612,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 0.0,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
     },
     "p1-coupon-pylon.stl": {
       "antenna": "alfa",
       "part": "coupon",
-      "triangles": 40792,
+      "triangles": 40600,
       "bounds": [
         [
-          -26.7171375,
+          -26.717138290405273,
           -17.5,
           0.0
         ],
         [
-          26.7171375,
-          44.452749999999995,
+          26.717138290405273,
+          44.45275115966797,
           68.0
         ]
       ],
       "size": [
-        53.434275,
-        61.952749999999995,
+        53.43427658081055,
+        61.95275115966797,
         68.0
       ],
-      "volume_mm3": 61291.17406238276,
+      "volume_mm3": 61291.17446475419,
       "components": 1,
       "near_zero_area_triangles": 0,
-      "elevated_downward_flat_area_mm2": 147.51924782437575,
-      "sha256": "a062c53da20f2bf7a69f0cf6a25969cd14d0a4e5c1ba170310fc99fde18632f9",
-      "render_attempts": 1
+      "elevated_downward_flat_area_mm2": 147.5192493162276,
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "91aa2cde847ca77fccb776be7157fed380e1caf0aa7cedd2b8e8b7260289c7ee",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 40798,
+        "exported_triangles": 40600,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 6.564932928727403e-09,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
+    },
+    "p1-coupon-pylon-stock.stl": {
+      "antenna": "stock",
+      "part": "coupon",
+      "triangles": 33524,
+      "bounds": [
+        [
+          -18.778331756591797,
+          -12.300000190734863,
+          0.0
+        ],
+        [
+          18.778331756591797,
+          38.66468811035156,
+          68.0
+        ]
+      ],
+      "size": [
+        37.556663513183594,
+        50.964688301086426,
+        68.0
+      ],
+      "volume_mm3": 39963.45321405295,
+      "components": 1,
+      "near_zero_area_triangles": 0,
+      "elevated_downward_flat_area_mm2": 69.68235469806389,
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "df6314d267b7f8d95ae0ea35daf53ec00222c9ddfb4f8314d3d2ad0208f329c1",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 33524,
+        "exported_triangles": 33524,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 2.047044878274137e-09,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
     },
     "p1-coupon-front-foot.stl": {
       "antenna": "alfa",
       "part": "foot_coupon",
-      "triangles": 6336,
+      "triangles": 7488,
       "bounds": [
         [
           -25.0,
@@ -2160,17 +2630,31 @@
         49.0,
         24.0
       ],
-      "volume_mm3": 20880.468331439206,
+      "volume_mm3": 21457.18493925337,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "6dcd132ee0e73c634995cc9285aa60e7076a07fdadb4ebcde1065c3c0d4f0aad",
-      "render_attempts": 1
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "88dc5a93eaf97976158a63b3f0964e1c2d031af8aec2187968928d873acb5d04",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 7488,
+        "exported_triangles": 7488,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 5.963285419763845e-10,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
     },
     "p1-coupon-rear-right-foot.stl": {
       "antenna": "alfa",
       "part": "rear_foot_coupon",
-      "triangles": 7136,
+      "triangles": 7918,
       "bounds": [
         [
           -25.0,
@@ -2188,17 +2672,31 @@
         49.0,
         18.0
       ],
-      "volume_mm3": 31334.827620483073,
+      "volume_mm3": 31920.052827299958,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "ac845ac862fc5cc70377cc1f3ff9f2f2b9c20f10a43042854de28c20e53d3ec4",
-      "render_attempts": 1
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "8377511891f8091e96c56ed59687aadbf11e2e11f527be444d30b7e590476bd6",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 7918,
+        "exported_triangles": 7918,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 1.9573649855807123e-10,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
     },
     "p1-roof-mount-stock.stl": {
       "antenna": "stock",
       "part": "mount",
-      "triangles": 86392,
+      "triangles": 103392,
       "bounds": [
         [
           -100.0,
@@ -2207,26 +2705,40 @@
         ],
         [
           100.0,
-          101.1,
+          101.0999984741211,
           68.0
         ]
       ],
       "size": [
         200.0,
-        231.6,
+        231.5999984741211,
         68.0
       ],
-      "volume_mm3": 382192.05059616116,
+      "volume_mm3": 398815.31693746394,
       "components": 1,
       "near_zero_area_triangles": 0,
-      "elevated_downward_flat_area_mm2": 69.68235621581255,
-      "sha256": "c96e7b9a2abd1907473308363c17f222ab392a85c112f864468e470bb195828c",
-      "render_attempts": 1
+      "elevated_downward_flat_area_mm2": 85.25837248498351,
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "1a2fe490b098ef7b9cd2699e5a0b3f0520d4b120b0e40e29843954c6edec655f",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 103392,
+        "exported_triangles": 103392,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 0.0,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
     },
     "p1-coupon-rear-left-foot.stl": {
       "antenna": "alfa",
       "part": "rear_left_foot_coupon",
-      "triangles": 7254,
+      "triangles": 14760,
       "bounds": [
         [
           -24.0,
@@ -2236,25 +2748,39 @@
         [
           25.0,
           25.0,
-          18.0
+          32.42044448852539
         ]
       ],
       "size": [
         49.0,
         49.0,
-        18.0
+        32.42044448852539
       ],
-      "volume_mm3": 31334.827620483004,
+      "volume_mm3": 35185.68268938428,
       "components": 1,
       "near_zero_area_triangles": 0,
-      "elevated_downward_flat_area_mm2": 0,
-      "sha256": "67ae66bc4cb8825ce1b3f3bb5e67373f2abb02cabd9ea72741b7226daf7669e8",
-      "render_attempts": 1
+      "elevated_downward_flat_area_mm2": 15.576046005677199,
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "904de991b08df5361793bd64f59579556aabe8eb2116b602c761d59e965c2f07",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 14760,
+        "exported_triangles": 14760,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 8.605397713211569e-11,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
     },
     "p1-coupon-seat.stl": {
       "antenna": "alfa",
       "part": "seat_coupon",
-      "triangles": 3984,
+      "triangles": 11394,
       "bounds": [
         [
           -22.0,
@@ -2264,20 +2790,84 @@
         [
           22.0,
           51.5,
-          16.650331887732875
+          16.918752670288086
         ]
       ],
       "size": [
         44.0,
         80.0,
-        16.650331887732875
+        16.918752670288086
       ],
-      "volume_mm3": 34400.51318622523,
+      "volume_mm3": 40281.09177605493,
       "components": 1,
       "near_zero_area_triangles": 0,
       "elevated_downward_flat_area_mm2": 0,
-      "sha256": "81305e22092d6598a67ab39d4bb7c162d304584676f03293703ceb602128af33",
-      "render_attempts": 1
+      "elevated_downward_flat_below_rear_foot_top_mm2": 0,
+      "sha256": "7f19e2f77856fd877202eec56a1c7b25729cb9f9dd3a1257e554dee5bc080e4d",
+      "render_attempts": 1,
+      "export_normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 11394,
+        "exported_triangles": 11394,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 3.55298429016553e-13,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
+    }
+  },
+  "native_blend_caches": {
+    "alfa": {
+      "native_sha256": "8fd0f21f3099b586a4feb2c60ff21440a4df2fc864955b6e4701ab9bfb05ab30",
+      "sha256": "bcf4733466dfe6091247693a8411c085d45115f003c462620743f2e9c5b2dbda",
+      "additive_blend_tessellation_tolerance_mm": 0.001,
+      "native_triangles": 189296,
+      "reduced_triangles": 29432,
+      "normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 29432,
+        "exported_triangles": 29426,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 3.3607747547757626e-08,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
+    },
+    "stock": {
+      "native_sha256": "3ab5d1207c117f28e9a82c31c325681947aa5cc8877a44af63d8dd8bc363a1a4",
+      "sha256": "ca3dcbedb53e21b434ad553055b997fb12d3a5f801547ebfad1131a4a3bcf56c",
+      "additive_blend_tessellation_tolerance_mm": 0.001,
+      "native_triangles": 164340,
+      "reduced_triangles": 29392,
+      "normalization": {
+        "method": "Manifold float32 boundary normalization; no cosmetic smoothing",
+        "source_triangles": 29392,
+        "exported_triangles": 29382,
+        "precision_edge_contractions": {
+          "contractions": 0,
+          "max_allowed_motion_mm": 1e-06,
+          "max_actual_motion_mm": 0.0
+        },
+        "relative_volume_delta": 3.1231795299256855e-08,
+        "bound_tolerance_mm": 0.0001,
+        "binary_roundtrip_valid": true
+      }
+    }
+  },
+  "native_frame_reuse": {
+    "source_fingerprint": "e577c4b3a16c98b417d7927eb82c1c5fb5b0a6615aa843f8561c65bfb8d3b193",
+    "provenance": "Native OpenSCAD source exports from preceding build; both full frames passed all checks. Only coupon-coordinate feature classification changed; repeat assembly/export probes on reuse.",
+    "files": {
+      "p1-roof-mount-n-type.stl": "886753b507f94769600f7d99b89697eb8be9cf22946dd635f7f9528fc66088e8",
+      "p1-roof-mount-stock.stl": "1a2fe490b098ef7b9cd2699e5a0b3f0520d4b120b0e40e29843954c6edec655f"
     }
   },
   "source_check_batches": [

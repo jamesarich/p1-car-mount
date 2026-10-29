@@ -1,0 +1,31 @@
+{
+  "chosen_candidate": "floating-slow: baseline0.42mm solid fill + detect_floating_vertical_shell0 + absolute vertical_shell_speed50mm/s",
+  "reference_geometry_candidate": "floating-off: baseline0.42mm solid fill + detection0, original speed",
+  "scope": "All parsed positive-E non-support/non-brim MODELpaths with actualwidth and Z; arcs included; compareexactpathmultisets ignoring pathorder, traversal reversal and feedrateF.",
+  "floating_off_gcode_sha256": "396a9e04d1087cce7a365060953cbfed768a424a951d2d348e006acaa53b987f",
+  "floating_slow_gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d",
+  "reference_model_path_count": 518135,
+  "candidate_model_path_count": 518135,
+  "exact_path_multiset_equal": true,
+  "reference_unmatched_commands": 0,
+  "candidate_unmatched_commands": 0,
+  "reference_path_set_sha256": "c008ce2aecef8e95a465f5899092fead1a1b63368a67ee5ddd6b37d09e647edd",
+  "candidate_path_set_sha256": "c008ce2aecef8e95a465f5899092fead1a1b63368a67ee5ddd6b37d09e647edd",
+  "model_extrusion_E_mm_delta_by_feature": {
+    "Outer wall": 0.0,
+    "Internal solid infill": 0.0,
+    "Top surface": 0.0,
+    "Bottom surface": 0.0,
+    "Gap infill": 0.0,
+    "Inner wall": 0.0,
+    "Floating vertical shell": 0.0,
+    "Bridge": 0.0,
+    "Overhang wall": 0.0,
+    "Sparse infill": 0.0
+  },
+  "all_model_feature_E_totals_equal_within_1e-8_mm": true,
+  "coverage_evidence_transfers": true,
+  "coverage_layers_checked": 249,
+  "coverage_max_absent_patch_above_0p03mm_tolerance_mm2": 0.018939219999998282,
+  "coverage_total_absent_area_above_tolerance_summed_layers_mm2": 0.2141797099999945
+}

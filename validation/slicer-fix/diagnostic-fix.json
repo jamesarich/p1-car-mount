@@ -1,0 +1,58 @@
+{
+  "scope": "Stock-only slicer profile workaround; CAD/STLs/N-type project unchanged; no printer operated",
+  "profile_changes": {
+    "vertical_shell_speed": [
+      [
+        "80%"
+      ],
+      [
+        "50"
+      ]
+    ],
+    "detect_floating_vertical_shell": [
+      "1",
+      "0"
+    ]
+  },
+  "stock_project_sha256": "f73b8b957e245c0c510d04d6c8723f270b954a728a80b04a7a9d26dba0e58b64",
+  "stock_mesh_sha256": "1a2fe490b098ef7b9cd2699e5a0b3f0520d4b120b0e40e29843954c6edec655f",
+  "stock_gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d",
+  "floating_shell_feed_mm_min": {
+    "min": 3000.0,
+    "max": 3000.0,
+    "commands": 29826
+  },
+  "independent_slices": {
+    "trials/floating-slow": {
+      "return_code": 0,
+      "clipping_diagnostics": 0,
+      "error_log_entries": 0,
+      "gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d"
+    },
+    "final-preserved": {
+      "return_code": 0,
+      "clipping_diagnostics": 0,
+      "error_log_entries": 0,
+      "gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d"
+    },
+    "repeat-preserved": {
+      "return_code": 0,
+      "clipping_diagnostics": 0,
+      "error_log_entries": 0,
+      "gcode_sha256": "ce79800a22d16ee78167b82855241c45c2d40cf722959fda4f9deb969755ad4d"
+    },
+    "reopened-preserved": {
+      "return_code": 0,
+      "clipping_diagnostics": 0,
+      "error_log_entries": 0,
+      "gcode_sha256": "682bde011bdc4c0a94b6a6fb512cfb95d45f93dbb56b9c5f423f0c2264009e41"
+    }
+  },
+  "geometry_and_N_project_unchanged": true,
+  "coverage_evidence": "coverage/chosen-candidate-path-equivalence.json; coverage/floating-off/solid-fill-difference.json; geometry/final-component-coverage-summary.json",
+  "limitations": [
+    "Same three preexisting sub-nozzle remnants remain unprinted",
+    "0.03 mm buffered-path analysis tolerance; not a physical extrusion or strength test",
+    "Timelapse compatibility and input-color workflow notices remain distinct from clipping diagnostics"
+  ]
+}

@@ -1,0 +1,4854 @@
+{
+  "baseline": {
+    "missing": [
+      {
+        "z": 11.4,
+        "component": 1,
+        "area_mm2": 0.20132647029999912,
+        "bounds": [
+          50.75534046325684,
+          212.15077599456788,
+          53.24464046325683,
+          212.27692599456788
+        ],
+        "approx_max_inscribed_diameter_mm": 0.1261160926406497,
+        "terminal_sub_line_width_cap": true
+      },
+      {
+        "z": 11.4,
+        "component": 7,
+        "area_mm2": 0.20132647029999784,
+        "bounds": [
+          202.75534046325686,
+          212.15077599456788,
+          205.24464046325681,
+          212.27692599456788
+        ],
+        "approx_max_inscribed_diameter_mm": 0.12611609264064827,
+        "terminal_sub_line_width_cap": true
+      },
+      {
+        "z": 16.2,
+        "component": 1,
+        "area_mm2": 0.14378743349998366,
+        "bounds": [
+          126.83720046325683,
+          118.71640599456788,
+          129.16278046325684,
+          118.81105599456787
+        ],
+        "approx_max_inscribed_diameter_mm": 0.09462453059242813,
+        "terminal_sub_line_width_cap": true
+      }
+    ],
+    "model_layer_count": 340,
+    "rows": [
+      {
+        "z": 0.2,
+        "section_z": 0.1,
+        "section_components": 1,
+        "section_area_mm2": 24705.88323683214,
+        "extrusion_commands": 5921
+      },
+      {
+        "z": 0.4,
+        "section_z": 0.30000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24753.940969894134,
+        "extrusion_commands": 6525
+      },
+      {
+        "z": 0.6,
+        "section_z": 0.5000000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24787.929277405303,
+        "extrusion_commands": 6711
+      },
+      {
+        "z": 0.8,
+        "section_z": 0.7000000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24813.572984944552,
+        "extrusion_commands": 6260
+      },
+      {
+        "z": 1.0,
+        "section_z": 0.9000000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24817.015434195862,
+        "extrusion_commands": 6196
+      },
+      {
+        "z": 1.2,
+        "section_z": 1.1,
+        "section_components": 1,
+        "section_area_mm2": 24820.40710118036,
+        "extrusion_commands": 6182
+      },
+      {
+        "z": 1.4,
+        "section_z": 1.3000000000000003,
+        "section_components": 1,
+        "section_area_mm2": 24824.409928653404,
+        "extrusion_commands": 4080
+      },
+      {
+        "z": 1.6,
+        "section_z": 1.5000000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24826.930373235275,
+        "extrusion_commands": 4076
+      },
+      {
+        "z": 1.8,
+        "section_z": 1.7000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24830.067032328276,
+        "extrusion_commands": 4204
+      },
+      {
+        "z": 2.0,
+        "section_z": 1.9000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24833.113457914533,
+        "extrusion_commands": 5659
+      },
+      {
+        "z": 2.2,
+        "section_z": 2.1000000000000005,
+        "section_components": 1,
+        "section_area_mm2": 24836.11048261745,
+        "extrusion_commands": 6342
+      },
+      {
+        "z": 2.4,
+        "section_z": 2.3000000000000003,
+        "section_components": 1,
+        "section_area_mm2": 24839.03904992576,
+        "extrusion_commands": 6479
+      },
+      {
+        "z": 2.6,
+        "section_z": 2.5000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24841.888822491637,
+        "extrusion_commands": 6522
+      },
+      {
+        "z": 2.8,
+        "section_z": 2.7000000000000006,
+        "section_components": 1,
+        "section_area_mm2": 24844.639312019543,
+        "extrusion_commands": 6535
+      },
+      {
+        "z": 3.0,
+        "section_z": 2.9000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24847.30970720546,
+        "extrusion_commands": 4993
+      },
+      {
+        "z": 3.2,
+        "section_z": 3.1000000000000005,
+        "section_components": 1,
+        "section_area_mm2": 24356.355902384043,
+        "extrusion_commands": 4781
+      },
+      {
+        "z": 3.4,
+        "section_z": 3.3000000000000007,
+        "section_components": 1,
+        "section_area_mm2": 24358.907589156894,
+        "extrusion_commands": 4755
+      },
+      {
+        "z": 3.6,
+        "section_z": 3.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24361.359773037515,
+        "extrusion_commands": 4761
+      },
+      {
+        "z": 3.8,
+        "section_z": 3.7000000000000006,
+        "section_components": 1,
+        "section_area_mm2": 24363.724236094815,
+        "extrusion_commands": 4759
+      },
+      {
+        "z": 4.0,
+        "section_z": 3.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24365.985018249852,
+        "extrusion_commands": 4781
+      },
+      {
+        "z": 4.2,
+        "section_z": 4.1000000000000005,
+        "section_components": 1,
+        "section_area_mm2": 24368.185169856577,
+        "extrusion_commands": 4278
+      },
+      {
+        "z": 4.4,
+        "section_z": 4.300000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24370.316103921105,
+        "extrusion_commands": 4257
+      },
+      {
+        "z": 4.6,
+        "section_z": 4.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24372.350638652177,
+        "extrusion_commands": 4301
+      },
+      {
+        "z": 4.8,
+        "section_z": 4.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24373.6612105868,
+        "extrusion_commands": 4245
+      },
+      {
+        "z": 5.0,
+        "section_z": 4.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24374.879921584878,
+        "extrusion_commands": 4251
+      },
+      {
+        "z": 5.2,
+        "section_z": 5.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24376.14721266013,
+        "extrusion_commands": 4358
+      },
+      {
+        "z": 5.4,
+        "section_z": 5.300000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24377.75384000341,
+        "extrusion_commands": 4358
+      },
+      {
+        "z": 5.6,
+        "section_z": 5.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24379.247487090906,
+        "extrusion_commands": 4447
+      },
+      {
+        "z": 5.8,
+        "section_z": 5.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24380.619058588727,
+        "extrusion_commands": 4426
+      },
+      {
+        "z": 6.0,
+        "section_z": 5.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24381.89528633562,
+        "extrusion_commands": 4413
+      },
+      {
+        "z": 6.2,
+        "section_z": 6.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24383.084297576694,
+        "extrusion_commands": 4384
+      },
+      {
+        "z": 6.4,
+        "section_z": 6.300000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24384.210411293803,
+        "extrusion_commands": 4360
+      },
+      {
+        "z": 6.6,
+        "section_z": 6.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24385.20940112693,
+        "extrusion_commands": 4386
+      },
+      {
+        "z": 6.8,
+        "section_z": 6.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24386.10412208051,
+        "extrusion_commands": 4415
+      },
+      {
+        "z": 7.0,
+        "section_z": 6.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24386.8740783658,
+        "extrusion_commands": 4422
+      },
+      {
+        "z": 7.2,
+        "section_z": 7.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24387.568750934533,
+        "extrusion_commands": 4500
+      },
+      {
+        "z": 7.4,
+        "section_z": 7.300000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24383.045569150327,
+        "extrusion_commands": 4435
+      },
+      {
+        "z": 7.6,
+        "section_z": 7.500000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24373.233315179175,
+        "extrusion_commands": 5340
+      },
+      {
+        "z": 7.8,
+        "section_z": 7.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24356.28201762173,
+        "extrusion_commands": 6612
+      },
+      {
+        "z": 8.0,
+        "section_z": 7.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24333.68940929914,
+        "extrusion_commands": 6534
+      },
+      {
+        "z": 8.2,
+        "section_z": 8.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24299.47267045168,
+        "extrusion_commands": 7443
+      },
+      {
+        "z": 8.4,
+        "section_z": 8.3,
+        "section_components": 1,
+        "section_area_mm2": 24257.748248179825,
+        "extrusion_commands": 6583
+      },
+      {
+        "z": 8.6,
+        "section_z": 8.500000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24199.51349896346,
+        "extrusion_commands": 7007
+      },
+      {
+        "z": 8.8,
+        "section_z": 8.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24058.885384520494,
+        "extrusion_commands": 6682
+      },
+      {
+        "z": 9.0,
+        "section_z": 8.900000000000002,
+        "section_components": 1,
+        "section_area_mm2": 23594.90708727895,
+        "extrusion_commands": 7119
+      },
+      {
+        "z": 9.2,
+        "section_z": 9.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 22610.10940293534,
+        "extrusion_commands": 6726
+      },
+      {
+        "z": 9.4,
+        "section_z": 9.300000000000002,
+        "section_components": 1,
+        "section_area_mm2": 22104.9601720353,
+        "extrusion_commands": 6646
+      },
+      {
+        "z": 9.6,
+        "section_z": 9.500000000000002,
+        "section_components": 1,
+        "section_area_mm2": 21812.51687174602,
+        "extrusion_commands": 6622
+      },
+      {
+        "z": 9.8,
+        "section_z": 9.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 21491.419938356743,
+        "extrusion_commands": 6633
+      },
+      {
+        "z": 10.0,
+        "section_z": 9.900000000000002,
+        "section_components": 1,
+        "section_area_mm2": 21149.008094039295,
+        "extrusion_commands": 6133
+      },
+      {
+        "z": 10.2,
+        "section_z": 10.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 20821.47687273517,
+        "extrusion_commands": 6239
+      },
+      {
+        "z": 10.4,
+        "section_z": 10.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 20437.095390335595,
+        "extrusion_commands": 5992
+      },
+      {
+        "z": 10.6,
+        "section_z": 10.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 20039.853168829468,
+        "extrusion_commands": 5705
+      },
+      {
+        "z": 10.8,
+        "section_z": 10.700000000000003,
+        "section_components": 4,
+        "section_area_mm2": 19656.39789599579,
+        "extrusion_commands": 5612
+      },
+      {
+        "z": 11.0,
+        "section_z": 10.900000000000002,
+        "section_components": 4,
+        "section_area_mm2": 19376.156931820507,
+        "extrusion_commands": 5318
+      },
+      {
+        "z": 11.2,
+        "section_z": 11.100000000000001,
+        "section_components": 4,
+        "section_area_mm2": 19105.879701562804,
+        "extrusion_commands": 5561
+      },
+      {
+        "z": 11.4,
+        "section_z": 11.300000000000002,
+        "section_components": 14,
+        "section_area_mm2": 18875.762128856524,
+        "extrusion_commands": 5087
+      },
+      {
+        "z": 11.6,
+        "section_z": 11.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 18747.348058095675,
+        "extrusion_commands": 4835
+      },
+      {
+        "z": 11.8,
+        "section_z": 11.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 18617.83529725057,
+        "extrusion_commands": 4990
+      },
+      {
+        "z": 12.0,
+        "section_z": 11.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 18491.397687415265,
+        "extrusion_commands": 5066
+      },
+      {
+        "z": 12.2,
+        "section_z": 12.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 18334.38972336214,
+        "extrusion_commands": 4953
+      },
+      {
+        "z": 12.4,
+        "section_z": 12.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 18147.082858376045,
+        "extrusion_commands": 4970
+      },
+      {
+        "z": 12.6,
+        "section_z": 12.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 17872.611254367937,
+        "extrusion_commands": 4941
+      },
+      {
+        "z": 12.8,
+        "section_z": 12.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 17586.228886710654,
+        "extrusion_commands": 5055
+      },
+      {
+        "z": 13.0,
+        "section_z": 12.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 17313.65936874407,
+        "extrusion_commands": 4887
+      },
+      {
+        "z": 13.2,
+        "section_z": 13.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 17038.5311896165,
+        "extrusion_commands": 4982
+      },
+      {
+        "z": 13.4,
+        "section_z": 13.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 16706.804443281057,
+        "extrusion_commands": 4427
+      },
+      {
+        "z": 13.6,
+        "section_z": 13.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 16366.73088699094,
+        "extrusion_commands": 4800
+      },
+      {
+        "z": 13.8,
+        "section_z": 13.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 16003.041638835293,
+        "extrusion_commands": 5093
+      },
+      {
+        "z": 14.0,
+        "section_z": 13.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 15606.767078604644,
+        "extrusion_commands": 4586
+      },
+      {
+        "z": 14.2,
+        "section_z": 14.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 15260.823821020627,
+        "extrusion_commands": 4473
+      },
+      {
+        "z": 14.4,
+        "section_z": 14.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 14943.016224353305,
+        "extrusion_commands": 4449
+      },
+      {
+        "z": 14.6,
+        "section_z": 14.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 14623.23641745965,
+        "extrusion_commands": 4605
+      },
+      {
+        "z": 14.8,
+        "section_z": 14.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 14258.227200485808,
+        "extrusion_commands": 4493
+      },
+      {
+        "z": 15.0,
+        "section_z": 14.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 13802.259635156559,
+        "extrusion_commands": 4162
+      },
+      {
+        "z": 15.2,
+        "section_z": 15.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 13445.55738044129,
+        "extrusion_commands": 4127
+      },
+      {
+        "z": 15.4,
+        "section_z": 15.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 13126.353973428098,
+        "extrusion_commands": 3764
+      },
+      {
+        "z": 15.6,
+        "section_z": 15.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 12828.715378032031,
+        "extrusion_commands": 3846
+      },
+      {
+        "z": 15.8,
+        "section_z": 15.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 12472.47215531197,
+        "extrusion_commands": 3767
+      },
+      {
+        "z": 16.0,
+        "section_z": 15.900000000000004,
+        "section_components": 3,
+        "section_area_mm2": 12122.268591177502,
+        "extrusion_commands": 3704
+      },
+      {
+        "z": 16.2,
+        "section_z": 16.1,
+        "section_components": 4,
+        "section_area_mm2": 11778.942309282855,
+        "extrusion_commands": 4570
+      },
+      {
+        "z": 16.4,
+        "section_z": 16.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 11436.854338355643,
+        "extrusion_commands": 3444
+      },
+      {
+        "z": 16.6,
+        "section_z": 16.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 11076.428219379959,
+        "extrusion_commands": 3956
+      },
+      {
+        "z": 16.8,
+        "section_z": 16.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 10696.322008198387,
+        "extrusion_commands": 3995
+      },
+      {
+        "z": 17.0,
+        "section_z": 16.900000000000002,
+        "section_components": 3,
+        "section_area_mm2": 10305.664718657561,
+        "extrusion_commands": 3529
+      },
+      {
+        "z": 17.2,
+        "section_z": 17.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 10013.224051620295,
+        "extrusion_commands": 3098
+      },
+      {
+        "z": 17.4,
+        "section_z": 17.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 9733.302027869653,
+        "extrusion_commands": 3102
+      },
+      {
+        "z": 17.6,
+        "section_z": 17.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 9426.769861796844,
+        "extrusion_commands": 2997
+      },
+      {
+        "z": 17.8,
+        "section_z": 17.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 9092.667535783434,
+        "extrusion_commands": 2923
+      },
+      {
+        "z": 18.0,
+        "section_z": 17.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 8694.503289066544,
+        "extrusion_commands": 1553
+      },
+      {
+        "z": 18.2,
+        "section_z": 18.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 3270.8588624485005,
+        "extrusion_commands": 737
+      },
+      {
+        "z": 18.4,
+        "section_z": 18.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3252.2235519870987,
+        "extrusion_commands": 747
+      },
+      {
+        "z": 18.6,
+        "section_z": 18.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3233.5632869189503,
+        "extrusion_commands": 738
+      },
+      {
+        "z": 18.8,
+        "section_z": 18.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 3214.8799245613973,
+        "extrusion_commands": 720
+      },
+      {
+        "z": 19.0,
+        "section_z": 18.900000000000002,
+        "section_components": 3,
+        "section_area_mm2": 3196.173604668249,
+        "extrusion_commands": 717
+      },
+      {
+        "z": 19.2,
+        "section_z": 19.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 3177.321714794701,
+        "extrusion_commands": 659
+      },
+      {
+        "z": 19.4,
+        "section_z": 19.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3158.3283515384005,
+        "extrusion_commands": 650
+      },
+      {
+        "z": 19.6,
+        "section_z": 19.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3139.257543828401,
+        "extrusion_commands": 649
+      },
+      {
+        "z": 19.8,
+        "section_z": 19.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 3119.41669405375,
+        "extrusion_commands": 655
+      },
+      {
+        "z": 20.0,
+        "section_z": 19.900000000000002,
+        "section_components": 3,
+        "section_area_mm2": 3099.5658162817476,
+        "extrusion_commands": 679
+      },
+      {
+        "z": 20.2,
+        "section_z": 20.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 3079.234721170298,
+        "extrusion_commands": 681
+      },
+      {
+        "z": 20.4,
+        "section_z": 20.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3058.6462673269007,
+        "extrusion_commands": 694
+      },
+      {
+        "z": 20.6,
+        "section_z": 20.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3037.8274815776504,
+        "extrusion_commands": 682
+      },
+      {
+        "z": 20.8,
+        "section_z": 20.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 3016.26551602355,
+        "extrusion_commands": 678
+      },
+      {
+        "z": 21.0,
+        "section_z": 20.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2994.7348279467005,
+        "extrusion_commands": 718
+      },
+      {
+        "z": 21.2,
+        "section_z": 21.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 2972.2607306327504,
+        "extrusion_commands": 708
+      },
+      {
+        "z": 21.4,
+        "section_z": 21.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2949.8370348661992,
+        "extrusion_commands": 638
+      },
+      {
+        "z": 21.6,
+        "section_z": 21.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2925.35248065965,
+        "extrusion_commands": 625
+      },
+      {
+        "z": 21.8,
+        "section_z": 21.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 2900.1192497241977,
+        "extrusion_commands": 608
+      },
+      {
+        "z": 22.0,
+        "section_z": 21.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2872.122659014499,
+        "extrusion_commands": 599
+      },
+      {
+        "z": 22.2,
+        "section_z": 22.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 2842.4533984769464,
+        "extrusion_commands": 632
+      },
+      {
+        "z": 22.4,
+        "section_z": 22.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2809.6044270947477,
+        "extrusion_commands": 626
+      },
+      {
+        "z": 22.6,
+        "section_z": 22.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2775.031535604251,
+        "extrusion_commands": 653
+      },
+      {
+        "z": 22.8,
+        "section_z": 22.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 2735.48370320965,
+        "extrusion_commands": 1056
+      },
+      {
+        "z": 23.0,
+        "section_z": 22.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2693.7659580536,
+        "extrusion_commands": 2099
+      },
+      {
+        "z": 23.2,
+        "section_z": 23.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 2646.1072868880533,
+        "extrusion_commands": 881
+      },
+      {
+        "z": 23.4,
+        "section_z": 23.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2591.784377628197,
+        "extrusion_commands": 878
+      },
+      {
+        "z": 23.6,
+        "section_z": 23.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2527.1675486787976,
+        "extrusion_commands": 884
+      },
+      {
+        "z": 23.8,
+        "section_z": 23.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 2446.69589442765,
+        "extrusion_commands": 1110
+      },
+      {
+        "z": 24.0,
+        "section_z": 23.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2335.2180272258984,
+        "extrusion_commands": 595
+      },
+      {
+        "z": 24.2,
+        "section_z": 24.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 909.5754478569502,
+        "extrusion_commands": 313
+      },
+      {
+        "z": 24.4,
+        "section_z": 24.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 901.9649322713503,
+        "extrusion_commands": 323
+      },
+      {
+        "z": 24.6,
+        "section_z": 24.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 894.2418855272006,
+        "extrusion_commands": 333
+      },
+      {
+        "z": 24.8,
+        "section_z": 24.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 886.5376527447993,
+        "extrusion_commands": 334
+      },
+      {
+        "z": 25.0,
+        "section_z": 24.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 878.8646321098498,
+        "extrusion_commands": 315
+      },
+      {
+        "z": 25.2,
+        "section_z": 25.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 871.3341215242996,
+        "extrusion_commands": 325
+      },
+      {
+        "z": 25.4,
+        "section_z": 25.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 863.8760229830004,
+        "extrusion_commands": 328
+      },
+      {
+        "z": 25.6,
+        "section_z": 25.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 856.4667312283005,
+        "extrusion_commands": 333
+      },
+      {
+        "z": 25.8,
+        "section_z": 25.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 849.1154158236,
+        "extrusion_commands": 323
+      },
+      {
+        "z": 26.0,
+        "section_z": 25.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 841.74701929665,
+        "extrusion_commands": 337
+      },
+      {
+        "z": 26.2,
+        "section_z": 26.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 834.6032672644996,
+        "extrusion_commands": 316
+      },
+      {
+        "z": 26.4,
+        "section_z": 26.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 827.6260847587005,
+        "extrusion_commands": 365
+      },
+      {
+        "z": 26.6,
+        "section_z": 26.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 820.7280483211994,
+        "extrusion_commands": 360
+      },
+      {
+        "z": 26.8,
+        "section_z": 26.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 813.8819386489006,
+        "extrusion_commands": 356
+      },
+      {
+        "z": 27.0,
+        "section_z": 26.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 807.5183896659994,
+        "extrusion_commands": 380
+      },
+      {
+        "z": 27.2,
+        "section_z": 27.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 801.5348079233503,
+        "extrusion_commands": 367
+      },
+      {
+        "z": 27.4,
+        "section_z": 27.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 795.18365286775,
+        "extrusion_commands": 377
+      },
+      {
+        "z": 27.6,
+        "section_z": 27.500000000000007,
+        "section_components": 2,
+        "section_area_mm2": 788.3997820257993,
+        "extrusion_commands": 406
+      },
+      {
+        "z": 27.8,
+        "section_z": 27.700000000000006,
+        "section_components": 3,
+        "section_area_mm2": 757.4461745142988,
+        "extrusion_commands": 366
+      },
+      {
+        "z": 28.0,
+        "section_z": 27.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 739.6116937637003,
+        "extrusion_commands": 367
+      },
+      {
+        "z": 28.2,
+        "section_z": 28.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 727.8581503716009,
+        "extrusion_commands": 348
+      },
+      {
+        "z": 28.4,
+        "section_z": 28.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 718.4728741780002,
+        "extrusion_commands": 336
+      },
+      {
+        "z": 28.6,
+        "section_z": 28.500000000000007,
+        "section_components": 3,
+        "section_area_mm2": 710.3844121958001,
+        "extrusion_commands": 336
+      },
+      {
+        "z": 28.8,
+        "section_z": 28.700000000000006,
+        "section_components": 3,
+        "section_area_mm2": 703.7455207733991,
+        "extrusion_commands": 338
+      },
+      {
+        "z": 29.0,
+        "section_z": 28.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 698.1974448294504,
+        "extrusion_commands": 342
+      },
+      {
+        "z": 29.2,
+        "section_z": 29.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 693.8384680277,
+        "extrusion_commands": 344
+      },
+      {
+        "z": 29.4,
+        "section_z": 29.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 690.7857672079997,
+        "extrusion_commands": 349
+      },
+      {
+        "z": 29.6,
+        "section_z": 29.500000000000007,
+        "section_components": 3,
+        "section_area_mm2": 689.3656615036007,
+        "extrusion_commands": 369
+      },
+      {
+        "z": 29.8,
+        "section_z": 29.700000000000006,
+        "section_components": 3,
+        "section_area_mm2": 690.5980889159001,
+        "extrusion_commands": 378
+      },
+      {
+        "z": 30.0,
+        "section_z": 29.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 717.0746865773498,
+        "extrusion_commands": 581
+      },
+      {
+        "z": 30.2,
+        "section_z": 30.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 713.5334487945001,
+        "extrusion_commands": 395
+      },
+      {
+        "z": 30.4,
+        "section_z": 30.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 708.4951379515999,
+        "extrusion_commands": 361
+      },
+      {
+        "z": 30.6,
+        "section_z": 30.500000000000007,
+        "section_components": 2,
+        "section_area_mm2": 703.5022417811504,
+        "extrusion_commands": 372
+      },
+      {
+        "z": 30.8,
+        "section_z": 30.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 698.5509279284498,
+        "extrusion_commands": 370
+      },
+      {
+        "z": 31.0,
+        "section_z": 30.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 693.6626896720501,
+        "extrusion_commands": 357
+      },
+      {
+        "z": 31.2,
+        "section_z": 31.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 688.8788587324996,
+        "extrusion_commands": 333
+      },
+      {
+        "z": 31.4,
+        "section_z": 31.300000000000008,
+        "section_components": 2,
+        "section_area_mm2": 684.1868507268002,
+        "extrusion_commands": 338
+      },
+      {
+        "z": 31.6,
+        "section_z": 31.500000000000007,
+        "section_components": 2,
+        "section_area_mm2": 679.5308470362997,
+        "extrusion_commands": 373
+      },
+      {
+        "z": 31.8,
+        "section_z": 31.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 674.9179627346494,
+        "extrusion_commands": 383
+      },
+      {
+        "z": 32.0,
+        "section_z": 31.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 670.3438827407998,
+        "extrusion_commands": 354
+      },
+      {
+        "z": 32.2,
+        "section_z": 32.10000000000001,
+        "section_components": 2,
+        "section_area_mm2": 665.8656229531002,
+        "extrusion_commands": 362
+      },
+      {
+        "z": 32.4,
+        "section_z": 32.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 661.5046533908001,
+        "extrusion_commands": 347
+      },
+      {
+        "z": 32.6,
+        "section_z": 32.50000000000001,
+        "section_components": 2,
+        "section_area_mm2": 657.1806070750999,
+        "extrusion_commands": 417
+      },
+      {
+        "z": 32.8,
+        "section_z": 32.7,
+        "section_components": 2,
+        "section_area_mm2": 643.7896611060003,
+        "extrusion_commands": 470
+      },
+      {
+        "z": 33.0,
+        "section_z": 32.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 626.2931350041002,
+        "extrusion_commands": 444
+      },
+      {
+        "z": 33.2,
+        "section_z": 33.10000000000001,
+        "section_components": 2,
+        "section_area_mm2": 608.2010716632998,
+        "extrusion_commands": 408
+      },
+      {
+        "z": 33.4,
+        "section_z": 33.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 590.7382917699,
+        "extrusion_commands": 366
+      },
+      {
+        "z": 33.6,
+        "section_z": 33.50000000000001,
+        "section_components": 3,
+        "section_area_mm2": 577.6148469993997,
+        "extrusion_commands": 350
+      },
+      {
+        "z": 33.8,
+        "section_z": 33.70000000000001,
+        "section_components": 3,
+        "section_area_mm2": 565.7116939239999,
+        "extrusion_commands": 341
+      },
+      {
+        "z": 34.0,
+        "section_z": 33.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 553.2777497757002,
+        "extrusion_commands": 316
+      },
+      {
+        "z": 34.2,
+        "section_z": 34.10000000000001,
+        "section_components": 3,
+        "section_area_mm2": 539.8121649277002,
+        "extrusion_commands": 334
+      },
+      {
+        "z": 34.4,
+        "section_z": 34.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 522.9194780617001,
+        "extrusion_commands": 342
+      },
+      {
+        "z": 34.6,
+        "section_z": 34.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 390.94402457490037,
+        "extrusion_commands": 210
+      },
+      {
+        "z": 34.8,
+        "section_z": 34.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 387.2137336807998,
+        "extrusion_commands": 203
+      },
+      {
+        "z": 35.0,
+        "section_z": 34.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 383.5021408019504,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 35.2,
+        "section_z": 35.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 379.8899574189502,
+        "extrusion_commands": 216
+      },
+      {
+        "z": 35.4,
+        "section_z": 35.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 376.36826005554985,
+        "extrusion_commands": 214
+      },
+      {
+        "z": 35.6,
+        "section_z": 35.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 372.86797980015007,
+        "extrusion_commands": 210
+      },
+      {
+        "z": 35.8,
+        "section_z": 35.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 369.38273681324983,
+        "extrusion_commands": 201
+      },
+      {
+        "z": 36.0,
+        "section_z": 35.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 365.91064923235035,
+        "extrusion_commands": 201
+      },
+      {
+        "z": 36.2,
+        "section_z": 36.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 362.53936922759993,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 36.4,
+        "section_z": 36.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 359.2532289557499,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 36.6,
+        "section_z": 36.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 355.99466839589996,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 36.8,
+        "section_z": 36.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 352.7512786899999,
+        "extrusion_commands": 207
+      },
+      {
+        "z": 37.0,
+        "section_z": 36.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 349.5456228164998,
+        "extrusion_commands": 196
+      },
+      {
+        "z": 37.2,
+        "section_z": 37.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 346.4257412866501,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 37.4,
+        "section_z": 37.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 343.3962665718002,
+        "extrusion_commands": 206
+      },
+      {
+        "z": 37.6,
+        "section_z": 37.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 340.4269524481001,
+        "extrusion_commands": 212
+      },
+      {
+        "z": 37.8,
+        "section_z": 37.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 337.52225448025,
+        "extrusion_commands": 187
+      },
+      {
+        "z": 38.0,
+        "section_z": 37.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 334.68570258350013,
+        "extrusion_commands": 191
+      },
+      {
+        "z": 38.2,
+        "section_z": 38.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 332.00131922885004,
+        "extrusion_commands": 194
+      },
+      {
+        "z": 38.4,
+        "section_z": 38.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 329.4327912090499,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 38.6,
+        "section_z": 38.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 326.9087869530999,
+        "extrusion_commands": 200
+      },
+      {
+        "z": 38.8,
+        "section_z": 38.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 324.4421361766502,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 39.0,
+        "section_z": 38.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 322.0204189088996,
+        "extrusion_commands": 205
+      },
+      {
+        "z": 39.2,
+        "section_z": 39.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 319.6912355735995,
+        "extrusion_commands": 217
+      },
+      {
+        "z": 39.4,
+        "section_z": 39.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 317.45139997665007,
+        "extrusion_commands": 216
+      },
+      {
+        "z": 39.6,
+        "section_z": 39.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 315.25999183099964,
+        "extrusion_commands": 207
+      },
+      {
+        "z": 39.8,
+        "section_z": 39.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 313.1097211554003,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 40.0,
+        "section_z": 39.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 310.9829511179504,
+        "extrusion_commands": 200
+      },
+      {
+        "z": 40.2,
+        "section_z": 40.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 308.9314553825004,
+        "extrusion_commands": 206
+      },
+      {
+        "z": 40.4,
+        "section_z": 40.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 306.9544774502496,
+        "extrusion_commands": 189
+      },
+      {
+        "z": 40.6,
+        "section_z": 40.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 305.0235870059002,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 40.8,
+        "section_z": 40.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 303.12689803720014,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 41.0,
+        "section_z": 40.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 301.2606273748,
+        "extrusion_commands": 201
+      },
+      {
+        "z": 41.2,
+        "section_z": 41.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 299.4617478851502,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 41.4,
+        "section_z": 41.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 297.7106948775002,
+        "extrusion_commands": 204
+      },
+      {
+        "z": 41.6,
+        "section_z": 41.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 296.0251117571497,
+        "extrusion_commands": 200
+      },
+      {
+        "z": 41.8,
+        "section_z": 41.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 294.37338936845043,
+        "extrusion_commands": 192
+      },
+      {
+        "z": 42.0,
+        "section_z": 41.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 292.75147827774947,
+        "extrusion_commands": 185
+      },
+      {
+        "z": 42.2,
+        "section_z": 42.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 291.19941029880016,
+        "extrusion_commands": 185
+      },
+      {
+        "z": 42.4,
+        "section_z": 42.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 289.70828779879986,
+        "extrusion_commands": 181
+      },
+      {
+        "z": 42.6,
+        "section_z": 42.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 288.2730171105498,
+        "extrusion_commands": 189
+      },
+      {
+        "z": 42.8,
+        "section_z": 42.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 286.8682033685001,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 43.0,
+        "section_z": 42.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 285.48803612685003,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 43.2,
+        "section_z": 43.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 284.18249335979937,
+        "extrusion_commands": 180
+      },
+      {
+        "z": 43.4,
+        "section_z": 43.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 282.9303247664998,
+        "extrusion_commands": 184
+      },
+      {
+        "z": 43.6,
+        "section_z": 43.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 281.72797234449985,
+        "extrusion_commands": 190
+      },
+      {
+        "z": 43.8,
+        "section_z": 43.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 280.5543926710999,
+        "extrusion_commands": 183
+      },
+      {
+        "z": 44.0,
+        "section_z": 43.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 279.40794210925026,
+        "extrusion_commands": 180
+      },
+      {
+        "z": 44.2,
+        "section_z": 44.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 278.33227968539995,
+        "extrusion_commands": 177
+      },
+      {
+        "z": 44.4,
+        "section_z": 44.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 277.3121304303999,
+        "extrusion_commands": 163
+      },
+      {
+        "z": 44.6,
+        "section_z": 44.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 276.34401826634996,
+        "extrusion_commands": 153
+      },
+      {
+        "z": 44.8,
+        "section_z": 44.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 275.40899936739976,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 45.0,
+        "section_z": 44.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 274.4874073997499,
+        "extrusion_commands": 151
+      },
+      {
+        "z": 45.2,
+        "section_z": 45.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 273.6094285533499,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 45.4,
+        "section_z": 45.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 272.7599396702498,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 45.6,
+        "section_z": 45.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 271.9182254953998,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 45.8,
+        "section_z": 45.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 271.0795041006002,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 46.0,
+        "section_z": 45.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 270.2408975643495,
+        "extrusion_commands": 147
+      },
+      {
+        "z": 46.2,
+        "section_z": 46.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 269.4323968618999,
+        "extrusion_commands": 144
+      },
+      {
+        "z": 46.4,
+        "section_z": 46.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 268.6525251011,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 46.6,
+        "section_z": 46.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 267.87259771875006,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 46.8,
+        "section_z": 46.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 267.09275615475013,
+        "extrusion_commands": 141
+      },
+      {
+        "z": 47.0,
+        "section_z": 46.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 266.3128308199998,
+        "extrusion_commands": 144
+      },
+      {
+        "z": 47.2,
+        "section_z": 47.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 265.56151286020037,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 47.4,
+        "section_z": 47.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 264.83880130135003,
+        "extrusion_commands": 139
+      },
+      {
+        "z": 47.6,
+        "section_z": 47.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 264.1160920091002,
+        "extrusion_commands": 145
+      },
+      {
+        "z": 47.8,
+        "section_z": 47.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 263.3934635325506,
+        "extrusion_commands": 139
+      },
+      {
+        "z": 48.0,
+        "section_z": 47.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 262.6707367399005,
+        "extrusion_commands": 137
+      },
+      {
+        "z": 48.2,
+        "section_z": 48.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 261.9766327762498,
+        "extrusion_commands": 139
+      },
+      {
+        "z": 48.4,
+        "section_z": 48.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 261.31124702210036,
+        "extrusion_commands": 141
+      },
+      {
+        "z": 48.6,
+        "section_z": 48.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 260.6458378479499,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 48.8,
+        "section_z": 48.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 259.9804820439999,
+        "extrusion_commands": 137
+      },
+      {
+        "z": 49.0,
+        "section_z": 48.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 259.3150783557001,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 49.2,
+        "section_z": 49.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 258.6783253160999,
+        "extrusion_commands": 143
+      },
+      {
+        "z": 49.4,
+        "section_z": 49.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 258.0703491397505,
+        "extrusion_commands": 135
+      },
+      {
+        "z": 49.6,
+        "section_z": 49.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 257.4623126497502,
+        "extrusion_commands": 141
+      },
+      {
+        "z": 49.8,
+        "section_z": 49.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 256.8543661710499,
+        "extrusion_commands": 134
+      },
+      {
+        "z": 50.0,
+        "section_z": 49.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 256.24634147045003,
+        "extrusion_commands": 131
+      },
+      {
+        "z": 50.2,
+        "section_z": 50.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 255.73909182249977,
+        "extrusion_commands": 129
+      },
+      {
+        "z": 50.4,
+        "section_z": 50.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 255.61815508114978,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 50.6,
+        "section_z": 50.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 255.8209761383497,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 50.8,
+        "section_z": 50.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 256.2885587383501,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 51.0,
+        "section_z": 50.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 257.0883689212499,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 51.2,
+        "section_z": 51.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 257.95696839909994,
+        "extrusion_commands": 158
+      },
+      {
+        "z": 51.4,
+        "section_z": 51.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 258.89272460009965,
+        "extrusion_commands": 165
+      },
+      {
+        "z": 51.6,
+        "section_z": 51.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 259.8615064431997,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 51.8,
+        "section_z": 51.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 260.8929942743498,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 52.0,
+        "section_z": 51.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 261.99526341069964,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 52.2,
+        "section_z": 52.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 263.1694581480002,
+        "extrusion_commands": 149
+      },
+      {
+        "z": 52.4,
+        "section_z": 52.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 264.4004991046999,
+        "extrusion_commands": 157
+      },
+      {
+        "z": 52.6,
+        "section_z": 52.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 265.6587907356999,
+        "extrusion_commands": 154
+      },
+      {
+        "z": 52.8,
+        "section_z": 52.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 267.0290164124999,
+        "extrusion_commands": 153
+      },
+      {
+        "z": 53.0,
+        "section_z": 52.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 268.45671215330026,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 53.2,
+        "section_z": 53.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 269.9381049496495,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 53.4,
+        "section_z": 53.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 271.4862893968501,
+        "extrusion_commands": 143
+      },
+      {
+        "z": 53.6,
+        "section_z": 53.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 273.19197163595055,
+        "extrusion_commands": 153
+      },
+      {
+        "z": 53.8,
+        "section_z": 53.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 274.9260563221999,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 54.0,
+        "section_z": 53.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 276.6898402641,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 54.2,
+        "section_z": 54.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 278.61931997169967,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 54.4,
+        "section_z": 54.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 280.6694430487498,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 54.6,
+        "section_z": 54.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 282.55714643429985,
+        "extrusion_commands": 185
+      },
+      {
+        "z": 54.8,
+        "section_z": 54.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 284.3464068695502,
+        "extrusion_commands": 162
+      },
+      {
+        "z": 55.0,
+        "section_z": 54.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 286.1034005290996,
+        "extrusion_commands": 176
+      },
+      {
+        "z": 55.2,
+        "section_z": 55.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 287.9051603196502,
+        "extrusion_commands": 169
+      },
+      {
+        "z": 55.4,
+        "section_z": 55.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 289.68773856530004,
+        "extrusion_commands": 169
+      },
+      {
+        "z": 55.6,
+        "section_z": 55.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 291.47953906164986,
+        "extrusion_commands": 175
+      },
+      {
+        "z": 55.8,
+        "section_z": 55.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 293.3603240024997,
+        "extrusion_commands": 181
+      },
+      {
+        "z": 56.0,
+        "section_z": 55.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 295.21797503395,
+        "extrusion_commands": 177
+      },
+      {
+        "z": 56.2,
+        "section_z": 56.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 297.2053631463998,
+        "extrusion_commands": 180
+      },
+      {
+        "z": 56.4,
+        "section_z": 56.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 299.26497953305,
+        "extrusion_commands": 176
+      },
+      {
+        "z": 56.6,
+        "section_z": 56.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 301.32103130424946,
+        "extrusion_commands": 184
+      },
+      {
+        "z": 56.8,
+        "section_z": 56.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 303.38491089530015,
+        "extrusion_commands": 179
+      },
+      {
+        "z": 57.0,
+        "section_z": 56.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 305.6599429856497,
+        "extrusion_commands": 171
+      },
+      {
+        "z": 57.2,
+        "section_z": 57.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 307.9972434583497,
+        "extrusion_commands": 173
+      },
+      {
+        "z": 57.4,
+        "section_z": 57.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 310.56198360794986,
+        "extrusion_commands": 175
+      },
+      {
+        "z": 57.6,
+        "section_z": 57.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 313.22410209525015,
+        "extrusion_commands": 170
+      },
+      {
+        "z": 57.8,
+        "section_z": 57.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 315.92519711434994,
+        "extrusion_commands": 182
+      },
+      {
+        "z": 58.0,
+        "section_z": 57.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 318.97298543085003,
+        "extrusion_commands": 177
+      },
+      {
+        "z": 58.2,
+        "section_z": 58.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 322.06825827490024,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 58.4,
+        "section_z": 58.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 325.33113613185026,
+        "extrusion_commands": 187
+      },
+      {
+        "z": 58.6,
+        "section_z": 58.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 328.85879397475037,
+        "extrusion_commands": 173
+      },
+      {
+        "z": 58.8,
+        "section_z": 58.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 332.34329426005,
+        "extrusion_commands": 173
+      },
+      {
+        "z": 59.0,
+        "section_z": 58.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 336.1620510754002,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 59.2,
+        "section_z": 59.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 339.8663123938004,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 59.4,
+        "section_z": 59.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 344.2875846187002,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 59.6,
+        "section_z": 59.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 349.3081483579996,
+        "extrusion_commands": 123
+      },
+      {
+        "z": 59.8,
+        "section_z": 59.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 356.4751162180511,
+        "extrusion_commands": 149
+      },
+      {
+        "z": 60.0,
+        "section_z": 59.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.09765103749965,
+        "extrusion_commands": 257
+      },
+      {
+        "z": 60.2,
+        "section_z": 60.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.08601509175014,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 60.4,
+        "section_z": 60.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0881100558498,
+        "extrusion_commands": 131
+      },
+      {
+        "z": 60.6,
+        "section_z": 60.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.09018133704996,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 60.8,
+        "section_z": 60.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0923422066496,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 61.0,
+        "section_z": 60.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.09442721470003,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 61.2,
+        "section_z": 61.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0960073855498,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 61.4,
+        "section_z": 61.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0971212507501,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 61.6,
+        "section_z": 61.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.09817816364983,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 61.8,
+        "section_z": 61.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.09925981314984,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 62.0,
+        "section_z": 61.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10036150895013,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 62.2,
+        "section_z": 62.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10110471285,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 62.4,
+        "section_z": 62.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.1014672387997,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 62.6,
+        "section_z": 62.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.1018933362999,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 62.8,
+        "section_z": 62.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.102286722,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 63.0,
+        "section_z": 62.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.1026478355002,
+        "extrusion_commands": 129
+      },
+      {
+        "z": 63.2,
+        "section_z": 63.100000000000016,
+        "section_components": 1,
+        "section_area_mm2": 373.1028711155998,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 63.4,
+        "section_z": 63.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10295610620017,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 63.6,
+        "section_z": 63.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.10299246865014,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 63.8,
+        "section_z": 63.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.1030790380001,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 64.0,
+        "section_z": 63.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10313161859983,
+        "extrusion_commands": 127
+      },
+      {
+        "z": 64.2,
+        "section_z": 64.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 372.85029651289994,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 64.4,
+        "section_z": 64.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 372.1500202847498,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 64.6,
+        "section_z": 64.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 370.63104165414995,
+        "extrusion_commands": 134
+      },
+      {
+        "z": 64.8,
+        "section_z": 64.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 368.2034371346,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 65.0,
+        "section_z": 64.9,
+        "section_components": 1,
+        "section_area_mm2": 365.0452060358999,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 65.2,
+        "section_z": 65.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 361.1336318770498,
+        "extrusion_commands": 135
+      },
+      {
+        "z": 65.4,
+        "section_z": 65.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 356.43889674909985,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 65.6,
+        "section_z": 65.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 418.41772637935003,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 65.8,
+        "section_z": 65.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 411.7863134453001,
+        "extrusion_commands": 305
+      },
+      {
+        "z": 66.0,
+        "section_z": 65.9,
+        "section_components": 1,
+        "section_area_mm2": 404.23751336600003,
+        "extrusion_commands": 218
+      },
+      {
+        "z": 66.2,
+        "section_z": 66.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 395.6968321070999,
+        "extrusion_commands": 221
+      },
+      {
+        "z": 66.4,
+        "section_z": 66.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 386.0695258896999,
+        "extrusion_commands": 220
+      },
+      {
+        "z": 66.6,
+        "section_z": 66.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 375.23409532069996,
+        "extrusion_commands": 227
+      },
+      {
+        "z": 66.8,
+        "section_z": 66.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 363.0331112479,
+        "extrusion_commands": 121
+      },
+      {
+        "z": 67.0,
+        "section_z": 66.90000000000002,
+        "section_components": 1,
+        "section_area_mm2": 349.25787292035,
+        "extrusion_commands": 164
+      },
+      {
+        "z": 67.2,
+        "section_z": 67.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 333.62815531585,
+        "extrusion_commands": 195
+      },
+      {
+        "z": 67.4,
+        "section_z": 67.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 315.7593818530497,
+        "extrusion_commands": 205
+      },
+      {
+        "z": 67.6,
+        "section_z": 67.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 294.50337292135,
+        "extrusion_commands": 168
+      },
+      {
+        "z": 67.8,
+        "section_z": 67.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 268.43321304344977,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 68.0,
+        "section_z": 67.90000000000002,
+        "section_components": 1,
+        "section_area_mm2": 227.06764420844993,
+        "extrusion_commands": 101
+      }
+    ]
+  },
+  "floating-slow": {
+    "missing": [
+      {
+        "z": 11.4,
+        "component": 1,
+        "area_mm2": 0.20132647029999912,
+        "bounds": [
+          50.75534046325684,
+          212.15077599456788,
+          53.24464046325683,
+          212.27692599456788
+        ],
+        "approx_max_inscribed_diameter_mm": 0.1261160926406497,
+        "terminal_sub_line_width_cap": true
+      },
+      {
+        "z": 11.4,
+        "component": 7,
+        "area_mm2": 0.20132647029999784,
+        "bounds": [
+          202.75534046325686,
+          212.15077599456788,
+          205.24464046325681,
+          212.27692599456788
+        ],
+        "approx_max_inscribed_diameter_mm": 0.12611609264064827,
+        "terminal_sub_line_width_cap": true
+      },
+      {
+        "z": 16.2,
+        "component": 1,
+        "area_mm2": 0.14378743349998366,
+        "bounds": [
+          126.83720046325683,
+          118.71640599456788,
+          129.16278046325684,
+          118.81105599456787
+        ],
+        "approx_max_inscribed_diameter_mm": 0.09462453059242813,
+        "terminal_sub_line_width_cap": true
+      }
+    ],
+    "model_layer_count": 340,
+    "rows": [
+      {
+        "z": 0.2,
+        "section_z": 0.1,
+        "section_components": 1,
+        "section_area_mm2": 24705.88323683214,
+        "extrusion_commands": 5921
+      },
+      {
+        "z": 0.4,
+        "section_z": 0.30000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24753.940969894134,
+        "extrusion_commands": 6525
+      },
+      {
+        "z": 0.6,
+        "section_z": 0.5000000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24787.929277405303,
+        "extrusion_commands": 6711
+      },
+      {
+        "z": 0.8,
+        "section_z": 0.7000000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24813.572984944552,
+        "extrusion_commands": 6260
+      },
+      {
+        "z": 1.0,
+        "section_z": 0.9000000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24817.015434195862,
+        "extrusion_commands": 6196
+      },
+      {
+        "z": 1.2,
+        "section_z": 1.1,
+        "section_components": 1,
+        "section_area_mm2": 24820.40710118036,
+        "extrusion_commands": 6182
+      },
+      {
+        "z": 1.4,
+        "section_z": 1.3000000000000003,
+        "section_components": 1,
+        "section_area_mm2": 24824.409928653404,
+        "extrusion_commands": 4080
+      },
+      {
+        "z": 1.6,
+        "section_z": 1.5000000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24826.930373235275,
+        "extrusion_commands": 4076
+      },
+      {
+        "z": 1.8,
+        "section_z": 1.7000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24830.067032328276,
+        "extrusion_commands": 4198
+      },
+      {
+        "z": 2.0,
+        "section_z": 1.9000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24833.113457914533,
+        "extrusion_commands": 5659
+      },
+      {
+        "z": 2.2,
+        "section_z": 2.1000000000000005,
+        "section_components": 1,
+        "section_area_mm2": 24836.11048261745,
+        "extrusion_commands": 6342
+      },
+      {
+        "z": 2.4,
+        "section_z": 2.3000000000000003,
+        "section_components": 1,
+        "section_area_mm2": 24839.03904992576,
+        "extrusion_commands": 6479
+      },
+      {
+        "z": 2.6,
+        "section_z": 2.5000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24841.888822491637,
+        "extrusion_commands": 6522
+      },
+      {
+        "z": 2.8,
+        "section_z": 2.7000000000000006,
+        "section_components": 1,
+        "section_area_mm2": 24844.639312019543,
+        "extrusion_commands": 6535
+      },
+      {
+        "z": 3.0,
+        "section_z": 2.9000000000000004,
+        "section_components": 1,
+        "section_area_mm2": 24847.30970720546,
+        "extrusion_commands": 4993
+      },
+      {
+        "z": 3.2,
+        "section_z": 3.1000000000000005,
+        "section_components": 1,
+        "section_area_mm2": 24356.355902384043,
+        "extrusion_commands": 4781
+      },
+      {
+        "z": 3.4,
+        "section_z": 3.3000000000000007,
+        "section_components": 1,
+        "section_area_mm2": 24358.907589156894,
+        "extrusion_commands": 4755
+      },
+      {
+        "z": 3.6,
+        "section_z": 3.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24361.359773037515,
+        "extrusion_commands": 4761
+      },
+      {
+        "z": 3.8,
+        "section_z": 3.7000000000000006,
+        "section_components": 1,
+        "section_area_mm2": 24363.724236094815,
+        "extrusion_commands": 4759
+      },
+      {
+        "z": 4.0,
+        "section_z": 3.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24365.985018249852,
+        "extrusion_commands": 4781
+      },
+      {
+        "z": 4.2,
+        "section_z": 4.1000000000000005,
+        "section_components": 1,
+        "section_area_mm2": 24368.185169856577,
+        "extrusion_commands": 4278
+      },
+      {
+        "z": 4.4,
+        "section_z": 4.300000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24370.316103921105,
+        "extrusion_commands": 4257
+      },
+      {
+        "z": 4.6,
+        "section_z": 4.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24372.350638652177,
+        "extrusion_commands": 4301
+      },
+      {
+        "z": 4.8,
+        "section_z": 4.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24373.6612105868,
+        "extrusion_commands": 4245
+      },
+      {
+        "z": 5.0,
+        "section_z": 4.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24374.879921584878,
+        "extrusion_commands": 4251
+      },
+      {
+        "z": 5.2,
+        "section_z": 5.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24376.14721266013,
+        "extrusion_commands": 4358
+      },
+      {
+        "z": 5.4,
+        "section_z": 5.300000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24377.75384000341,
+        "extrusion_commands": 4358
+      },
+      {
+        "z": 5.6,
+        "section_z": 5.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24379.247487090906,
+        "extrusion_commands": 4447
+      },
+      {
+        "z": 5.8,
+        "section_z": 5.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24380.619058588727,
+        "extrusion_commands": 4426
+      },
+      {
+        "z": 6.0,
+        "section_z": 5.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24381.89528633562,
+        "extrusion_commands": 4413
+      },
+      {
+        "z": 6.2,
+        "section_z": 6.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24383.084297576694,
+        "extrusion_commands": 4384
+      },
+      {
+        "z": 6.4,
+        "section_z": 6.300000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24384.210411293803,
+        "extrusion_commands": 4360
+      },
+      {
+        "z": 6.6,
+        "section_z": 6.500000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24385.20940112693,
+        "extrusion_commands": 4386
+      },
+      {
+        "z": 6.8,
+        "section_z": 6.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24386.10412208051,
+        "extrusion_commands": 4415
+      },
+      {
+        "z": 7.0,
+        "section_z": 6.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24386.8740783658,
+        "extrusion_commands": 4422
+      },
+      {
+        "z": 7.2,
+        "section_z": 7.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24387.568750934533,
+        "extrusion_commands": 4500
+      },
+      {
+        "z": 7.4,
+        "section_z": 7.300000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24383.045569150327,
+        "extrusion_commands": 4438
+      },
+      {
+        "z": 7.6,
+        "section_z": 7.500000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24373.233315179175,
+        "extrusion_commands": 5340
+      },
+      {
+        "z": 7.8,
+        "section_z": 7.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24356.28201762173,
+        "extrusion_commands": 6612
+      },
+      {
+        "z": 8.0,
+        "section_z": 7.900000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24333.68940929914,
+        "extrusion_commands": 6534
+      },
+      {
+        "z": 8.2,
+        "section_z": 8.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24299.47267045168,
+        "extrusion_commands": 7444
+      },
+      {
+        "z": 8.4,
+        "section_z": 8.3,
+        "section_components": 1,
+        "section_area_mm2": 24257.748248179825,
+        "extrusion_commands": 6583
+      },
+      {
+        "z": 8.6,
+        "section_z": 8.500000000000002,
+        "section_components": 1,
+        "section_area_mm2": 24199.51349896346,
+        "extrusion_commands": 7005
+      },
+      {
+        "z": 8.8,
+        "section_z": 8.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 24058.885384520494,
+        "extrusion_commands": 6680
+      },
+      {
+        "z": 9.0,
+        "section_z": 8.900000000000002,
+        "section_components": 1,
+        "section_area_mm2": 23594.90708727895,
+        "extrusion_commands": 7119
+      },
+      {
+        "z": 9.2,
+        "section_z": 9.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 22610.10940293534,
+        "extrusion_commands": 6725
+      },
+      {
+        "z": 9.4,
+        "section_z": 9.300000000000002,
+        "section_components": 1,
+        "section_area_mm2": 22104.9601720353,
+        "extrusion_commands": 6647
+      },
+      {
+        "z": 9.6,
+        "section_z": 9.500000000000002,
+        "section_components": 1,
+        "section_area_mm2": 21812.51687174602,
+        "extrusion_commands": 6622
+      },
+      {
+        "z": 9.8,
+        "section_z": 9.700000000000001,
+        "section_components": 1,
+        "section_area_mm2": 21491.419938356743,
+        "extrusion_commands": 6633
+      },
+      {
+        "z": 10.0,
+        "section_z": 9.900000000000002,
+        "section_components": 1,
+        "section_area_mm2": 21149.008094039295,
+        "extrusion_commands": 6133
+      },
+      {
+        "z": 10.2,
+        "section_z": 10.100000000000001,
+        "section_components": 1,
+        "section_area_mm2": 20821.47687273517,
+        "extrusion_commands": 6239
+      },
+      {
+        "z": 10.4,
+        "section_z": 10.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 20437.095390335595,
+        "extrusion_commands": 5992
+      },
+      {
+        "z": 10.6,
+        "section_z": 10.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 20039.853168829468,
+        "extrusion_commands": 5705
+      },
+      {
+        "z": 10.8,
+        "section_z": 10.700000000000003,
+        "section_components": 4,
+        "section_area_mm2": 19656.39789599579,
+        "extrusion_commands": 5616
+      },
+      {
+        "z": 11.0,
+        "section_z": 10.900000000000002,
+        "section_components": 4,
+        "section_area_mm2": 19376.156931820507,
+        "extrusion_commands": 5317
+      },
+      {
+        "z": 11.2,
+        "section_z": 11.100000000000001,
+        "section_components": 4,
+        "section_area_mm2": 19105.879701562804,
+        "extrusion_commands": 5561
+      },
+      {
+        "z": 11.4,
+        "section_z": 11.300000000000002,
+        "section_components": 14,
+        "section_area_mm2": 18875.762128856524,
+        "extrusion_commands": 5087
+      },
+      {
+        "z": 11.6,
+        "section_z": 11.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 18747.348058095675,
+        "extrusion_commands": 4835
+      },
+      {
+        "z": 11.8,
+        "section_z": 11.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 18617.83529725057,
+        "extrusion_commands": 4990
+      },
+      {
+        "z": 12.0,
+        "section_z": 11.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 18491.397687415265,
+        "extrusion_commands": 5066
+      },
+      {
+        "z": 12.2,
+        "section_z": 12.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 18334.38972336214,
+        "extrusion_commands": 4953
+      },
+      {
+        "z": 12.4,
+        "section_z": 12.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 18147.082858376045,
+        "extrusion_commands": 4970
+      },
+      {
+        "z": 12.6,
+        "section_z": 12.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 17872.611254367937,
+        "extrusion_commands": 4941
+      },
+      {
+        "z": 12.8,
+        "section_z": 12.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 17586.228886710654,
+        "extrusion_commands": 5055
+      },
+      {
+        "z": 13.0,
+        "section_z": 12.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 17313.65936874407,
+        "extrusion_commands": 4887
+      },
+      {
+        "z": 13.2,
+        "section_z": 13.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 17038.5311896165,
+        "extrusion_commands": 4981
+      },
+      {
+        "z": 13.4,
+        "section_z": 13.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 16706.804443281057,
+        "extrusion_commands": 4426
+      },
+      {
+        "z": 13.6,
+        "section_z": 13.500000000000002,
+        "section_components": 2,
+        "section_area_mm2": 16366.73088699094,
+        "extrusion_commands": 4800
+      },
+      {
+        "z": 13.8,
+        "section_z": 13.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 16003.041638835293,
+        "extrusion_commands": 5089
+      },
+      {
+        "z": 14.0,
+        "section_z": 13.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 15606.767078604644,
+        "extrusion_commands": 4586
+      },
+      {
+        "z": 14.2,
+        "section_z": 14.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 15260.823821020627,
+        "extrusion_commands": 4473
+      },
+      {
+        "z": 14.4,
+        "section_z": 14.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 14943.016224353305,
+        "extrusion_commands": 4449
+      },
+      {
+        "z": 14.6,
+        "section_z": 14.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 14623.23641745965,
+        "extrusion_commands": 4605
+      },
+      {
+        "z": 14.8,
+        "section_z": 14.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 14258.227200485808,
+        "extrusion_commands": 4493
+      },
+      {
+        "z": 15.0,
+        "section_z": 14.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 13802.259635156559,
+        "extrusion_commands": 4162
+      },
+      {
+        "z": 15.2,
+        "section_z": 15.100000000000003,
+        "section_components": 2,
+        "section_area_mm2": 13445.55738044129,
+        "extrusion_commands": 4127
+      },
+      {
+        "z": 15.4,
+        "section_z": 15.300000000000002,
+        "section_components": 2,
+        "section_area_mm2": 13126.353973428098,
+        "extrusion_commands": 3764
+      },
+      {
+        "z": 15.6,
+        "section_z": 15.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 12828.715378032031,
+        "extrusion_commands": 3846
+      },
+      {
+        "z": 15.8,
+        "section_z": 15.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 12472.47215531197,
+        "extrusion_commands": 3767
+      },
+      {
+        "z": 16.0,
+        "section_z": 15.900000000000004,
+        "section_components": 3,
+        "section_area_mm2": 12122.268591177502,
+        "extrusion_commands": 3704
+      },
+      {
+        "z": 16.2,
+        "section_z": 16.1,
+        "section_components": 4,
+        "section_area_mm2": 11778.942309282855,
+        "extrusion_commands": 4570
+      },
+      {
+        "z": 16.4,
+        "section_z": 16.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 11436.854338355643,
+        "extrusion_commands": 3444
+      },
+      {
+        "z": 16.6,
+        "section_z": 16.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 11076.428219379959,
+        "extrusion_commands": 3956
+      },
+      {
+        "z": 16.8,
+        "section_z": 16.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 10696.322008198387,
+        "extrusion_commands": 3995
+      },
+      {
+        "z": 17.0,
+        "section_z": 16.900000000000002,
+        "section_components": 3,
+        "section_area_mm2": 10305.664718657561,
+        "extrusion_commands": 3529
+      },
+      {
+        "z": 17.2,
+        "section_z": 17.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 10013.224051620295,
+        "extrusion_commands": 3098
+      },
+      {
+        "z": 17.4,
+        "section_z": 17.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 9733.302027869653,
+        "extrusion_commands": 3102
+      },
+      {
+        "z": 17.6,
+        "section_z": 17.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 9426.769861796844,
+        "extrusion_commands": 2997
+      },
+      {
+        "z": 17.8,
+        "section_z": 17.700000000000003,
+        "section_components": 2,
+        "section_area_mm2": 9092.667535783434,
+        "extrusion_commands": 2923
+      },
+      {
+        "z": 18.0,
+        "section_z": 17.900000000000002,
+        "section_components": 2,
+        "section_area_mm2": 8694.503289066544,
+        "extrusion_commands": 1553
+      },
+      {
+        "z": 18.2,
+        "section_z": 18.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 3270.8588624485005,
+        "extrusion_commands": 737
+      },
+      {
+        "z": 18.4,
+        "section_z": 18.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3252.2235519870987,
+        "extrusion_commands": 747
+      },
+      {
+        "z": 18.6,
+        "section_z": 18.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3233.5632869189503,
+        "extrusion_commands": 738
+      },
+      {
+        "z": 18.8,
+        "section_z": 18.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 3214.8799245613973,
+        "extrusion_commands": 720
+      },
+      {
+        "z": 19.0,
+        "section_z": 18.900000000000002,
+        "section_components": 3,
+        "section_area_mm2": 3196.173604668249,
+        "extrusion_commands": 717
+      },
+      {
+        "z": 19.2,
+        "section_z": 19.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 3177.321714794701,
+        "extrusion_commands": 659
+      },
+      {
+        "z": 19.4,
+        "section_z": 19.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3158.3283515384005,
+        "extrusion_commands": 650
+      },
+      {
+        "z": 19.6,
+        "section_z": 19.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3139.257543828401,
+        "extrusion_commands": 649
+      },
+      {
+        "z": 19.8,
+        "section_z": 19.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 3119.41669405375,
+        "extrusion_commands": 655
+      },
+      {
+        "z": 20.0,
+        "section_z": 19.900000000000002,
+        "section_components": 3,
+        "section_area_mm2": 3099.5658162817476,
+        "extrusion_commands": 679
+      },
+      {
+        "z": 20.2,
+        "section_z": 20.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 3079.234721170298,
+        "extrusion_commands": 681
+      },
+      {
+        "z": 20.4,
+        "section_z": 20.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3058.6462673269007,
+        "extrusion_commands": 694
+      },
+      {
+        "z": 20.6,
+        "section_z": 20.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 3037.8274815776504,
+        "extrusion_commands": 682
+      },
+      {
+        "z": 20.8,
+        "section_z": 20.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 3016.26551602355,
+        "extrusion_commands": 678
+      },
+      {
+        "z": 21.0,
+        "section_z": 20.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2994.7348279467005,
+        "extrusion_commands": 718
+      },
+      {
+        "z": 21.2,
+        "section_z": 21.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 2972.2607306327504,
+        "extrusion_commands": 708
+      },
+      {
+        "z": 21.4,
+        "section_z": 21.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2949.8370348661992,
+        "extrusion_commands": 638
+      },
+      {
+        "z": 21.6,
+        "section_z": 21.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2925.35248065965,
+        "extrusion_commands": 625
+      },
+      {
+        "z": 21.8,
+        "section_z": 21.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 2900.1192497241977,
+        "extrusion_commands": 608
+      },
+      {
+        "z": 22.0,
+        "section_z": 21.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2872.122659014499,
+        "extrusion_commands": 599
+      },
+      {
+        "z": 22.2,
+        "section_z": 22.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 2842.4533984769464,
+        "extrusion_commands": 632
+      },
+      {
+        "z": 22.4,
+        "section_z": 22.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2809.6044270947477,
+        "extrusion_commands": 626
+      },
+      {
+        "z": 22.6,
+        "section_z": 22.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2775.031535604251,
+        "extrusion_commands": 653
+      },
+      {
+        "z": 22.8,
+        "section_z": 22.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 2735.48370320965,
+        "extrusion_commands": 1056
+      },
+      {
+        "z": 23.0,
+        "section_z": 22.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2693.7659580536,
+        "extrusion_commands": 2102
+      },
+      {
+        "z": 23.2,
+        "section_z": 23.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 2646.1072868880533,
+        "extrusion_commands": 881
+      },
+      {
+        "z": 23.4,
+        "section_z": 23.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2591.784377628197,
+        "extrusion_commands": 878
+      },
+      {
+        "z": 23.6,
+        "section_z": 23.500000000000004,
+        "section_components": 3,
+        "section_area_mm2": 2527.1675486787976,
+        "extrusion_commands": 884
+      },
+      {
+        "z": 23.8,
+        "section_z": 23.700000000000003,
+        "section_components": 3,
+        "section_area_mm2": 2446.69589442765,
+        "extrusion_commands": 1110
+      },
+      {
+        "z": 24.0,
+        "section_z": 23.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 2335.2180272258984,
+        "extrusion_commands": 595
+      },
+      {
+        "z": 24.2,
+        "section_z": 24.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 909.5754478569502,
+        "extrusion_commands": 313
+      },
+      {
+        "z": 24.4,
+        "section_z": 24.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 901.9649322713503,
+        "extrusion_commands": 323
+      },
+      {
+        "z": 24.6,
+        "section_z": 24.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 894.2418855272006,
+        "extrusion_commands": 333
+      },
+      {
+        "z": 24.8,
+        "section_z": 24.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 886.5376527447993,
+        "extrusion_commands": 334
+      },
+      {
+        "z": 25.0,
+        "section_z": 24.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 878.8646321098498,
+        "extrusion_commands": 315
+      },
+      {
+        "z": 25.2,
+        "section_z": 25.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 871.3341215242996,
+        "extrusion_commands": 325
+      },
+      {
+        "z": 25.4,
+        "section_z": 25.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 863.8760229830004,
+        "extrusion_commands": 328
+      },
+      {
+        "z": 25.6,
+        "section_z": 25.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 856.4667312283005,
+        "extrusion_commands": 333
+      },
+      {
+        "z": 25.8,
+        "section_z": 25.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 849.1154158236,
+        "extrusion_commands": 323
+      },
+      {
+        "z": 26.0,
+        "section_z": 25.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 841.74701929665,
+        "extrusion_commands": 337
+      },
+      {
+        "z": 26.2,
+        "section_z": 26.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 834.6032672644996,
+        "extrusion_commands": 316
+      },
+      {
+        "z": 26.4,
+        "section_z": 26.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 827.6260847587005,
+        "extrusion_commands": 365
+      },
+      {
+        "z": 26.6,
+        "section_z": 26.500000000000004,
+        "section_components": 2,
+        "section_area_mm2": 820.7280483211994,
+        "extrusion_commands": 360
+      },
+      {
+        "z": 26.8,
+        "section_z": 26.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 813.8819386489006,
+        "extrusion_commands": 356
+      },
+      {
+        "z": 27.0,
+        "section_z": 26.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 807.5183896659994,
+        "extrusion_commands": 380
+      },
+      {
+        "z": 27.2,
+        "section_z": 27.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 801.5348079233503,
+        "extrusion_commands": 367
+      },
+      {
+        "z": 27.4,
+        "section_z": 27.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 795.18365286775,
+        "extrusion_commands": 377
+      },
+      {
+        "z": 27.6,
+        "section_z": 27.500000000000007,
+        "section_components": 2,
+        "section_area_mm2": 788.3997820257993,
+        "extrusion_commands": 406
+      },
+      {
+        "z": 27.8,
+        "section_z": 27.700000000000006,
+        "section_components": 3,
+        "section_area_mm2": 757.4461745142988,
+        "extrusion_commands": 366
+      },
+      {
+        "z": 28.0,
+        "section_z": 27.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 739.6116937637003,
+        "extrusion_commands": 367
+      },
+      {
+        "z": 28.2,
+        "section_z": 28.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 727.8581503716009,
+        "extrusion_commands": 348
+      },
+      {
+        "z": 28.4,
+        "section_z": 28.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 718.4728741780002,
+        "extrusion_commands": 336
+      },
+      {
+        "z": 28.6,
+        "section_z": 28.500000000000007,
+        "section_components": 3,
+        "section_area_mm2": 710.3844121958001,
+        "extrusion_commands": 336
+      },
+      {
+        "z": 28.8,
+        "section_z": 28.700000000000006,
+        "section_components": 3,
+        "section_area_mm2": 703.7455207733991,
+        "extrusion_commands": 338
+      },
+      {
+        "z": 29.0,
+        "section_z": 28.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 698.1974448294504,
+        "extrusion_commands": 342
+      },
+      {
+        "z": 29.2,
+        "section_z": 29.100000000000005,
+        "section_components": 3,
+        "section_area_mm2": 693.8384680277,
+        "extrusion_commands": 344
+      },
+      {
+        "z": 29.4,
+        "section_z": 29.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 690.7857672079997,
+        "extrusion_commands": 349
+      },
+      {
+        "z": 29.6,
+        "section_z": 29.500000000000007,
+        "section_components": 3,
+        "section_area_mm2": 689.3656615036007,
+        "extrusion_commands": 369
+      },
+      {
+        "z": 29.8,
+        "section_z": 29.700000000000006,
+        "section_components": 3,
+        "section_area_mm2": 690.5980889159001,
+        "extrusion_commands": 378
+      },
+      {
+        "z": 30.0,
+        "section_z": 29.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 717.0746865773498,
+        "extrusion_commands": 581
+      },
+      {
+        "z": 30.2,
+        "section_z": 30.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 713.5334487945001,
+        "extrusion_commands": 395
+      },
+      {
+        "z": 30.4,
+        "section_z": 30.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 708.4951379515999,
+        "extrusion_commands": 361
+      },
+      {
+        "z": 30.6,
+        "section_z": 30.500000000000007,
+        "section_components": 2,
+        "section_area_mm2": 703.5022417811504,
+        "extrusion_commands": 372
+      },
+      {
+        "z": 30.8,
+        "section_z": 30.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 698.5509279284498,
+        "extrusion_commands": 370
+      },
+      {
+        "z": 31.0,
+        "section_z": 30.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 693.6626896720501,
+        "extrusion_commands": 357
+      },
+      {
+        "z": 31.2,
+        "section_z": 31.100000000000005,
+        "section_components": 2,
+        "section_area_mm2": 688.8788587324996,
+        "extrusion_commands": 333
+      },
+      {
+        "z": 31.4,
+        "section_z": 31.300000000000008,
+        "section_components": 2,
+        "section_area_mm2": 684.1868507268002,
+        "extrusion_commands": 338
+      },
+      {
+        "z": 31.6,
+        "section_z": 31.500000000000007,
+        "section_components": 2,
+        "section_area_mm2": 679.5308470362997,
+        "extrusion_commands": 373
+      },
+      {
+        "z": 31.8,
+        "section_z": 31.700000000000006,
+        "section_components": 2,
+        "section_area_mm2": 674.9179627346494,
+        "extrusion_commands": 383
+      },
+      {
+        "z": 32.0,
+        "section_z": 31.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 670.3438827407998,
+        "extrusion_commands": 354
+      },
+      {
+        "z": 32.2,
+        "section_z": 32.10000000000001,
+        "section_components": 2,
+        "section_area_mm2": 665.8656229531002,
+        "extrusion_commands": 362
+      },
+      {
+        "z": 32.4,
+        "section_z": 32.300000000000004,
+        "section_components": 2,
+        "section_area_mm2": 661.5046533908001,
+        "extrusion_commands": 347
+      },
+      {
+        "z": 32.6,
+        "section_z": 32.50000000000001,
+        "section_components": 2,
+        "section_area_mm2": 657.1806070750999,
+        "extrusion_commands": 417
+      },
+      {
+        "z": 32.8,
+        "section_z": 32.7,
+        "section_components": 2,
+        "section_area_mm2": 643.7896611060003,
+        "extrusion_commands": 470
+      },
+      {
+        "z": 33.0,
+        "section_z": 32.900000000000006,
+        "section_components": 2,
+        "section_area_mm2": 626.2931350041002,
+        "extrusion_commands": 444
+      },
+      {
+        "z": 33.2,
+        "section_z": 33.10000000000001,
+        "section_components": 2,
+        "section_area_mm2": 608.2010716632998,
+        "extrusion_commands": 408
+      },
+      {
+        "z": 33.4,
+        "section_z": 33.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 590.7382917699,
+        "extrusion_commands": 366
+      },
+      {
+        "z": 33.6,
+        "section_z": 33.50000000000001,
+        "section_components": 3,
+        "section_area_mm2": 577.6148469993997,
+        "extrusion_commands": 350
+      },
+      {
+        "z": 33.8,
+        "section_z": 33.70000000000001,
+        "section_components": 3,
+        "section_area_mm2": 565.7116939239999,
+        "extrusion_commands": 341
+      },
+      {
+        "z": 34.0,
+        "section_z": 33.900000000000006,
+        "section_components": 3,
+        "section_area_mm2": 553.2777497757002,
+        "extrusion_commands": 316
+      },
+      {
+        "z": 34.2,
+        "section_z": 34.10000000000001,
+        "section_components": 3,
+        "section_area_mm2": 539.8121649277002,
+        "extrusion_commands": 334
+      },
+      {
+        "z": 34.4,
+        "section_z": 34.300000000000004,
+        "section_components": 3,
+        "section_area_mm2": 522.9194780617001,
+        "extrusion_commands": 342
+      },
+      {
+        "z": 34.6,
+        "section_z": 34.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 390.94402457490037,
+        "extrusion_commands": 210
+      },
+      {
+        "z": 34.8,
+        "section_z": 34.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 387.2137336807998,
+        "extrusion_commands": 203
+      },
+      {
+        "z": 35.0,
+        "section_z": 34.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 383.5021408019504,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 35.2,
+        "section_z": 35.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 379.8899574189502,
+        "extrusion_commands": 216
+      },
+      {
+        "z": 35.4,
+        "section_z": 35.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 376.36826005554985,
+        "extrusion_commands": 214
+      },
+      {
+        "z": 35.6,
+        "section_z": 35.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 372.86797980015007,
+        "extrusion_commands": 210
+      },
+      {
+        "z": 35.8,
+        "section_z": 35.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 369.38273681324983,
+        "extrusion_commands": 201
+      },
+      {
+        "z": 36.0,
+        "section_z": 35.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 365.91064923235035,
+        "extrusion_commands": 201
+      },
+      {
+        "z": 36.2,
+        "section_z": 36.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 362.53936922759993,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 36.4,
+        "section_z": 36.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 359.2532289557499,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 36.6,
+        "section_z": 36.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 355.99466839589996,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 36.8,
+        "section_z": 36.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 352.7512786899999,
+        "extrusion_commands": 207
+      },
+      {
+        "z": 37.0,
+        "section_z": 36.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 349.5456228164998,
+        "extrusion_commands": 196
+      },
+      {
+        "z": 37.2,
+        "section_z": 37.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 346.4257412866501,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 37.4,
+        "section_z": 37.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 343.3962665718002,
+        "extrusion_commands": 206
+      },
+      {
+        "z": 37.6,
+        "section_z": 37.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 340.4269524481001,
+        "extrusion_commands": 212
+      },
+      {
+        "z": 37.8,
+        "section_z": 37.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 337.52225448025,
+        "extrusion_commands": 187
+      },
+      {
+        "z": 38.0,
+        "section_z": 37.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 334.68570258350013,
+        "extrusion_commands": 191
+      },
+      {
+        "z": 38.2,
+        "section_z": 38.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 332.00131922885004,
+        "extrusion_commands": 194
+      },
+      {
+        "z": 38.4,
+        "section_z": 38.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 329.4327912090499,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 38.6,
+        "section_z": 38.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 326.9087869530999,
+        "extrusion_commands": 200
+      },
+      {
+        "z": 38.8,
+        "section_z": 38.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 324.4421361766502,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 39.0,
+        "section_z": 38.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 322.0204189088996,
+        "extrusion_commands": 205
+      },
+      {
+        "z": 39.2,
+        "section_z": 39.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 319.6912355735995,
+        "extrusion_commands": 217
+      },
+      {
+        "z": 39.4,
+        "section_z": 39.300000000000004,
+        "section_components": 1,
+        "section_area_mm2": 317.45139997665007,
+        "extrusion_commands": 216
+      },
+      {
+        "z": 39.6,
+        "section_z": 39.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 315.25999183099964,
+        "extrusion_commands": 207
+      },
+      {
+        "z": 39.8,
+        "section_z": 39.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 313.1097211554003,
+        "extrusion_commands": 211
+      },
+      {
+        "z": 40.0,
+        "section_z": 39.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 310.9829511179504,
+        "extrusion_commands": 200
+      },
+      {
+        "z": 40.2,
+        "section_z": 40.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 308.9314553825004,
+        "extrusion_commands": 206
+      },
+      {
+        "z": 40.4,
+        "section_z": 40.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 306.9544774502496,
+        "extrusion_commands": 189
+      },
+      {
+        "z": 40.6,
+        "section_z": 40.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 305.0235870059002,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 40.8,
+        "section_z": 40.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 303.12689803720014,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 41.0,
+        "section_z": 40.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 301.2606273748,
+        "extrusion_commands": 201
+      },
+      {
+        "z": 41.2,
+        "section_z": 41.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 299.4617478851502,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 41.4,
+        "section_z": 41.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 297.7106948775002,
+        "extrusion_commands": 204
+      },
+      {
+        "z": 41.6,
+        "section_z": 41.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 296.0251117571497,
+        "extrusion_commands": 200
+      },
+      {
+        "z": 41.8,
+        "section_z": 41.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 294.37338936845043,
+        "extrusion_commands": 192
+      },
+      {
+        "z": 42.0,
+        "section_z": 41.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 292.75147827774947,
+        "extrusion_commands": 185
+      },
+      {
+        "z": 42.2,
+        "section_z": 42.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 291.19941029880016,
+        "extrusion_commands": 185
+      },
+      {
+        "z": 42.4,
+        "section_z": 42.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 289.70828779879986,
+        "extrusion_commands": 181
+      },
+      {
+        "z": 42.6,
+        "section_z": 42.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 288.2730171105498,
+        "extrusion_commands": 189
+      },
+      {
+        "z": 42.8,
+        "section_z": 42.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 286.8682033685001,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 43.0,
+        "section_z": 42.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 285.48803612685003,
+        "extrusion_commands": 193
+      },
+      {
+        "z": 43.2,
+        "section_z": 43.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 284.18249335979937,
+        "extrusion_commands": 180
+      },
+      {
+        "z": 43.4,
+        "section_z": 43.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 282.9303247664998,
+        "extrusion_commands": 184
+      },
+      {
+        "z": 43.6,
+        "section_z": 43.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 281.72797234449985,
+        "extrusion_commands": 190
+      },
+      {
+        "z": 43.8,
+        "section_z": 43.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 280.5543926710999,
+        "extrusion_commands": 183
+      },
+      {
+        "z": 44.0,
+        "section_z": 43.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 279.40794210925026,
+        "extrusion_commands": 180
+      },
+      {
+        "z": 44.2,
+        "section_z": 44.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 278.33227968539995,
+        "extrusion_commands": 177
+      },
+      {
+        "z": 44.4,
+        "section_z": 44.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 277.3121304303999,
+        "extrusion_commands": 163
+      },
+      {
+        "z": 44.6,
+        "section_z": 44.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 276.34401826634996,
+        "extrusion_commands": 153
+      },
+      {
+        "z": 44.8,
+        "section_z": 44.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 275.40899936739976,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 45.0,
+        "section_z": 44.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 274.4874073997499,
+        "extrusion_commands": 151
+      },
+      {
+        "z": 45.2,
+        "section_z": 45.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 273.6094285533499,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 45.4,
+        "section_z": 45.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 272.7599396702498,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 45.6,
+        "section_z": 45.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 271.9182254953998,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 45.8,
+        "section_z": 45.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 271.0795041006002,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 46.0,
+        "section_z": 45.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 270.2408975643495,
+        "extrusion_commands": 147
+      },
+      {
+        "z": 46.2,
+        "section_z": 46.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 269.4323968618999,
+        "extrusion_commands": 144
+      },
+      {
+        "z": 46.4,
+        "section_z": 46.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 268.6525251011,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 46.6,
+        "section_z": 46.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 267.87259771875006,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 46.8,
+        "section_z": 46.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 267.09275615475013,
+        "extrusion_commands": 141
+      },
+      {
+        "z": 47.0,
+        "section_z": 46.900000000000006,
+        "section_components": 1,
+        "section_area_mm2": 266.3128308199998,
+        "extrusion_commands": 144
+      },
+      {
+        "z": 47.2,
+        "section_z": 47.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 265.56151286020037,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 47.4,
+        "section_z": 47.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 264.83880130135003,
+        "extrusion_commands": 139
+      },
+      {
+        "z": 47.6,
+        "section_z": 47.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 264.1160920091002,
+        "extrusion_commands": 145
+      },
+      {
+        "z": 47.8,
+        "section_z": 47.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 263.3934635325506,
+        "extrusion_commands": 139
+      },
+      {
+        "z": 48.0,
+        "section_z": 47.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 262.6707367399005,
+        "extrusion_commands": 137
+      },
+      {
+        "z": 48.2,
+        "section_z": 48.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 261.9766327762498,
+        "extrusion_commands": 139
+      },
+      {
+        "z": 48.4,
+        "section_z": 48.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 261.31124702210036,
+        "extrusion_commands": 141
+      },
+      {
+        "z": 48.6,
+        "section_z": 48.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 260.6458378479499,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 48.8,
+        "section_z": 48.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 259.9804820439999,
+        "extrusion_commands": 137
+      },
+      {
+        "z": 49.0,
+        "section_z": 48.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 259.3150783557001,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 49.2,
+        "section_z": 49.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 258.6783253160999,
+        "extrusion_commands": 143
+      },
+      {
+        "z": 49.4,
+        "section_z": 49.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 258.0703491397505,
+        "extrusion_commands": 135
+      },
+      {
+        "z": 49.6,
+        "section_z": 49.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 257.4623126497502,
+        "extrusion_commands": 141
+      },
+      {
+        "z": 49.8,
+        "section_z": 49.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 256.8543661710499,
+        "extrusion_commands": 134
+      },
+      {
+        "z": 50.0,
+        "section_z": 49.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 256.24634147045003,
+        "extrusion_commands": 131
+      },
+      {
+        "z": 50.2,
+        "section_z": 50.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 255.73909182249977,
+        "extrusion_commands": 129
+      },
+      {
+        "z": 50.4,
+        "section_z": 50.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 255.61815508114978,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 50.6,
+        "section_z": 50.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 255.8209761383497,
+        "extrusion_commands": 138
+      },
+      {
+        "z": 50.8,
+        "section_z": 50.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 256.2885587383501,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 51.0,
+        "section_z": 50.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 257.0883689212499,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 51.2,
+        "section_z": 51.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 257.95696839909994,
+        "extrusion_commands": 158
+      },
+      {
+        "z": 51.4,
+        "section_z": 51.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 258.89272460009965,
+        "extrusion_commands": 165
+      },
+      {
+        "z": 51.6,
+        "section_z": 51.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 259.8615064431997,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 51.8,
+        "section_z": 51.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 260.8929942743498,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 52.0,
+        "section_z": 51.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 261.99526341069964,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 52.2,
+        "section_z": 52.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 263.1694581480002,
+        "extrusion_commands": 149
+      },
+      {
+        "z": 52.4,
+        "section_z": 52.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 264.4004991046999,
+        "extrusion_commands": 157
+      },
+      {
+        "z": 52.6,
+        "section_z": 52.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 265.6587907356999,
+        "extrusion_commands": 154
+      },
+      {
+        "z": 52.8,
+        "section_z": 52.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 267.0290164124999,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 53.0,
+        "section_z": 52.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 268.45671215330026,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 53.2,
+        "section_z": 53.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 269.9381049496495,
+        "extrusion_commands": 150
+      },
+      {
+        "z": 53.4,
+        "section_z": 53.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 271.4862893968501,
+        "extrusion_commands": 144
+      },
+      {
+        "z": 53.6,
+        "section_z": 53.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 273.19197163595055,
+        "extrusion_commands": 153
+      },
+      {
+        "z": 53.8,
+        "section_z": 53.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 274.9260563221999,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 54.0,
+        "section_z": 53.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 276.6898402641,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 54.2,
+        "section_z": 54.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 278.61931997169967,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 54.4,
+        "section_z": 54.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 280.6694430487498,
+        "extrusion_commands": 152
+      },
+      {
+        "z": 54.6,
+        "section_z": 54.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 282.55714643429985,
+        "extrusion_commands": 185
+      },
+      {
+        "z": 54.8,
+        "section_z": 54.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 284.3464068695502,
+        "extrusion_commands": 162
+      },
+      {
+        "z": 55.0,
+        "section_z": 54.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 286.1034005290996,
+        "extrusion_commands": 176
+      },
+      {
+        "z": 55.2,
+        "section_z": 55.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 287.9051603196502,
+        "extrusion_commands": 169
+      },
+      {
+        "z": 55.4,
+        "section_z": 55.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 289.68773856530004,
+        "extrusion_commands": 169
+      },
+      {
+        "z": 55.6,
+        "section_z": 55.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 291.47953906164986,
+        "extrusion_commands": 175
+      },
+      {
+        "z": 55.8,
+        "section_z": 55.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 293.3603240024997,
+        "extrusion_commands": 181
+      },
+      {
+        "z": 56.0,
+        "section_z": 55.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 295.21797503395,
+        "extrusion_commands": 177
+      },
+      {
+        "z": 56.2,
+        "section_z": 56.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 297.2053631463998,
+        "extrusion_commands": 180
+      },
+      {
+        "z": 56.4,
+        "section_z": 56.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 299.26497953305,
+        "extrusion_commands": 176
+      },
+      {
+        "z": 56.6,
+        "section_z": 56.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 301.32103130424946,
+        "extrusion_commands": 184
+      },
+      {
+        "z": 56.8,
+        "section_z": 56.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 303.38491089530015,
+        "extrusion_commands": 179
+      },
+      {
+        "z": 57.0,
+        "section_z": 56.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 305.6599429856497,
+        "extrusion_commands": 171
+      },
+      {
+        "z": 57.2,
+        "section_z": 57.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 307.9972434583497,
+        "extrusion_commands": 173
+      },
+      {
+        "z": 57.4,
+        "section_z": 57.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 310.56198360794986,
+        "extrusion_commands": 175
+      },
+      {
+        "z": 57.6,
+        "section_z": 57.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 313.22410209525015,
+        "extrusion_commands": 170
+      },
+      {
+        "z": 57.8,
+        "section_z": 57.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 315.92519711434994,
+        "extrusion_commands": 182
+      },
+      {
+        "z": 58.0,
+        "section_z": 57.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 318.97298543085003,
+        "extrusion_commands": 177
+      },
+      {
+        "z": 58.2,
+        "section_z": 58.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 322.06825827490024,
+        "extrusion_commands": 197
+      },
+      {
+        "z": 58.4,
+        "section_z": 58.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 325.33113613185026,
+        "extrusion_commands": 187
+      },
+      {
+        "z": 58.6,
+        "section_z": 58.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 328.85879397475037,
+        "extrusion_commands": 173
+      },
+      {
+        "z": 58.8,
+        "section_z": 58.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 332.34329426005,
+        "extrusion_commands": 173
+      },
+      {
+        "z": 59.0,
+        "section_z": 58.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 336.1620510754002,
+        "extrusion_commands": 142
+      },
+      {
+        "z": 59.2,
+        "section_z": 59.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 339.8663123938004,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 59.4,
+        "section_z": 59.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 344.2875846187002,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 59.6,
+        "section_z": 59.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 349.3081483579996,
+        "extrusion_commands": 123
+      },
+      {
+        "z": 59.8,
+        "section_z": 59.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 356.4751162180511,
+        "extrusion_commands": 149
+      },
+      {
+        "z": 60.0,
+        "section_z": 59.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.09765103749965,
+        "extrusion_commands": 257
+      },
+      {
+        "z": 60.2,
+        "section_z": 60.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.08601509175014,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 60.4,
+        "section_z": 60.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0881100558498,
+        "extrusion_commands": 131
+      },
+      {
+        "z": 60.6,
+        "section_z": 60.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.09018133704996,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 60.8,
+        "section_z": 60.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0923422066496,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 61.0,
+        "section_z": 60.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.09442721470003,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 61.2,
+        "section_z": 61.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0960073855498,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 61.4,
+        "section_z": 61.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.0971212507501,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 61.6,
+        "section_z": 61.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.09817816364983,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 61.8,
+        "section_z": 61.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.09925981314984,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 62.0,
+        "section_z": 61.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10036150895013,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 62.2,
+        "section_z": 62.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10110471285,
+        "extrusion_commands": 126
+      },
+      {
+        "z": 62.4,
+        "section_z": 62.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.1014672387997,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 62.6,
+        "section_z": 62.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.1018933362999,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 62.8,
+        "section_z": 62.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.102286722,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 63.0,
+        "section_z": 62.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.1026478355002,
+        "extrusion_commands": 129
+      },
+      {
+        "z": 63.2,
+        "section_z": 63.100000000000016,
+        "section_components": 1,
+        "section_area_mm2": 373.1028711155998,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 63.4,
+        "section_z": 63.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10295610620017,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 63.6,
+        "section_z": 63.500000000000014,
+        "section_components": 1,
+        "section_area_mm2": 373.10299246865014,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 63.8,
+        "section_z": 63.70000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.1030790380001,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 64.0,
+        "section_z": 63.90000000000001,
+        "section_components": 1,
+        "section_area_mm2": 373.10313161859983,
+        "extrusion_commands": 127
+      },
+      {
+        "z": 64.2,
+        "section_z": 64.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 372.85029651289994,
+        "extrusion_commands": 128
+      },
+      {
+        "z": 64.4,
+        "section_z": 64.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 372.1500202847498,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 64.6,
+        "section_z": 64.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 370.63104165414995,
+        "extrusion_commands": 134
+      },
+      {
+        "z": 64.8,
+        "section_z": 64.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 368.2034371346,
+        "extrusion_commands": 133
+      },
+      {
+        "z": 65.0,
+        "section_z": 64.9,
+        "section_components": 1,
+        "section_area_mm2": 365.0452060358999,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 65.2,
+        "section_z": 65.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 361.1336318770498,
+        "extrusion_commands": 135
+      },
+      {
+        "z": 65.4,
+        "section_z": 65.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 356.43889674909985,
+        "extrusion_commands": 130
+      },
+      {
+        "z": 65.6,
+        "section_z": 65.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 418.41772637935003,
+        "extrusion_commands": 125
+      },
+      {
+        "z": 65.8,
+        "section_z": 65.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 411.7863134453001,
+        "extrusion_commands": 305
+      },
+      {
+        "z": 66.0,
+        "section_z": 65.9,
+        "section_components": 1,
+        "section_area_mm2": 404.23751336600003,
+        "extrusion_commands": 218
+      },
+      {
+        "z": 66.2,
+        "section_z": 66.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 395.6968321070999,
+        "extrusion_commands": 221
+      },
+      {
+        "z": 66.4,
+        "section_z": 66.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 386.0695258896999,
+        "extrusion_commands": 220
+      },
+      {
+        "z": 66.6,
+        "section_z": 66.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 375.23409532069996,
+        "extrusion_commands": 227
+      },
+      {
+        "z": 66.8,
+        "section_z": 66.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 363.0331112479,
+        "extrusion_commands": 121
+      },
+      {
+        "z": 67.0,
+        "section_z": 66.90000000000002,
+        "section_components": 1,
+        "section_area_mm2": 349.25787292035,
+        "extrusion_commands": 164
+      },
+      {
+        "z": 67.2,
+        "section_z": 67.10000000000001,
+        "section_components": 1,
+        "section_area_mm2": 333.62815531585,
+        "extrusion_commands": 195
+      },
+      {
+        "z": 67.4,
+        "section_z": 67.30000000000001,
+        "section_components": 1,
+        "section_area_mm2": 315.7593818530497,
+        "extrusion_commands": 205
+      },
+      {
+        "z": 67.6,
+        "section_z": 67.50000000000001,
+        "section_components": 1,
+        "section_area_mm2": 294.50337292135,
+        "extrusion_commands": 168
+      },
+      {
+        "z": 67.8,
+        "section_z": 67.70000000000002,
+        "section_components": 1,
+        "section_area_mm2": 268.43321304344977,
+        "extrusion_commands": 148
+      },
+      {
+        "z": 68.0,
+        "section_z": 67.90000000000002,
+        "section_components": 1,
+        "section_area_mm2": 227.06764420844993,
+        "extrusion_commands": 101
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "application": "Bambu Studio 02.08.02.61",
+  "method": "Native app control and observed accessibility state/screenshots; no printer operation",
+  "original_live_project": {
+    "enable_support": "0",
+    "wall_loops": "2",
+    "sparse_infill_density": "15%",
+    "support_type": "tree(auto)",
+    "warning": "floating cantilever"
+  },
+  "stock": {
+    "delivered_gui_open": "pass",
+    "gui_slice": "Slice ok; no floating-cantilever notification",
+    "gui_save_reopen": "pass; enable_support=1",
+    "observed_strength_settings": {
+      "wall_loops": 6,
+      "infill_percent": 40,
+      "top_mm": 1.2,
+      "bottom_mm": 1.2,
+      "detect_floating_vertical_shell": false
+    }
+  },
+  "n-type": {
+    "delivered_gui_open": "pass",
+    "gui_slice": "completed; no floating-cantilever notification",
+    "gui_save_reopen": "pass; enable_support=1",
+    "observed_strength_settings": {
+      "wall_loops": 6,
+      "infill_percent": 40,
+      "top_mm": 1.2,
+      "bottom_mm": 1.2,
+      "detect_floating_vertical_shell": true
+    }
+  },
+  "scope": "Warning and GUI preset retention only; support removal, bridge quality, fit and vehicle use physically not checked",
+  "geometry_and_other_reviews": "unchanged; previous scope retained",
+  "printer_operated": false
+}

@@ -1,0 +1,13 @@
+{
+  "feature": "Right rear rail/spine window blend",
+  "geometry": ".build-frame/core-final.stl",
+  "section_z_mm": 8,
+  "samples": 37,
+  "center_xy_mm": [
+    15.99983157718584,
+    -64.77638085123709
+  ],
+  "radius_fit_mm": 4.010106843659033,
+  "max_fit_residual_mm": 0.005227876172503976,
+  "scope": "Least-squares fit to tessellated finished section; not global fillet or load validation"
+}

@@ -1,0 +1,4 @@
+# Review editable CAD and reports rather than generated geometry as text.
+*.stl binary
+*.3mf binary
+*.png binary

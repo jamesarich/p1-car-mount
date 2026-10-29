@@ -1,0 +1,7 @@
+numpy==2.4.6
+trimesh==4.12.2
+manifold3d==3.4.1
+shapely==2.1.2
+Pillow==12.2.0
+matplotlib==3.10.9
+scipy==1.17.1

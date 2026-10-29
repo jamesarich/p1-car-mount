@@ -1,0 +1,2172 @@
+{
+  "scope": "Width-aware G-code changed-solid-feature differential, no printer operated; not an exhaustive proof of deposited plastic or bridge anchoring",
+  "baseline": "repro/plate_1.gcode",
+  "candidate": "trials/floating-off/plate_1.gcode",
+  "features": [
+    "Internal solid infill",
+    "Floating vertical shell"
+  ],
+  "candidate_comparison": "all non-support non-brim model paths",
+  "buffering": "Each actual G-code centerline buffered by stated LINE_WIDTH/2. G2/G3 chord sagitta <=0.02mm from existing parser.",
+  "tolerance_mm": 0.03,
+  "analysis_polygon_precision_grid_mm": 0.0001,
+  "layers_checked": 249,
+  "worst_layers": [
+    {
+      "z_mm": 13.6,
+      "baseline_changed_feature_coverage_mm2": 1173.6798284899996,
+      "raw_one_sided_loss_mm2": 0.04433437999997383,
+      "largest_raw_loss_component_mm2": 0.03995575999999878,
+      "loss_outside_0p03mm_tolerance_mm2": 0.018939219999998282,
+      "largest_loss_component_outside_tolerance_mm2": 0.018939219999998282
+    },
+    {
+      "z_mm": 10.8,
+      "baseline_changed_feature_coverage_mm2": 637.1398018350002,
+      "raw_one_sided_loss_mm2": 0.1078309650000098,
+      "largest_raw_loss_component_mm2": 0.04376139499999175,
+      "loss_outside_0p03mm_tolerance_mm2": 0.02881004999999725,
+      "largest_loss_component_outside_tolerance_mm2": 0.013568179999995263
+    },
+    {
+      "z_mm": 13.2,
+      "baseline_changed_feature_coverage_mm2": 1320.6418796050007,
+      "raw_one_sided_loss_mm2": 0.05105347999998617,
+      "largest_raw_loss_component_mm2": 0.02018994000000109,
+      "loss_outside_0p03mm_tolerance_mm2": 0.013186740000000686,
+      "largest_loss_component_outside_tolerance_mm2": 0.007343380000001648
+    },
+    {
+      "z_mm": 12.2,
+      "baseline_changed_feature_coverage_mm2": 1077.290331074999,
+      "raw_one_sided_loss_mm2": 0.06344231500001286,
+      "largest_raw_loss_component_mm2": 0.022905590000001447,
+      "loss_outside_0p03mm_tolerance_mm2": 0.02014383999999912,
+      "largest_loss_component_outside_tolerance_mm2": 0.007060960000002423
+    },
+    {
+      "z_mm": 8.6,
+      "baseline_changed_feature_coverage_mm2": 2236.1986634399823,
+      "raw_one_sided_loss_mm2": 0.09935169500005156,
+      "largest_raw_loss_component_mm2": 0.020883470000002125,
+      "loss_outside_0p03mm_tolerance_mm2": 0.024379825000001215,
+      "largest_loss_component_outside_tolerance_mm2": 0.007028684999999858
+    },
+    {
+      "z_mm": 22.8,
+      "baseline_changed_feature_coverage_mm2": 155.404681325001,
+      "raw_one_sided_loss_mm2": 0.02568263499999811,
+      "largest_raw_loss_component_mm2": 0.019770000000000506,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006951874999999911,
+      "largest_loss_component_outside_tolerance_mm2": 0.006951874999999911
+    },
+    {
+      "z_mm": 22.6,
+      "baseline_changed_feature_coverage_mm2": 223.04685428499897,
+      "raw_one_sided_loss_mm2": 0.02138426500000783,
+      "largest_raw_loss_component_mm2": 0.0197700000000005,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006951874999997603,
+      "largest_loss_component_outside_tolerance_mm2": 0.006951874999997603
+    },
+    {
+      "z_mm": 11.8,
+      "baseline_changed_feature_coverage_mm2": 934.1998424849999,
+      "raw_one_sided_loss_mm2": 0.019866845000011832,
+      "largest_raw_loss_component_mm2": 0.018804225000000566,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006948450000002019,
+      "largest_loss_component_outside_tolerance_mm2": 0.006948450000002019
+    },
+    {
+      "z_mm": 12.0,
+      "baseline_changed_feature_coverage_mm2": 1071.8349470400012,
+      "raw_one_sided_loss_mm2": 0.04514700999999422,
+      "largest_raw_loss_component_mm2": 0.017518750000001145,
+      "loss_outside_0p03mm_tolerance_mm2": 0.01413747499999908,
+      "largest_loss_component_outside_tolerance_mm2": 0.006906279999998932
+    },
+    {
+      "z_mm": 8.0,
+      "baseline_changed_feature_coverage_mm2": 1499.379274889998,
+      "raw_one_sided_loss_mm2": 0.0396846349999912,
+      "largest_raw_loss_component_mm2": 0.018455114999999973,
+      "loss_outside_0p03mm_tolerance_mm2": 0.00990649500000075,
+      "largest_loss_component_outside_tolerance_mm2": 0.0063323500000010274
+    },
+    {
+      "z_mm": 11.0,
+      "baseline_changed_feature_coverage_mm2": 670.9248072600003,
+      "raw_one_sided_loss_mm2": 0.03706117500000715,
+      "largest_raw_loss_component_mm2": 0.01857163499999711,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006276514999998154,
+      "largest_loss_component_outside_tolerance_mm2": 0.006276514999998154
+    },
+    {
+      "z_mm": 13.4,
+      "baseline_changed_feature_coverage_mm2": 1188.4721193149992,
+      "raw_one_sided_loss_mm2": 0.0443209800000282,
+      "largest_raw_loss_component_mm2": 0.020572349999994945,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006482630000000824,
+      "largest_loss_component_outside_tolerance_mm2": 0.005933380000000868
+    },
+    {
+      "z_mm": 53.6,
+      "baseline_changed_feature_coverage_mm2": 7.111100264999982,
+      "raw_one_sided_loss_mm2": 0.01783996499999915,
+      "largest_raw_loss_component_mm2": 0.01783996499999915,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0058231350000003046,
+      "largest_loss_component_outside_tolerance_mm2": 0.0058231350000003046
+    },
+    {
+      "z_mm": 53.4,
+      "baseline_changed_feature_coverage_mm2": 6.15786887500003,
+      "raw_one_sided_loss_mm2": 0.015560454999999376,
+      "largest_raw_loss_component_mm2": 0.015560219999999379,
+      "loss_outside_0p03mm_tolerance_mm2": 0.00578606999999959,
+      "largest_loss_component_outside_tolerance_mm2": 0.00578606999999959
+    },
+    {
+      "z_mm": 1.8,
+      "baseline_changed_feature_coverage_mm2": 65.37712180000003,
+      "raw_one_sided_loss_mm2": 0.07456864999999983,
+      "largest_raw_loss_component_mm2": 0.01779130999999991,
+      "loss_outside_0p03mm_tolerance_mm2": 0.01185740500000009,
+      "largest_loss_component_outside_tolerance_mm2": 0.005687180000000229
+    },
+    {
+      "z_mm": 54.2,
+      "baseline_changed_feature_coverage_mm2": 7.990968975000029,
+      "raw_one_sided_loss_mm2": 0.017162510000000398,
+      "largest_raw_loss_component_mm2": 0.0171622650000004,
+      "loss_outside_0p03mm_tolerance_mm2": 0.005234780000000491,
+      "largest_loss_component_outside_tolerance_mm2": 0.005234780000000491
+    },
+    {
+      "z_mm": 11.6,
+      "baseline_changed_feature_coverage_mm2": 957.7299547299992,
+      "raw_one_sided_loss_mm2": 0.03503447000001633,
+      "largest_raw_loss_component_mm2": 0.01963391500000356,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0073584250000021546,
+      "largest_loss_component_outside_tolerance_mm2": 0.004880574999999945
+    },
+    {
+      "z_mm": 8.2,
+      "baseline_changed_feature_coverage_mm2": 2741.2191221199964,
+      "raw_one_sided_loss_mm2": 0.03434318000003132,
+      "largest_raw_loss_component_mm2": 0.013648704999999574,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0045404449999986544,
+      "largest_loss_component_outside_tolerance_mm2": 0.0039037849999991924
+    },
+    {
+      "z_mm": 16.4,
+      "baseline_changed_feature_coverage_mm2": 1011.4938397600015,
+      "raw_one_sided_loss_mm2": 0.0013301400000261204,
+      "largest_raw_loss_component_mm2": 0.00016318499999293617,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0018307449999999258,
+      "largest_loss_component_outside_tolerance_mm2": 0.0011056450000000392
+    },
+    {
+      "z_mm": 16.2,
+      "baseline_changed_feature_coverage_mm2": 1101.980233184995,
+      "raw_one_sided_loss_mm2": 0.001375709999978829,
+      "largest_raw_loss_component_mm2": 0.00013465500000447013,
+      "loss_outside_0p03mm_tolerance_mm2": 0.002499014999999568,
+      "largest_loss_component_outside_tolerance_mm2": 0.001093904999999638
+    }
+  ],
+  "all_layers": [
+    {
+      "z_mm": 13.6,
+      "baseline_changed_feature_coverage_mm2": 1173.6798284899996,
+      "raw_one_sided_loss_mm2": 0.04433437999997383,
+      "largest_raw_loss_component_mm2": 0.03995575999999878,
+      "loss_outside_0p03mm_tolerance_mm2": 0.018939219999998282,
+      "largest_loss_component_outside_tolerance_mm2": 0.018939219999998282
+    },
+    {
+      "z_mm": 10.8,
+      "baseline_changed_feature_coverage_mm2": 637.1398018350002,
+      "raw_one_sided_loss_mm2": 0.1078309650000098,
+      "largest_raw_loss_component_mm2": 0.04376139499999175,
+      "loss_outside_0p03mm_tolerance_mm2": 0.02881004999999725,
+      "largest_loss_component_outside_tolerance_mm2": 0.013568179999995263
+    },
+    {
+      "z_mm": 13.2,
+      "baseline_changed_feature_coverage_mm2": 1320.6418796050007,
+      "raw_one_sided_loss_mm2": 0.05105347999998617,
+      "largest_raw_loss_component_mm2": 0.02018994000000109,
+      "loss_outside_0p03mm_tolerance_mm2": 0.013186740000000686,
+      "largest_loss_component_outside_tolerance_mm2": 0.007343380000001648
+    },
+    {
+      "z_mm": 12.2,
+      "baseline_changed_feature_coverage_mm2": 1077.290331074999,
+      "raw_one_sided_loss_mm2": 0.06344231500001286,
+      "largest_raw_loss_component_mm2": 0.022905590000001447,
+      "loss_outside_0p03mm_tolerance_mm2": 0.02014383999999912,
+      "largest_loss_component_outside_tolerance_mm2": 0.007060960000002423
+    },
+    {
+      "z_mm": 8.6,
+      "baseline_changed_feature_coverage_mm2": 2236.1986634399823,
+      "raw_one_sided_loss_mm2": 0.09935169500005156,
+      "largest_raw_loss_component_mm2": 0.020883470000002125,
+      "loss_outside_0p03mm_tolerance_mm2": 0.024379825000001215,
+      "largest_loss_component_outside_tolerance_mm2": 0.007028684999999858
+    },
+    {
+      "z_mm": 22.8,
+      "baseline_changed_feature_coverage_mm2": 155.404681325001,
+      "raw_one_sided_loss_mm2": 0.02568263499999811,
+      "largest_raw_loss_component_mm2": 0.019770000000000506,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006951874999999911,
+      "largest_loss_component_outside_tolerance_mm2": 0.006951874999999911
+    },
+    {
+      "z_mm": 22.6,
+      "baseline_changed_feature_coverage_mm2": 223.04685428499897,
+      "raw_one_sided_loss_mm2": 0.02138426500000783,
+      "largest_raw_loss_component_mm2": 0.0197700000000005,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006951874999997603,
+      "largest_loss_component_outside_tolerance_mm2": 0.006951874999997603
+    },
+    {
+      "z_mm": 11.8,
+      "baseline_changed_feature_coverage_mm2": 934.1998424849999,
+      "raw_one_sided_loss_mm2": 0.019866845000011832,
+      "largest_raw_loss_component_mm2": 0.018804225000000566,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006948450000002019,
+      "largest_loss_component_outside_tolerance_mm2": 0.006948450000002019
+    },
+    {
+      "z_mm": 12.0,
+      "baseline_changed_feature_coverage_mm2": 1071.8349470400012,
+      "raw_one_sided_loss_mm2": 0.04514700999999422,
+      "largest_raw_loss_component_mm2": 0.017518750000001145,
+      "loss_outside_0p03mm_tolerance_mm2": 0.01413747499999908,
+      "largest_loss_component_outside_tolerance_mm2": 0.006906279999998932
+    },
+    {
+      "z_mm": 8.0,
+      "baseline_changed_feature_coverage_mm2": 1499.379274889998,
+      "raw_one_sided_loss_mm2": 0.0396846349999912,
+      "largest_raw_loss_component_mm2": 0.018455114999999973,
+      "loss_outside_0p03mm_tolerance_mm2": 0.00990649500000075,
+      "largest_loss_component_outside_tolerance_mm2": 0.0063323500000010274
+    },
+    {
+      "z_mm": 11.0,
+      "baseline_changed_feature_coverage_mm2": 670.9248072600003,
+      "raw_one_sided_loss_mm2": 0.03706117500000715,
+      "largest_raw_loss_component_mm2": 0.01857163499999711,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006276514999998154,
+      "largest_loss_component_outside_tolerance_mm2": 0.006276514999998154
+    },
+    {
+      "z_mm": 13.4,
+      "baseline_changed_feature_coverage_mm2": 1188.4721193149992,
+      "raw_one_sided_loss_mm2": 0.0443209800000282,
+      "largest_raw_loss_component_mm2": 0.020572349999994945,
+      "loss_outside_0p03mm_tolerance_mm2": 0.006482630000000824,
+      "largest_loss_component_outside_tolerance_mm2": 0.005933380000000868
+    },
+    {
+      "z_mm": 53.6,
+      "baseline_changed_feature_coverage_mm2": 7.111100264999982,
+      "raw_one_sided_loss_mm2": 0.01783996499999915,
+      "largest_raw_loss_component_mm2": 0.01783996499999915,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0058231350000003046,
+      "largest_loss_component_outside_tolerance_mm2": 0.0058231350000003046
+    },
+    {
+      "z_mm": 53.4,
+      "baseline_changed_feature_coverage_mm2": 6.15786887500003,
+      "raw_one_sided_loss_mm2": 0.015560454999999376,
+      "largest_raw_loss_component_mm2": 0.015560219999999379,
+      "loss_outside_0p03mm_tolerance_mm2": 0.00578606999999959,
+      "largest_loss_component_outside_tolerance_mm2": 0.00578606999999959
+    },
+    {
+      "z_mm": 1.8,
+      "baseline_changed_feature_coverage_mm2": 65.37712180000003,
+      "raw_one_sided_loss_mm2": 0.07456864999999983,
+      "largest_raw_loss_component_mm2": 0.01779130999999991,
+      "loss_outside_0p03mm_tolerance_mm2": 0.01185740500000009,
+      "largest_loss_component_outside_tolerance_mm2": 0.005687180000000229
+    },
+    {
+      "z_mm": 54.2,
+      "baseline_changed_feature_coverage_mm2": 7.990968975000029,
+      "raw_one_sided_loss_mm2": 0.017162510000000398,
+      "largest_raw_loss_component_mm2": 0.0171622650000004,
+      "loss_outside_0p03mm_tolerance_mm2": 0.005234780000000491,
+      "largest_loss_component_outside_tolerance_mm2": 0.005234780000000491
+    },
+    {
+      "z_mm": 11.6,
+      "baseline_changed_feature_coverage_mm2": 957.7299547299992,
+      "raw_one_sided_loss_mm2": 0.03503447000001633,
+      "largest_raw_loss_component_mm2": 0.01963391500000356,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0073584250000021546,
+      "largest_loss_component_outside_tolerance_mm2": 0.004880574999999945
+    },
+    {
+      "z_mm": 8.2,
+      "baseline_changed_feature_coverage_mm2": 2741.2191221199964,
+      "raw_one_sided_loss_mm2": 0.03434318000003132,
+      "largest_raw_loss_component_mm2": 0.013648704999999574,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0045404449999986544,
+      "largest_loss_component_outside_tolerance_mm2": 0.0039037849999991924
+    },
+    {
+      "z_mm": 16.4,
+      "baseline_changed_feature_coverage_mm2": 1011.4938397600015,
+      "raw_one_sided_loss_mm2": 0.0013301400000261204,
+      "largest_raw_loss_component_mm2": 0.00016318499999293617,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0018307449999999258,
+      "largest_loss_component_outside_tolerance_mm2": 0.0011056450000000392
+    },
+    {
+      "z_mm": 16.2,
+      "baseline_changed_feature_coverage_mm2": 1101.980233184995,
+      "raw_one_sided_loss_mm2": 0.001375709999978829,
+      "largest_raw_loss_component_mm2": 0.00013465500000447013,
+      "loss_outside_0p03mm_tolerance_mm2": 0.002499014999999568,
+      "largest_loss_component_outside_tolerance_mm2": 0.001093904999999638
+    },
+    {
+      "z_mm": 36.8,
+      "baseline_changed_feature_coverage_mm2": 13.969360714999981,
+      "raw_one_sided_loss_mm2": 6.083500000066247e-05,
+      "largest_raw_loss_component_mm2": 2.023499999995311e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0024568849999999755,
+      "largest_loss_component_outside_tolerance_mm2": 0.0010840550000001336
+    },
+    {
+      "z_mm": 9.4,
+      "baseline_changed_feature_coverage_mm2": 1803.6479239549683,
+      "raw_one_sided_loss_mm2": 0.01576893500003296,
+      "largest_raw_loss_component_mm2": 0.014770375000003439,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0015814900000002377,
+      "largest_loss_component_outside_tolerance_mm2": 0.0009232750000003232
+    },
+    {
+      "z_mm": 0.6,
+      "baseline_changed_feature_coverage_mm2": 20123.076320839853,
+      "raw_one_sided_loss_mm2": 0.00022312499997160712,
+      "largest_raw_loss_component_mm2": 8.815999997779933e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0009599800000005617,
+      "largest_loss_component_outside_tolerance_mm2": 0.0005303100000002772
+    },
+    {
+      "z_mm": 13.8,
+      "baseline_changed_feature_coverage_mm2": 1250.3918585949993,
+      "raw_one_sided_loss_mm2": 0.014074725000002163,
+      "largest_raw_loss_component_mm2": 0.009144289999996617,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0006882599999987994,
+      "largest_loss_component_outside_tolerance_mm2": 0.0005131999999994234
+    },
+    {
+      "z_mm": 52.6,
+      "baseline_changed_feature_coverage_mm2": 5.152853779999962,
+      "raw_one_sided_loss_mm2": 0.0073349400000050895,
+      "largest_raw_loss_component_mm2": 0.006620265000000065,
+      "loss_outside_0p03mm_tolerance_mm2": 0.00021489500000004567,
+      "largest_loss_component_outside_tolerance_mm2": 0.00021489500000004567
+    },
+    {
+      "z_mm": 8.8,
+      "baseline_changed_feature_coverage_mm2": 2389.236365105,
+      "raw_one_sided_loss_mm2": 0.012269334999997897,
+      "largest_raw_loss_component_mm2": 0.008388339999999802,
+      "loss_outside_0p03mm_tolerance_mm2": 0.00013350499999982785,
+      "largest_loss_component_outside_tolerance_mm2": 0.00013350499999982785
+    },
+    {
+      "z_mm": 9.2,
+      "baseline_changed_feature_coverage_mm2": 1887.5044160550092,
+      "raw_one_sided_loss_mm2": 0.01034571000001923,
+      "largest_raw_loss_component_mm2": 0.006849979999998358,
+      "loss_outside_0p03mm_tolerance_mm2": 9.96849999993879e-05,
+      "largest_loss_component_outside_tolerance_mm2": 9.96849999993879e-05
+    },
+    {
+      "z_mm": 0.4,
+      "baseline_changed_feature_coverage_mm2": 20077.875558470176,
+      "raw_one_sided_loss_mm2": 0.0002672949999833002,
+      "largest_raw_loss_component_mm2": 6.849999998281812e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 1.2,
+      "baseline_changed_feature_coverage_mm2": 20150.510794475078,
+      "raw_one_sided_loss_mm2": 0.0001991850000008462,
+      "largest_raw_loss_component_mm2": 4.40500000014677e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 1.0,
+      "baseline_changed_feature_coverage_mm2": 20149.84024376011,
+      "raw_one_sided_loss_mm2": 0.0005169599999990856,
+      "largest_raw_loss_component_mm2": 0.0002028799999923219,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 0.8,
+      "baseline_changed_feature_coverage_mm2": 20148.721679920094,
+      "raw_one_sided_loss_mm2": 0.0044992450000500995,
+      "largest_raw_loss_component_mm2": 0.0001961150000065107,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 1.4,
+      "baseline_changed_feature_coverage_mm2": 63.729692719999974,
+      "raw_one_sided_loss_mm2": 0.0002578600000043776,
+      "largest_raw_loss_component_mm2": 5.008500000184754e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 1.6,
+      "baseline_changed_feature_coverage_mm2": 49.70247171500003,
+      "raw_one_sided_loss_mm2": 0.00020073999998929332,
+      "largest_raw_loss_component_mm2": 6.526499999753006e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 2.0,
+      "baseline_changed_feature_coverage_mm2": 48.555774679999914,
+      "raw_one_sided_loss_mm2": 0.00022555000000222487,
+      "largest_raw_loss_component_mm2": 6.502999999677797e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 2.2,
+      "baseline_changed_feature_coverage_mm2": 1388.1151917050008,
+      "raw_one_sided_loss_mm2": 0.0005718100000136468,
+      "largest_raw_loss_component_mm2": 8.953000000297198e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 2.4,
+      "baseline_changed_feature_coverage_mm2": 1387.6210611200006,
+      "raw_one_sided_loss_mm2": 0.0003238800000061049,
+      "largest_raw_loss_component_mm2": 8.207500000272357e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 2.6,
+      "baseline_changed_feature_coverage_mm2": 1389.484373585001,
+      "raw_one_sided_loss_mm2": 0.00040736500000406524,
+      "largest_raw_loss_component_mm2": 8.207500000272357e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 2.8,
+      "baseline_changed_feature_coverage_mm2": 1389.4877680700013,
+      "raw_one_sided_loss_mm2": 0.00025271500000359514,
+      "largest_raw_loss_component_mm2": 8.207500000272357e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 3.0,
+      "baseline_changed_feature_coverage_mm2": 47.799393315000025,
+      "raw_one_sided_loss_mm2": 3.589500000170106e-05,
+      "largest_raw_loss_component_mm2": 2.1025000000698517e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 3.2,
+      "baseline_changed_feature_coverage_mm2": 615.4921320000013,
+      "raw_one_sided_loss_mm2": 0.0009668850000245785,
+      "largest_raw_loss_component_mm2": 0.00011480000000380738,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 3.4,
+      "baseline_changed_feature_coverage_mm2": 614.4876690550013,
+      "raw_one_sided_loss_mm2": 0.001045150000018015,
+      "largest_raw_loss_component_mm2": 0.00011480000000380738,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 3.6,
+      "baseline_changed_feature_coverage_mm2": 614.1213290450015,
+      "raw_one_sided_loss_mm2": 0.0010060050000240076,
+      "largest_raw_loss_component_mm2": 0.00011480000000380738,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 3.8,
+      "baseline_changed_feature_coverage_mm2": 614.7733553950013,
+      "raw_one_sided_loss_mm2": 0.0009662350000169064,
+      "largest_raw_loss_component_mm2": 0.00011480000000380738,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 4.0,
+      "baseline_changed_feature_coverage_mm2": 614.4191758300017,
+      "raw_one_sided_loss_mm2": 0.0009814900000141597,
+      "largest_raw_loss_component_mm2": 0.00011480000000380738,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 4.2,
+      "baseline_changed_feature_coverage_mm2": 46.20743135000001,
+      "raw_one_sided_loss_mm2": 2.7350000000834237e-05,
+      "largest_raw_loss_component_mm2": 2.6305000000873213e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 4.4,
+      "baseline_changed_feature_coverage_mm2": 45.9014796899999,
+      "raw_one_sided_loss_mm2": 5.377999999381311e-05,
+      "largest_raw_loss_component_mm2": 2.6204999993471975e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 4.6,
+      "baseline_changed_feature_coverage_mm2": 45.58612318999997,
+      "raw_one_sided_loss_mm2": 0.00010251500000109197,
+      "largest_raw_loss_component_mm2": 6.777500000224986e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 4.8,
+      "baseline_changed_feature_coverage_mm2": 44.57885681499995,
+      "raw_one_sided_loss_mm2": 0.0002387650000009314,
+      "largest_raw_loss_component_mm2": 6.570500000218134e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 5.0,
+      "baseline_changed_feature_coverage_mm2": 44.25760482500014,
+      "raw_one_sided_loss_mm2": 8.853500000361433e-05,
+      "largest_raw_loss_component_mm2": 6.901500000296635e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 5.2,
+      "baseline_changed_feature_coverage_mm2": 44.71725074500006,
+      "raw_one_sided_loss_mm2": 0.00013203500000300564,
+      "largest_raw_loss_component_mm2": 6.40400000027618e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 5.4,
+      "baseline_changed_feature_coverage_mm2": 44.39936975999997,
+      "raw_one_sided_loss_mm2": 7.697000000207305e-05,
+      "largest_raw_loss_component_mm2": 2.822000000093641e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 5.6,
+      "baseline_changed_feature_coverage_mm2": 43.783010644999976,
+      "raw_one_sided_loss_mm2": 0.00010727500000247836,
+      "largest_raw_loss_component_mm2": 6.751000000090816e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 5.8,
+      "baseline_changed_feature_coverage_mm2": 43.29448536,
+      "raw_one_sided_loss_mm2": 6.541500000156214e-05,
+      "largest_raw_loss_component_mm2": 4.995000000165839e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 6.0,
+      "baseline_changed_feature_coverage_mm2": 42.944016474999984,
+      "raw_one_sided_loss_mm2": 0.00011221499999493764,
+      "largest_raw_loss_component_mm2": 6.206999999323976e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 6.2,
+      "baseline_changed_feature_coverage_mm2": 41.696601105000106,
+      "raw_one_sided_loss_mm2": 0.0001204850000040336,
+      "largest_raw_loss_component_mm2": 4.339000000140982e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 6.4,
+      "baseline_changed_feature_coverage_mm2": 42.66125809000002,
+      "raw_one_sided_loss_mm2": 4.946000000062069e-05,
+      "largest_raw_loss_component_mm2": 3.0310000001006248e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 6.6,
+      "baseline_changed_feature_coverage_mm2": 42.08487869999993,
+      "raw_one_sided_loss_mm2": 0.0001855300000057348,
+      "largest_raw_loss_component_mm2": 4.408000000146289e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 6.8,
+      "baseline_changed_feature_coverage_mm2": 41.88884643000003,
+      "raw_one_sided_loss_mm2": 0.00015940000000546088,
+      "largest_raw_loss_component_mm2": 5.92950000019854e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 7.0,
+      "baseline_changed_feature_coverage_mm2": 41.47794708500001,
+      "raw_one_sided_loss_mm2": 9.642500000074036e-05,
+      "largest_raw_loss_component_mm2": 4.5635000001514975e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 7.2,
+      "baseline_changed_feature_coverage_mm2": 136.3036378350006,
+      "raw_one_sided_loss_mm2": 0.0006678949999962996,
+      "largest_raw_loss_component_mm2": 0.00013757999999923916,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 7.4,
+      "baseline_changed_feature_coverage_mm2": 166.4809776950012,
+      "raw_one_sided_loss_mm2": 0.01918404500000275,
+      "largest_raw_loss_component_mm2": 0.015318314999994698,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 7.6,
+      "baseline_changed_feature_coverage_mm2": 258.86744930999464,
+      "raw_one_sided_loss_mm2": 0.0005165950000195627,
+      "largest_raw_loss_component_mm2": 7.49050000024877e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 7.8,
+      "baseline_changed_feature_coverage_mm2": 461.3728779149973,
+      "raw_one_sided_loss_mm2": 0.00012685499999547426,
+      "largest_raw_loss_component_mm2": 3.0465000001010494e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 8.4,
+      "baseline_changed_feature_coverage_mm2": 2987.4681734650085,
+      "raw_one_sided_loss_mm2": 0.0010176450000298103,
+      "largest_raw_loss_component_mm2": 0.00021947500000742463,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 9.0,
+      "baseline_changed_feature_coverage_mm2": 1558.2378130750071,
+      "raw_one_sided_loss_mm2": 0.0005500199999900221,
+      "largest_raw_loss_component_mm2": 7.812499999149125e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 9.6,
+      "baseline_changed_feature_coverage_mm2": 1622.0701843650045,
+      "raw_one_sided_loss_mm2": 0.0010709150000245797,
+      "largest_raw_loss_component_mm2": 0.00011078000000576624,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 9.8,
+      "baseline_changed_feature_coverage_mm2": 1497.1949375200022,
+      "raw_one_sided_loss_mm2": 0.0015574000000288834,
+      "largest_raw_loss_component_mm2": 9.780000000324678e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 10.0,
+      "baseline_changed_feature_coverage_mm2": 1071.3794918800006,
+      "raw_one_sided_loss_mm2": 0.00029832500000915246,
+      "largest_raw_loss_component_mm2": 9.327000000295953e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 10.2,
+      "baseline_changed_feature_coverage_mm2": 784.2707186749992,
+      "raw_one_sided_loss_mm2": 0.0004605499999896477,
+      "largest_raw_loss_component_mm2": 0.00018200999997944334,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 10.4,
+      "baseline_changed_feature_coverage_mm2": 669.8479587150002,
+      "raw_one_sided_loss_mm2": 0.00041101999997135045,
+      "largest_raw_loss_component_mm2": 0.00011413499997393927,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 10.6,
+      "baseline_changed_feature_coverage_mm2": 582.7023183849989,
+      "raw_one_sided_loss_mm2": 0.00043845999997630075,
+      "largest_raw_loss_component_mm2": 9.830499997342828e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 11.2,
+      "baseline_changed_feature_coverage_mm2": 693.4041540499993,
+      "raw_one_sided_loss_mm2": 0.0005146500000051163,
+      "largest_raw_loss_component_mm2": 0.00018981500000592177,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 11.4,
+      "baseline_changed_feature_coverage_mm2": 791.5486650450011,
+      "raw_one_sided_loss_mm2": 0.0003884600000069396,
+      "largest_raw_loss_component_mm2": 0.0001288300000035214,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 12.8,
+      "baseline_changed_feature_coverage_mm2": 1359.2488661799994,
+      "raw_one_sided_loss_mm2": 0.0005843550000030776,
+      "largest_raw_loss_component_mm2": 6.413000000212899e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 12.4,
+      "baseline_changed_feature_coverage_mm2": 1222.2376069899997,
+      "raw_one_sided_loss_mm2": 0.00035637499998048184,
+      "largest_raw_loss_component_mm2": 0.00010524999997303814,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 12.6,
+      "baseline_changed_feature_coverage_mm2": 1289.0943580199994,
+      "raw_one_sided_loss_mm2": 0.00035288000000785187,
+      "largest_raw_loss_component_mm2": 0.0001072200000035578,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 13.0,
+      "baseline_changed_feature_coverage_mm2": 1332.3415895000007,
+      "raw_one_sided_loss_mm2": 0.0005879449999988182,
+      "largest_raw_loss_component_mm2": 8.67900000028829e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 14.0,
+      "baseline_changed_feature_coverage_mm2": 1429.3869714750012,
+      "raw_one_sided_loss_mm2": 0.0008660600000249138,
+      "largest_raw_loss_component_mm2": 0.00013822500000458993,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 14.2,
+      "baseline_changed_feature_coverage_mm2": 1394.5196760250005,
+      "raw_one_sided_loss_mm2": 0.0007683300000057177,
+      "largest_raw_loss_component_mm2": 7.652000000254143e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 14.4,
+      "baseline_changed_feature_coverage_mm2": 1315.3150141049996,
+      "raw_one_sided_loss_mm2": 0.00033599500000696184,
+      "largest_raw_loss_component_mm2": 7.450000000272442e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 14.6,
+      "baseline_changed_feature_coverage_mm2": 1241.6060692250019,
+      "raw_one_sided_loss_mm2": 0.001005910000019929,
+      "largest_raw_loss_component_mm2": 0.00010627000000454356,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 14.8,
+      "baseline_changed_feature_coverage_mm2": 1294.5259800599963,
+      "raw_one_sided_loss_mm2": 0.0006647450000165059,
+      "largest_raw_loss_component_mm2": 0.00011216500000372374,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 15.0,
+      "baseline_changed_feature_coverage_mm2": 1291.0864852499992,
+      "raw_one_sided_loss_mm2": 0.0005959100000041088,
+      "largest_raw_loss_component_mm2": 0.00014011500000182808,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 15.2,
+      "baseline_changed_feature_coverage_mm2": 1384.1697028600001,
+      "raw_one_sided_loss_mm2": 0.00023794999998204554,
+      "largest_raw_loss_component_mm2": 8.79950000026667e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 15.4,
+      "baseline_changed_feature_coverage_mm2": 1415.3380218399998,
+      "raw_one_sided_loss_mm2": 0.0005783850000000148,
+      "largest_raw_loss_component_mm2": 0.00013657500000453793,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 15.8,
+      "baseline_changed_feature_coverage_mm2": 1081.9481964299998,
+      "raw_one_sided_loss_mm2": 0.0012652500000011773,
+      "largest_raw_loss_component_mm2": 0.00023626000000784297,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 15.6,
+      "baseline_changed_feature_coverage_mm2": 1136.2052956499992,
+      "raw_one_sided_loss_mm2": 0.0010574250000297558,
+      "largest_raw_loss_component_mm2": 0.0001320250000043815,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 16.0,
+      "baseline_changed_feature_coverage_mm2": 1000.3491560950002,
+      "raw_one_sided_loss_mm2": 0.0004398099999821382,
+      "largest_raw_loss_component_mm2": 0.00010021500000332682,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 16.6,
+      "baseline_changed_feature_coverage_mm2": 1033.1338423550044,
+      "raw_one_sided_loss_mm2": 0.0025722700000036973,
+      "largest_raw_loss_component_mm2": 0.00020572999997583996,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 16.8,
+      "baseline_changed_feature_coverage_mm2": 1128.2698396449996,
+      "raw_one_sided_loss_mm2": 0.0017742999999989443,
+      "largest_raw_loss_component_mm2": 0.0001553299999977948,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 17.2,
+      "baseline_changed_feature_coverage_mm2": 5177.6011281349765,
+      "raw_one_sided_loss_mm2": 0.00034886500001231964,
+      "largest_raw_loss_component_mm2": 9.916500000531483e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 17.4,
+      "baseline_changed_feature_coverage_mm2": 4943.304025205021,
+      "raw_one_sided_loss_mm2": 0.0001798249999928098,
+      "largest_raw_loss_component_mm2": 8.545999999065579e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 17.0,
+      "baseline_changed_feature_coverage_mm2": 963.3600674049994,
+      "raw_one_sided_loss_mm2": 0.00015929499998058449,
+      "largest_raw_loss_component_mm2": 8.256999997842602e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 18.0,
+      "baseline_changed_feature_coverage_mm2": 70.35811019499957,
+      "raw_one_sided_loss_mm2": 0.0009953850000101578,
+      "largest_raw_loss_component_mm2": 0.00012894500000298757,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 18.2,
+      "baseline_changed_feature_coverage_mm2": 145.21169233999998,
+      "raw_one_sided_loss_mm2": 0.0006971700000123699,
+      "largest_raw_loss_component_mm2": 0.0001187350000039411,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 18.4,
+      "baseline_changed_feature_coverage_mm2": 142.77862521000026,
+      "raw_one_sided_loss_mm2": 0.00035869499995514734,
+      "largest_raw_loss_component_mm2": 0.00011010999997290109,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 18.6,
+      "baseline_changed_feature_coverage_mm2": 140.94935862000008,
+      "raw_one_sided_loss_mm2": 0.0008478150000213288,
+      "largest_raw_loss_component_mm2": 0.00011297500000375052,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 17.8,
+      "baseline_changed_feature_coverage_mm2": 4256.75163461497,
+      "raw_one_sided_loss_mm2": 0.0006612450000075449,
+      "largest_raw_loss_component_mm2": 0.00012469500000414357,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 17.6,
+      "baseline_changed_feature_coverage_mm2": 4666.608742904983,
+      "raw_one_sided_loss_mm2": 0.0007042749999881399,
+      "largest_raw_loss_component_mm2": 0.00013318500000442088,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 18.8,
+      "baseline_changed_feature_coverage_mm2": 138.93555206000002,
+      "raw_one_sided_loss_mm2": 0.0003594900000134148,
+      "largest_raw_loss_component_mm2": 0.00012985500000431416,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 19.0,
+      "baseline_changed_feature_coverage_mm2": 136.21331228999912,
+      "raw_one_sided_loss_mm2": 0.000454414999984331,
+      "largest_raw_loss_component_mm2": 0.0001283200000040474,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 19.2,
+      "baseline_changed_feature_coverage_mm2": 103.07711549499994,
+      "raw_one_sided_loss_mm2": 0.0008064599999902756,
+      "largest_raw_loss_component_mm2": 0.0002334900000079479,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 19.4,
+      "baseline_changed_feature_coverage_mm2": 103.20679534499985,
+      "raw_one_sided_loss_mm2": 0.000737599999955204,
+      "largest_raw_loss_component_mm2": 0.00010861500000379151,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 19.6,
+      "baseline_changed_feature_coverage_mm2": 103.0606133749998,
+      "raw_one_sided_loss_mm2": 0.0015280150000508668,
+      "largest_raw_loss_component_mm2": 0.0002442200000080941,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 19.8,
+      "baseline_changed_feature_coverage_mm2": 103.94883729000003,
+      "raw_one_sided_loss_mm2": 0.00038233999998722355,
+      "largest_raw_loss_component_mm2": 7.940500000263582e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 20.0,
+      "baseline_changed_feature_coverage_mm2": 111.99968771499982,
+      "raw_one_sided_loss_mm2": 0.0008517300000281823,
+      "largest_raw_loss_component_mm2": 0.0001357800000044984,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 20.2,
+      "baseline_changed_feature_coverage_mm2": 113.1071638950006,
+      "raw_one_sided_loss_mm2": 0.0008186600000252806,
+      "largest_raw_loss_component_mm2": 0.00012157500000220534,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 20.4,
+      "baseline_changed_feature_coverage_mm2": 114.31236904000053,
+      "raw_one_sided_loss_mm2": 0.00023348500000744383,
+      "largest_raw_loss_component_mm2": 7.608500000252696e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 20.8,
+      "baseline_changed_feature_coverage_mm2": 116.93422590000056,
+      "raw_one_sided_loss_mm2": 0.00031323999997433965,
+      "largest_raw_loss_component_mm2": 0.00013137499997231683,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 21.0,
+      "baseline_changed_feature_coverage_mm2": 120.77351746999915,
+      "raw_one_sided_loss_mm2": 0.0007141700000231707,
+      "largest_raw_loss_component_mm2": 0.00011936500000395145,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 20.6,
+      "baseline_changed_feature_coverage_mm2": 115.5470547250009,
+      "raw_one_sided_loss_mm2": 0.0008249449999690564,
+      "largest_raw_loss_component_mm2": 0.00013944000000462586,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 21.2,
+      "baseline_changed_feature_coverage_mm2": 124.77503523500013,
+      "raw_one_sided_loss_mm2": 0.0003896650000150788,
+      "largest_raw_loss_component_mm2": 9.926500000313159e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 21.8,
+      "baseline_changed_feature_coverage_mm2": 151.49749926499993,
+      "raw_one_sided_loss_mm2": 0.0016077599999805338,
+      "largest_raw_loss_component_mm2": 0.0002373600000088738,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 21.6,
+      "baseline_changed_feature_coverage_mm2": 139.79068807000039,
+      "raw_one_sided_loss_mm2": 0.0003078799999859385,
+      "largest_raw_loss_component_mm2": 0.0001824899999822438,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 21.4,
+      "baseline_changed_feature_coverage_mm2": 131.34804295499913,
+      "raw_one_sided_loss_mm2": 0.00019669999998116409,
+      "largest_raw_loss_component_mm2": 8.819999997756348e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 22.0,
+      "baseline_changed_feature_coverage_mm2": 162.8947706349992,
+      "raw_one_sided_loss_mm2": 0.0012711250000111412,
+      "largest_raw_loss_component_mm2": 0.00017104000000596475,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 22.2,
+      "baseline_changed_feature_coverage_mm2": 178.20701226999964,
+      "raw_one_sided_loss_mm2": 0.0013291049999871627,
+      "largest_raw_loss_component_mm2": 0.00020320999994899447,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 22.4,
+      "baseline_changed_feature_coverage_mm2": 196.05994305000021,
+      "raw_one_sided_loss_mm2": 0.0017790850000071541,
+      "largest_raw_loss_component_mm2": 0.00025720000000853394,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 23.2,
+      "baseline_changed_feature_coverage_mm2": 1092.6699016249986,
+      "raw_one_sided_loss_mm2": 0.0001393049999975944,
+      "largest_raw_loss_component_mm2": 8.19599999968973e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 23.4,
+      "baseline_changed_feature_coverage_mm2": 1053.7487046300012,
+      "raw_one_sided_loss_mm2": 0.0008655500000101556,
+      "largest_raw_loss_component_mm2": 9.730000000321998e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 24.0,
+      "baseline_changed_feature_coverage_mm2": 48.48655767499992,
+      "raw_one_sided_loss_mm2": 9.534999999639365e-06,
+      "largest_raw_loss_component_mm2": 9.534999999639365e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 24.2,
+      "baseline_changed_feature_coverage_mm2": 48.25466834999998,
+      "raw_one_sided_loss_mm2": 7.977999999898811e-05,
+      "largest_raw_loss_component_mm2": 4.7119999999716694e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 23.6,
+      "baseline_changed_feature_coverage_mm2": 1006.5115222700017,
+      "raw_one_sided_loss_mm2": 4.6410000000415884e-05,
+      "largest_raw_loss_component_mm2": 2.1949999999948492e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 23.8,
+      "baseline_changed_feature_coverage_mm2": 677.8328214050006,
+      "raw_one_sided_loss_mm2": 0.00023400500000349722,
+      "largest_raw_loss_component_mm2": 3.7240000003341114e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 24.4,
+      "baseline_changed_feature_coverage_mm2": 47.80339259999995,
+      "raw_one_sided_loss_mm2": 7.09400000023552e-05,
+      "largest_raw_loss_component_mm2": 7.09400000023552e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 24.6,
+      "baseline_changed_feature_coverage_mm2": 47.53679769500004,
+      "raw_one_sided_loss_mm2": 0.00016152499999698856,
+      "largest_raw_loss_component_mm2": 8.684499999671182e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 24.8,
+      "baseline_changed_feature_coverage_mm2": 47.060082635000036,
+      "raw_one_sided_loss_mm2": 0.00015840499999883426,
+      "largest_raw_loss_component_mm2": 5.4575000000039314e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 23.0,
+      "baseline_changed_feature_coverage_mm2": 569.3661771599988,
+      "raw_one_sided_loss_mm2": 0.00036875500000576716,
+      "largest_raw_loss_component_mm2": 0.00012544000000453553,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 25.0,
+      "baseline_changed_feature_coverage_mm2": 46.46572253500001,
+      "raw_one_sided_loss_mm2": 6.146000000016134e-05,
+      "largest_raw_loss_component_mm2": 5.658999999999966e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 25.2,
+      "baseline_changed_feature_coverage_mm2": 45.644255294999994,
+      "raw_one_sided_loss_mm2": 0.00011899000000117892,
+      "largest_raw_loss_component_mm2": 7.070000000234706e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 25.4,
+      "baseline_changed_feature_coverage_mm2": 44.76049341000006,
+      "raw_one_sided_loss_mm2": 7.503500000029106e-05,
+      "largest_raw_loss_component_mm2": 5.579999999978787e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 25.6,
+      "baseline_changed_feature_coverage_mm2": 40.49106827500001,
+      "raw_one_sided_loss_mm2": 0.00010917500000240194,
+      "largest_raw_loss_component_mm2": 4.069500000135113e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 25.8,
+      "baseline_changed_feature_coverage_mm2": 40.20514823999997,
+      "raw_one_sided_loss_mm2": 0.00018935499999739574,
+      "largest_raw_loss_component_mm2": 8.280500000268365e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 26.0,
+      "baseline_changed_feature_coverage_mm2": 35.082537759999965,
+      "raw_one_sided_loss_mm2": 0.00013617999999545322,
+      "largest_raw_loss_component_mm2": 3.9309999995726375e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 26.2,
+      "baseline_changed_feature_coverage_mm2": 34.622841009999945,
+      "raw_one_sided_loss_mm2": 7.999999999678494e-08,
+      "largest_raw_loss_component_mm2": 7.999999999678494e-08,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 26.4,
+      "baseline_changed_feature_coverage_mm2": 47.81813223499995,
+      "raw_one_sided_loss_mm2": 0.0001273750000016285,
+      "largest_raw_loss_component_mm2": 3.84599999994548e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 26.6,
+      "baseline_changed_feature_coverage_mm2": 34.15512456499997,
+      "raw_one_sided_loss_mm2": 7.975500000128966e-05,
+      "largest_raw_loss_component_mm2": 4.22150000014016e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 26.8,
+      "baseline_changed_feature_coverage_mm2": 125.77820180000003,
+      "raw_one_sided_loss_mm2": 6.875499999933614e-05,
+      "largest_raw_loss_component_mm2": 3.7934999999667037e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 27.0,
+      "baseline_changed_feature_coverage_mm2": 124.95101574500006,
+      "raw_one_sided_loss_mm2": 5.1920000002014655e-05,
+      "largest_raw_loss_component_mm2": 2.569500000109727e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 27.2,
+      "baseline_changed_feature_coverage_mm2": 125.32562757000005,
+      "raw_one_sided_loss_mm2": 0.00016574500000138623,
+      "largest_raw_loss_component_mm2": 5.0570000000416556e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 27.6,
+      "baseline_changed_feature_coverage_mm2": 37.681734435000024,
+      "raw_one_sided_loss_mm2": 1.6039999998733122e-05,
+      "largest_raw_loss_component_mm2": 1.2179999998673487e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 27.4,
+      "baseline_changed_feature_coverage_mm2": 124.80363067500001,
+      "raw_one_sided_loss_mm2": 3.8814999998522206e-05,
+      "largest_raw_loss_component_mm2": 1.7119999999766726e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 28.0,
+      "baseline_changed_feature_coverage_mm2": 53.68182764499998,
+      "raw_one_sided_loss_mm2": 9.837000000238501e-05,
+      "largest_raw_loss_component_mm2": 8.690000000288476e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 27.8,
+      "baseline_changed_feature_coverage_mm2": 62.62085548500005,
+      "raw_one_sided_loss_mm2": 0.00010060500000152478,
+      "largest_raw_loss_component_mm2": 4.170999999972627e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 28.2,
+      "baseline_changed_feature_coverage_mm2": 50.16813485,
+      "raw_one_sided_loss_mm2": 8.762000000290876e-05,
+      "largest_raw_loss_component_mm2": 8.687500000288381e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 28.4,
+      "baseline_changed_feature_coverage_mm2": 47.40131703500006,
+      "raw_one_sided_loss_mm2": 0.0001133600000008302,
+      "largest_raw_loss_component_mm2": 6.357500000009342e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 28.6,
+      "baseline_changed_feature_coverage_mm2": 45.45375074500003,
+      "raw_one_sided_loss_mm2": 4.79599999988435e-05,
+      "largest_raw_loss_component_mm2": 3.0179999998604153e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 29.0,
+      "baseline_changed_feature_coverage_mm2": 38.75892899999996,
+      "raw_one_sided_loss_mm2": 5.979999999929316e-06,
+      "largest_raw_loss_component_mm2": 3.98499999999084e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 28.8,
+      "baseline_changed_feature_coverage_mm2": 39.076170985000005,
+      "raw_one_sided_loss_mm2": 8.602999999969758e-05,
+      "largest_raw_loss_component_mm2": 5.362500000010567e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 29.2,
+      "baseline_changed_feature_coverage_mm2": 38.733943044999975,
+      "raw_one_sided_loss_mm2": 3.523000000078644e-05,
+      "largest_raw_loss_component_mm2": 1.5805000000699577e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 29.4,
+      "baseline_changed_feature_coverage_mm2": 39.63040607500005,
+      "raw_one_sided_loss_mm2": 2.71150000005791e-05,
+      "largest_raw_loss_component_mm2": 1.8050000000600572e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 29.6,
+      "baseline_changed_feature_coverage_mm2": 43.255723200000034,
+      "raw_one_sided_loss_mm2": 1.9359999999956657e-05,
+      "largest_raw_loss_component_mm2": 1.554999999996411e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 29.8,
+      "baseline_changed_feature_coverage_mm2": 46.68892517000002,
+      "raw_one_sided_loss_mm2": 2.2885000000764453e-05,
+      "largest_raw_loss_component_mm2": 2.0180000000670125e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 30.0,
+      "baseline_changed_feature_coverage_mm2": 37.03102842500002,
+      "raw_one_sided_loss_mm2": 7.820999999967489e-05,
+      "largest_raw_loss_component_mm2": 7.55149999995853e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 30.2,
+      "baseline_changed_feature_coverage_mm2": 112.80778932499994,
+      "raw_one_sided_loss_mm2": 0.00017465000000093113,
+      "largest_raw_loss_component_mm2": 6.249499999943142e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 30.4,
+      "baseline_changed_feature_coverage_mm2": 110.92990625499998,
+      "raw_one_sided_loss_mm2": 4.188499999989518e-05,
+      "largest_raw_loss_component_mm2": 3.685999999995804e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 30.8,
+      "baseline_changed_feature_coverage_mm2": 106.94359593999998,
+      "raw_one_sided_loss_mm2": 4.465000000113321e-05,
+      "largest_raw_loss_component_mm2": 2.4980000000828942e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 30.6,
+      "baseline_changed_feature_coverage_mm2": 109.56633977000004,
+      "raw_one_sided_loss_mm2": 1.499000000050016e-05,
+      "largest_raw_loss_component_mm2": 1.0525000000349555e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 31.0,
+      "baseline_changed_feature_coverage_mm2": 48.93118613499998,
+      "raw_one_sided_loss_mm2": 5.56200000005799e-05,
+      "largest_raw_loss_component_mm2": 2.8095000000933083e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 31.4,
+      "baseline_changed_feature_coverage_mm2": 31.04369001,
+      "raw_one_sided_loss_mm2": 8.061500000067176e-05,
+      "largest_raw_loss_component_mm2": 6.514500000015802e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 31.2,
+      "baseline_changed_feature_coverage_mm2": 24.612542535000024,
+      "raw_one_sided_loss_mm2": 8.084999999948868e-05,
+      "largest_raw_loss_component_mm2": 4.925499999956223e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 31.6,
+      "baseline_changed_feature_coverage_mm2": 29.934327075000063,
+      "raw_one_sided_loss_mm2": 0.00011227500000087466,
+      "largest_raw_loss_component_mm2": 5.642499999951211e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 32.0,
+      "baseline_changed_feature_coverage_mm2": 131.488440065,
+      "raw_one_sided_loss_mm2": 0.00019298499999909814,
+      "largest_raw_loss_component_mm2": 5.222499999914994e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 32.2,
+      "baseline_changed_feature_coverage_mm2": 131.50157175999996,
+      "raw_one_sided_loss_mm2": 0.00010326499999879972,
+      "largest_raw_loss_component_mm2": 4.576999999852949e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 31.8,
+      "baseline_changed_feature_coverage_mm2": 88.97282202000002,
+      "raw_one_sided_loss_mm2": 8.329499999964743e-05,
+      "largest_raw_loss_component_mm2": 5.303499999910851e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 32.4,
+      "baseline_changed_feature_coverage_mm2": 130.64140643999997,
+      "raw_one_sided_loss_mm2": 6.24799999981674e-05,
+      "largest_raw_loss_component_mm2": 2.49999999972772e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 32.6,
+      "baseline_changed_feature_coverage_mm2": 74.01322990000011,
+      "raw_one_sided_loss_mm2": 7.648999999968646e-05,
+      "largest_raw_loss_component_mm2": 3.3644999999468186e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 32.8,
+      "baseline_changed_feature_coverage_mm2": 28.74693115000001,
+      "raw_one_sided_loss_mm2": 7.001499999953584e-05,
+      "largest_raw_loss_component_mm2": 6.409500000018054e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 33.2,
+      "baseline_changed_feature_coverage_mm2": 30.080763704999967,
+      "raw_one_sided_loss_mm2": 3.0695000000778e-05,
+      "largest_raw_loss_component_mm2": 2.3230000000771016e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 33.0,
+      "baseline_changed_feature_coverage_mm2": 24.847563870000023,
+      "raw_one_sided_loss_mm2": 9.20299999989039e-05,
+      "largest_raw_loss_component_mm2": 6.889000000228765e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 33.4,
+      "baseline_changed_feature_coverage_mm2": 31.226743514999995,
+      "raw_one_sided_loss_mm2": 4.4585000000118504e-05,
+      "largest_raw_loss_component_mm2": 3.709999999991305e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 34.0,
+      "baseline_changed_feature_coverage_mm2": 18.649760285000035,
+      "raw_one_sided_loss_mm2": 9.430000000222142e-06,
+      "largest_raw_loss_component_mm2": 7.430000000246032e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 33.6,
+      "baseline_changed_feature_coverage_mm2": 20.677216005,
+      "raw_one_sided_loss_mm2": 5.213499999965236e-05,
+      "largest_raw_loss_component_mm2": 2.3889999999815103e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 33.8,
+      "baseline_changed_feature_coverage_mm2": 18.89675093499997,
+      "raw_one_sided_loss_mm2": 0.00016980000000158365,
+      "largest_raw_loss_component_mm2": 7.715500000023134e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 34.8,
+      "baseline_changed_feature_coverage_mm2": 17.240018580000037,
+      "raw_one_sided_loss_mm2": 9.748500000094123e-05,
+      "largest_raw_loss_component_mm2": 5.644499999973708e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 34.2,
+      "baseline_changed_feature_coverage_mm2": 18.342217920000007,
+      "raw_one_sided_loss_mm2": 1.2309999999772269e-05,
+      "largest_raw_loss_component_mm2": 1.157499999977374e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 34.6,
+      "baseline_changed_feature_coverage_mm2": 17.492130769999985,
+      "raw_one_sided_loss_mm2": 0.0001246549999997628,
+      "largest_raw_loss_component_mm2": 6.411999999970734e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 34.4,
+      "baseline_changed_feature_coverage_mm2": 17.780356890000007,
+      "raw_one_sided_loss_mm2": 9.725500000169838e-05,
+      "largest_raw_loss_component_mm2": 4.3035000001428325e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 35.0,
+      "baseline_changed_feature_coverage_mm2": 16.93170884999998,
+      "raw_one_sided_loss_mm2": 1.326999999975536e-05,
+      "largest_raw_loss_component_mm2": 1.326999999975536e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 35.4,
+      "baseline_changed_feature_coverage_mm2": 16.316739969999986,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 35.2,
+      "baseline_changed_feature_coverage_mm2": 16.670689264999993,
+      "raw_one_sided_loss_mm2": 1.481500000023164e-05,
+      "largest_raw_loss_component_mm2": 9.805000000324277e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 35.6,
+      "baseline_changed_feature_coverage_mm2": 15.950134079999996,
+      "raw_one_sided_loss_mm2": 8.044999999907794e-06,
+      "largest_raw_loss_component_mm2": 6.889999999983876e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 35.8,
+      "baseline_changed_feature_coverage_mm2": 15.678225905000005,
+      "raw_one_sided_loss_mm2": 4.821000000123527e-05,
+      "largest_raw_loss_component_mm2": 1.937500000064315e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 36.0,
+      "baseline_changed_feature_coverage_mm2": 15.473139764999962,
+      "raw_one_sided_loss_mm2": 1.7995000000597175e-05,
+      "largest_raw_loss_component_mm2": 1.5825000000525223e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 36.2,
+      "baseline_changed_feature_coverage_mm2": 15.25561369999999,
+      "raw_one_sided_loss_mm2": 9.049999999656547e-06,
+      "largest_raw_loss_component_mm2": 9.049999999656547e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 36.4,
+      "baseline_changed_feature_coverage_mm2": 14.750990775000036,
+      "raw_one_sided_loss_mm2": 5.3215000001765994e-05,
+      "largest_raw_loss_component_mm2": 3.312000000109902e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 37.0,
+      "baseline_changed_feature_coverage_mm2": 13.334036829999986,
+      "raw_one_sided_loss_mm2": 8.198500000063162e-05,
+      "largest_raw_loss_component_mm2": 5.8535000000686565e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 36.6,
+      "baseline_changed_feature_coverage_mm2": 14.404477240000032,
+      "raw_one_sided_loss_mm2": 5.589999999112056e-06,
+      "largest_raw_loss_component_mm2": 3.4849999991252425e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 37.2,
+      "baseline_changed_feature_coverage_mm2": 11.80464219000002,
+      "raw_one_sided_loss_mm2": 1.8755000001381273e-05,
+      "largest_raw_loss_component_mm2": 1.8755000001381273e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 37.4,
+      "baseline_changed_feature_coverage_mm2": 10.531602705000008,
+      "raw_one_sided_loss_mm2": 6.936500000232575e-05,
+      "largest_raw_loss_component_mm2": 6.533000000216888e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 37.8,
+      "baseline_changed_feature_coverage_mm2": 9.752904610000002,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 37.6,
+      "baseline_changed_feature_coverage_mm2": 10.270080835000027,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 38.2,
+      "baseline_changed_feature_coverage_mm2": 8.991261594999997,
+      "raw_one_sided_loss_mm2": 3.0279999998734887e-05,
+      "largest_raw_loss_component_mm2": 2.460499999854676e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 38.0,
+      "baseline_changed_feature_coverage_mm2": 9.515070410000009,
+      "raw_one_sided_loss_mm2": 8.103999999998926e-05,
+      "largest_raw_loss_component_mm2": 8.103999999998926e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 38.4,
+      "baseline_changed_feature_coverage_mm2": 8.576023740000013,
+      "raw_one_sided_loss_mm2": 1.9654999998987166e-05,
+      "largest_raw_loss_component_mm2": 1.8284999998940618e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 38.6,
+      "baseline_changed_feature_coverage_mm2": 8.340376280000022,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 38.8,
+      "baseline_changed_feature_coverage_mm2": 8.038383065000007,
+      "raw_one_sided_loss_mm2": 0.00022002500000165096,
+      "largest_raw_loss_component_mm2": 7.227499999865485e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 39.2,
+      "baseline_changed_feature_coverage_mm2": 7.2187399900000075,
+      "raw_one_sided_loss_mm2": 3.5700000001183624e-06,
+      "largest_raw_loss_component_mm2": 3.5700000001183624e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 39.0,
+      "baseline_changed_feature_coverage_mm2": 7.389602730000005,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 39.4,
+      "baseline_changed_feature_coverage_mm2": 6.978833754999992,
+      "raw_one_sided_loss_mm2": 1.7700000000585418e-06,
+      "largest_raw_loss_component_mm2": 1.7700000000585418e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 39.6,
+      "baseline_changed_feature_coverage_mm2": 6.732495949999992,
+      "raw_one_sided_loss_mm2": 0.00013728999999997429,
+      "largest_raw_loss_component_mm2": 6.779500000225155e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 40.0,
+      "baseline_changed_feature_coverage_mm2": 6.045906579999992,
+      "raw_one_sided_loss_mm2": 2.8140000000039365e-05,
+      "largest_raw_loss_component_mm2": 1.5540000000515894e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 39.8,
+      "baseline_changed_feature_coverage_mm2": 6.233774385000014,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 51.4,
+      "baseline_changed_feature_coverage_mm2": 6.327308125000018,
+      "raw_one_sided_loss_mm2": 2.9549999999931573e-06,
+      "largest_raw_loss_component_mm2": 2.9549999999931573e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 40.2,
+      "baseline_changed_feature_coverage_mm2": 5.878233050000011,
+      "raw_one_sided_loss_mm2": 3.940000000199062e-06,
+      "largest_raw_loss_component_mm2": 2.50000000008356e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 51.6,
+      "baseline_changed_feature_coverage_mm2": 7.363587640000042,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 51.8,
+      "baseline_changed_feature_coverage_mm2": 8.395205009999993,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 52.0,
+      "baseline_changed_feature_coverage_mm2": 9.381448979999998,
+      "raw_one_sided_loss_mm2": 3.1499999999977517e-07,
+      "largest_raw_loss_component_mm2": 3.1499999999977517e-07,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 52.2,
+      "baseline_changed_feature_coverage_mm2": 10.287118269999969,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 52.8,
+      "baseline_changed_feature_coverage_mm2": 6.085948175000005,
+      "raw_one_sided_loss_mm2": 0.015631889999987335,
+      "largest_raw_loss_component_mm2": 0.009139144999990016,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 52.4,
+      "baseline_changed_feature_coverage_mm2": 5.059626965000021,
+      "raw_one_sided_loss_mm2": 3.688500000130143e-05,
+      "largest_raw_loss_component_mm2": 3.688500000130143e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 53.0,
+      "baseline_changed_feature_coverage_mm2": 6.291158080000011,
+      "raw_one_sided_loss_mm2": 1.3104999999665355e-05,
+      "largest_raw_loss_component_mm2": 6.024999999985594e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 53.2,
+      "baseline_changed_feature_coverage_mm2": 6.535609249999925,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 54.0,
+      "baseline_changed_feature_coverage_mm2": 7.529634315000089,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 53.8,
+      "baseline_changed_feature_coverage_mm2": 6.8989133750000065,
+      "raw_one_sided_loss_mm2": 1.5749999999960337e-06,
+      "largest_raw_loss_component_mm2": 1.5749999999960337e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 58.2,
+      "baseline_changed_feature_coverage_mm2": 5.388307380000012,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 54.6,
+      "baseline_changed_feature_coverage_mm2": 7.895744665000017,
+      "raw_one_sided_loss_mm2": 6.015000000004116e-06,
+      "largest_raw_loss_component_mm2": 5.589999999987089e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 58.4,
+      "baseline_changed_feature_coverage_mm2": 5.743927135,
+      "raw_one_sided_loss_mm2": 1.0220000000245484e-05,
+      "largest_raw_loss_component_mm2": 1.0220000000245484e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 54.4,
+      "baseline_changed_feature_coverage_mm2": 8.084967740000014,
+      "raw_one_sided_loss_mm2": 3.2050000000911092e-06,
+      "largest_raw_loss_component_mm2": 1.590000000055827e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 58.8,
+      "baseline_changed_feature_coverage_mm2": 5.8282453699999985,
+      "raw_one_sided_loss_mm2": 2.772500000022131e-05,
+      "largest_raw_loss_component_mm2": 1.5599999999964235e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 59.0,
+      "baseline_changed_feature_coverage_mm2": 5.313644120000012,
+      "raw_one_sided_loss_mm2": 3.882999999934545e-05,
+      "largest_raw_loss_component_mm2": 1.9534999999954953e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 58.6,
+      "baseline_changed_feature_coverage_mm2": 5.814622819999989,
+      "raw_one_sided_loss_mm2": 5.119499999896556e-05,
+      "largest_raw_loss_component_mm2": 3.792999999946793e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 59.2,
+      "baseline_changed_feature_coverage_mm2": 4.056523455000008,
+      "raw_one_sided_loss_mm2": 7.30000000006012e-07,
+      "largest_raw_loss_component_mm2": 7.30000000006012e-07,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 59.6,
+      "baseline_changed_feature_coverage_mm2": 6.098514199999968,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 59.4,
+      "baseline_changed_feature_coverage_mm2": 8.26732860000003,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 59.8,
+      "baseline_changed_feature_coverage_mm2": 7.216083564999988,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 60.0,
+      "baseline_changed_feature_coverage_mm2": 1.5621516799999862,
+      "raw_one_sided_loss_mm2": 3.7850000001257096e-06,
+      "largest_raw_loss_component_mm2": 3.7850000001257096e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 60.2,
+      "baseline_changed_feature_coverage_mm2": 18.46100004999997,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 60.4,
+      "baseline_changed_feature_coverage_mm2": 17.13195101499997,
+      "raw_one_sided_loss_mm2": 9.959999999962547e-06,
+      "largest_raw_loss_component_mm2": 5.369999999987404e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 60.6,
+      "baseline_changed_feature_coverage_mm2": 15.636657085000003,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 61.0,
+      "baseline_changed_feature_coverage_mm2": 4.810466545000017,
+      "raw_one_sided_loss_mm2": 4.7500000001581596e-07,
+      "largest_raw_loss_component_mm2": 4.7500000001581596e-07,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 60.8,
+      "baseline_changed_feature_coverage_mm2": 13.535643135000011,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 64.6,
+      "baseline_changed_feature_coverage_mm2": 23.279103335000002,
+      "raw_one_sided_loss_mm2": 0.0002173849999985453,
+      "largest_raw_loss_component_mm2": 7.97749999989741e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 64.8,
+      "baseline_changed_feature_coverage_mm2": 23.269719230000078,
+      "raw_one_sided_loss_mm2": 5.60400000019233e-05,
+      "largest_raw_loss_component_mm2": 2.9265000000971986e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 65.0,
+      "baseline_changed_feature_coverage_mm2": 26.10678216499963,
+      "raw_one_sided_loss_mm2": 2.3260000000118792e-05,
+      "largest_raw_loss_component_mm2": 6.775000000383037e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 65.2,
+      "baseline_changed_feature_coverage_mm2": 30.044980089999797,
+      "raw_one_sided_loss_mm2": 4.6325000000261646e-05,
+      "largest_raw_loss_component_mm2": 2.9235000000792766e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 65.6,
+      "baseline_changed_feature_coverage_mm2": 38.41391170000014,
+      "raw_one_sided_loss_mm2": 0.00011481499999869422,
+      "largest_raw_loss_component_mm2": 3.9274999999907706e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 65.4,
+      "baseline_changed_feature_coverage_mm2": 34.49124209000013,
+      "raw_one_sided_loss_mm2": 4.300999999959223e-05,
+      "largest_raw_loss_component_mm2": 4.300999999959223e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 66.0,
+      "baseline_changed_feature_coverage_mm2": 152.43425003499974,
+      "raw_one_sided_loss_mm2": 1.7929999999544635e-05,
+      "largest_raw_loss_component_mm2": 6.699999999985113e-06,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 66.2,
+      "baseline_changed_feature_coverage_mm2": 166.89676268499997,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 66.4,
+      "baseline_changed_feature_coverage_mm2": 159.12679976499993,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 65.8,
+      "baseline_changed_feature_coverage_mm2": 112.28013662,
+      "raw_one_sided_loss_mm2": 7.73400000005854e-05,
+      "largest_raw_loss_component_mm2": 2.8075000000133457e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 66.8,
+      "baseline_changed_feature_coverage_mm2": 75.78310418500004,
+      "raw_one_sided_loss_mm2": 6.833000000063167e-05,
+      "largest_raw_loss_component_mm2": 6.10750000003072e-05,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 66.6,
+      "baseline_changed_feature_coverage_mm2": 150.57054850500006,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 67.0,
+      "baseline_changed_feature_coverage_mm2": 130.17973434999996,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 67.2,
+      "baseline_changed_feature_coverage_mm2": 117.92341601999996,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 67.4,
+      "baseline_changed_feature_coverage_mm2": 104.22527595500009,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 67.8,
+      "baseline_changed_feature_coverage_mm2": 68.308971,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    },
+    {
+      "z_mm": 67.6,
+      "baseline_changed_feature_coverage_mm2": 88.04258150499994,
+      "raw_one_sided_loss_mm2": 0.0,
+      "largest_raw_loss_component_mm2": 0,
+      "loss_outside_0p03mm_tolerance_mm2": 0.0,
+      "largest_loss_component_outside_tolerance_mm2": 0
+    }
+  ],
+  "total_raw_loss_mm2": 0.9552880200004179,
+  "total_loss_outside_tolerance_mm2": 0.2141797099999945
+}
