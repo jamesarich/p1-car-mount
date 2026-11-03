@@ -1,6 +1,6 @@
 # SenseCAP Solar Node P1 magnetic roof mount
 
-![N-type frame](images/overall.png)
+![N-type frame built and sitting on a truck roof](images/photo-side.jpg)
 
 A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pro. The node bolts to a center hub through its two 1/4-20 back inserts, tilted 4° nose down. Six stud magnets hold the frame to the roof. A swept pylon behind the node carries the antenna on its bulkhead connector: an N-type bulkhead for an external antenna, or the node's stock RP-SMA rod. Version 1.0.
 
@@ -8,7 +8,15 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 
 Not affiliated with or endorsed by Seeed, ALFA, DIYMAG or any other vendor named here.
 
-![Stock-antenna frame](images/overall-stock.png)
+The N-type frame as built, from the top, the rear and the left side:
+
+<img src="images/photo-top.jpg" width="32%" alt="N-type frame from above, solar panel facing up"> <img src="images/photo-rear.jpg" width="32%" alt="N-type frame from the rear, showing the pylon cable channel"> <img src="images/photo-cable.jpg" width="32%" alt="N-type frame from the left, showing the antenna and cable to the node jack">
+
+Renders of the N-type and stock frames:
+
+![N-type frame render](images/overall.png)
+
+![Stock-antenna frame render](images/overall-stock.png)
 
 ## Files
 
