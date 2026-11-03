@@ -4,6 +4,10 @@
 
 A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pro. The node bolts to a center hub through its two 1/4-20 back inserts, tilted 4° nose down. Six stud magnets hold the frame to the roof. A swept pylon behind the node carries the antenna on its bulkhead connector: an N-type bulkhead for an external antenna, or the node's stock RP-SMA rod. Version 1.0.
 
+> **Warning: this holds a roof-mounted load with magnets, and nobody has road-tested it.** Use it on a steel roof only; aluminum and composite roofs will not hold, so test a bare magnet first. The 30 lb magnet rating is straight-pull on thick flat steel, and sliding grip through paint and rubber is much lower. A curved roof may keep some feet from seating. Keep the roof and feet clean, since grit scratches paint. No car washes, and no highway speeds until you have tested it at low speed on your own car. A tether to a roof rail or door is a sensible backstop. Check the magnets before every drive. Keep magnets away from pacemakers, and mind your fingers. You build and use it at your own risk, and roof loads may be regulated where you live.
+
+Not affiliated with or endorsed by Seeed, ALFA, DIYMAG or any other vendor named here.
+
 ![Stock-antenna frame](images/overall-stock.png)
 
 ## Files
@@ -11,7 +15,7 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 | File | Print? | Purpose | `antenna` | `part` |
 |---|---|---|---|---|
 | `p1-roof-mount-n-type.stl` | yes | Frame for an N-type bulkhead antenna | `alfa` | `mount` |
-| `p1-roof-mount-stock.stl` | or this | Frame for the stock RP-SMA antenna | `stock` | `mount` |
+| `p1-roof-mount-stock.stl` | or this (untested) | Frame for the stock RP-SMA antenna; never printed | `stock` | `mount` |
 | `p1-coupon-pylon.stl` | test | N-type pylon: washer, nut, bore fit and support cleanup | `alfa` | `coupon` |
 | `p1-coupon-seat.stl` | test | Node screw pockets and tool access | either | `seat_coupon` |
 | `p1-coupon-front-foot.stl` | test | Front magnet foot | either | `foot_coupon` |
@@ -30,7 +34,7 @@ A one-piece magnetic car-roof mount for the Seeed SenseCAP Solar Node P1 / P1-Pr
 - Orientation: feet down, as exported. Center on the bed.
 - Supports: under the pylon crown and hardware chamber, and the two node-screw ceilings. The flat feet need none.
 
-The N-type pylon has been printed and assembled with the same geometry as this release and works. The stock pylon has not been printed. Treat these as starting settings and tune with the coupons.
+The N-type frame has been printed in ASA and assembled, and works. The stock frame has not been printed, so treat it as untested. Treat these as starting settings and tune with the coupons.
 
 ## Bill of materials
 
@@ -58,14 +62,14 @@ N-type hardware dimensions are modeled from datasheets and are still provisional
 
 ## Rebuild
 
-Needs OpenSCAD on PATH and Python 3.
+Needs a recent OpenSCAD nightly with the Manifold backend on PATH (the manifest records 2026.10.11) and Python 3.
 
 ```sh
 python3 tools/check_parameters.py
 python3 tools/build_models.py
 ```
 
-The build writes the seven STLs and `BUILD-MANIFEST.json` only after its geometry checks pass. OpenSCAD tessellation varies between runs, so a rebuild passes the same checks but does not reproduce the released mesh hashes. Renders come from the `.scad` scripts in `images/`, each of which stores its camera:
+The build writes the seven STLs and `BUILD-MANIFEST.json` only after its geometry checks pass. OpenSCAD tessellation varies between runs, so a rebuild passes the same checks but does not reproduce the released mesh hashes. The section audits in `audits/` regenerate with the `audit_layers.py` commands in `docs/validation.md`. Renders come from the `.scad` scripts in `images/`, each of which stores its camera:
 
 ```sh
 openscad --render --colorscheme Tomorrow --imgsize 1300,1000 -o images/overall.png images/overall.scad
@@ -82,8 +86,8 @@ openscad --render --colorscheme Tomorrow --imgsize 1300,1000 -o images/overall.p
 
 ## Limits
 
-No aerodynamic, road-load, torque or temperature testing has been done. Check the magnets before every drive.
+No aerodynamic, road-load, torque or temperature testing has been done. See the warning at the top.
 
 ## License
 
-Copyright 2026 James Rich. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); see `LICENSE`.
+Copyright 2026 James Rich. The models, STLs, renders and docs are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); see `LICENSE`. The scripts in `tools/` are licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html); see `tools/LICENSE`.
