@@ -1,6 +1,6 @@
 # Print notes
 
-One printed frame with direct bulkhead antenna mounting and no fasteners for the antenna bracket (the node screws, magnet nuts and connector nut are in the README bill of materials). The source is `p1-roof-mount.scad`; the N-type frame is `p1-roof-mount-n-type.stl` (`antenna = "alfa"` in the source, after the ALFA antenna it was sized for) and the stock-antenna frame is `p1-roof-mount-stock.stl` (`antenna = "stock"`).
+One printed frame with direct bulkhead antenna mounting and no fasteners for the antenna bracket (the node screws and magnet nuts are in the README bill of materials; the connector nut ships on the cable). The source is `p1-roof-mount.scad`; the N-type frame is `p1-roof-mount-n-type.stl` (`antenna = "alfa"` in the source, after the ALFA antenna it was sized for) and the stock-antenna frame is `p1-roof-mount-stock.stl` (`antenna = "stock"`).
 
 ## Design
 
@@ -38,7 +38,7 @@ The complete frame needs selective support or bridging:
 - The rounded pylon crown, where the slicer shows shallow overhangs. Remove these supports through the upper opening; the 10 mm lower cable exit is not the removal route.
 - The magnet foot bearing faces are flat and their vertical stud holes have first-layer lead-ins, so the feet need no support.
 
-The horizontal-section audit is a geometry check, not a sliced toolpath. The N-type frame has been printed and assembled and works; the stock frame has not been printed. Print the pylon coupon first for N-type fit and support cleanup, and the seat coupon to confirm the actual screw heads and socket reach both ends of the slots.
+The horizontal-section audit is a geometry check, not a sliced toolpath. The N-type frame has been printed, fits and assembles as described; the stock frame has not been printed. Print the pylon coupon first for N-type fit and support cleanup, and the seat coupon to confirm the actual screw heads and socket reach both ends of the slots.
 
 ## Assembly
 
@@ -65,4 +65,4 @@ python3 tools/check_parameters.py
 python3 tools/build_models.py
 ```
 
-The build uses `openscad` from PATH and publishes exports only after geometry checks pass. `BUILD-MANIFEST.json` records source and mesh hashes, topology/bounds, source-level interference checks, exported bore and hardware insertion probes, screw/tool travel, rounded-nut rotation stops, lower-pylon and root sections, front/side radial wall thickness, and downward-face measurements. Source interference checks run as two unions (N-type and stock); each union must be empty, so every constituent check must be empty. `docs/validation.md` summarizes the measured results.
+The build uses a recent OpenSCAD nightly with the Manifold backend from PATH and publishes exports only after geometry checks pass. `BUILD-MANIFEST.json` records source and mesh hashes, topology/bounds, source-level interference checks, exported bore and hardware insertion probes, screw/tool travel, rounded-nut rotation stops, lower-pylon and root sections, front/side radial wall thickness, and downward-face measurements. Source interference checks run as two unions (N-type and stock); each union must be empty, so every constituent check must be empty. `docs/validation.md` summarizes the measured results.

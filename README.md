@@ -34,7 +34,7 @@ Not affiliated with or endorsed by Seeed, ALFA, DIYMAG or any other vendor named
 - Orientation: feet down, as exported. Center on the bed.
 - Supports: under the pylon crown and hardware chamber, and the two node-screw ceilings. The flat feet need none.
 
-The N-type frame has been printed in ASA and assembled, and works. The stock frame has not been printed, so treat it as untested. Treat these as starting settings and tune with the coupons.
+The N-type frame has been printed in ASA, fits and assembles as described. The stock frame has not been printed, so treat it as untested. Treat these as starting settings and tune with the coupons.
 
 ## Bill of materials
 
